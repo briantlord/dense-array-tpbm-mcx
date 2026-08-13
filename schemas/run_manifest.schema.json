@@ -57,7 +57,7 @@
       "required": ["photon_count", "seed", "replicate", "time_gates_s"],
       "properties": {
         "photon_count": {"type": "integer", "minimum": 1},
-        "seed": {"type": "integer", "minimum": 0, "maximum": 4294967295},
+        "seed": {"type": "integer", "minimum": 1, "maximum": 2147483647},
         "replicate": {"type": "integer", "minimum": 1},
         "time_gates_s": {
           "type": "object", "additionalProperties": false,
