@@ -72,12 +72,14 @@ def _project_path(project_root: Path, raw_path: str) -> Path:
 
 
 def deterministic_seed(basis_set_id: str, emitter_id: str, replicate: int) -> int:
-    """Derive an independent nonzero uint32 seed from immutable identifiers."""
+    """Derive a nonzero signed-int32-safe seed from immutable identifiers."""
 
     if replicate < 1:
         raise ValueError("replicate must be positive")
     payload = f"{basis_set_id}\0{emitter_id}\0{replicate}".encode()
-    seed = int.from_bytes(sha256(payload).digest()[:4], "big")
+    # PMCXCL's Python boundary is unreliable above INT32_MAX even though MCX
+    # prints the value as an unsigned seed. Constrain before serialization.
+    seed = int.from_bytes(sha256(payload).digest()[:4], "big") & 0x7FFFFFFF
     return seed or 1
 
 

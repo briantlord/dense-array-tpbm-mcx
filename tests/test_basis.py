@@ -36,12 +36,12 @@ def _project_copy(tmp_path: Path) -> Path:
     return tmp_path
 
 
-def test_deterministic_seeds_are_stable_distinct_and_uint32() -> None:
+def test_deterministic_seeds_are_stable_distinct_and_signed_int32_safe() -> None:
     first = deterministic_seed("basis_v1", "SYN001", 1)
     assert first == deterministic_seed("basis_v1", "SYN001", 1)
     assert first != deterministic_seed("basis_v1", "SYN001", 2)
     assert first != deterministic_seed("basis_v1", "SYN002", 1)
-    assert 1 <= first <= 2**32 - 1
+    assert 1 <= first <= 2**31 - 1
 
 
 def test_prepare_basis_is_idempotent_and_emits_one_manifest_per_run(

@@ -69,9 +69,14 @@ def synthetic_field_from_config(
     if flux.size == 0 or not np.all(np.isfinite(flux)):
         raise RuntimeError("PMCXCL returned an invalid flux volume")
     raw_minimum = float(np.min(flux))
-    if raw_minimum < -1e-20:
+    raw_maximum = float(np.max(flux))
+    float32_roundoff_bound = (
+        4.0 * float(np.finfo(np.float32).eps) * max(abs(raw_maximum), 1.0)
+    )
+    if raw_minimum < -float32_roundoff_bound:
         raise RuntimeError(
-            f"PMCXCL returned materially negative flux values (minimum {raw_minimum})"
+            "PMCXCL returned materially negative flux values "
+            f"(minimum {raw_minimum}; roundoff bound {float32_roundoff_bound})"
         )
     tiny_negative_count = int(np.count_nonzero(flux < 0))
     flux = np.maximum(flux, 0.0)
@@ -90,6 +95,7 @@ def synthetic_field_from_config(
         "shape": list(flux.shape),
         "minimum": float(np.min(flux)),
         "raw_minimum": raw_minimum,
+        "negative_roundoff_bound": float32_roundoff_bound,
         "maximum": maximum,
         "standard_deviation": standard_deviation,
         "positive_voxels": int(np.count_nonzero(flux > 0)),
