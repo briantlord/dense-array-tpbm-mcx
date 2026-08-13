@@ -193,6 +193,7 @@ def prepare_basis_plan(plan_path: Path, project_root: Path) -> dict[str, Any]:
             manifest["created_at"] = plan["created_at"]
             manifest["status"] = "planned"
             manifest["error"] = None
+            manifest["stage"] = "pilot"
             manifest["code"] = {
                 "repository": template["code"]["repository"],
                 "revision": plan["code_revision"],
@@ -201,7 +202,10 @@ def prepare_basis_plan(plan_path: Path, project_root: Path) -> dict[str, Any]:
             manifest["source"] = {
                 "emitter_id": emitter["emitter_id"],
                 "source_model": emitter["source_type"],
-                "normalization": template["source"]["normalization"],
+                "normalization": (
+                    "unit launched-energy normalized basis field "
+                    "(MCX DoNormalize=true)"
+                ),
             }
             manifest["execution"]["photon_count"] = plan["photon_count"]
             manifest["execution"]["seed"] = seed
