@@ -56,3 +56,25 @@ The smoke command refuses to launch until the manifest, all seven referenced art
 ## Scientific gate
 
 Production simulation remains blocked until the anatomy, optical-property, hardware, registration, benchmark, and convergence gates in `PROJECT_PLAN.md` pass. A valid JSON file is not, by itself, a scientifically acceptable input.
+
+## Per-emitter basis runner
+
+The next execution layer prepares one immutable configuration and planned manifest per enabled emitter and replicate:
+
+```bash
+.venv/bin/mcx-project prepare-basis \
+  configs/synthetic_basis_plan_v1.json \
+  --project-root .
+```
+
+Execute one prepared synthetic run with:
+
+```bash
+.venv/bin/mcx-project execute-basis \
+  runs/synthetic_two_emitter_basis_v1/syn001/r001/manifest.json \
+  --project-root .
+```
+
+Preparation derives a deterministic independent seed from the basis-set ID, emitter ID, and replicate; refuses to replace changed generated files; and records the declared code revision. Execution preflights all inputs before launch, acquires an exclusive run lock, writes the full field and compact records atomically, skips a checksum-valid completed run, and preserves a failed run as immutable evidence. Retrying a failed source requires a replacement manifest with a new run ID.
+
+The checked-in basis plan and generated manifests are synthetic software fixtures. Production basis preparation remains disabled until the scientific input gates pass and the runner is extended beyond the homogeneous synthetic-volume adapter.

@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mcx-project/basis_plan.schema.json",
+  "title": "Per-emitter basis preparation plan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["basis_set_id", "synthetic_test_only", "scenario_id", "created_at", "code_revision", "code_dirty", "template_manifest_path", "template_manifest_sha256", "emitter_ids", "replicates", "photon_count", "config_root", "run_root"],
+  "properties": {
+    "basis_set_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
+    "synthetic_test_only": {"const": true},
+    "scenario_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
+    "created_at": {"type": "string", "format": "date-time"},
+    "code_revision": {"type": "string", "pattern": "^[a-f0-9]{40,64}$"},
+    "code_dirty": {"type": "boolean"},
+    "template_manifest_path": {"$ref": "#/$defs/relativePath"},
+    "template_manifest_sha256": {"$ref": "#/$defs/sha256"},
+    "emitter_ids": {"oneOf": [{"const": "enabled"}, {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}]},
+    "replicates": {"type": "integer", "minimum": 1},
+    "photon_count": {"type": "integer", "minimum": 1},
+    "config_root": {"$ref": "#/$defs/relativePath"},
+    "run_root": {"$ref": "#/$defs/relativePath"}
+  },
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "relativePath": {"type": "string", "minLength": 1, "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"}
+  }
+}
