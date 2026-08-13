@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["registration_id", "synthetic_test_only", "transform_name", "source_frame", "target_frame", "units", "method", "matrix_4x4", "landmark_residual_mm", "ray_hit_fraction", "accepted", "provenance"],
+  "properties": {
+    "registration_id": {"type": "string", "minLength": 1},
+    "synthetic_test_only": {"type": "boolean"},
+    "transform_name": {"type": "string", "pattern": "^T_[A-Za-z0-9_]+_from_[A-Za-z0-9_]+$"},
+    "source_frame": {"type": "string", "minLength": 1},
+    "target_frame": {"type": "string", "minLength": 1},
+    "units": {"const": "mm"},
+    "method": {"type": "string", "minLength": 1},
+    "matrix_4x4": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "array", "minItems": 4, "maxItems": 4, "items": {"type": "number"}}},
+    "landmark_residual_mm": {"type": "number", "minimum": 0},
+    "ray_hit_fraction": {"type": "number", "minimum": 0, "maximum": 1},
+    "accepted": {"type": "boolean"},
+    "provenance": {"type": "string", "minLength": 1}
+  }
+}

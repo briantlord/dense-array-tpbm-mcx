@@ -1,0 +1,21 @@
+{
+  "backend": "pmcxcl",
+  "backend_version": "0.7.1",
+  "configuration_id": "synthetic_smoke_opencl_v1",
+  "engine_version": "v2025.10",
+  "maximum": 188057680.0,
+  "minimum": 0.0,
+  "photons": 100000,
+  "positive_voxels": 206336,
+  "raw_minimum": -3.8881238894973393e-31,
+  "seed": 1648335518,
+  "shape": [
+    60,
+    60,
+    60,
+    1
+  ],
+  "standard_deviation": 637089.6972915295,
+  "sum": 10882636986.281672,
+  "tiny_negative_voxels_clipped_for_summary": 9664
+}

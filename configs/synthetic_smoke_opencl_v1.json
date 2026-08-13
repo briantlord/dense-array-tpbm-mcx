@@ -1,0 +1,12 @@
+{
+  "configuration_id": "synthetic_smoke_opencl_v1",
+  "synthetic_test_only": true,
+  "nphoton": 100000,
+  "volume": {"generator": "homogeneous_cube", "shape_voxels": [60, 60, 60], "label": 1},
+  "time_gates_s": {"start": 0.0, "end": 5e-9, "step": 5e-9},
+  "source": {"emitter_id": "SYN001", "position_voxels": [30.0, 30.0, 0.0], "direction": [0.0, 0.0, 1.0], "type": "pencil"},
+  "properties_mm": [[0.0, 0.0, 0.0, 1.0], [0.005, 1.0, 0.01, 1.37]],
+  "seed": 1648335518,
+  "outputtype": "flux",
+  "isnormalize": 1
+}

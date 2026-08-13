@@ -1,0 +1,12 @@
+{
+  "architecture": "arm64",
+  "gpu": "Apple M4 Pro",
+  "jsonschema_version": "4.26.0",
+  "machine_role": "local_opencl_smoke_test",
+  "mcxcl_engine_version": "v2025.10",
+  "numpy_version": "2.5.2",
+  "operating_system": "macOS 26.5",
+  "pmcxcl_version": "0.7.1",
+  "python_version": "3.13.12",
+  "status": "synthetic_test_only"
+}

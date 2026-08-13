@@ -1,0 +1,29 @@
+.DS_Store
+.venv/
+.pytest_cache/
+.ruff_cache/
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Large simulation and analysis arrays; retain JSON manifests and summaries.
+runs/**/*.jnii
+runs/**/*.bnii
+runs/**/*.nii
+runs/**/*.nii.gz
+runs/**/*.mc2
+runs/**/*.mch
+runs/**/*.npy
+runs/**/*.npz
+results/**/*.jnii
+results/**/*.bnii
+results/**/*.nii
+results/**/*.nii.gz
+results/**/*.npy
+results/**/*.npz
+
+# Local logs and machine-specific files.
+*.log
+.env

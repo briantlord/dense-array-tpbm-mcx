@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object", "additionalProperties": false,
+  "required": ["calibration_id", "synthetic_test_only", "instrument", "date", "records", "provenance"],
+  "properties": {
+    "calibration_id": {"type": "string", "minLength": 1},
+    "synthetic_test_only": {"type": "boolean"},
+    "instrument": {"type": "string", "minLength": 1},
+    "date": {"type": "string", "format": "date"},
+    "records": {"type": "array", "minItems": 1, "items": {"type": "object", "additionalProperties": false, "required": ["emitter_id", "wavelength_peak_nm", "optical_power_cw_W", "power_uncertainty_W"], "properties": {"emitter_id": {"type": "string", "minLength": 1}, "wavelength_peak_nm": {"type": "number", "exclusiveMinimum": 0}, "optical_power_cw_W": {"type": "number", "minimum": 0}, "power_uncertainty_W": {"type": "number", "minimum": 0}}}},
+    "provenance": {"type": "string", "minLength": 1}
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mcx-project/optical_properties.schema.json",
+  "title": "Optical property scenario",
+  "type": "object", "additionalProperties": false,
+  "required": ["scenario_id", "synthetic_test_only", "wavelength_nm", "coefficient_unit", "tissues"],
+  "properties": {
+    "scenario_id": {"type": "string", "minLength": 1},
+    "synthetic_test_only": {"type": "boolean"},
+    "wavelength_nm": {"oneOf": [{"type": "number", "exclusiveMinimum": 0}, {"const": "TBD"}]},
+    "coefficient_unit": {"const": "mm^-1"},
+    "tissues": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["tissue_id", "tissue_name", "mua_mm-1", "mus_mm-1", "source_musp_mm-1", "g", "n", "source_kind", "citation", "source_wavelengths_nm", "conversion", "tissue_definition", "uncertainty", "review_status", "notes"],
+        "properties": {
+          "tissue_id": {"type": "integer", "minimum": 0},
+          "tissue_name": {"type": "string", "minLength": 1},
+          "mua_mm-1": {"$ref": "#/$defs/nonnegativeOrTBD"},
+          "mus_mm-1": {"$ref": "#/$defs/nonnegativeOrTBD"},
+          "source_musp_mm-1": {"oneOf": [{"type": "number", "minimum": 0}, {"const": "not_used"}, {"const": "TBD"}]},
+          "g": {"oneOf": [{"type": "number", "minimum": 0, "exclusiveMaximum": 1}, {"const": "TBD"}]},
+          "n": {"oneOf": [{"type": "number", "minimum": 1}, {"const": "TBD"}]},
+          "source_kind": {"enum": ["direct_measurement", "spectral_model", "interpolation", "extrapolation", "assumption", "synthetic_test", "TBD"]},
+          "citation": {"type": "string", "minLength": 1},
+          "source_wavelengths_nm": {"oneOf": [{"type": "array", "minItems": 1, "items": {"type": "number", "exclusiveMinimum": 0}}, {"const": "TBD"}]},
+          "conversion": {"type": "string", "minLength": 1},
+          "tissue_definition": {"type": "string", "minLength": 1},
+          "uncertainty": {"type": "string", "minLength": 1},
+          "review_status": {"enum": ["unresolved", "single_reviewed", "double_checked", "frozen", "synthetic_test"]},
+          "notes": {"type": "string"}
+        }
+      }
+    }
+  },
+  "$defs": {"nonnegativeOrTBD": {"oneOf": [{"type": "number", "minimum": 0}, {"const": "TBD"}]}}
+}

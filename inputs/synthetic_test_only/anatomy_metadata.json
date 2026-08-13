@@ -1,0 +1,22 @@
+{
+  "anatomy_id": "synthetic_homogeneous_cube_60_v1",
+  "synthetic_test_only": true,
+  "source_dataset": "programmatically generated homogeneous cube",
+  "version": "v1",
+  "source_url_or_doi": "synthetic_test_only",
+  "access_date": "2026-08-13",
+  "license": "project synthetic fixture",
+  "subject_identity": "none",
+  "age_category": "not applicable",
+  "native_voxel_size_mm": [1.0, 1.0, 1.0],
+  "final_voxel_size_mm": [1.0, 1.0, 1.0],
+  "resampling_method": "none",
+  "shape_voxels": [60, 60, 60],
+  "affine": [[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]],
+  "orientation": "synthetic right-handed XYZ",
+  "coordinate_frame": "synthetic_head_mm",
+  "labels": [{"id": 0, "name": "background"}, {"id": 1, "name": "homogeneous_turbid_medium"}],
+  "preprocessing": "numpy.ones((60, 60, 60), dtype=uint8)",
+  "volume_representation": "generated at launch from the hashed engine configuration",
+  "qc_status": "synthetic_test"
+}

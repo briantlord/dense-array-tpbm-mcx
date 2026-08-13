@@ -1,0 +1,24 @@
+{
+  "scenario_id": "synthetic_test_only_v1",
+  "synthetic_test_only": true,
+  "wavelength_nm": 999.0,
+  "coefficient_unit": "mm^-1",
+  "tissues": [
+    {
+      "tissue_id": 0, "tissue_name": "synthetic_background",
+      "mua_mm-1": 0.0, "mus_mm-1": 0.0, "source_musp_mm-1": "not_used", "g": 0.0, "n": 1.0,
+      "source_kind": "synthetic_test", "citation": "synthetic_test_only",
+      "source_wavelengths_nm": [999.0], "conversion": "none; values authored in mm^-1",
+      "tissue_definition": "synthetic background label", "uncertainty": "not applicable",
+      "review_status": "synthetic_test", "notes": "Not a tissue measurement."
+    },
+    {
+      "tissue_id": 1, "tissue_name": "synthetic_turbid_medium",
+      "mua_mm-1": 0.005, "mus_mm-1": 1.0, "source_musp_mm-1": "not_used", "g": 0.01, "n": 1.37,
+      "source_kind": "synthetic_test", "citation": "synthetic_test_only",
+      "source_wavelengths_nm": [999.0], "conversion": "none; values authored in mm^-1",
+      "tissue_definition": "synthetic homogeneous turbid label", "uncertainty": "not applicable",
+      "review_status": "synthetic_test", "notes": "Arbitrary software-test values."
+    }
+  ]
+}

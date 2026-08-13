@@ -1,0 +1,139 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mcx-project/run_manifest.schema.json",
+  "title": "MCX project run manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "manifest_version", "run_id", "scenario_id", "stage", "scientific_status",
+    "created_at", "status", "code", "wavelength_nm", "source", "engine",
+    "execution", "grid", "inputs", "output_contract", "outputs"
+  ],
+  "properties": {
+    "manifest_version": {"const": "1.0.0"},
+    "run_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*__20[0-9]{6}t[0-9]{6}z__[a-f0-9]{8}$"},
+    "scenario_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
+    "stage": {"enum": ["smoke", "pilot", "benchmark", "nominal", "sensitivity"]},
+    "scientific_status": {"enum": ["synthetic_test_only", "benchmark", "production"]},
+    "created_at": {"type": "string", "format": "date-time"},
+    "status": {"enum": ["planned", "running", "complete", "failed"]},
+    "error": {"type": ["string", "null"]},
+    "code": {
+      "type": "object", "additionalProperties": false,
+      "required": ["repository", "revision", "dirty"],
+      "properties": {
+        "repository": {"type": "string", "minLength": 1},
+        "revision": {"anyOf": [{"type": "string", "pattern": "^[a-f0-9]{7,64}$"}, {"const": "uncommitted_bootstrap"}]},
+        "dirty": {"type": "boolean"}
+      }
+    },
+    "wavelength_nm": {"type": "number", "exclusiveMinimum": 0},
+    "source": {
+      "type": "object", "additionalProperties": false,
+      "required": ["emitter_id", "source_model", "normalization"],
+      "properties": {
+        "emitter_id": {"type": "string", "minLength": 1},
+        "source_model": {"enum": ["pencil", "disk", "gaussian", "pattern"]},
+        "normalization": {"type": "string", "minLength": 1}
+      }
+    },
+    "engine": {
+      "type": "object", "additionalProperties": false,
+      "required": ["family", "backend", "binding", "binding_version", "engine_version", "build", "gpu", "runtime", "configuration_sha256"],
+      "properties": {
+        "family": {"const": "MCX"},
+        "backend": {"enum": ["opencl", "cuda"]},
+        "binding": {"enum": ["pmcxcl", "pmcx"]},
+        "binding_version": {"type": "string", "minLength": 1},
+        "engine_version": {"type": "string", "minLength": 1},
+        "build": {"type": "string", "minLength": 1},
+        "gpu": {"type": "string", "minLength": 1},
+        "runtime": {"type": "string", "minLength": 1},
+        "configuration_sha256": {"$ref": "#/$defs/sha256"}
+      }
+    },
+    "execution": {
+      "type": "object", "additionalProperties": false,
+      "required": ["photon_count", "seed", "replicate", "time_gates_s"],
+      "properties": {
+        "photon_count": {"type": "integer", "minimum": 1},
+        "seed": {"type": "integer", "minimum": 0, "maximum": 4294967295},
+        "replicate": {"type": "integer", "minimum": 1},
+        "time_gates_s": {
+          "type": "object", "additionalProperties": false,
+          "required": ["start", "end", "step"],
+          "properties": {
+            "start": {"type": "number", "minimum": 0},
+            "end": {"type": "number", "exclusiveMinimum": 0},
+            "step": {"type": "number", "exclusiveMinimum": 0}
+          }
+        }
+      }
+    },
+    "grid": {
+      "type": "object", "additionalProperties": false,
+      "required": ["shape_voxels", "voxel_size_mm", "coordinate_frame"],
+      "properties": {
+        "shape_voxels": {"$ref": "#/$defs/positiveTriplet"},
+        "voxel_size_mm": {"$ref": "#/$defs/positiveTripletNumber"},
+        "coordinate_frame": {"type": "string", "minLength": 1}
+      }
+    },
+    "inputs": {
+      "type": "object", "additionalProperties": false,
+      "required": ["anatomy", "optical_properties", "emitter_geometry", "registration", "calibration", "engine_configuration", "analysis_configuration"],
+      "properties": {
+        "anatomy": {"$ref": "#/$defs/artifactReference"},
+        "optical_properties": {"$ref": "#/$defs/artifactReference"},
+        "emitter_geometry": {"$ref": "#/$defs/artifactReference"},
+        "registration": {"$ref": "#/$defs/artifactReference"},
+        "calibration": {"$ref": "#/$defs/artifactReference"},
+        "engine_configuration": {"$ref": "#/$defs/artifactReference"},
+        "analysis_configuration": {"$ref": "#/$defs/artifactReference"}
+      }
+    },
+    "output_contract": {
+      "type": "object", "additionalProperties": false,
+      "required": ["quantity", "unit", "normalization", "derivation"],
+      "properties": {
+        "quantity": {"enum": ["fluence", "fluence_rate", "absorbed_energy_density", "absorbed_power_density"]},
+        "unit": {"type": "string", "minLength": 1},
+        "normalization": {"type": "string", "minLength": 1},
+        "derivation": {"type": "string", "minLength": 1}
+      }
+    },
+    "outputs": {
+      "type": "array",
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["kind", "path", "sha256"],
+        "properties": {
+          "kind": {"enum": ["summary", "manifest", "log", "fluence", "absorbed_energy", "qc"]},
+          "path": {"$ref": "#/$defs/relativePath"},
+          "sha256": {"$ref": "#/$defs/sha256"}
+        }
+      }
+    }
+  },
+  "allOf": [
+    {"if": {"properties": {"status": {"const": "failed"}}}, "then": {"required": ["error"], "properties": {"error": {"type": "string", "minLength": 1}}}},
+    {"if": {"properties": {"status": {"const": "complete"}}}, "then": {"properties": {"outputs": {"minItems": 1}, "error": {"type": "null"}}}}
+  ],
+  "$defs": {
+    "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "relativePath": {"type": "string", "minLength": 1, "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"},
+    "positiveTriplet": {"type": "array", "prefixItems": [{"type": "integer", "minimum": 1}, {"type": "integer", "minimum": 1}, {"type": "integer", "minimum": 1}], "items": false},
+    "positiveTripletNumber": {"type": "array", "prefixItems": [{"type": "number", "exclusiveMinimum": 0}, {"type": "number", "exclusiveMinimum": 0}, {"type": "number", "exclusiveMinimum": 0}], "items": false},
+    "artifactReference": {
+      "type": "object", "additionalProperties": false,
+      "required": ["artifact_id", "id_field", "path", "schema_path", "sha256"],
+      "properties": {
+        "artifact_id": {"type": "string", "minLength": 1},
+        "id_field": {"type": "string", "pattern": "^[a-z][a-z0-9_]*$"},
+        "path": {"$ref": "#/$defs/relativePath"},
+        "schema_path": {"$ref": "#/$defs/relativePath"},
+        "sha256": {"$ref": "#/$defs/sha256"}
+      }
+    }
+  }
+}

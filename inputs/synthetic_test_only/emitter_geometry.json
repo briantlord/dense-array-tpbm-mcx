@@ -1,0 +1,34 @@
+{
+  "geometry_id": "synthetic_two_emitters_v1",
+  "dataset_id": "synthetic_two_emitters_v1",
+  "synthetic_test_only": true,
+  "helmet_model": "synthetic_test_fixture",
+  "geometry_version": "v1",
+  "coordinate_frame": "synthetic_helmet_mm",
+  "position_unit": "mm",
+  "expected_emitter_count": 2,
+  "emitters": [
+    {
+      "emitter_id": "SYN001", "group_id": "synthetic", "enabled": true,
+      "wavelength_peak_nm": 999.0, "spectral_fwhm_nm": 1.0,
+      "position_mm": [30.0, 30.0, 0.0], "normal": [0.0, 0.0, 1.0],
+      "source_type": "pencil", "emitting_area_mm2": 1.0,
+      "beam_parameter_kind": "synthetic_test", "beam_parameter_value": 0.0,
+      "optical_power_cw_W": 1.0, "power_uncertainty_W": 0.0,
+      "duty_cycle": 1.0, "pulse_frequency_Hz": 0.0, "phase_group": "cw",
+      "standoff_mm": 0.0, "coupling_factor": 1.0,
+      "calibration_id": "synthetic_calibration_v1", "provenance": "synthetic_test_only"
+    },
+    {
+      "emitter_id": "SYN002", "group_id": "synthetic", "enabled": true,
+      "wavelength_peak_nm": 999.0, "spectral_fwhm_nm": 1.0,
+      "position_mm": [40.0, 30.0, 0.0], "normal": [0.0, 0.0, 1.0],
+      "source_type": "pencil", "emitting_area_mm2": 1.0,
+      "beam_parameter_kind": "synthetic_test", "beam_parameter_value": 0.0,
+      "optical_power_cw_W": 1.0, "power_uncertainty_W": 0.0,
+      "duty_cycle": 1.0, "pulse_frequency_Hz": 0.0, "phase_group": "cw",
+      "standoff_mm": 0.0, "coupling_factor": 1.0,
+      "calibration_id": "synthetic_calibration_v1", "provenance": "synthetic_test_only"
+    }
+  ]
+}

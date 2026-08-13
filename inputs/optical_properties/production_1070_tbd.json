@@ -1,0 +1,15 @@
+{
+  "scenario_id": "nominal_1070_v1",
+  "synthetic_test_only": false,
+  "wavelength_nm": 1070.0,
+  "coefficient_unit": "mm^-1",
+  "tissues": [
+    {
+      "tissue_id": 0, "tissue_name": "background_air",
+      "mua_mm-1": "TBD", "mus_mm-1": "TBD", "source_musp_mm-1": "TBD", "g": "TBD", "n": "TBD",
+      "source_kind": "TBD", "citation": "TBD", "source_wavelengths_nm": "TBD",
+      "conversion": "TBD", "tissue_definition": "TBD", "uncertainty": "TBD",
+      "review_status": "unresolved", "notes": "Resolve through the optical-property gate."
+    }
+  ]
+}
