@@ -43,7 +43,7 @@
       "properties": {
         "family": {"const": "MCX"},
         "backend": {"enum": ["opencl", "cuda"]},
-        "binding": {"enum": ["pmcxcl", "pmcx"]},
+        "binding": {"enum": ["pmcxcl", "pmcx", "mcxcl_cli"]},
         "binding_version": {"type": "string", "minLength": 1},
         "engine_version": {"type": "string", "minLength": 1},
         "build": {"type": "string", "minLength": 1},

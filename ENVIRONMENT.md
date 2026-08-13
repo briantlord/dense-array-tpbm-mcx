@@ -10,13 +10,13 @@ Recorded 2026-08-13 from the local smoke-test environment:
 | Hardware | MacBook Pro, Apple M4 Pro | 20 OpenCL compute units; 40,200,896,512 bytes reported global memory |
 | Python | 3.13.12 | PSF License |
 | uv | 0.8.12 | environment and lockfile tool |
-| PMCXCL | 0.7.1 | GPLv3+ in installed package metadata; verified ARM64 wheel |
-| MCX-CL engine | v2025.10, revision dc0f3e, OpenCL build 2026-05-01 | GPL family; exact engine banner retained in the smoke log/manifest |
+| MCX-CL engine | v2025.10; official source commit `bf695e81e239359f92a8fdd845bcdcacc50a7c31`; local ARM64 build | GPLv3; built by `scripts/build_mcxcl.sh` |
+| MCX-CL executable | `.local/bin/mcxcl`; locally reported revision 5233733 | ignored machine artifact; SHA-256 recorded per completed run |
 | NumPy | 2.5.2 | SPDX expression recorded by package: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0 |
 | jsonschema | 4.26.0 | MIT |
 | pytest | 9.1.1 | MIT |
 
-The exact resolved dependency hashes are in `uv.lock`. The PMCXCL 0.7.1 macOS 14 wheel is intentionally pinned because it was locally inspected as ARM64-capable and passed the M4 Pro smoke test.
+The exact resolved Python dependency hashes are in `uv.lock`. PMCXCL 0.7.1 was evaluated but removed from the execution environment after its returned NumPy field proved intermittently corrupt; PMCXCL 0.7.2's nominal macOS universal wheels were also locally observed to contain x86-64-only extensions. The runner therefore uses the pinned standalone source build and records its executable hash with each completed run.
 
 ## Declared but unverified CUDA environment
 

@@ -14,9 +14,6 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-opencl = [
-  "pmcxcl @ https://files.pythonhosted.org/packages/7c/87/195e1fde3deccb6373e35e9f196d4d59384f3fcb5c1d287e4429f4b39b95/pmcxcl-0.7.1-cp313-cp313-macosx_14_0_universal2.whl",
-]
 cuda = ["pmcx==0.7.1"]
 
 [dependency-groups]
