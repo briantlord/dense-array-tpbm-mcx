@@ -4,7 +4,7 @@
 
 - **Target wavelength:** 1070 nm, monochromatic approximation for version 1.
 - **Primary orchestration:** Python 3.13 with immutable JSON configurations, schemas, manifests, tests, and analysis code.
-- **Simulation backends:** MCX-CL/PMCXCL on Apple Silicon and CUDA MCX/PMCX on NVIDIA systems. Backend identity and version are mandatory manifest fields. MATLAB/MCXLABCL may be used only as an independent verification path, not as a production dependency.
+- **Simulation backends:** the file-based standalone MCX-CL executable on Apple Silicon and CUDA MCX/PMCX on NVIDIA systems. PMCXCL is excluded from the primary path because the evaluated ARM64 wheel returned intermittently corrupted arrays. Backend identity and version are mandatory manifest fields. MATLAB/MCXLABCL may be used only as an independent verification path, not as a production dependency.
 - **Transport regime:** linear, incoherent radiative transport. Per-emitter fluence/energy fields may be weighted and added. This is not coherent field interference.
 - **Reference source normalization:** simulate each source independently at a declared unit launched energy (recommended for steady-state MCX output), then scale to measured optical power and exposure time in post-processing.
 - **Primary anatomy:** one versioned adult head atlas at approximately 1-mm isotropic resolution. The exact atlas is `TBD` until licensing and benchmark compatibility are checked.

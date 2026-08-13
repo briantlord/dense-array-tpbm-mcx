@@ -1,6 +1,6 @@
 # 1070-nm Dense-Array tPBM Monte Carlo Project
 
-This repository is a Python-first, provenance-gated workflow for MCX-family photon-transport simulations. It uses PMCXCL/MCX-CL on Apple Silicon and PMCX/MCX on NVIDIA CUDA systems. MATLAB is optional and is not required for production execution.
+This repository is a Python-first, provenance-gated workflow for MCX-family photon-transport simulations. Python validates and orchestrates the official standalone MCX-CL executable on Apple Silicon; PMCX/MCX is reserved for a later NVIDIA CUDA backend. MATLAB is optional and is not required for production execution.
 
 The repository is currently at the V0 scaffold stage. All numeric fixtures under `inputs/synthetic_test_only/` are software-test values and must not be interpreted as tissue or device measurements.
 
@@ -9,12 +9,13 @@ The repository is currently at the V0 scaffold stage. All numeric fixtures under
 The project is pinned to Python 3.13. From the repository root:
 
 ```bash
-UV_CACHE_DIR=/tmp/mcx-project-uv-cache uv sync --extra opencl --group dev
+UV_CACHE_DIR=/tmp/mcx-project-uv-cache uv sync --group dev
+./scripts/build_mcxcl.sh
 ```
 
-This creates `.venv`, installs the Apple-Silicon OpenCL binding, and installs the test tools. On an NVIDIA CUDA host, replace `--extra opencl` with `--extra cuda`.
+This creates `.venv`, installs the test tools, checks out the official MCX-CL `v2025.10` source at commit `bf695e81e239359f92a8fdd845bcdcacc50a7c31`, and builds an ignored local ARM64 executable at `.local/bin/mcxcl`. On an NVIDIA CUDA host, install the optional backend with `uv sync --extra cuda --group dev` after its separate validation gate is implemented.
 
-PMCXCL is pinned to the 0.7.1 macOS 14 wheel because the macOS 15 wheel for 0.7.1 and both macOS “universal2” wheels published for 0.7.2 contain an x86-64-only native extension and cannot load natively on Apple Silicon. The selected 0.7.1 wheel was inspected and contains an ARM64 extension. Revisit this direct wheel pin only after inspecting the replacement architecture and rerunning the smoke test.
+PMCXCL was evaluated but is not used by the runner: the current macOS wheel set has architecture inconsistencies, and the ARM64-loadable wheel intermittently returned corrupted in-process NumPy fields despite a successful GPU kernel. File-based JNIfTI output from the pinned standalone executable passed the same M4 Pro simulation and avoids that buffer boundary.
 
 ## Validate the scaffold
 
@@ -51,7 +52,7 @@ Validate an individual JSON input against its schema:
   --project-root .
 ```
 
-The smoke command refuses to launch until the manifest, all seven referenced artifacts, their schemas, checksums, and cross-file invariants pass. The verified M4 Pro smoke run completed 100,000 photons, reported 27.20661% absorbed energy, and produced a spatially non-uniform 60 x 60 x 60 field. Its manifest and compact result are retained under `runs/synthetic_smoke_m4pro/`. The smoke run uses a homogeneous synthetic cube. It does not use production anatomy, optical properties, or helmet geometry.
+The smoke command refuses to launch until the manifest, all seven referenced artifacts, their schemas, checksums, and cross-file invariants pass. The standalone M4 Pro smoke run completed 100,000 photons, reported 27.20888% absorbed energy, and produced a spatially non-uniform 60 x 60 x 60 field. The earlier PMCXCL smoke provenance is retained under `runs/synthetic_smoke_m4pro/` as a legacy bootstrap record; new basis execution uses standalone MCX-CL. These runs use a homogeneous synthetic cube, not production anatomy, properties, or helmet geometry.
 
 ## Scientific gate
 

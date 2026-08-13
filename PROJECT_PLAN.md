@@ -24,7 +24,7 @@ This is a candidate gap, not a priority claim. It must be refreshed against the 
 
 Version 1 will:
 
-- use the maintained MCX family rather than implement photon transport from scratch: MCX-CL/PMCXCL on Apple Silicon and CUDA MCX/PMCX on NVIDIA systems;
+- use the maintained MCX family rather than implement photon transport from scratch: standalone MCX-CL under Python orchestration on Apple Silicon and CUDA MCX/PMCX on NVIDIA systems;
 - use Python for validation, configuration generation, execution, provenance capture, aggregation, analysis, and reporting;
 - begin with one documented, segmented adult head atlas at approximately 1-mm isotropic resolution;
 - represent scalp/skin, skull, CSF, gray matter, and white matter at minimum;

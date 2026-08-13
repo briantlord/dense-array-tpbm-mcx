@@ -1,4 +1,3 @@
-import json
 import shutil
 from pathlib import Path
 
@@ -80,7 +79,7 @@ def test_execute_is_atomic_and_skips_verified_complete_run(tmp_path: Path) -> No
     manifest_path = project / index["runs"][0]["manifest_path"]
     calls = 0
 
-    def executor(config):
+    def executor(config, _run_directory):
         nonlocal calls
         calls += 1
         field = np.full((60, 60, 60, 1), float(config["seed"] % 13 + 1))
@@ -105,7 +104,7 @@ def test_failed_run_is_recorded_and_requires_a_new_run_id(tmp_path: Path) -> Non
     )
     manifest_path = project / index["runs"][1]["manifest_path"]
 
-    def executor(_config):
+    def executor(_config, _run_directory):
         raise RuntimeError("synthetic executor failure")
 
     with pytest.raises(BasisExecutionError, match="synthetic executor failure"):
@@ -133,5 +132,5 @@ def test_execution_honors_exclusive_run_lock(tmp_path: Path) -> None:
         execute_basis_run(
             manifest_path,
             project,
-            lambda _config: (np.ones((60, 60, 60, 1)), {}),
+            lambda _config, _run_directory: (np.ones((60, 60, 60, 1)), {}),
         )

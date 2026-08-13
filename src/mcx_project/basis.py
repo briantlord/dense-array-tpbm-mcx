@@ -214,6 +214,14 @@ def prepare_basis_plan(plan_path: Path, project_root: Path) -> dict[str, Any]:
                 "sha256": config_hash,
             }
             manifest["engine"]["configuration_sha256"] = config_hash
+            manifest["engine"]["binding"] = plan["engine_binding"]
+            manifest["engine"]["binding_version"] = plan["engine_version"]
+            manifest["engine"]["engine_version"] = plan["engine_version"]
+            manifest["engine"]["build"] = plan["engine_build"]
+            manifest["output_contract"]["derivation"] = (
+                "standalone MCX-CL JNIfTI normalized field; Python validates and "
+                "records the raw engine output without altering it"
+            )
             manifest["outputs"] = []
 
             run_relative = (
@@ -268,7 +276,9 @@ def _atomic_npy(path: Path, value: NDArray[np.float64]) -> None:
 def execute_basis_run(
     manifest_path: Path,
     project_root: Path,
-    executor: Callable[[dict[str, Any]], tuple[NDArray[np.float64], dict[str, Any]]],
+    executor: Callable[
+        [dict[str, Any], Path], tuple[NDArray[np.float64], dict[str, Any]]
+    ],
 ) -> str:
     """Execute one planned run atomically; return ``complete`` or ``skipped``."""
 
@@ -308,7 +318,7 @@ def execute_basis_run(
         config_reference = manifest["inputs"]["engine_configuration"]
         config = load_json(_project_path(root, config_reference["path"]))
         started_at = _utc_now()
-        field, engine_summary = executor(config)
+        field, engine_summary = executor(config, run_directory)
         field = np.asarray(field, dtype=np.float64)
         if field.size == 0 or not np.all(np.isfinite(field)) or np.min(field) < -1e-20:
             raise BasisExecutionError("executor returned an invalid field")
@@ -320,10 +330,16 @@ def execute_basis_run(
             )
         field = np.maximum(field, 0.0)
 
+        extra_artifacts = engine_summary.pop("_artifacts", [])
+        primary_native = next(
+            (artifact for artifact in extra_artifacts if artifact.get("primary_field")),
+            None,
+        )
         field_path = run_directory / "fluence.npy"
         summary_path = run_directory / "summary.json"
         execution_path = run_directory / "execution.json"
-        _atomic_npy(field_path, field)
+        if primary_native is None:
+            _atomic_npy(field_path, field)
         summary = {
             "run_id": manifest["run_id"],
             "shape": list(field.shape),
@@ -343,12 +359,7 @@ def execute_basis_run(
                 "status": "complete",
             },
         )
-        manifest["outputs"] = [
-            {
-                "kind": "fluence",
-                "path": field_path.resolve().relative_to(root).as_posix(),
-                "sha256": sha256_file(field_path),
-            },
+        output_records = [
             {
                 "kind": "summary",
                 "path": summary_path.resolve().relative_to(root).as_posix(),
@@ -360,6 +371,29 @@ def execute_basis_run(
                 "sha256": sha256_file(execution_path),
             },
         ]
+        if primary_native is None:
+            output_records.insert(
+                0,
+                {
+                    "kind": "fluence",
+                    "path": field_path.resolve().relative_to(root).as_posix(),
+                    "sha256": sha256_file(field_path),
+                },
+            )
+        for artifact in extra_artifacts:
+            artifact_path = run_directory / artifact["path"]
+            if not artifact_path.is_file():
+                raise BasisExecutionError(
+                    f"executor-declared artifact is missing: {artifact_path.name}"
+                )
+            output_records.append(
+                {
+                    "kind": artifact["kind"],
+                    "path": artifact_path.resolve().relative_to(root).as_posix(),
+                    "sha256": sha256_file(artifact_path),
+                }
+            )
+        manifest["outputs"] = output_records
         manifest["status"] = "complete"
         manifest["error"] = None
         _atomic_json(manifest_path, manifest)

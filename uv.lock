@@ -69,9 +69,6 @@ dependencies = [
 cuda = [
     { name = "pmcx" },
 ]
-opencl = [
-    { name = "pmcxcl" },
-]
 
 [package.dev-dependencies]
 dev = [
@@ -83,9 +80,8 @@ requires-dist = [
     { name = "jsonschema", specifier = ">=4.23,<5" },
     { name = "numpy", specifier = ">=2.1,<3" },
     { name = "pmcx", marker = "extra == 'cuda'", specifier = "==0.7.1" },
-    { name = "pmcxcl", marker = "extra == 'opencl'", url = "https://files.pythonhosted.org/packages/7c/87/195e1fde3deccb6373e35e9f196d4d59384f3fcb5c1d287e4429f4b39b95/pmcxcl-0.7.1-cp313-cp313-macosx_14_0_universal2.whl" },
 ]
-provides-extras = ["opencl", "cuda"]
+provides-extras = ["cuda"]
 
 [package.metadata.requires-dev]
 dev = [{ name = "pytest", specifier = ">=8,<10" }]
@@ -136,14 +132,6 @@ wheels = [
     { url = "https://files.pythonhosted.org/packages/ce/03/0ef463dbeddc691300f61a5fad189e4784b6e7be043704c45288a9242491/pmcx-0.7.1-cp313-cp313-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:af423e155e6dae6b16a84ac90b8dc4f0aca7822b89ccb098f50f63001e7cb4fd", size = 5361580, upload-time = "2026-04-06T22:03:06.715Z" },
     { url = "https://files.pythonhosted.org/packages/a0/9f/31b62aa0e7d028c69452e6d62fb347eaffcacf9c918778421f84b41b9abb/pmcx-0.7.1-cp313-cp313-win_amd64.whl", hash = "sha256:a4c311090dc176a1000d422a0a34720a2818fdb2cf5737b38c520892a15e18b5", size = 5083194, upload-time = "2026-04-06T21:51:16.132Z" },
     { url = "https://files.pythonhosted.org/packages/a6/d6/40632643cdfb2e4f39610b2ccc769053bf0b222337bf257cd45c179e935a/pmcx-0.7.1-cp313-cp313t-manylinux2014_x86_64.manylinux_2_17_x86_64.whl", hash = "sha256:2336ec9f132632c65b616e178c3ec8f5ff7085ed52733f2c65e3ab5168df321e", size = 5363508, upload-time = "2026-04-06T22:03:08.29Z" },
-]
-
-[[package]]
-name = "pmcxcl"
-version = "0.7.1"
-source = { url = "https://files.pythonhosted.org/packages/7c/87/195e1fde3deccb6373e35e9f196d4d59384f3fcb5c1d287e4429f4b39b95/pmcxcl-0.7.1-cp313-cp313-macosx_14_0_universal2.whl" }
-wheels = [
-    { url = "https://files.pythonhosted.org/packages/7c/87/195e1fde3deccb6373e35e9f196d4d59384f3fcb5c1d287e4429f4b39b95/pmcxcl-0.7.1-cp313-cp313-macosx_14_0_universal2.whl", hash = "sha256:18a5851eeef4649e46732b4374720d503fad19621d21bb855297c5e0d4804868" },
 ]
 
 [[package]]

@@ -4,6 +4,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import tempfile
 from pathlib import Path
 from typing import Any
 
@@ -13,14 +14,8 @@ from .basis import (
     execute_basis_run,
     prepare_basis_plan,
 )
-from .opencl import (
-    engine_version,
-    gpuinfo,
-    package_version,
-    synthetic_field_from_config,
-    synthetic_smoke_from_config,
-)
 from .preflight import preflight_manifest
+from .standalone import probe_mcxcl, resolve_mcxcl_binary, standalone_field_from_config
 from .validation import InputValidationError, load_json, validate_json
 
 
@@ -59,14 +54,13 @@ def _parser() -> argparse.ArgumentParser:
     execute.add_argument("manifest", type=Path)
     execute.add_argument("--project-root", type=Path, default=Path.cwd())
 
-    commands.add_parser("probe-opencl", help="list PMCXCL OpenCL devices")
+    commands.add_parser("probe-opencl", help="query the standalone MCX-CL engine")
 
     smoke = commands.add_parser(
         "smoke-opencl", help="preflight and run a manifest-locked synthetic smoke test"
     )
     smoke.add_argument("manifest", type=Path)
     smoke.add_argument("--project-root", type=Path, default=Path.cwd())
-    smoke.add_argument("--output", type=Path)
     return parser
 
 
@@ -105,20 +99,21 @@ def main() -> int:
             return 0
 
         if arguments.command == "execute-basis":
+            binary = resolve_mcxcl_binary(arguments.project_root)
+
+            def run_standalone(config: dict[str, Any], run_directory: Path):
+                return standalone_field_from_config(config, run_directory, binary)
+
             status = execute_basis_run(
                 arguments.manifest,
                 arguments.project_root,
-                synthetic_field_from_config,
+                run_standalone,
             )
             print(json.dumps({"status": status}, indent=2, sort_keys=True))
             return 0
 
         if arguments.command == "probe-opencl":
-            payload = {
-                "pmcxcl_version": package_version(),
-                "mcxcl_engine_version": engine_version(),
-                "devices": gpuinfo(),
-            }
+            payload = probe_mcxcl(resolve_mcxcl_binary(Path.cwd()))
         else:
             preflight_manifest(arguments.manifest, arguments.project_root)
             manifest = load_json(arguments.manifest)
@@ -126,13 +121,25 @@ def main() -> int:
                 arguments.project_root
                 / manifest["inputs"]["engine_configuration"]["path"]
             )
-            payload = synthetic_smoke_from_config(load_json(configuration_path))
+            binary = resolve_mcxcl_binary(arguments.project_root)
+            with tempfile.TemporaryDirectory(prefix="mcx-smoke-") as temporary:
+                field, engine_summary = standalone_field_from_config(
+                    load_json(configuration_path), Path(temporary), binary
+                )
+            engine_summary.pop("_artifacts", None)
+            payload = {
+                "backend": "mcxcl_cli",
+                "configuration_id": load_json(configuration_path)["configuration_id"],
+                "shape": list(field.shape),
+                "minimum": float(field.min()),
+                "maximum": float(field.max()),
+                "standard_deviation": float(field.std(dtype="float64")),
+                "sum": float(field.sum(dtype="float64")),
+                "engine": engine_summary,
+            }
 
         rendered = json.dumps(payload, indent=2, sort_keys=True, default=_json_default)
         print(rendered)
-        if arguments.command == "smoke-opencl" and arguments.output:
-            arguments.output.parent.mkdir(parents=True, exist_ok=True)
-            arguments.output.write_text(rendered + "\n", encoding="utf-8")
         return 0
     except (
         BasisExecutionError,

@@ -6,8 +6,8 @@ Work in order. Do not mark scientific gates complete merely because the software
 
 - [x] Create `inputs/{anatomy,optical_properties,emitters,registration}`, `configs`, `src`, `runs`, `results`, and `tests` directories.
 - [x] Add a concise `README.md` with environment setup and the exact smoke-test command.
-- [x] Choose Python 3.13 as the primary orchestration path, using PMCXCL/MCX-CL on Apple Silicon and PMCX/MCX on NVIDIA systems; retain MATLAB only for independent checks.
-- [x] Record the verified Python, PMCXCL/MCX-CL, operating-system, GPU/runtime, package-lock, and license metadata; explicitly mark PMCX/CUDA as declared but unverified until an NVIDIA host is used.
+- [x] Choose Python 3.13 as the primary orchestration path, using pinned standalone MCX-CL on Apple Silicon and PMCX/MCX on NVIDIA systems; retain MATLAB only for independent checks.
+- [x] Record the verified Python, standalone MCX-CL, operating-system, GPU/runtime, package-lock, and license metadata; document why PMCXCL was rejected and mark PMCX/CUDA as unverified.
 - [x] Add `.gitignore` rules for large MCX arrays, caches, and local machine paths while retaining manifests and summaries.
 - [x] Define naming rules for scenario IDs, run IDs, coordinate frames, checksums, and immutable versions.
 - [x] Implement a run-manifest schema containing every field required by `MODEL_SPEC.md`.
