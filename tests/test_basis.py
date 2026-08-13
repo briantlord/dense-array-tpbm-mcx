@@ -58,6 +58,10 @@ def test_prepare_basis_is_idempotent_and_emits_one_manifest_per_run(
     for run in first["runs"]:
         report = preflight_manifest(project / run["manifest_path"], project)
         assert report.run_id == run["run_id"]
+        manifest = load_json(project / run["manifest_path"])
+        assert manifest["stage"] == "pilot"
+        assert manifest["engine"]["binding"] == "mcxcl_cli"
+        assert "unit launched-energy" in manifest["source"]["normalization"]
 
 
 def test_prepare_refuses_to_replace_changed_generated_config(tmp_path: Path) -> None:
