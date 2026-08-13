@@ -85,7 +85,7 @@ The executable approximation `yue2015_850_approx_v1` contains the paper's verifi
   --project-root .
 ```
 
-A 100,000-photon north-pole run passed through the real M4/OpenCL anatomical-volume path. This is an implementation check only. The paper-scale `10^9`-photon-per-source plan has not been launched, and the benchmark gate remains open pending convergence, plot digitization, depth curves, density comparisons, tolerances, and a discrepancy report. See `benchmarks/yue2015_approx_v1/README.md` for every declared approximation.
+The convergence and acceptance protocol is frozen in `configs/yue2015_convergence_acceptance_v1.json`. Three independent north-pole replicates were evaluated at each tier from `10^5` through `10^9` photons on the M4 Pro. At `10^9`, tissue-integral CVs were at most 0.015%, and the 20--60 mm profile median CV was 9.95%, but the `10^8` to `10^9` median profile change was 14.23% against the frozen 10% threshold. The representative-source convergence check therefore did not pass, no final photon count was selected, and the full 277-source launch remains blocked. This is a convergence result for one source, not a Yue curve reproduction; plot digitization, multisource depth curves, density comparisons, and a discrepancy report remain pending. See `benchmarks/yue2015_approx_v1/README.md` for the declared approximations and result links.
 
 ## Research ledgers
 

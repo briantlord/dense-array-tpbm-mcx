@@ -25,6 +25,7 @@ def test_yue_reported_input_artifacts_validate() -> None:
         ("schemas/analysis_configuration.schema.json", "configs/yue2015_approx_v1_analysis.json"),
         ("schemas/engine_configuration.schema.json", "configs/yue2015_approx_v1_north_pole_fluence.json"),
         ("schemas/basis_plan.schema.json", "configs/yue2015_approx_v1_basis_plan.json"),
+        ("schemas/benchmark_convergence_protocol.schema.json", "configs/yue2015_convergence_acceptance_v1.json"),
     )
     for schema, instance in cases:
         validate_json(ROOT / schema, ROOT / instance, require_complete=True)

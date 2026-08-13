@@ -59,7 +59,7 @@ Version 1 will:
 6. **Convergence gate:** cortical and ROI estimates are stable to increased photon count and repeated random seeds.
 7. **Interpretation gate:** figures and prose label nominal versus sensitivity results and do not convert modeled optical quantities into biological claims.
 
-**Current gate status (2026-08-13):** the anatomy gate is accepted as `colin27_2008_native12_1mm_v3`. The Yue benchmark inputs and executable anatomical-volume path are implemented as `yue2015_850_approx_v1`, but the benchmark behavior has not yet been reproduced and that gate remains open. All other scientific gates remain independent and production-blocking until their own evidence is complete.
+**Current gate status (2026-08-13):** the anatomy gate is accepted as `colin27_2008_native12_1mm_v3`. The Yue benchmark inputs and executable anatomical-volume path are implemented as `yue2015_850_approx_v1`. A frozen representative-source convergence sequence through `10^9` photons did not pass its profile step-change threshold, so no final photon count was selected and the benchmark gate remains open. All other scientific gates remain independent and production-blocking until their own evidence is complete.
 
 ## Architecture
 
@@ -143,4 +143,4 @@ The project is successful when:
 
 ## Immediate next action
 
-Freeze the Yue benchmark convergence sequence, independent-seed replicates, digitization calibration, and acceptance tolerances before evaluating the paper-scale fields. Do not enter production 1070-nm values merely to make the pipeline run; keep production configuration blocked until its provenance ledger is complete.
+Digitize the prespecified Yue figures twice under the frozen calibration and uncertainty rules, then issue a versioned decision about the single-voxel axis-sampling protocol in light of the failed `10^8` to `10^9` profile step-change check. Do not launch the 277-source paper-scale run or enter production 1070-nm values merely to make the pipeline run; keep production configuration blocked until its gates pass.

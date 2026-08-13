@@ -1,0 +1,40 @@
+{
+  "protocol_id": "yue2015_convergence_acceptance_v1",
+  "scenario_id": "yue2015_850_approx_v1",
+  "status": "frozen_before_final_benchmark_evaluation",
+  "source_emitter_id": "YUE277",
+  "pilot_photon_counts": [100000, 1000000, 10000000],
+  "required_final_photon_counts": [100000000, 1000000000],
+  "replicates_per_count": 3,
+  "axis_depths_mm": {"start": 0, "stop": 100, "step": 1},
+  "profile_validity": {
+    "depth_range_mm": [20, 60],
+    "minimum_fraction_of_current_profile_max": 1e-8
+  },
+  "pilot_thresholds": {
+    "tissue_integral_cv_max": 0.05,
+    "tissue_integral_step_change_max": 0.05,
+    "profile_median_cv_max": 0.10,
+    "profile_median_step_change_max": 0.10
+  },
+  "final_acceptance": {
+    "headline_relative_error_max": 0.25,
+    "profile_spearman_min": 0.95,
+    "density_order_required": true,
+    "uniformity_order_required": true,
+    "minimum_final_photon_tier": 100000000
+  },
+  "digitization": {
+    "figures": ["2b", "4", "5a", "5b", "6c"],
+    "independent_repeats": 2,
+    "axis_calibration_points_per_axis": 2,
+    "coordinate_disagreement_pixels_max": 2,
+    "uncertainty_rule": "For each point, combine half the between-repeat coordinate difference and one-pixel axis-calibration resolution in quadrature; compare model error to the larger of this digitization uncertainty and the 25% headline engineering tolerance."
+  },
+  "stop_rules": [
+    "Do not select a final photon count from the 1e5-1e7 pilot alone.",
+    "Do not launch all 277 sources at 1e9 until the 1e8 representative-source tier passes and storage/runtime estimates are recorded.",
+    "Do not tune anatomy, optical properties, source geometry, or normalization after inspecting reproduced headline errors; version any change as a new approximation.",
+    "Stop interpretation if independent-seed CV or step-change thresholds fail in any primary tissue integral or the valid 20-60 mm profile region."
+  ]
+}
