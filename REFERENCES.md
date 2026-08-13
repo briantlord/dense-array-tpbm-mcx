@@ -8,7 +8,7 @@ This file is a bootstrap bibliography and verification record. Primary papers mu
 
 **Verified citation:** Yue, L., & Humayun, M. S. (2015). Monte Carlo analysis of the enhanced transcranial penetration using distributed near-infrared emitter array. *Journal of Biomedical Optics, 20*(8), 088001. DOI: `10.1117/1.JBO.20.8.088001`.
 
-**Local primary source:** `references/papers/Yue_Humayun_2015_distributed_NIR_emitter_array.pdf` (SHA-256: `b75300275301a060a234288b3ca780a64242f29d05e5861776b707c5d49306fd`).
+**Verification source:** Publisher PDF read locally but intentionally excluded from GitHub; retrieve via DOI. Locally verified SHA-256: `b75300275301a060a234288b3ca780a64242f29d05e5861776b707c5d49306fd`.
 
 **Why it matters:** foundational computational precedent for independent-source simulation and superposition in distributed scalp arrays, reportedly including up to 277 emitters and approximately 850-nm conditions.
 
@@ -29,7 +29,7 @@ This file is a bootstrap bibliography and verification record. Primary papers mu
 
 **Verified citation:** Dole, M., Bleuet, P., Auboiroux, V., Billères, M., & Mitrofanis, J. (2024). Monte Carlo simulations of a multisource transcranial photobiomodulation helmet device: application to young and aged brains. *Advanced Technology in Neuroscience, 1*(2), 261–275. DOI: `10.4103/ATN.ATN-D-24-00022`.
 
-**Local primary source:** `references/papers/Dole_et_al_2024_multisource_tPBM_helmet.pdf` (SHA-256: `a10eb60bb676b44e33680bace3801e0f9609ca68d12e7d0ca7ba6299b0c36896`).
+**Verification source:** PDF read locally but intentionally excluded from GitHub; retrieve via DOI or another authorized source. Locally verified SHA-256: `a10eb60bb676b44e33680bace3801e0f9609ca68d12e7d0ca7ba6299b0c36896`.
 
 **Why it matters:** possible precedent for registering a realistic multisource helmet to young and aged head anatomies at wavelengths reported as 670 and 810 nm.
 
@@ -49,7 +49,7 @@ This file is a bootstrap bibliography and verification record. Primary papers mu
 
 **Verified citation:** Cassano, P., Tran, A. P., Katnani, H., Bleier, B. S., Hamblin, M. R., Yuan, Y., & Fang, Q. (2019). Selective photobiomodulation for emotion regulation: model-based dosimetry study. *Neurophotonics, 6*(1), 015004. DOI: `10.1117/1.NPh.6.1.015004`.
 
-**Local primary source:** `references/papers/Cassano_et_al_2019_selective_tPBM_dosimetry.pdf` (SHA-256: `45466fdaf398fea6fbf926a1340784e71f5319c1606de9adcb74f8330626683d`).
+**Verification source:** Publisher PDF read locally but intentionally excluded from GitHub; retrieve via DOI. Locally verified SHA-256: `45466fdaf398fea6fbf926a1340784e71f5319c1606de9adcb74f8330626683d`.
 
 **Why it changes the novelty claim:** the study modeled a 4 x 7 Omnilux New-U LED array and included a condition with two arrays used simultaneously at F3 and F4. It used MCX on Colin27, simulated `10^8` photons per condition, and included 1064 nm among five wavelengths. It therefore rules out a “first multisource 1064/1070-nm tPBM simulation” claim. It did not model a dense whole-head helmet or report emitter-resolved dominance, neighbor contribution, or effective-source maps.
 
@@ -61,7 +61,7 @@ This file is a bootstrap bibliography and verification record. Primary papers mu
 
 **Verified citation:** Yuan, Y., Cassano, P., Pias, M., & Fang, Q. (2020). Transcranial photobiomodulation with near-infrared light from childhood to elderliness: simulation of dosimetry. *Neurophotonics, 7*(1), 015009. DOI: `10.1117/1.NPh.7.1.015009`.
 
-**Local primary source:** `references/papers/Yuan_et_al_2020_age_dependent_tPBM_dosimetry.pdf` (SHA-256: `9c7ed0ec96c605afa84e069ce8f5358351ec985655d106198dddfb4aeeb6d95b`).
+**Verification source:** Publisher PDF read locally but intentionally excluded from GitHub; retrieve via DOI. Locally verified SHA-256: `9c7ed0ec96c605afa84e069ce8f5358351ec985655d106198dddfb4aeeb6d95b`.
 
 **Why it changes the novelty claim:** the study modeled Omnilux New-U arrays at F3, F4, and Fpz across 18 age-dependent MRI atlases, launched `10^9` photons per source-position/wavelength condition with MCX, and included 1064 nm. It then analyzed F3/F4 treatment of dlPFC and Fpz treatment of vmPFC. Its endpoint was regional deposition/fluence and age dependence, not dense whole-head helmet overlap or per-emitter cortical attribution.
 
