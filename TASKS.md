@@ -60,13 +60,13 @@ Work in order. Do not mark scientific gates complete merely because the software
 - [x] Extend independent unit-source preparation/execution to provenance-gated benchmark anatomy and retain float64 weighted aggregation; a real 100,000-photon north-pole implementation check passed on the M4 Pro.
 - [ ] Reproduce single-source and total-field depth curves.
 - [ ] Reproduce reference-source enhancement at prespecified depths and across density tiers.
-- [ ] Quantify Monte Carlo and digitization uncertainty.
-- [ ] Freeze acceptance tolerances before evaluating final benchmark runs.
+- [ ] Quantify Monte Carlo and digitization uncertainty. Representative-source Monte Carlo uncertainty is recorded through `10^9`; independent figure digitization remains pending.
+- [x] Freeze convergence, digitization, and benchmark acceptance tolerances before evaluating the paper-scale representative tier.
 - [ ] Write a discrepancy report and regression-test the accepted outputs.
 
 **Exit gate:** benchmark behavior is reproduced within justified tolerances or remaining mismatch is traced and declared.
 
-**Current status (2026-08-13):** benchmark inputs and execution plumbing are implemented as `yue2015_850_approx_v1`; the full benchmark gate remains open. Next freeze convergence/digitization tolerances, then produce the single-source, total-field, enhancement, and density-tier comparisons.
+**Current status (2026-08-13):** the frozen north-pole sequence through three `10^9`-photon replicates did not pass every convergence threshold: tissue integrals were stable, profile median CV narrowly passed, and the `10^8` to `10^9` profile step-change criterion failed. No final count was selected and the 277-source launch remains blocked. Next perform the prespecified two-pass figure digitization and issue a versioned sampling-protocol decision before any further paper-scale MCX execution.
 
 ## P0 — 1070-nm optical-property ledger
 

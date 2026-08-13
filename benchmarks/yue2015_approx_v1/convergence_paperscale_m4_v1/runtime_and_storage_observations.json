@@ -1,0 +1,33 @@
+{
+  "artifact_role": "planning_observation_not_acceptance_endpoint",
+  "device": "Apple M4 Pro OpenCL",
+  "engine": "standalone MCX-CL v2025.10",
+  "field_bytes_per_replicate": 37917063,
+  "photon_count": 1000000000,
+  "provenance_note": "Runtime and absorbed-energy values were transcribed from the MCX terminal completion summaries; field sizes were measured from the retained temporary JNII files.",
+  "replicates": [
+    {
+      "absorbed_energy_percent": 41.73281,
+      "engine_completion_seconds": 164.776,
+      "replicate": 1,
+      "seed": 1722305441
+    },
+    {
+      "absorbed_energy_percent": 41.73136,
+      "engine_completion_seconds": 187.600,
+      "replicate": 2,
+      "seed": 205903139
+    },
+    {
+      "absorbed_energy_percent": 41.72901,
+      "engine_completion_seconds": 191.808,
+      "replicate": 3,
+      "seed": 686288282
+    }
+  ],
+  "sequential_277_source_estimate": {
+    "field_storage_decimal_gb": 10.503,
+    "runtime_hours_from_replicate_mean": 13.9573,
+    "scope_note": "Simple linear planning estimate for 277 one-billion-photon fields; excludes orchestration overhead, repeated volume copies, retries, and replicate requirements."
+  }
+}

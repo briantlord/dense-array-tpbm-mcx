@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["protocol_id", "scenario_id", "status", "source_emitter_id", "pilot_photon_counts", "required_final_photon_counts", "replicates_per_count", "axis_depths_mm", "profile_validity", "pilot_thresholds", "final_acceptance", "digitization", "stop_rules"],
+  "properties": {
+    "protocol_id": {"const": "yue2015_convergence_acceptance_v1"},
+    "scenario_id": {"const": "yue2015_850_approx_v1"},
+    "status": {"const": "frozen_before_final_benchmark_evaluation"},
+    "source_emitter_id": {"const": "YUE277"},
+    "pilot_photon_counts": {"type": "array", "prefixItems": [{"const": 100000}, {"const": 1000000}, {"const": 10000000}], "items": false},
+    "required_final_photon_counts": {"type": "array", "prefixItems": [{"const": 100000000}, {"const": 1000000000}], "items": false},
+    "replicates_per_count": {"type": "integer", "minimum": 3},
+    "axis_depths_mm": {"type": "object", "additionalProperties": false, "required": ["start", "stop", "step"], "properties": {"start": {"const": 0}, "stop": {"const": 100}, "step": {"const": 1}}},
+    "profile_validity": {"type": "object", "additionalProperties": false, "required": ["depth_range_mm", "minimum_fraction_of_current_profile_max"], "properties": {"depth_range_mm": {"type": "array", "prefixItems": [{"const": 20}, {"const": 60}], "items": false}, "minimum_fraction_of_current_profile_max": {"const": 1e-8}}},
+    "pilot_thresholds": {"type": "object", "additionalProperties": false, "required": ["tissue_integral_cv_max", "tissue_integral_step_change_max", "profile_median_cv_max", "profile_median_step_change_max"], "properties": {"tissue_integral_cv_max": {"const": 0.05}, "tissue_integral_step_change_max": {"const": 0.05}, "profile_median_cv_max": {"const": 0.10}, "profile_median_step_change_max": {"const": 0.10}}},
+    "final_acceptance": {"type": "object", "additionalProperties": false, "required": ["headline_relative_error_max", "profile_spearman_min", "density_order_required", "uniformity_order_required", "minimum_final_photon_tier"], "properties": {"headline_relative_error_max": {"const": 0.25}, "profile_spearman_min": {"const": 0.95}, "density_order_required": {"const": true}, "uniformity_order_required": {"const": true}, "minimum_final_photon_tier": {"const": 100000000}}},
+    "digitization": {"type": "object", "additionalProperties": false, "required": ["figures", "independent_repeats", "axis_calibration_points_per_axis", "coordinate_disagreement_pixels_max", "uncertainty_rule"], "properties": {"figures": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["2b", "4", "5a", "5b", "6c"]}}, "independent_repeats": {"const": 2}, "axis_calibration_points_per_axis": {"const": 2}, "coordinate_disagreement_pixels_max": {"const": 2}, "uncertainty_rule": {"type": "string", "minLength": 1}}},
+    "stop_rules": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+  }
+}

@@ -42,7 +42,7 @@ Test the complete anatomy–source–MCX–superposition–analysis path against
 
 ### Acceptance criteria
 
-Before reading the reproduced headline values, freeze tolerances for:
+The versioned protocol `configs/yue2015_convergence_acceptance_v1.json` freezes tolerances for:
 
 - relative error or confidence-interval overlap at selected depths;
 - shape agreement across the complete depth profile;
@@ -51,11 +51,13 @@ Before reading the reproduced headline values, freeze tolerances for:
 
 Initial engineering targets may be recorded as provisional, but final tolerances must reflect digitization error and irreducible method differences. A failed exact reproduction is still useful if discrepancies are traced to unavailable source geometry, optical tables, atlas version, normalization, or stochastic uncertainty. Do not tune 1070-nm inputs to force an 850-nm match.
 
+**Representative result (2026-08-13):** the north-pole source was run with three independent seeds at `10^5`, `10^6`, `10^7`, `10^8`, and `10^9` photons. At `10^9`, all tissue-integral CV and step-change checks passed, and the valid-depth median profile CV was 0.0995 against a 0.10 limit. The median profile change from `10^8` to `10^9` was 0.1423 against a 0.10 limit, so the highest tier failed the frozen compound criterion. This does not authorize threshold tuning, a final photon count, or the full multisource run. Compact results and hashes are under `benchmarks/yue2015_approx_v1/convergence_paperscale_m4_v1/`.
+
 ## 2. Numerical and convergence testing
 
 ### Photon-count sequence
 
-For representative sources and the aggregate field, run a log-spaced sequence such as `10^6, 10^7, 10^8`, and if needed `10^9` photon packets per source. These are candidates, not a predetermined sufficient count.
+For representative sources and the aggregate field, use the frozen sequence in `configs/yue2015_convergence_acceptance_v1.json`. The first representative source used `10^5, 10^6, 10^7, 10^8, 10^9`; none is a predetermined sufficient count.
 
 Include emitters over frontal, temporal, parietal, and occipital regions and at least one source with oblique incidence or unfavorable standoff.
 

@@ -35,8 +35,14 @@ The official Colin27 source and accepted native derivative must already exist lo
 
 The ignored five-tissue NIfTI is reconstructed locally. Tracked outputs include its metadata, derivation transitions, compact QC, the 277-source geometry and visualization, nested density tiers, optical table, calibration convention, registration, base MCX configuration, and manifest.
 
-`configs/yue2015_approx_v1_basis_plan.json` defines the 277 independent, unit-source, one-billion-photon pencil runs. Do not launch that full plan until photon-count and replicate convergence tiers are frozen; its presence records the paper-scale target, not a claim that the computation has run.
+`configs/yue2015_approx_v1_basis_plan.json` defines the 277 independent, unit-source, one-billion-photon pencil runs. Do not launch that full plan: the representative-source convergence sequence is frozen but did not pass every threshold. The plan records the paper-scale target, not a claim that the computation has run.
 
 ## Current validation boundary
 
-A 100,000-photon north-pole implementation check passed on standalone MCX-CL v2025.10 using the Apple M4 Pro OpenCL device. It verified the real label-volume adapter and produced a finite, nonuniform `181 x 217 x 181 x 1` field. It is not a convergence result, a Yue curve reproduction, or evidence that the benchmark gate has passed.
+The frozen protocol is `configs/yue2015_convergence_acceptance_v1.json`. Compact results are retained at three levels:
+
+- `convergence_pilot_m4_v1/`: `10^5` through `10^7` photons;
+- `convergence_representative_m4_v1/`: adds `10^8` photons;
+- `convergence_paperscale_m4_v1/`: adds `10^9` photons and is the controlling representative result.
+
+The runs used standalone MCX-CL v2025.10 on the Apple M4 Pro OpenCL device, three independent deterministic seeds per tier, and the real `181 x 217 x 181` benchmark anatomy. At `10^9`, the maximum tissue-integral CV was 0.015%, the valid-depth median profile CV was 9.95%, and the `10^8` to `10^9` median profile change was 14.23%. The latter exceeds the frozen 10% threshold, so the compound criterion failed and no final photon count was selected. `convergence_paperscale_m4_v1/runtime_and_storage_observations.json` records planning-scale runtime and storage observations. None of these representative runs reproduces the multisource Yue curves or passes the benchmark gate.
