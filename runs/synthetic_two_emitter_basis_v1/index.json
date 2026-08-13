@@ -1,0 +1,44 @@
+{
+  "basis_set_id": "synthetic_two_emitter_basis_v1",
+  "created_at": "2026-08-13T19:00:00Z",
+  "plan_path": "configs/synthetic_basis_plan_v1.json",
+  "plan_sha256": "73790616da607811f0c9802332381b5983f928a7f5631dd3b99a86e41edd9c79",
+  "runs": [
+    {
+      "configuration_path": "configs/generated/synthetic_two_emitter_basis_v1/syn001/r001.json",
+      "configuration_sha256": "a7eb407119f5f9373c7a9d19f0d88370cee377b1223001780f482944b9fe5dd8",
+      "emitter_id": "SYN001",
+      "manifest_path": "runs/synthetic_two_emitter_basis_v1/syn001/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "synthetic_test_only_v1__20260813t190000z__a7eb4071",
+      "seed": 1247429812
+    },
+    {
+      "configuration_path": "configs/generated/synthetic_two_emitter_basis_v1/syn001/r002.json",
+      "configuration_sha256": "277a467e2ff89dc1f32d0f0536b8b675a95a3727a1733999b88480b41d383798",
+      "emitter_id": "SYN001",
+      "manifest_path": "runs/synthetic_two_emitter_basis_v1/syn001/r002/manifest.json",
+      "replicate": 2,
+      "run_id": "synthetic_test_only_v1__20260813t190000z__277a467e",
+      "seed": 707391819
+    },
+    {
+      "configuration_path": "configs/generated/synthetic_two_emitter_basis_v1/syn002/r001.json",
+      "configuration_sha256": "0d98ca48aa1d79d13d6c4953d681c172514a1ca0698ed6f1e2c2e8bec82d9396",
+      "emitter_id": "SYN002",
+      "manifest_path": "runs/synthetic_two_emitter_basis_v1/syn002/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "synthetic_test_only_v1__20260813t190000z__0d98ca48",
+      "seed": 1986369808
+    },
+    {
+      "configuration_path": "configs/generated/synthetic_two_emitter_basis_v1/syn002/r002.json",
+      "configuration_sha256": "de6a3a4498c5febaa164931be0013d4384922ded2fa4610d20e12c566ef5bbc3",
+      "emitter_id": "SYN002",
+      "manifest_path": "runs/synthetic_two_emitter_basis_v1/syn002/r002/manifest.json",
+      "replicate": 2,
+      "run_id": "synthetic_test_only_v1__20260813t190000z__de6a3a44",
+      "seed": 972774042
+    }
+  ]
+}
