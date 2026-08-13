@@ -23,6 +23,6 @@ No native tissue labels are merged in `colin27_2008_native12_1mm_v3`. Visual QC 
 
 ## Five-tissue benchmark derivative
 
-The Yue and Humayun benchmark used scalp, skull, CSF, gray matter, and white matter, but their 1-mm segmentation was generated with SPM12 and is not identical to the official 2008 discrete phantom. A five-tissue approximation may therefore be generated only as a separately versioned `benchmark` artifact after its spatial reassignment policy is frozen.
+The Yue and Humayun benchmark used scalp, skull, CSF, gray matter, and white matter, but their 1-mm segmentation was generated with SPM12 and is not identical to the official 2008 discrete phantom. The separately versioned `colin27_2008_yue5_1mm_v1` derivative is therefore benchmark-only.
 
-A global lookup-table merge is not accepted because vessels and soft tissues occur in both extracranial and intracranial locations. Any benchmark collapse must use an explicit spatial reassignment method, report voxel transitions, and never be substituted for the primary native-label anatomy.
+A global lookup-table merge is not accepted because vessels occur in both extracranial and intracranial locations. The frozen collapse maps fat/muscle/skin classes to scalp, skull/dura/marrow to skull, retains CSF/GM/WM, and assigns every vessel voxel to its nearest non-vessel anatomical tissue. Its full transition counts are recorded in `derived/yue5_1mm_v1/derivation_manifest.json`. It must never be substituted for the primary native-label anatomy.

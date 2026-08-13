@@ -26,3 +26,7 @@ The exact resolved Python dependency hashes are in `uv.lock`. PMCXCL 0.7.1 was e
 PMCX 0.7.1 is locked as the optional CUDA binding. It is not installed in the Apple OpenCL environment, and no CUDA GPU, driver, runtime, engine build, or backend-equivalence result has been recorded. Those fields must be captured on the actual NVIDIA host before a CUDA result can enter a frozen basis set.
 
 Environment recording establishes software provenance; it is not anatomy, hardware, benchmark, or scientific validation.
+
+## Yue anatomical-volume implementation check
+
+On 2026-08-13, standalone MCX-CL v2025.10 on the Apple M4 Pro completed a 100,000-photon north-pole run using the `181 x 217 x 181` Yue five-tissue derivative. The returned field was finite and nonuniform, and the prepared uint8 volume checksum was recorded in `benchmarks/yue2015_approx_v1/implementation_check.json`. This verifies execution plumbing only; it is not photon-count convergence or benchmark acceptance.

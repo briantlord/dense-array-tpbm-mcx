@@ -1,0 +1,12 @@
+{
+  "analysis_id": "yue2015_approx_v1_analysis",
+  "metrics": [
+    "ef_ref"
+  ],
+  "ratio_absolute_threshold": 0.0,
+  "roi_methods": [
+    "field_first"
+  ],
+  "sum_dtype": "float64",
+  "synthetic_test_only": false
+}

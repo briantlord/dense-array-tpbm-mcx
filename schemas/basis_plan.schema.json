@@ -4,10 +4,11 @@
   "title": "Per-emitter basis preparation plan",
   "type": "object",
   "additionalProperties": false,
-  "required": ["basis_set_id", "synthetic_test_only", "scenario_id", "created_at", "code_revision", "code_dirty", "engine_binding", "engine_version", "engine_build", "template_manifest_path", "template_manifest_sha256", "emitter_ids", "replicates", "photon_count", "config_root", "run_root"],
+  "required": ["basis_set_id", "synthetic_test_only", "scientific_status", "scenario_id", "created_at", "code_revision", "code_dirty", "engine_binding", "engine_version", "engine_build", "template_manifest_path", "template_manifest_sha256", "emitter_ids", "replicates", "photon_count", "config_root", "run_root"],
   "properties": {
     "basis_set_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
-    "synthetic_test_only": {"const": true},
+    "synthetic_test_only": {"type": "boolean"},
+    "scientific_status": {"enum": ["synthetic_test_only", "benchmark"]},
     "scenario_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
     "created_at": {"type": "string", "format": "date-time"},
     "code_revision": {"type": "string", "pattern": "^[a-f0-9]{40,64}$"},

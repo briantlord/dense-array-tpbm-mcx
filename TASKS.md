@@ -55,9 +55,9 @@ Work in order. Do not mark scientific gates complete merely because the software
 
 ## P0 — 850-nm benchmark implementation
 
-- [ ] Transcribe the verified benchmark optical table with original units and citations.
-- [ ] Recreate or approximate the published distributed emitter layouts with deviations documented.
-- [ ] Implement independent unit-source simulations and weighted aggregation.
+- [x] Transcribe the verified benchmark optical table with original units and citations as `yue2015_850_approx_v1`; preserve `musp`, the isotropic `g=0` conversion, and the unreported-index limitation.
+- [x] Recreate the 277-source Table-1 layout and deterministic nested density tiers, with unreported azimuth phases and lower-density coordinates declared as project approximations.
+- [x] Extend independent unit-source preparation/execution to provenance-gated benchmark anatomy and retain float64 weighted aggregation; a real 100,000-photon north-pole implementation check passed on the M4 Pro.
 - [ ] Reproduce single-source and total-field depth curves.
 - [ ] Reproduce reference-source enhancement at prespecified depths and across density tiers.
 - [ ] Quantify Monte Carlo and digitization uncertainty.
@@ -65,6 +65,8 @@ Work in order. Do not mark scientific gates complete merely because the software
 - [ ] Write a discrepancy report and regression-test the accepted outputs.
 
 **Exit gate:** benchmark behavior is reproduced within justified tolerances or remaining mismatch is traced and declared.
+
+**Current status (2026-08-13):** benchmark inputs and execution plumbing are implemented as `yue2015_850_approx_v1`; the full benchmark gate remains open. Next freeze convergence/digitization tolerances, then produce the single-source, total-field, enhancement, and density-tier comparisons.
 
 ## P0 — 1070-nm optical-property ledger
 

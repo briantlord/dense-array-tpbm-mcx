@@ -11,6 +11,8 @@ The paper is sufficient for a **Yue-style qualitative and semi-quantitative benc
 
 The implementation must be named as an approximation, for example `yue2015_approx_v1`, and every project-selected value must be separated from a value reported by the paper.
 
+**Implementation status (2026-08-13):** the declared executable scenario is `yue2015_850_approx_v1`; see `benchmarks/yue2015_approx_v1/README.md`. It freezes the Table-2 optical rows, a separately versioned five-tissue Colin27 derivative, the Table-1 277-source generator, nested project-selected density subsets, a pencil source comparison, `g=0`, and a deliberately explicit `n=1` boundary-neutral assumption. A low-photon implementation check passed, but no reported curve has yet been claimed as reproduced.
+
 ## Status vocabulary
 
 - **reported:** explicitly present in the paper;
@@ -156,4 +158,3 @@ Minimum acceptable reproduction is:
 - unambiguous output quantity and physical normalization;
 - numeric data underlying figures and precise uniformity mask;
 - code and any supplementary data, none identified in the supplied PDF.
-

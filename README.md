@@ -74,6 +74,19 @@ The accepted anatomy derivative is `colin27_2008_native12_1mm_v3`: 181 x 217 x 1
 
 The anatomy metadata passes the fail-closed schema gate and automated plus visual anatomy QC. It is not yet a complete production simulation input because wavelength-specific optical properties, emitter registration, and ROI mapping remain separate gates. See the anatomy README for the source NIfTI scaling hazard and the documented removal of a superior field-of-view artifact.
 
+## Yue 850-nm benchmark implementation
+
+The executable approximation `yue2015_850_approx_v1` contains the paper's verified five-tissue 850-nm table, a separately derived five-tissue Colin27 volume, the Table-1 277-source elevation/count layout, deterministic nested density tiers, and a provenance-locked MCX template. Rebuild and preflight it with:
+
+```bash
+.venv/bin/python scripts/build_yue2015_approx_v1.py
+.venv/bin/mcx-project preflight \
+  benchmarks/yue2015_approx_v1/template_manifest.json \
+  --project-root .
+```
+
+A 100,000-photon north-pole run passed through the real M4/OpenCL anatomical-volume path. This is an implementation check only. The paper-scale `10^9`-photon-per-source plan has not been launched, and the benchmark gate remains open pending convergence, plot digitization, depth curves, density comparisons, tolerances, and a discrepancy report. See `benchmarks/yue2015_approx_v1/README.md` for every declared approximation.
+
 ## Research ledgers
 
 - `literature/novelty_search_2026-08-13.md` documents the current novelty search, screened precedents, and allowed claim language.
@@ -103,4 +116,4 @@ Execute one prepared synthetic run with:
 
 Preparation derives a deterministic independent seed from the basis-set ID, emitter ID, and replicate; refuses to replace changed generated files; and records the declared code revision. Execution preflights all inputs before launch, acquires an exclusive run lock, writes the full field and compact records atomically, skips a checksum-valid completed run, and preserves a failed run as immutable evidence. Retrying a failed source requires a replacement manifest with a new run ID.
 
-The checked-in basis plan and generated manifests are synthetic software fixtures. Production basis preparation remains disabled until the scientific input gates pass and the runner is extended beyond the homogeneous synthetic-volume adapter.
+The checked-in synthetic plan and generated manifests remain software fixtures. Benchmark preparation now also accepts provenance-gated anatomical label volumes and benchmark-status manifests. Production preparation remains disabled until the independent optical-property, hardware, and registration gates pass.

@@ -1,0 +1,29 @@
+{
+  "all_source_normals_unit": true,
+  "all_sources_inside_nonbackground": true,
+  "anatomy_overlay_sha256": "41594727ce8a9117359273ab8c2eeb9588464ba9ae750098b1ee82feb0736513",
+  "anatomy_visual_review": "accepted; central orthogonal overlay preserves enclosing scalp/skull, CSF spaces, cortical gray matter, and white matter without a gross flip or displaced class",
+  "density_tier_counts": [
+    13,
+    53,
+    105,
+    181,
+    229,
+    277
+  ],
+  "label_counts": {
+    "0": 3286799,
+    "1": 1363120,
+    "2": 447791,
+    "3": 358004,
+    "4": 1012425,
+    "5": 640998
+  },
+  "north_pole_emitter_id": "YUE277",
+  "preflight_artifacts_validated": 7,
+  "preflight_checksums_verified": 8,
+  "source_count": 277,
+  "source_layout_qc_sha256": "16edb77fab732563443c4ce1743252ec5ea729d15b20424b17a4a48c98cda9fc",
+  "source_layout_visual_review": "accepted; all declared elevation rings are present, the north-pole reference is correctly located, and no duplicate/collapsed source cluster is visible",
+  "status": "accepted_for_declared_yue_approximation"
+}

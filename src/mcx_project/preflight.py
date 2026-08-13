@@ -149,6 +149,14 @@ def _validate_cross_artifact_semantics(
         raise InputValidationError("manifest and anatomy voxel sizes do not match")
     if anatomy["coordinate_frame"] != manifest["grid"]["coordinate_frame"]:
         raise InputValidationError("manifest and anatomy coordinate frames do not match")
+    volume = engine_config["volume"]
+    if volume["generator"] == "label_volume_nifti":
+        if volume["path"] != anatomy["volume_representation"]:
+            raise InputValidationError(
+                "engine label volume does not match anatomy volume representation"
+            )
+    elif volume["generator"] != "homogeneous_cube":
+        raise InputValidationError("unsupported engine volume generator")
 
     if registration["source_frame"] != geometry["coordinate_frame"]:
         raise InputValidationError("registration source frame does not match emitter geometry")
@@ -250,6 +258,19 @@ def preflight_manifest(manifest_path: Path, project_root: Path) -> PreflightRepo
 
     validate_emitter_semantics(artifacts["emitter_geometry"])
     validate_optical_semantics(artifacts["optical_properties"])
+    engine_volume = artifacts["engine_configuration"]["volume"]
+    if engine_volume["generator"] == "label_volume_nifti":
+        volume_path = _safe_project_path(
+            project_root,
+            engine_volume["path"],
+            field="inputs.engine_configuration.volume.path",
+        )
+        _validate_checksum(
+            volume_path,
+            engine_volume["sha256"],
+            field="inputs.engine_configuration.volume",
+        )
+        checksum_count += 1
     _validate_cross_artifact_semantics(manifest, artifacts)
 
     for index, output in enumerate(manifest.get("outputs", [])):

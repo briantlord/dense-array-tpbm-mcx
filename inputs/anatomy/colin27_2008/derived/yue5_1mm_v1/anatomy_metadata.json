@@ -1,0 +1,84 @@
+{
+  "access_date": "2026-08-13",
+  "affine": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -90.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -126.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -72.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "age_category": "adult; exact age not provided by source release",
+  "anatomy_id": "colin27_2008_yue5_1mm_v1",
+  "coordinate_frame": "colin27_talairach_ras_mm",
+  "final_voxel_size_mm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "labels": [
+    {
+      "id": 0,
+      "name": "background_air"
+    },
+    {
+      "id": 1,
+      "name": "scalp"
+    },
+    {
+      "id": 2,
+      "name": "skull"
+    },
+    {
+      "id": 3,
+      "name": "modified_csf_approximation"
+    },
+    {
+      "id": 4,
+      "name": "gray_matter"
+    },
+    {
+      "id": 5,
+      "name": "white_matter"
+    }
+  ],
+  "license": "MNI Colin27 license; see inputs/anatomy/colin27_2008/LICENSE.txt",
+  "native_voxel_size_mm": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "orientation": "RAS; right-handed; affine maps voxel centers to millimeters",
+  "preprocessing": "Derived from colin27_2008_native12_1mm_v3 by scripts/build_yue2015_approx_v1.py. Native fat/muscle/skin labels map to scalp; skull/dura/marrow map to skull; CSF, GM, and WM remain distinct; vessel voxels map to the nearest non-vessel anatomical tissue.",
+  "qc_status": "accepted",
+  "resampling_method": "No additional resampling; spatial five-tissue reassignment only.",
+  "shape_voxels": [
+    181,
+    217,
+    181
+  ],
+  "source_dataset": "MNI Colin27 high-resolution 2008 discrete phantom",
+  "source_url_or_doi": "https://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_2008_nifti.zip",
+  "subject_identity": "average of repeated scans of one normal subject; identity, exact age, and sex not supplied in release metadata",
+  "synthetic_test_only": false,
+  "version": "yue5_1mm_v1 benchmark derivative",
+  "volume_representation": "inputs/anatomy/colin27_2008/derived/yue5_1mm_v1/colin27_labels_yue5_1mm_v1.nii"
+}

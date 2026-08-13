@@ -1,0 +1,50 @@
+{
+  "derivative_id": "colin27_2008_yue5_1mm_v1",
+  "native_to_benchmark_transitions": {
+    "0": {
+      "0": 3286799
+    },
+    "1": {
+      "3": 338002
+    },
+    "2": {
+      "4": 1001274
+    },
+    "3": {
+      "5": 640621
+    },
+    "4": {
+      "1": 140570
+    },
+    "5": {
+      "1": 668388
+    },
+    "6": {
+      "1": 383231
+    },
+    "7": {
+      "2": 355103
+    },
+    "9": {
+      "1": 170283
+    },
+    "10": {
+      "2": 8868
+    },
+    "11": {
+      "2": 74917
+    },
+    "12": {
+      "1": 648,
+      "2": 8903,
+      "3": 20002,
+      "4": 11151,
+      "5": 377
+    }
+  },
+  "output_nifti_sha256": "e213a2cc47d64e76f19bfe5fad809949b42573f2410400738d0cd4154444fbff",
+  "script": "scripts/build_yue2015_approx_v1.py",
+  "source_anatomy_id": "colin27_2008_native12_1mm_v3",
+  "source_nifti_sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f",
+  "spatial_rule": "vessels assigned to nearest non-vessel anatomical tissue"
+}
