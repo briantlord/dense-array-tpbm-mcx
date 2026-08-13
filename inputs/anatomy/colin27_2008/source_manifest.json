@@ -1,0 +1,85 @@
+{
+  "access_date": "2026-08-13",
+  "archive": {
+    "path": "inputs/anatomy/colin27_2008/raw/mni_colin27_2008_nifti.zip",
+    "sha256": "462bae01973d15672769e3b7363e90956c0d3fb16a65ea51753fe9154d973d01",
+    "zip_integrity_test": "passed"
+  },
+  "classification": {
+    "counts_after_rounding_scaled_values": {
+      "0": 25287056,
+      "1": 2517818,
+      "2": 7949876,
+      "3": 5284268,
+      "4": 1103276,
+      "5": 5333557,
+      "6": 3601406,
+      "7": 2884802,
+      "9": 1820870,
+      "10": 82356,
+      "11": 648575,
+      "12": 359236
+    },
+    "labels": {
+      "0": "background",
+      "1": "cerebrospinal fluid",
+      "2": "gray matter",
+      "3": "white matter",
+      "4": "fat",
+      "5": "muscles",
+      "6": "skin and muscles",
+      "7": "skull",
+      "9": "fat 2",
+      "10": "dura",
+      "11": "marrow",
+      "12": "vessels"
+    },
+    "nifti_data_type": "int16",
+    "nifti_proxy_scaling_intercept": 0.0,
+    "nifti_proxy_scaling_slope": 0.0470588244497776,
+    "raw_stored_values": [0, 21, 43, 64, 85, 106, 128, 149, 191, 213, 234, 255],
+    "scaled_value_handling": "Round scaled values to the nearest integer before interpreting labels; direct float-to-integer truncation is invalid."
+  },
+  "coordinate_frame": "Talairach space as declared by the source",
+  "files": {
+    "classification": {
+      "data_type": "int16 with NIfTI scaling",
+      "path": "inputs/anatomy/colin27_2008/source/colin27_cls_tal_hires.nii",
+      "sha256": "7b73fea370889c4833c45abe930526f3bb9a92aff2f83b42e8d8870dd93190f0"
+    },
+    "pd": {
+      "data_type": "float32",
+      "path": "inputs/anatomy/colin27_2008/source/colin27_pd_tal_hires.nii",
+      "sha256": "a53e42982cb743962a3a98db06bf6ef0faab7f579670d8aa5bf9a5dcc238be35"
+    },
+    "t1": {
+      "data_type": "float32",
+      "path": "inputs/anatomy/colin27_2008/source/colin27_t1_tal_hires.nii",
+      "sha256": "10b86cacc27ce5506061c4d638d65046d41a63d23efe5c334e70fe6d37972e7f"
+    },
+    "t2": {
+      "data_type": "float32",
+      "path": "inputs/anatomy/colin27_2008/source/colin27_t2_tal_hires.nii",
+      "sha256": "d33aeb2b4028e88abfd3bd8011913e915b81853a87e6ce9126faaad1192b56e9"
+    }
+  },
+  "license_file": "inputs/anatomy/colin27_2008/LICENSE.txt",
+  "orientation": "RAS",
+  "release": "2008 high-resolution NIfTI",
+  "shape_voxels": [362, 434, 362],
+  "source_dataset": "MNI Colin27 Average Brain, Stereotaxic Registration Model",
+  "source_publications": [
+    "10.1097/00004728-199803000-00032",
+    "10.1016/j.neuroimage.2006.03.052"
+  ],
+  "subject_description": "Average scans of one normal subject; identity, age, and sex are not supplied in the release metadata.",
+  "source_url": "https://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_2008_nifti.zip",
+  "spatial_affine": [
+    [0.5, 0.0, 0.0, -90.25],
+    [0.0, 0.5, 0.0, -126.25],
+    [0.0, 0.0, 0.5, -72.25],
+    [0.0, 0.0, 0.0, 1.0]
+  ],
+  "status": "source_acquired_and_header_verified",
+  "voxel_size_mm": [0.5, 0.5, 0.5]
+}

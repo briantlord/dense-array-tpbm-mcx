@@ -1,0 +1,82 @@
+{
+  "anatomy_id": "colin27_2008_native12_1mm_v3",
+  "automated_checks": {
+    "all_native_labels_present": true,
+    "csf_volume_preserved_within_minus10_plus15_percent": true,
+    "geometry_is_181x217x181_at_1mm": true,
+    "head_is_one_6_connected_component": true,
+    "output_labels_are_uint8_without_scaling": true,
+    "superior_volume_boundary_is_background": true
+  },
+  "automated_status": "passed",
+  "component_statistics": {
+    "1": {
+      "component_count_6_connected": 1487,
+      "largest_component_fraction": 0.9795888781723185
+    },
+    "10": {
+      "component_count_6_connected": 1523,
+      "largest_component_fraction": 0.13824988723500226
+    },
+    "11": {
+      "component_count_6_connected": 1741,
+      "largest_component_fraction": 0.3969726497323705
+    },
+    "12": {
+      "component_count_6_connected": 562,
+      "largest_component_fraction": 0.6919257077481074
+    },
+    "2": {
+      "component_count_6_connected": 904,
+      "largest_component_fraction": 0.9968410245347428
+    },
+    "3": {
+      "component_count_6_connected": 355,
+      "largest_component_fraction": 0.9984499415410985
+    },
+    "4": {
+      "component_count_6_connected": 654,
+      "largest_component_fraction": 0.5889876929643594
+    },
+    "5": {
+      "component_count_6_connected": 4914,
+      "largest_component_fraction": 0.9738325643189285
+    },
+    "6": {
+      "component_count_6_connected": 10773,
+      "largest_component_fraction": 0.919526343119424
+    },
+    "7": {
+      "component_count_6_connected": 996,
+      "largest_component_fraction": 0.9893749137574168
+    },
+    "9": {
+      "component_count_6_connected": 10720,
+      "largest_component_fraction": 0.7883523311193719
+    },
+    "head_nonbackground": {
+      "component_count_6_connected": 1,
+      "largest_component_fraction": 1.0
+    }
+  },
+  "enclosed_background_air_voxels": 5753,
+  "removed_disconnected_nonhead_voxels_by_original_label": {
+    "11": 8,
+    "6": 76,
+    "7": 21
+  },
+  "removed_outside_15mm_cranial_envelope_by_original_label": {
+    "4": 6438,
+    "5": 51986,
+    "6": 55106,
+    "9": 27680
+  },
+  "resampling_tie_output_fraction": 0.037944690051689815,
+  "resampling_tie_output_voxels": 269754,
+  "visual_artifacts": {
+    "multislice_t1_labels.png": "66f0e9c4d36485ba0051fc6c631a14232865cd4a062d85d006558bcc8212b0c4",
+    "orthogonal_t1_labels.png": "46a8a3d533379fa89149622d13d09d045b35570fb24cfe27bae0cbfc5bfc1f68",
+    "surface_projections.png": "06f03aede1e1b1fa33f70deb3296b00fd2f91f024dc5ad1131ca2df642991fc3"
+  },
+  "visual_review_status": "accepted"
+}

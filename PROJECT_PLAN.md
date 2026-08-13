@@ -14,11 +14,11 @@ Primary analyses will quantify total fluence, absorbed energy, multisource enhan
 
 ## Novelty statement
 
-Multisource transcranial photon-transport modeling is not new. Yue and Humayun modeled distributed arrays up to 277 emitters at approximately 850 nm and superimposed the per-source fields. More recent work has modeled realistic multisource helmets at other wavelengths. The proposed contribution is narrower:
+Multisource transcranial photon-transport modeling is not new. Yue and Humayun modeled distributed arrays up to 277 emitters at approximately 850 nm and superimposed the per-source fields. Cassano et al. (2019) and Yuan et al. (2020) modeled frontal LED arrays at 1064 nm, and Dole et al. (2024) modeled a realistic multisource helmet at 670/810 nm. The proposed contribution is narrower:
 
-> A realistic dense approximately 1070-nm helmet, registered to a human head model, with explicit voxelwise and regionwise attribution of cortical optical-field overlap.
+> A realistic dense whole-head approximately 1070-nm helmet, registered to a human head model, with retained per-emitter fields and explicit voxelwise and regionwise attribution of cortical optical-field overlap.
 
-This is a candidate gap, not a priority claim. It must be refreshed against the literature before publication.
+The 2026-08-13 search identified no exact report combining those elements, but this remains a candidate gap rather than a priority claim. See `literature/novelty_search_2026-08-13.md`, and refresh it before publication.
 
 ## Scope
 
@@ -58,6 +58,8 @@ Version 1 will:
 5. **Benchmark gate:** the 850-nm implementation reproduces prespecified qualitative and quantitative targets from the benchmark paper within declared tolerances.
 6. **Convergence gate:** cortical and ROI estimates are stable to increased photon count and repeated random seeds.
 7. **Interpretation gate:** figures and prose label nominal versus sensitivity results and do not convert modeled optical quantities into biological claims.
+
+**Current gate status (2026-08-13):** the anatomy gate is accepted as `colin27_2008_native12_1mm_v3`. All other scientific gates remain independent and production-blocking until their own evidence is complete.
 
 ## Architecture
 

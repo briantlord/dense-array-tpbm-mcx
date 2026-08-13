@@ -7,7 +7,7 @@
 - **Simulation backends:** the file-based standalone MCX-CL executable on Apple Silicon and CUDA MCX/PMCX on NVIDIA systems. PMCXCL is excluded from the primary path because the evaluated ARM64 wheel returned intermittently corrupted arrays. Backend identity and version are mandatory manifest fields. MATLAB/MCXLABCL may be used only as an independent verification path, not as a production dependency.
 - **Transport regime:** linear, incoherent radiative transport. Per-emitter fluence/energy fields may be weighted and added. This is not coherent field interference.
 - **Reference source normalization:** simulate each source independently at a declared unit launched energy (recommended for steady-state MCX output), then scale to measured optical power and exposure time in post-processing.
-- **Primary anatomy:** one versioned adult head atlas at approximately 1-mm isotropic resolution. The exact atlas is `TBD` until licensing and benchmark compatibility are checked.
+- **Primary anatomy:** `colin27_2008_native12_1mm_v3`, a 181 x 217 x 181, 1-mm isotropic RAS derivative of the official MNI Colin27 high-resolution 2008 NIfTI release. Native tissue identities are retained without merging. The derivation uses categorical 2 x 2 x 2 block mode, an explicit tie rule, a documented 15-mm cranial soft-tissue envelope to remove a source field-of-view artifact, and connected-head cleanup. Metadata, checksums, transition counts, and accepted QC are under `inputs/anatomy/colin27_2008/derived/native12_1mm_v3/`.
 - **Primary analysis tissue:** cortical gray matter; whole-volume and other tissue outputs are secondary.
 
 No production configuration is valid if a required field below is `TBD`.

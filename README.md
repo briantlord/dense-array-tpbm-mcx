@@ -58,6 +58,31 @@ The smoke command refuses to launch until the manifest, all seven referenced art
 
 Production simulation remains blocked until the anatomy, optical-property, hardware, registration, benchmark, and convergence gates in `PROJECT_PLAN.md` pass. A valid JSON file is not, by itself, a scientifically acceptable input.
 
+## Colin27 anatomy source
+
+The official MNI Colin27 high-resolution 2008 NIfTI release is the selected anatomy source and is documented under `inputs/anatomy/colin27_2008/`. Its large source images and download archive are intentionally ignored by Git; acquisition is reproducible with:
+
+```bash
+scripts/acquire_colin27.sh
+```
+
+The accepted anatomy derivative is `colin27_2008_native12_1mm_v3`: 181 x 217 x 181 voxels at 1-mm isotropic resolution with all native tissue identities retained. Reproduce it and its QC artifacts with:
+
+```bash
+.venv/bin/python scripts/derive_colin27_1mm.py
+```
+
+The anatomy metadata passes the fail-closed schema gate and automated plus visual anatomy QC. It is not yet a complete production simulation input because wavelength-specific optical properties, emitter registration, and ROI mapping remain separate gates. See the anatomy README for the source NIfTI scaling hazard and the documented removal of a superior field-of-view artifact.
+
+## Research ledgers
+
+- `literature/novelty_search_2026-08-13.md` documents the current novelty search, screened precedents, and allowed claim language.
+- `literature/novelty_screening_2026-08-13.csv` is the machine-readable screening table.
+- `benchmarks/yue_2015_benchmark_ledger.md` defines what can and cannot be reproduced from the Yue and Humayun paper.
+- `benchmarks/yue_2015_parameter_ledger.csv` classifies each benchmark field as reported, inferred, missing, inconsistent, or a project decision.
+
+The search rules out a broad “first multisource 1064/1070-nm simulation” claim: frontal 1064-nm LED-array simulations already exist. The remaining candidate gap is the combined dense whole-head 1070-nm helmet and emitter-resolved cortical-overlap analysis.
+
 ## Per-emitter basis runner
 
 The next execution layer prepares one immutable configuration and planned manifest per enabled emitter and replicate:

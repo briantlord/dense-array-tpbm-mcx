@@ -32,24 +32,26 @@ Work in order. Do not mark scientific gates complete merely because the software
 ## P0 — Literature and source verification
 
 - [x] Obtain and read Yue & Humayun (2015), including all methods, figures, and references in the supplied paper. No separate supplement was identified in the supplied PDF.
-- [ ] Verify its DOI, exact wavelengths, tissue table, head model/version, emitter counts/layout, source definition, photon count, normalization, and comparison locations.
+- [x] Verify its DOI, exact wavelengths, tissue table, head model/version, emitter counts/layout, source definition, photon count, normalization, and comparison locations; classify unreported fields in `benchmarks/yue_2015_parameter_ledger.csv`.
 - [x] Obtain and verify the full citation and reported methods for the recent realistic multisource helmet study listed in `REFERENCES.md`; its referenced additional tables remain to be obtained.
-- [ ] Run a current literature search for dense 1064/1070-nm multisource helmet models before retaining the novelty statement.
-- [ ] Build a claim ledger separating published facts, digitized estimates, inferences, and project hypotheses.
-- [ ] Record all inaccessible data or irreproducible details as benchmark limitations.
+- [x] Run a current literature search for dense 1064/1070-nm multisource helmet models before retaining the novelty statement; see `literature/novelty_search_2026-08-13.md`.
+- [x] Build a claim ledger separating published facts, search findings, inferences, and project hypotheses.
+- [x] Record all inaccessible data or irreproducible details as benchmark limitations.
 
-**Exit gate:** benchmark inputs and novelty language are supported by verified primary sources.
+**Exit-gate status (2026-08-13):** novelty language and the reported Yue benchmark fields are supported by verified primary sources. Exact numerical reproduction remains intentionally approximate because the paper does not report several required implementation fields.
 
 ## P0 — Anatomy acquisition and QC
 
-- [ ] Select an atlas compatible with the benchmark and record license/version/checksum.
-- [ ] Create the minimum tissue label map: scalp, skull, CSF, gray matter, white matter.
-- [ ] Preserve the native affine and document every resampling or label merge.
-- [ ] Generate label counts, physical volumes, orthogonal slices, and surface renders.
-- [ ] Check layer continuity, CSF preservation, cortical mask, and internal holes.
-- [ ] Add a compact anatomy QC report to the run artifacts.
+- [x] Select the official MNI Colin27 high-resolution 2008 NIfTI atlas source and record its license, version, headers, label counts, and checksums in `inputs/anatomy/colin27_2008/`.
+- [x] Create `colin27_2008_native12_1mm_v3`, retaining the minimum required tissues plus the source's additional native tissue identities without merging.
+- [x] Preserve physical geometry and document the 0.5-to-1-mm resampling, tie rule, field-of-view cleanup, and every label transition.
+- [x] Generate label counts, physical volumes, orthogonal/multislice overlays, and outer/cortical surface projections.
+- [x] Check head connectivity, enclosing layers, CSF preservation, cortical gray matter, internal air cavities, and source field-of-view artifacts; automated checks passed and visual QC was accepted.
+- [x] Add compact machine-readable and Markdown anatomy QC reports under the versioned derived artifact.
 
 **Exit gate:** anatomy gate in `PROJECT_PLAN.md` is signed off.
+
+**Exit-gate status (2026-08-13):** accepted for anatomical use as `colin27_2008_native12_1mm_v3`. This does not approve optical properties, source registration, ROI mapping, or a production photon-transport run.
 
 ## P0 — 850-nm benchmark implementation
 
