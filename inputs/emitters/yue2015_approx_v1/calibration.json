@@ -1,0 +1,1671 @@
+{
+  "calibration_id": "yue2015_unit_source_v1",
+  "date": "2026-08-13",
+  "instrument": "numerical unit-launched-energy normalization; not a radiometer",
+  "provenance": "Project benchmark convention: identical unit source weights. The paper reports initial photon weight 1 but no physical emitter power.",
+  "records": [
+    {
+      "emitter_id": "YUE001",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE002",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE003",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE004",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE005",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE006",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE007",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE008",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE009",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE010",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE011",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE012",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE013",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE014",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE015",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE016",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE017",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE018",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE019",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE020",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE021",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE022",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE023",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE024",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE025",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE026",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE027",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE028",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE029",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE030",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE031",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE032",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE033",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE034",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE035",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE036",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE037",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE038",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE039",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE040",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE041",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE042",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE043",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE044",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE045",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE046",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE047",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE048",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE049",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE050",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE051",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE052",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE053",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE054",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE055",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE056",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE057",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE058",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE059",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE060",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE061",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE062",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE063",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE064",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE065",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE066",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE067",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE068",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE069",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE070",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE071",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE072",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE073",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE074",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE075",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE076",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE077",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE078",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE079",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE080",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE081",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE082",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE083",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE084",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE085",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE086",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE087",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE088",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE089",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE090",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE091",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE092",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE093",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE094",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE095",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE096",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE097",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE098",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE099",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE100",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE101",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE102",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE103",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE104",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE105",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE106",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE107",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE108",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE109",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE110",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE111",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE112",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE113",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE114",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE115",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE116",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE117",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE118",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE119",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE120",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE121",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE122",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE123",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE124",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE125",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE126",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE127",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE128",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE129",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE130",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE131",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE132",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE133",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE134",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE135",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE136",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE137",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE138",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE139",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE140",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE141",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE142",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE143",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE144",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE145",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE146",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE147",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE148",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE149",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE150",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE151",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE152",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE153",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE154",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE155",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE156",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE157",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE158",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE159",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE160",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE161",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE162",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE163",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE164",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE165",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE166",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE167",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE168",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE169",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE170",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE171",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE172",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE173",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE174",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE175",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE176",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE177",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE178",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE179",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE180",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE181",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE182",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE183",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE184",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE185",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE186",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE187",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE188",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE189",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE190",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE191",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE192",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE193",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE194",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE195",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE196",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE197",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE198",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE199",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE200",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE201",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE202",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE203",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE204",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE205",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE206",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE207",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE208",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE209",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE210",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE211",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE212",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE213",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE214",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE215",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE216",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE217",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE218",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE219",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE220",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE221",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE222",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE223",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE224",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE225",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE226",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE227",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE228",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE229",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE230",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE231",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE232",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE233",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE234",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE235",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE236",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE237",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE238",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE239",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE240",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE241",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE242",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE243",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE244",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE245",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE246",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE247",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE248",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE249",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE250",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE251",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE252",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE253",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE254",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE255",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE256",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE257",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE258",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE259",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE260",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE261",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE262",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE263",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE264",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE265",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE266",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE267",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE268",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE269",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE270",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE271",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE272",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE273",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE274",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE275",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE276",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    },
+    {
+      "emitter_id": "YUE277",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 850.0
+    }
+  ],
+  "synthetic_test_only": false
+}

@@ -1,0 +1,122 @@
+{
+  "coefficient_unit": "mm^-1",
+  "scenario_id": "yue2015_850_approx_v1",
+  "synthetic_test_only": false,
+  "tissues": [
+    {
+      "citation": "MCX reserved background medium convention; not a Yue tissue row.",
+      "conversion": "No conversion; engine background is [0, 0, 1, 1].",
+      "g": 0.0,
+      "mua_mm-1": 0.0,
+      "mus_mm-1": 0.0,
+      "n": 1.0,
+      "notes": "Benchmark-only background sentinel.",
+      "review_status": "double_checked",
+      "source_kind": "assumption",
+      "source_musp_mm-1": "not_used",
+      "source_wavelengths_nm": [
+        850.0
+      ],
+      "tissue_definition": "Exterior and anatomical air cavities.",
+      "tissue_id": 0,
+      "tissue_name": "background_air",
+      "uncertainty": "Not a measured optical-property row."
+    },
+    {
+      "citation": "Yue L, Humayun MS. Journal of Biomedical Optics 20(8), 088001 (2015), Table 2. doi:10.1117/1.JBO.20.8.088001",
+      "conversion": "No inverse-length unit conversion. The reported reduced scattering coefficient is assigned as mus with g=0 to implement the paper's stated isotropic approximation.",
+      "g": 0.0,
+      "mua_mm-1": 0.012,
+      "mus_mm-1": 1.8,
+      "n": 1.0,
+      "notes": "Benchmark-only; must not populate the 1070-nm production ledger.",
+      "review_status": "double_checked",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 1.8,
+      "source_wavelengths_nm": [
+        850.0
+      ],
+      "tissue_definition": "Extracranial soft tissues collapsed to scalp.",
+      "tissue_id": 1,
+      "tissue_name": "scalp",
+      "uncertainty": "Paper reports no uncertainty and no refractive-index table; n=1.0 for all media is a project decision that removes boundary mismatch."
+    },
+    {
+      "citation": "Yue L, Humayun MS. Journal of Biomedical Optics 20(8), 088001 (2015), Table 2. doi:10.1117/1.JBO.20.8.088001",
+      "conversion": "No inverse-length unit conversion. The reported reduced scattering coefficient is assigned as mus with g=0 to implement the paper's stated isotropic approximation.",
+      "g": 0.0,
+      "mua_mm-1": 0.025,
+      "mus_mm-1": 1.6,
+      "n": 1.0,
+      "notes": "Benchmark-only; must not populate the 1070-nm production ledger.",
+      "review_status": "double_checked",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 1.6,
+      "source_wavelengths_nm": [
+        850.0
+      ],
+      "tissue_definition": "Skull, dura, and marrow collapsed to skull.",
+      "tissue_id": 2,
+      "tissue_name": "skull",
+      "uncertainty": "Paper reports no uncertainty and no refractive-index table; n=1.0 for all media is a project decision that removes boundary mismatch."
+    },
+    {
+      "citation": "Yue L, Humayun MS. Journal of Biomedical Optics 20(8), 088001 (2015), Table 2. doi:10.1117/1.JBO.20.8.088001",
+      "conversion": "No inverse-length unit conversion. The reported reduced scattering coefficient is assigned as mus with g=0 to implement the paper's stated isotropic approximation.",
+      "g": 0.0,
+      "mua_mm-1": 0.003,
+      "mus_mm-1": 0.01,
+      "n": 1.0,
+      "notes": "Benchmark-only; must not populate the 1070-nm production ledger.",
+      "review_status": "double_checked",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 0.01,
+      "source_wavelengths_nm": [
+        850.0
+      ],
+      "tissue_definition": "Native Colin27 CSF; Yue modification not reproducible.",
+      "tissue_id": 3,
+      "tissue_name": "modified_csf",
+      "uncertainty": "Paper reports no uncertainty and no refractive-index table; n=1.0 for all media is a project decision that removes boundary mismatch."
+    },
+    {
+      "citation": "Yue L, Humayun MS. Journal of Biomedical Optics 20(8), 088001 (2015), Table 2. doi:10.1117/1.JBO.20.8.088001",
+      "conversion": "No inverse-length unit conversion. The reported reduced scattering coefficient is assigned as mus with g=0 to implement the paper's stated isotropic approximation.",
+      "g": 0.0,
+      "mua_mm-1": 0.036,
+      "mus_mm-1": 0.9,
+      "n": 1.0,
+      "notes": "Benchmark-only; must not populate the 1070-nm production ledger.",
+      "review_status": "double_checked",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 0.9,
+      "source_wavelengths_nm": [
+        850.0
+      ],
+      "tissue_definition": "Native Colin27 gray matter.",
+      "tissue_id": 4,
+      "tissue_name": "gray_matter",
+      "uncertainty": "Paper reports no uncertainty and no refractive-index table; n=1.0 for all media is a project decision that removes boundary mismatch."
+    },
+    {
+      "citation": "Yue L, Humayun MS. Journal of Biomedical Optics 20(8), 088001 (2015), Table 2. doi:10.1117/1.JBO.20.8.088001",
+      "conversion": "No inverse-length unit conversion. The reported reduced scattering coefficient is assigned as mus with g=0 to implement the paper's stated isotropic approximation.",
+      "g": 0.0,
+      "mua_mm-1": 0.014,
+      "mus_mm-1": 1.1,
+      "n": 1.0,
+      "notes": "Benchmark-only; must not populate the 1070-nm production ledger.",
+      "review_status": "double_checked",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 1.1,
+      "source_wavelengths_nm": [
+        850.0
+      ],
+      "tissue_definition": "Native Colin27 white matter.",
+      "tissue_id": 5,
+      "tissue_name": "white_matter",
+      "uncertainty": "Paper reports no uncertainty and no refractive-index table; n=1.0 for all media is a project decision that removes boundary mismatch."
+    }
+  ],
+  "wavelength_nm": 850.0
+}

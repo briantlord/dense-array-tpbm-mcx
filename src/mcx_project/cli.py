@@ -102,7 +102,12 @@ def main() -> int:
             binary = resolve_mcxcl_binary(arguments.project_root)
 
             def run_standalone(config: dict[str, Any], run_directory: Path):
-                return standalone_field_from_config(config, run_directory, binary)
+                return standalone_field_from_config(
+                    config,
+                    run_directory,
+                    binary,
+                    project_root=arguments.project_root,
+                )
 
             status = execute_basis_run(
                 arguments.manifest,

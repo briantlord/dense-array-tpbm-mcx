@@ -10,6 +10,7 @@ import subprocess
 from pathlib import Path
 from typing import Any
 
+import nibabel as nib
 import numpy as np
 
 from .hashing import sha256_file
@@ -55,16 +56,26 @@ def probe_mcxcl(binary: Path) -> dict[str, Any]:
     }
 
 
-def render_mcxcl_input(config: dict[str, Any], session_id: str) -> dict[str, Any]:
+def render_mcxcl_input(
+    config: dict[str, Any], session_id: str, *, volume_file: str | None = None
+) -> dict[str, Any]:
     volume = config["volume"]
-    if volume["generator"] != "homogeneous_cube":
-        raise InputValidationError(
-            "standalone synthetic adapter only supports homogeneous_cube"
-        )
+    if volume["generator"] == "label_volume_nifti" and volume_file is None:
+        raise InputValidationError("label_volume_nifti requires a prepared volume file")
     output_type = {"flux": "x", "fluence": "f", "energy": "e"}[
         config["outputtype"]
     ]
-    return {
+    domain = {
+        "MediaFormat": "byte",
+        "LengthUnit": 1.0,
+        "Dim": volume["shape_voxels"],
+        "OriginType": 1,
+        "Media": [
+            {"mua": row[0], "mus": row[1], "g": row[2], "n": row[3]}
+            for row in config["properties_mm"]
+        ],
+    }
+    document = {
         "Session": {
             "ID": session_id,
             "Photons": config["nphoton"],
@@ -81,16 +92,7 @@ def render_mcxcl_input(config: dict[str, Any], session_id: str) -> dict[str, Any
             "T1": config["time_gates_s"]["end"],
             "Dt": config["time_gates_s"]["step"],
         },
-        "Domain": {
-            "MediaFormat": "byte",
-            "LengthUnit": 1.0,
-            "Dim": volume["shape_voxels"],
-            "OriginType": 1,
-            "Media": [
-                {"mua": row[0], "mus": row[1], "g": row[2], "n": row[3]}
-                for row in config["properties_mm"]
-            ],
-        },
+        "Domain": domain,
         "Optode": {
             "Source": {
                 "Type": config["source"]["type"],
@@ -99,15 +101,47 @@ def render_mcxcl_input(config: dict[str, Any], session_id: str) -> dict[str, Any
             },
             "Detector": [],
         },
-        "Shapes": [
+    }
+    if volume["generator"] == "homogeneous_cube":
+        document["Shapes"] = [
             {
                 "Grid": {
                     "Tag": volume["label"],
                     "Size": volume["shape_voxels"],
                 }
             }
-        ],
-    }
+        ]
+    elif volume["generator"] == "label_volume_nifti":
+        domain["VolumeFile"] = volume_file
+    else:
+        raise InputValidationError(
+            f"unsupported volume generator: {volume['generator']}"
+        )
+    return document
+
+
+def _prepare_label_volume(
+    config: dict[str, Any], run_directory: Path, project_root: Path
+) -> tuple[str, str]:
+    volume = config["volume"]
+    source = (project_root / volume["path"]).resolve()
+    if not source.is_relative_to(project_root.resolve()) or not source.is_file():
+        raise InputValidationError("label volume path is missing or escapes project root")
+    if sha256_file(source) != volume["sha256"]:
+        raise InputValidationError("label volume checksum mismatch")
+
+    image = nib.load(source)
+    labels = np.asarray(image.dataobj)
+    if labels.shape != tuple(volume["shape_voxels"]):
+        raise InputValidationError("label volume shape does not match configuration")
+    if not np.all(np.isfinite(labels)) or not np.all(labels == np.rint(labels)):
+        raise InputValidationError("label volume must contain finite integer labels")
+    if float(np.min(labels)) < 0 or float(np.max(labels)) >= len(config["properties_mm"]):
+        raise InputValidationError("label volume contains an undefined medium index")
+
+    prepared = run_directory / "volume.uint8.bin"
+    prepared.write_bytes(np.asarray(labels, dtype=np.uint8).tobytes(order="F"))
+    return prepared.name, sha256_file(prepared)
 
 
 def load_jnii_field(path: Path) -> np.ndarray:
@@ -133,16 +167,35 @@ def load_jnii_field(path: Path) -> np.ndarray:
 
 
 def standalone_field_from_config(
-    config: dict[str, Any], run_directory: Path, binary: Path
+    config: dict[str, Any],
+    run_directory: Path,
+    binary: Path,
+    *,
+    project_root: Path | None = None,
 ) -> tuple[np.ndarray, dict[str, Any]]:
-    """Run one synthetic config using file-based MCX-CL output."""
+    """Run one configuration using file-based MCX-CL output."""
 
     session_id = "mcx_field"
     input_path = run_directory / "mcx_input.json"
     log_path = run_directory / "mcxcl.log"
     output_path = run_directory / f"{session_id}.jnii"
+    prepared_volume: tuple[str, str] | None = None
+    if config["volume"]["generator"] == "label_volume_nifti":
+        if project_root is None:
+            raise InputValidationError(
+                "project_root is required for label_volume_nifti"
+            )
+        prepared_volume = _prepare_label_volume(config, run_directory, project_root)
     input_path.write_text(
-        json.dumps(render_mcxcl_input(config, session_id), indent=2, sort_keys=True)
+        json.dumps(
+            render_mcxcl_input(
+                config,
+                session_id,
+                volume_file=prepared_volume[0] if prepared_volume else None,
+            ),
+            indent=2,
+            sort_keys=True,
+        )
         + "\n",
         encoding="utf-8",
     )
@@ -171,6 +224,13 @@ def standalone_field_from_config(
         text=True,
         check=True,
     ).stdout.strip()
+    artifacts = [
+        {"kind": "qc", "path": input_path.name},
+        {"kind": "log", "path": log_path.name},
+        {"kind": "fluence", "path": output_path.name, "primary_field": True},
+    ]
+    if prepared_volume is not None:
+        artifacts.insert(0, {"kind": "qc", "path": prepared_volume[0]})
     return field, {
         "backend": "mcxcl_cli",
         "engine_version": version,
@@ -179,9 +239,6 @@ def standalone_field_from_config(
         "jnifti_sha256": sha256_file(output_path),
         "log_sha256": sha256_file(log_path),
         "absorbed_energy_percent": parse_absorbed_energy_percent(combined_log),
-        "_artifacts": [
-            {"kind": "qc", "path": input_path.name},
-            {"kind": "log", "path": log_path.name},
-            {"kind": "fluence", "path": output_path.name, "primary_field": True},
-        ],
+        "prepared_volume_sha256": prepared_volume[1] if prepared_volume else None,
+        "_artifacts": artifacts,
     }

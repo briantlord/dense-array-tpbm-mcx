@@ -113,9 +113,12 @@ def prepare_basis_plan(plan_path: Path, project_root: Path) -> dict[str, Any]:
     root = project_root.resolve()
     validate_json(root / "schemas/basis_plan.schema.json", plan_path, require_complete=True)
     plan = load_json(plan_path)
-    if not plan["synthetic_test_only"]:
+    expected_status = (
+        "synthetic_test_only" if plan["synthetic_test_only"] else "benchmark"
+    )
+    if plan["scientific_status"] != expected_status:
         raise BasisPreparationError(
-            "basis preparation is currently enabled only for synthetic_test_only plans"
+            "plan scientific_status conflicts with synthetic_test_only"
         )
 
     template_path = _project_path(root, plan["template_manifest_path"])
@@ -125,8 +128,10 @@ def prepare_basis_plan(plan_path: Path, project_root: Path) -> dict[str, Any]:
     template = load_json(template_path)
     if template["scenario_id"] != plan["scenario_id"]:
         raise BasisPreparationError("plan and template scenario IDs do not match")
-    if template["scientific_status"] != "synthetic_test_only":
-        raise BasisPreparationError("synthetic plan requires a synthetic template manifest")
+    if template["scientific_status"] != plan["scientific_status"]:
+        raise BasisPreparationError(
+            "plan and template scientific statuses do not match"
+        )
 
     artifacts = {
         role: load_json(_project_path(root, reference["path"]))
@@ -193,7 +198,9 @@ def prepare_basis_plan(plan_path: Path, project_root: Path) -> dict[str, Any]:
             manifest["created_at"] = plan["created_at"]
             manifest["status"] = "planned"
             manifest["error"] = None
-            manifest["stage"] = "pilot"
+            manifest["stage"] = (
+                "pilot" if plan["scientific_status"] == "synthetic_test_only" else "benchmark"
+            )
             manifest["code"] = {
                 "repository": template["code"]["repository"],
                 "revision": plan["code_revision"],
@@ -310,7 +317,16 @@ def execute_basis_run(
     os.close(lock_descriptor)
 
     try:
-        for protected in ("fluence.npy", "summary.json", "execution.json", "failure.json"):
+        for protected in (
+            "fluence.npy",
+            "summary.json",
+            "execution.json",
+            "failure.json",
+            "volume.uint8.bin",
+            "mcx_input.json",
+            "mcxcl.log",
+            "mcx_field.jnii",
+        ):
             if (run_directory / protected).exists():
                 raise BasisExecutionError(
                     f"refusing to overwrite an existing run artifact: {protected}"

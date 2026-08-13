@@ -3,12 +3,14 @@ import json
 from pathlib import Path
 
 import numpy as np
+import pytest
 
 from mcx_project.standalone import (
     load_jnii_field,
     parse_absorbed_energy_percent,
     render_mcxcl_input,
 )
+from mcx_project.validation import InputValidationError
 from mcx_project.validation import load_json
 
 
@@ -30,6 +32,17 @@ def test_rendered_mcxcl_input_preserves_engine_contract() -> None:
     }
     assert rendered["Optode"]["Source"]["Pos"] == [30.0, 30.0, 0.0]
     assert rendered["Shapes"][0]["Grid"]["Size"] == [60, 60, 60]
+
+
+def test_label_volume_render_requires_prepared_binary() -> None:
+    config = load_json(ROOT / "configs/yue2015_approx_v1_north_pole_fluence.json")
+    with pytest.raises(InputValidationError, match="prepared volume"):
+        render_mcxcl_input(config, "test_session")
+    rendered = render_mcxcl_input(
+        config, "test_session", volume_file="volume.uint8.bin"
+    )
+    assert rendered["Domain"]["VolumeFile"] == "volume.uint8.bin"
+    assert "Shapes" not in rendered
 
 
 def test_load_uncompressed_jnifti_field(tmp_path: Path) -> None:

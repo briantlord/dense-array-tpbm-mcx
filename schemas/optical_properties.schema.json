@@ -22,7 +22,7 @@
           "source_musp_mm-1": {"oneOf": [{"type": "number", "minimum": 0}, {"const": "not_used"}, {"const": "TBD"}]},
           "g": {"oneOf": [{"type": "number", "minimum": 0, "exclusiveMaximum": 1}, {"const": "TBD"}]},
           "n": {"oneOf": [{"type": "number", "minimum": 1}, {"const": "TBD"}]},
-          "source_kind": {"enum": ["direct_measurement", "spectral_model", "interpolation", "extrapolation", "assumption", "synthetic_test", "TBD"]},
+          "source_kind": {"enum": ["direct_measurement", "reported_table", "spectral_model", "interpolation", "extrapolation", "assumption", "synthetic_test", "TBD"]},
           "citation": {"type": "string", "minLength": 1},
           "source_wavelengths_nm": {"oneOf": [{"type": "array", "minItems": 1, "items": {"type": "number", "exclusiveMinimum": 0}}, {"const": "TBD"}]},
           "conversion": {"type": "string", "minLength": 1},
