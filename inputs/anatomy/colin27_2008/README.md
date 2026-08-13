@@ -1,0 +1,41 @@
+# MNI Colin27 high-resolution 2008 source
+
+This directory records the official MNI/BIC Colin27 high-resolution 2008 NIfTI release selected as the source anatomy for this project. It was downloaded from the MNI package host and verified on August 13, 2026.
+
+## Why this release
+
+- It is the official 0.5-mm, 362 x 434 x 362 Talairach-space atlas family used by Cassano et al. (2019).
+- It includes T1-, T2-, and proton-density-weighted volumes and a discrete 12-class head-tissue phantom.
+- Its license permits use, copying, modification, and distribution with preservation of the copyright notice.
+- Preserving the 0.5-mm source allows the project's approximately 1-mm simulation volume to be derived deterministically rather than obtained from an undocumented third party.
+
+## Local layout
+
+- `raw/`: downloaded ZIP archive; ignored by Git.
+- `source/`: unmodified extracted files; NIfTI volumes are ignored by Git.
+- `source_manifest.json`: machine-readable source, header, affine, checksum, and label-count record.
+- `checksums.sha256`: checksums for every extracted file.
+- `LICENSE.txt`: license copied from the official distribution page with its source and access date.
+
+Run `scripts/acquire_colin27.sh` from any directory to download, verify, and extract the release reproducibly.
+
+## Critical classification-file warning
+
+The discrete NIfTI stores raw values `[0, 21, 43, 64, 85, 106, 128, 149, 191, 213, 234, 255]` with a NIfTI scaling slope of approximately `0.04705882445`. A conforming reader returns scaled values close to, but not always exactly equal to, the documented labels 0-12. Always round the scaled values to the nearest integer before label interpretation. Directly casting the scaled floating-point values to integers shifts several labels downward and corrupts the anatomy.
+
+This behavior was verified with NiBabel 5.4.2 and is recorded in `source_manifest.json`.
+
+The official atlas webpage says the T1/T2/PD images average 27/11/12 scans, whereas the embedded `source/README.txt` says 27/12/12. This discrepancy is preserved rather than silently resolved; it does not change the downloaded volume hashes.
+
+## Accepted derivative
+
+`derived/native12_1mm_v3/` is the accepted anatomical derivative. It is 181 x 217 x 181 at 1-mm isotropic resolution in RAS orientation. It retains every native tissue identity without merging and records all cleanup transitions.
+
+The first derivation exposed a too-strict CSF volume-conservation test. Surface QC of the second derivation then exposed a connected soft-tissue wraparound or field-of-view artifact superior to the cranial tissues. Version 3 preserves all cranial tissues, retains soft tissue within a documented 15-mm cranial envelope, removes remaining disconnected non-head components, and passes both automated and hash-locked visual QC.
+
+The anatomy gate is accepted. Wavelength-specific optical-property binding, emitter registration, and ROI mapping remain separate scientific gates; this anatomy acceptance does not authorize a production photon-transport run.
+
+## Primary references
+
+- Holmes CJ, Hoge R, Collins DL, Woods RP, Toga AW, Evans AC. Enhancement of MR images using registration for signal averaging. *J Comput Assist Tomogr.* 1998;22(2):324-333. DOI: `10.1097/00004728-199803000-00032`.
+- Aubert-Broche B, Evans AC, Collins DL. A new improved version of the realistic digital brain phantom. *NeuroImage.* 2006;32(1):138-145. DOI: `10.1016/j.neuroimage.2006.03.052`.

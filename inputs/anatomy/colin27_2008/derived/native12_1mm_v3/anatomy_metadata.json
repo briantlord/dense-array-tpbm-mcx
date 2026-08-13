@@ -1,0 +1,108 @@
+{
+  "access_date": "2026-08-13",
+  "affine": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      -90.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      -126.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      -72.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "age_category": "adult; exact age not provided by source release",
+  "anatomy_id": "colin27_2008_native12_1mm_v3",
+  "coordinate_frame": "colin27_talairach_ras_mm",
+  "final_voxel_size_mm": [
+    1.0,
+    1.0,
+    1.0
+  ],
+  "labels": [
+    {
+      "id": 0,
+      "name": "background_air"
+    },
+    {
+      "id": 1,
+      "name": "cerebrospinal_fluid"
+    },
+    {
+      "id": 2,
+      "name": "gray_matter"
+    },
+    {
+      "id": 3,
+      "name": "white_matter"
+    },
+    {
+      "id": 4,
+      "name": "fat"
+    },
+    {
+      "id": 5,
+      "name": "muscles"
+    },
+    {
+      "id": 6,
+      "name": "skin_and_muscles"
+    },
+    {
+      "id": 7,
+      "name": "skull"
+    },
+    {
+      "id": 9,
+      "name": "fat_2"
+    },
+    {
+      "id": 10,
+      "name": "dura"
+    },
+    {
+      "id": 11,
+      "name": "marrow"
+    },
+    {
+      "id": 12,
+      "name": "vessels"
+    }
+  ],
+  "license": "MNI Colin27 license; see inputs/anatomy/colin27_2008/LICENSE.txt",
+  "native_voxel_size_mm": [
+    0.5,
+    0.5,
+    0.5
+  ],
+  "orientation": "RAS; right-handed; affine maps voxel centers to millimeters",
+  "preprocessing": "scripts/derive_colin27_1mm.py; NIfTI-scaled class values rounded to nearest documented integer label, then 2x2x2 categorical block mode with declared tie priority [1,2,3,4,5,6,7,9,10,11,12,0]; soft tissues farther than 15 mm from CSF/GM/WM/skull/dura/marrow/vessels set to background; remaining nonzero components disconnected from the largest head component set to background; no tissue-label merging",
+  "qc_status": "accepted",
+  "resampling_method": "2x2x2 block mode for labels; ties resolved by declared priority with background last; 2x2x2 block mean for reference T1",
+  "shape_voxels": [
+    181,
+    217,
+    181
+  ],
+  "source_dataset": "MNI Colin27 high-resolution 2008 discrete phantom",
+  "source_url_or_doi": "https://packages.bic.mni.mcgill.ca/mni-models/colin27/mni_colin27_2008_nifti.zip",
+  "subject_identity": "average of repeated scans of one normal subject; identity, exact age, and sex not supplied in release metadata",
+  "synthetic_test_only": false,
+  "version": "native12_1mm_v3 derived from official 2008 NIfTI release",
+  "volume_representation": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/colin27_labels_native12_1mm_v3.nii"
+}

@@ -1,0 +1,19 @@
+{
+  "observations": [
+    "Tissue overlays align with the T1 anatomy across central and distributed sagittal, coronal, and axial slices.",
+    "Scalp and skull form visually continuous enclosing layers over the cranial vault in the reviewed slices.",
+    "Cortical gray matter, white matter, sulcal CSF, ventricular CSF, and posterior-fossa structures remain resolved at 1 mm.",
+    "Enclosed background regions correspond visually to expected nasal, sinus, orbital, and related air cavities and were not filled.",
+    "Outer and gray-matter first-hit projections are anatomically coherent after the 15-mm cranial envelope removed the superior wraparound or field-of-view artifact seen in rejected version 2.",
+    "No gross left-right flip, affine displacement, missing tissue class, collapsed CSF layer, or open cranial layer was observed."
+  ],
+  "review_date": "2026-08-13",
+  "reviewed_artifacts": {
+    "multislice_t1_labels.png": "66f0e9c4d36485ba0051fc6c631a14232865cd4a062d85d006558bcc8212b0c4",
+    "orthogonal_t1_labels.png": "46a8a3d533379fa89149622d13d09d045b35570fb24cfe27bae0cbfc5bfc1f68",
+    "surface_projections.png": "06f03aede1e1b1fa33f70deb3296b00fd2f91f024dc5ad1131ca2df642991fc3"
+  },
+  "reviewer": "Codex visual QC in project workspace",
+  "scope_boundary": "Visual anatomy acceptance does not validate optical properties, emitter registration, cortical ROI definitions, transport normalization, or clinical dosimetry.",
+  "status": "accepted"
+}

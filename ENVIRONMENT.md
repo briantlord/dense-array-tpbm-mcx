@@ -13,6 +13,9 @@ Recorded 2026-08-13 from the local smoke-test environment:
 | MCX-CL engine | v2025.10; official source commit `bf695e81e239359f92a8fdd845bcdcacc50a7c31`; local ARM64 build | GPLv3; built by `scripts/build_mcxcl.sh` |
 | MCX-CL executable | `.local/bin/mcxcl`; locally reported revision 5233733 | ignored machine artifact; SHA-256 recorded per completed run |
 | NumPy | 2.5.2 | SPDX expression recorded by package: BSD-3-Clause AND 0BSD AND MIT AND Zlib AND CC0-1.0 |
+| NiBabel | 5.4.2 | MIT; used for NIfTI header, affine, scaling, and label validation |
+| SciPy | 1.18.0 | BSD-3-Clause; used for anatomy connectivity and distance-envelope QC |
+| Pillow | 12.3.0 | HPND; used for deterministic anatomy QC renders |
 | jsonschema | 4.26.0 | MIT |
 | pytest | 9.1.1 | MIT |
 

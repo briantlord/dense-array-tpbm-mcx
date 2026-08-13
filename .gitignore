@@ -9,6 +9,14 @@ __pycache__/
 dist/
 build/
 
+# Reproducibly acquired anatomy binaries; retain manifests, checksums, and licenses.
+inputs/anatomy/**/*.zip
+inputs/anatomy/**/*.nii
+inputs/anatomy/**/*.nii.gz
+inputs/anatomy/**/*.mnc
+inputs/anatomy/colin27_2008/derived/native12_1mm_v1/
+inputs/anatomy/colin27_2008/derived/native12_1mm_v2/
+
 # Large simulation and analysis arrays; retain JSON manifests and summaries.
 runs/**/*.jnii
 runs/**/*.bnii

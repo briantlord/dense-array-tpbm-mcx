@@ -1,0 +1,54 @@
+{
+  "anatomy_id": "colin27_2008_native12_1mm_v3",
+  "code_revision_before_uncommitted_derivation_changes": "40b1aa3a6afa356e669bb4c7f1d65381b6192b0b",
+  "label_consolidation": "none",
+  "outputs": {
+    "labels": {
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/colin27_labels_native12_1mm_v3.nii",
+      "sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f"
+    },
+    "reference_t1": {
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/colin27_t1_1mm_v3.nii",
+      "sha256": "98568e9fbeaa2f065d7d48add0cbde0d71960626326baa1263527988f97c13e9"
+    },
+    "visual_qc": {
+      "multislice_t1_labels.png": "66f0e9c4d36485ba0051fc6c631a14232865cd4a062d85d006558bcc8212b0c4",
+      "orthogonal_t1_labels.png": "46a8a3d533379fa89149622d13d09d045b35570fb24cfe27bae0cbfc5bfc1f68",
+      "surface_projections.png": "06f03aede1e1b1fa33f70deb3296b00fd2f91f024dc5ad1131ca2df642991fc3"
+    }
+  },
+  "removed_disconnected_nonhead_voxels_by_original_label": {
+    "11": 8,
+    "6": 76,
+    "7": 21
+  },
+  "removed_outside_15mm_cranial_envelope_by_original_label": {
+    "4": 6438,
+    "5": 51986,
+    "6": 55106,
+    "9": 27680
+  },
+  "software": {
+    "nibabel": "5.4.2",
+    "numpy": "2.5.2",
+    "pillow": "12.3.0",
+    "scipy": "1.18.0"
+  },
+  "source_classification_sha256": "7b73fea370889c4833c45abe930526f3bb9a92aff2f83b42e8d8870dd93190f0",
+  "source_t1_sha256": "10b86cacc27ce5506061c4d638d65046d41a63d23efe5c334e70fe6d37972e7f",
+  "supersedes_rejected_derivation": "native12_1mm_v2; rejected after surface QC revealed a connected soft-tissue wraparound/field-of-view artifact superior to the cranial tissues",
+  "tie_priority": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    9,
+    10,
+    11,
+    12,
+    0
+  ]
+}
