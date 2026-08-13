@@ -7,10 +7,17 @@ import json
 from pathlib import Path
 from typing import Any
 
+from .basis import (
+    BasisExecutionError,
+    BasisPreparationError,
+    execute_basis_run,
+    prepare_basis_plan,
+)
 from .opencl import (
     engine_version,
     gpuinfo,
     package_version,
+    synthetic_field_from_config,
     synthetic_smoke_from_config,
 )
 from .preflight import preflight_manifest
@@ -39,6 +46,18 @@ def _parser() -> argparse.ArgumentParser:
     )
     preflight.add_argument("manifest", type=Path)
     preflight.add_argument("--project-root", type=Path, default=Path.cwd())
+
+    prepare = commands.add_parser(
+        "prepare-basis", help="generate immutable per-emitter configurations and manifests"
+    )
+    prepare.add_argument("plan", type=Path)
+    prepare.add_argument("--project-root", type=Path, default=Path.cwd())
+
+    execute = commands.add_parser(
+        "execute-basis", help="execute one prepared synthetic basis run atomically"
+    )
+    execute.add_argument("manifest", type=Path)
+    execute.add_argument("--project-root", type=Path, default=Path.cwd())
 
     commands.add_parser("probe-opencl", help="list PMCXCL OpenCL devices")
 
@@ -80,6 +99,20 @@ def main() -> int:
             )
             return 0
 
+        if arguments.command == "prepare-basis":
+            index = prepare_basis_plan(arguments.plan, arguments.project_root)
+            print(json.dumps(index, indent=2, sort_keys=True))
+            return 0
+
+        if arguments.command == "execute-basis":
+            status = execute_basis_run(
+                arguments.manifest,
+                arguments.project_root,
+                synthetic_field_from_config,
+            )
+            print(json.dumps({"status": status}, indent=2, sort_keys=True))
+            return 0
+
         if arguments.command == "probe-opencl":
             payload = {
                 "pmcxcl_version": package_version(),
@@ -101,7 +134,13 @@ def main() -> int:
             arguments.output.parent.mkdir(parents=True, exist_ok=True)
             arguments.output.write_text(rendered + "\n", encoding="utf-8")
         return 0
-    except (InputValidationError, RuntimeError, ValueError) as error:
+    except (
+        BasisExecutionError,
+        BasisPreparationError,
+        InputValidationError,
+        RuntimeError,
+        ValueError,
+    ) as error:
         print(f"error: {error}")
         return 2
 

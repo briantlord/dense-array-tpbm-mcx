@@ -103,10 +103,10 @@ Work in order. Do not mark scientific gates complete merely because the software
 
 ## P1 — MCX basis-field runner
 
-- [ ] Generate one immutable MCX configuration per emitter from validated inputs.
-- [ ] Implement deterministic run IDs and independent seed allocation.
-- [ ] Implement resumable batch execution without overwriting complete runs.
-- [ ] Save normalized output, manifest, log, and failure state atomically.
+- [x] Generate one immutable synthetic MCX configuration per emitter from validated inputs; production/anatomical generation remains gated.
+- [x] Implement deterministic run IDs and independent seed allocation.
+- [x] Implement resumable single-run execution without overwriting checksum-valid complete runs; batch scheduling remains pending.
+- [x] Save normalized output, manifest, execution record, and failure state atomically.
 - [ ] Verify a representative source in each head region visually.
 - [ ] Implement radiometric weighting without modifying raw basis fields.
 - [ ] Implement a streaming aggregator to avoid loading all approximately 288 volumes at once.

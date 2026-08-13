@@ -31,8 +31,10 @@ def gpuinfo() -> Any:
     return _module().gpuinfo()
 
 
-def synthetic_smoke_from_config(config_record: dict[str, Any]) -> dict[str, Any]:
-    """Run a validated homogeneous synthetic configuration through PMCXCL."""
+def synthetic_field_from_config(
+    config_record: dict[str, Any],
+) -> tuple[np.ndarray, dict[str, Any]]:
+    """Run a validated homogeneous configuration and return its field and summary."""
 
     pmcxcl = _module()
     volume = config_record["volume"]
@@ -78,7 +80,7 @@ def synthetic_smoke_from_config(config_record: dict[str, Any]) -> dict[str, Any]
     if maximum <= 0 or standard_deviation <= 0:
         raise RuntimeError("PMCXCL returned a nonpositive or spatially uniform flux volume")
 
-    return {
+    summary = {
         "backend": "pmcxcl",
         "backend_version": package_version(),
         "engine_version": engine_version(),
@@ -94,6 +96,14 @@ def synthetic_smoke_from_config(config_record: dict[str, Any]) -> dict[str, Any]
         "tiny_negative_voxels_clipped_for_summary": tiny_negative_count,
         "sum": float(np.sum(flux, dtype=np.float64)),
     }
+    return flux, summary
+
+
+def synthetic_smoke_from_config(config_record: dict[str, Any]) -> dict[str, Any]:
+    """Run a validated homogeneous configuration and return its compact summary."""
+
+    _, summary = synthetic_field_from_config(config_record)
+    return summary
 
 
 def synthetic_smoke(*, photons: int = 100_000, seed: int = 1_648_335_518) -> dict[str, Any]:
