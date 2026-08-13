@@ -4,7 +4,7 @@
   "scientific_status": "synthetic_test_only",
   "scenario_id": "synthetic_test_only_v1",
   "created_at": "2026-08-13T19:00:00Z",
-  "code_revision": "ef6eb84cba6d3272e66934577940586c80b64059",
+  "code_revision": "2f1ebe6efc9fb4eddf1766efd7fc254a98350ea2",
   "code_dirty": false,
   "engine_binding": "mcxcl_cli",
   "engine_version": "v2025.10",

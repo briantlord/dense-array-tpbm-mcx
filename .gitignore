@@ -11,6 +11,7 @@ dist/
 build/
 
 # Reproducibly acquired anatomy binaries; retain manifests, checksums, and licenses.
+references/papers/*.pdf
 inputs/anatomy/**/*.zip
 inputs/anatomy/**/*.nii
 inputs/anatomy/**/*.nii.gz
