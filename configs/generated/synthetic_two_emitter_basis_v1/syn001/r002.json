@@ -1,0 +1,50 @@
+{
+  "configuration_id": "synthetic_two_emitter_basis_v1__syn001__r002",
+  "isnormalize": 1,
+  "nphoton": 100000,
+  "outputtype": "flux",
+  "properties_mm": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.005,
+      1.0,
+      0.01,
+      1.37
+    ]
+  ],
+  "seed": 707391819,
+  "source": {
+    "direction": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "emitter_id": "SYN001",
+    "position_voxels": [
+      30.0,
+      30.0,
+      0.0
+    ],
+    "type": "pencil"
+  },
+  "synthetic_test_only": true,
+  "time_gates_s": {
+    "end": 5e-09,
+    "start": 0.0,
+    "step": 5e-09
+  },
+  "volume": {
+    "generator": "homogeneous_cube",
+    "label": 1,
+    "shape_voxels": [
+      60,
+      60,
+      60
+    ]
+  }
+}
