@@ -173,10 +173,17 @@ def _validate_cross_artifact_semantics(
     optical_labels = [row["tissue_id"] for row in optical["tissues"]]
     if anatomy_labels != optical_labels:
         raise InputValidationError("anatomy and optical-table tissue IDs do not match in order")
-    expected_properties = [
-        [row["mua_mm-1"], row["mus_mm-1"], row["g"], row["n"]]
-        for row in optical["tissues"]
-    ]
+    expected_properties = []
+    for row in optical["tissues"]:
+        # MCX reserves medium 0 as the background row and documents it as
+        # [0, 0, 1, 1]. The scientific optical table still stores the physical
+        # background/air value; this engine-only sentinel is applied here.
+        if row["tissue_id"] == 0:
+            expected_properties.append([0.0, 0.0, 1.0, 1.0])
+        else:
+            expected_properties.append(
+                [row["mua_mm-1"], row["mus_mm-1"], row["g"], row["n"]]
+            )
     if not np.allclose(
         np.asarray(engine_config["properties_mm"], dtype=np.float64),
         np.asarray(expected_properties, dtype=np.float64),

@@ -27,7 +27,7 @@
     "build": "revision dc0f3e; OpenCL build 2026-05-01",
     "gpu": "Apple M4 Pro",
     "runtime": "Apple OpenCL on macOS 26.5 arm64",
-    "configuration_sha256": "e5eaccdcab1acafc3a5865f433f7cf6d44741f771bc36df2e4c0342acf6c19ef"
+    "configuration_sha256": "64aa83659b87109ccf23b98dbce666092e5dd17c10f71db20eec61542a64725c"
   },
   "execution": {
     "photon_count": 100000,
@@ -75,7 +75,7 @@
       "artifact_id": "synthetic_smoke_opencl_v1", "id_field": "configuration_id",
       "path": "configs/synthetic_smoke_opencl_v1.json",
       "schema_path": "schemas/engine_configuration.schema.json",
-      "sha256": "e5eaccdcab1acafc3a5865f433f7cf6d44741f771bc36df2e4c0342acf6c19ef"
+      "sha256": "64aa83659b87109ccf23b98dbce666092e5dd17c10f71db20eec61542a64725c"
     },
     "analysis_configuration": {
       "artifact_id": "synthetic_analysis_v1", "id_field": "analysis_id",

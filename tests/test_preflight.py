@@ -42,3 +42,24 @@ def test_emitter_semantics_reject_duplicate_ids_and_nonunit_normals() -> None:
     geometry["emitters"][0]["normal"] = [0.0, 0.0, 2.0]
     with pytest.raises(InputValidationError, match="normal has norm"):
         validate_emitter_semantics(geometry)
+
+
+def test_preflight_requires_mcx_reserved_background_row(tmp_path: Path) -> None:
+    for directory in ("schemas", "inputs", "configs", "runs"):
+        shutil.copytree(ROOT / directory, tmp_path / directory)
+    config = tmp_path / "configs/synthetic_smoke_opencl_v1.json"
+    value = load_json(config)
+    value["properties_mm"][0] = [0.0, 0.0, 0.0, 1.0]
+    config.write_text(json.dumps(value), encoding="utf-8")
+
+    manifest = tmp_path / "runs/synthetic_smoke_m4pro/manifest.json"
+    manifest_value = load_json(manifest)
+    from mcx_project.hashing import sha256_file
+
+    changed_hash = sha256_file(config)
+    manifest_value["inputs"]["engine_configuration"]["sha256"] = changed_hash
+    manifest_value["engine"]["configuration_sha256"] = changed_hash
+    manifest.write_text(json.dumps(manifest_value), encoding="utf-8")
+
+    with pytest.raises(InputValidationError, match="engine optical properties"):
+        preflight_manifest(manifest, tmp_path)
