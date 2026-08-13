@@ -1,0 +1,36 @@
+[build-system]
+requires = ["hatchling>=1.27,<2"]
+build-backend = "hatchling.build"
+
+[project]
+name = "mcx-project"
+version = "0.1.0"
+description = "Provenance-gated dense-array transcranial photon-transport workflow"
+readme = "README.md"
+requires-python = ">=3.13,<3.14"
+dependencies = [
+  "jsonschema>=4.23,<5",
+  "numpy>=2.1,<3",
+]
+
+[project.optional-dependencies]
+opencl = [
+  "pmcxcl @ https://files.pythonhosted.org/packages/7c/87/195e1fde3deccb6373e35e9f196d4d59384f3fcb5c1d287e4429f4b39b95/pmcxcl-0.7.1-cp313-cp313-macosx_14_0_universal2.whl",
+]
+cuda = ["pmcx==0.7.1"]
+
+[dependency-groups]
+dev = ["pytest>=8,<10"]
+
+[project.scripts]
+mcx-project = "mcx_project.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/mcx_project"]
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.pytest.ini_options]
+addopts = "-ra"
+testpaths = ["tests"]

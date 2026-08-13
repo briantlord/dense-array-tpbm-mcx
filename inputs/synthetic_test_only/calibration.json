@@ -1,0 +1,11 @@
+{
+  "calibration_id": "synthetic_calibration_v1",
+  "synthetic_test_only": true,
+  "instrument": "none; programmatic fixture",
+  "date": "2026-08-13",
+  "records": [
+    {"emitter_id": "SYN001", "wavelength_peak_nm": 999.0, "optical_power_cw_W": 1.0, "power_uncertainty_W": 0.0},
+    {"emitter_id": "SYN002", "wavelength_peak_nm": 999.0, "optical_power_cw_W": 1.0, "power_uncertainty_W": 0.0}
+  ],
+  "provenance": "synthetic_test_only; not a measurement"
+}

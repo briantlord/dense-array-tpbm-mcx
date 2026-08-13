@@ -1,0 +1,49 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mcx-project/emitter_geometry.schema.json",
+  "title": "Emitter geometry",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["geometry_id", "dataset_id", "synthetic_test_only", "helmet_model", "geometry_version", "coordinate_frame", "position_unit", "expected_emitter_count", "emitters"],
+  "properties": {
+    "geometry_id": {"type": "string", "minLength": 1},
+    "dataset_id": {"type": "string", "minLength": 1},
+    "synthetic_test_only": {"type": "boolean"},
+    "helmet_model": {"type": "string", "minLength": 1},
+    "geometry_version": {"type": "string", "minLength": 1},
+    "coordinate_frame": {"type": "string", "minLength": 1},
+    "position_unit": {"const": "mm"},
+    "expected_emitter_count": {"type": "integer", "minimum": 1},
+    "emitters": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["emitter_id", "group_id", "enabled", "wavelength_peak_nm", "spectral_fwhm_nm", "position_mm", "normal", "source_type", "emitting_area_mm2", "beam_parameter_kind", "beam_parameter_value", "optical_power_cw_W", "power_uncertainty_W", "duty_cycle", "pulse_frequency_Hz", "phase_group", "standoff_mm", "coupling_factor", "calibration_id", "provenance"],
+        "properties": {
+          "emitter_id": {"type": "string", "minLength": 1},
+          "group_id": {"type": "string", "minLength": 1},
+          "enabled": {"type": "boolean"},
+          "wavelength_peak_nm": {"type": "number", "exclusiveMinimum": 0},
+          "spectral_fwhm_nm": {"type": "number", "exclusiveMinimum": 0},
+          "position_mm": {"$ref": "#/$defs/vector"},
+          "normal": {"$ref": "#/$defs/vector"},
+          "source_type": {"enum": ["pencil", "disk", "gaussian", "pattern"]},
+          "emitting_area_mm2": {"type": "number", "exclusiveMinimum": 0},
+          "beam_parameter_kind": {"enum": ["fwhm_angle_deg", "half_power_angle_deg", "fitted_profile", "synthetic_test"]},
+          "beam_parameter_value": {"anyOf": [{"type": "number", "minimum": 0}, {"type": "string", "minLength": 1}]},
+          "optical_power_cw_W": {"type": "number", "minimum": 0},
+          "power_uncertainty_W": {"type": "number", "minimum": 0},
+          "duty_cycle": {"type": "number", "minimum": 0, "maximum": 1},
+          "pulse_frequency_Hz": {"type": "number", "minimum": 0},
+          "phase_group": {"type": "string", "minLength": 1},
+          "standoff_mm": {"type": "number", "minimum": 0},
+          "coupling_factor": {"type": "number", "minimum": 0, "maximum": 1},
+          "calibration_id": {"type": "string", "minLength": 1},
+          "provenance": {"type": "string", "minLength": 1},
+          "duplicate_position_justification": {"type": "string", "minLength": 1}
+        }
+      }
+    }
+  },
+  "$defs": {"vector": {"type": "array", "prefixItems": [{"type": "number"}, {"type": "number"}, {"type": "number"}], "items": false}}
+}

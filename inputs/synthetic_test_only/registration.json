@@ -1,0 +1,14 @@
+{
+  "registration_id": "synthetic_identity_registration_v1",
+  "synthetic_test_only": true,
+  "transform_name": "T_synthetic_head_mm_from_synthetic_helmet_mm",
+  "source_frame": "synthetic_helmet_mm",
+  "target_frame": "synthetic_head_mm",
+  "units": "mm",
+  "method": "synthetic identity transform",
+  "matrix_4x4": [[1.0, 0.0, 0.0, 0.0], [0.0, 1.0, 0.0, 0.0], [0.0, 0.0, 1.0, 0.0], [0.0, 0.0, 0.0, 1.0]],
+  "landmark_residual_mm": 0.0,
+  "ray_hit_fraction": 1.0,
+  "accepted": true,
+  "provenance": "synthetic_test_only"
+}

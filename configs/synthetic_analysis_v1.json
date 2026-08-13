@@ -1,0 +1,8 @@
+{
+  "analysis_id": "synthetic_analysis_v1",
+  "synthetic_test_only": true,
+  "ratio_absolute_threshold": 1e-12,
+  "sum_dtype": "float64",
+  "roi_methods": ["field_first", "metric_first"],
+  "metrics": ["ef_dom", "ef_ref", "ncf", "n_eff"]
+}
