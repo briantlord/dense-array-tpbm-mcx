@@ -1,0 +1,49 @@
+{
+  "version": 1,
+  "protected_token_sha256": [
+    "dbae3e1989fa0002a364ada2cdf915b963cb47c031b4b977664da9ecd10d29ab",
+    "be1022a7bb2ff908349087b1718f2101ceb0533376741d356fb0d8c7c3a254b4",
+    "61c6ec85b32e947fe096b95f4cf440f15a132f38d8922f46162ead1f760b9874"
+  ],
+  "approved_contact_email_sha256": [
+    "a53bdd4a4f175b5cdbc7e092de8869c92889e5cec73ea083f1991f47f4690547"
+  ],
+  "approved_binary_sha256": {
+    "benchmarks/yue2015_approx_v1/convergence_paperscale_m4_v1/axis_profiles.png": "744d6ec40df55badfa53afa8f744d216d4255c513ccef69efd3e84b8f480f769",
+    "benchmarks/yue2015_approx_v1/convergence_paperscale_m4_v2/axis_profiles.png": "055cdb8c618cc297bc2021f49227c340e129181850c62466a076c10c533c2411",
+    "benchmarks/yue2015_approx_v1/convergence_pilot_m4_v1/axis_profiles.png": "159d93cb7bda88dc627b7e15298fdb6952de8b17e6553fc1f6635269e6143be8",
+    "benchmarks/yue2015_approx_v1/convergence_representative_m4_v1/axis_profiles.png": "2b141babaadf63bced5e0835b1269f9af59408310f2e89cb2b08eba5de35ebcc",
+    "benchmarks/yue2015_approx_v1/multisource_1e8_v2/north_reference_source_enhancement.png": "ab2be78c1ef45f3f983b664e47ca0879bca2be43a3ff3b69126603fb588db441",
+    "benchmarks/yue2015_approx_v1/multisource_1e8_v2/north_single_vs_total_depth_curves.png": "c1acfce753d055efe69cff81971c58e11e2e27f82ea72e4cbe07e56f90a81f1a",
+    "benchmarks/yue2015_approx_v1/multisource_1e8_v2/north_total_field_depth_curves.png": "1db8bc2ba63f9279c16bc307a330db9370421348c8c2102f22e2195a94022eae",
+    "benchmarks/yue2015_approx_v1/multisource_1e8_v2/regional_total_field_depth_curves.png": "4412db8cdaa20e3c57b114e8d71c5018a6b2c24ab479d44709901a9f5eca5e77",
+    "benchmarks/yue2015_approx_v1/multisource_1e8_v2/single_source_depth_curves.png": "1a3931f880024f997a129c3eddbba0772d706f717259ed11ea1c0db3a5037b65",
+    "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/qc/multislice_t1_labels.png": "66f0e9c4d36485ba0051fc6c631a14232865cd4a062d85d006558bcc8212b0c4",
+    "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/qc/orthogonal_t1_labels.png": "46a8a3d533379fa89149622d13d09d045b35570fb24cfe27bae0cbfc5bfc1f68",
+    "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/qc/surface_projections.png": "06f03aede1e1b1fa33f70deb3296b00fd2f91f024dc5ad1131ca2df642991fc3",
+    "inputs/anatomy/colin27_2008/derived/yue5_1mm_v1/yue5_labels_orthogonal.png": "41594727ce8a9117359273ab8c2eeb9588464ba9ae750098b1ee82feb0736513",
+    "inputs/emitters/yue2015_approx_v1/source_layout_qc.png": "16edb77fab732563443c4ce1743252ec5ea729d15b20424b17a4a48c98cda9fc",
+    "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f",
+    "references/data/kothuri_2025/Data.zip": "72660c70a8e9b957521a3b92adc69dfe45212d029a88d69f58e87c867f456f1a",
+    "results/corrected_1070_overlap_20260904_v1/gray_white_matter_metric_distributions.png": "e9f93aa895bad52eb467a7b8cce68aad2a408e714ec6d4e1b6f5be16bc387f3e",
+    "results/corrected_1070_overlap_20260904_v1/gray_white_matter_overlap_slices.png": "cd9a4b136a246fd8b993c63b8b4aab633932c6022b8c50345a6960a30970c7b7",
+    "results/corrected_1070_overlap_20260904_v1/representative_five_region_field_qc.png": "103369a143f129e89baff122e8a335f979e9e1eaf8abd35e9aea27051af6822a",
+    "results/corrected_1070_overlap_20260904_v1/roi_top_contributors.png": "6887dd6c79f46c3cd9ff1254d02ab82c4c69a8ee33ede4467baeb30b9c11c8d9",
+    "results/corrected_1070_overlap_20260904_v1/total_fluence_absorbed_energy_slices.png": "06586a6cd9ab6978279d5022a5e067aad093740f155d39a47652eb66a8d46d73",
+    "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/cortical_white_matter_metric_distributions.png": "86d7e79c0cd1d38619ef24c2833be5ffadb61a00e5ddc09c9dac23fde7371c29",
+    "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/cortical_white_matter_overlap_slices.png": "560af8daf0db3ca5f4ffea9db1200461f9a96dfc48133215f9201c94942965cf",
+    "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/representative_five_region_field_qc.png": "63cc0cf376a64286db8b1e37c58a1d87e58c899b02af10191809c3042d9d30ec",
+    "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/roi_top_contributors.png": "ed136aba5515ee16816960a3bee00364fb3ca9469ed732ffbf051ebbd61bc7ed",
+    "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/total_fluence_absorbed_energy_slices.png": "b010d0bf4a28412b8555ca87976e79a7e9d6c713015f56530d8018980a50aed4",
+    "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/absorbed_energy_density_ratio_slices.png": "ddb51c4861e2112e42e35b6b7182c386502ad367cec843b058341b8c8431c4f4",
+    "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/absorbed_energy_density_slices.png": "1d33dbeb7a6575f9b17ebf08e33c6c4b3c3b785b1212ec544ac7cbe0efa2a310",
+    "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/depth_profiles.png": "2ec49d8f105c9d9a2a07ca29c862354ca07d6abf8eae3649c2af2e855b203115",
+    "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/absorbed_energy_density_slices.png": "1d33dbeb7a6575f9b17ebf08e33c6c4b3c3b785b1212ec544ac7cbe0efa2a310",
+    "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/depth_profiles.png": "ea4b9cebf2396cbe0751a9f172c5425e6e59112132857587336e49fff4d6400e",
+    "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/cortical_white_matter_metric_distributions.png": "d6e98c94487e843530bbfea53e9f574b967bc86de28f34e0dda9f90c41c49ef0",
+    "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/cortical_white_matter_overlap_slices.png": "4a63ac962570bf8e0964ec130804e3d8e64be3fea0b84fc2477a8711a7cf681c",
+    "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/representative_five_region_field_qc.png": "7c6945a1f6043619a23c3e12f8112da2cdf67b9f44545d7409451eb162cd8ce8",
+    "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/roi_top_contributors.png": "a34c597d6de45af0f97e51a233aa1ae5979c33dad69df685e25b82fcb8a91dde",
+    "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/total_fluence_absorbed_energy_slices.png": "467b9c9994168571e89d24077e37cbdf928a9142ffe2462f3f20c5b1c4a8682e"
+  }
+}

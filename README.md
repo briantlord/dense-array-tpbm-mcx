@@ -49,6 +49,22 @@ These commands work in a shell or PowerShell and use `.venv` by default. If you 
 
 The [GitHub Actions workflow](.github/workflows/software.yml) runs the same portable checks. The complete local suite additionally checks research artifacts that may be absent from a clone; run `uv run --frozen pytest -q` after restoring its required data.
 
+## Publication privacy
+
+Personal directory prefixes have been removed from published records, and published commit identities use GitHub no-reply addresses. Numerical results are unchanged. The [redaction record](provenance/publication_redactions_20260905.json) lists original and public file digests; original provenance hashes still refer to the preserved research originals.
+
+Before contributing, configure your GitHub-provided no-reply email and enable the checked-in push hook:
+
+```sh
+git config user.email YOUR_GITHUB_NOREPLY_ADDRESS
+git config core.hooksPath .githooks
+uv run --frozen python scripts/check_publication.py --ref HEAD --history
+```
+
+The hook checks outgoing branch history for personal paths, unapproved emails, credential patterns, excluded documents, and unreviewed image/binary assets. CI repeats the check. After staging changes, run `uv run --frozen python scripts/check_publication.py` to check the staged files. New binary assets require a deliberate review and an update to the [publication policy](provenance/publication_policy.json).
+
+The September 2026 privacy cleanup rewrote public history. Existing clones must be replaced or carefully reconciled before contributing; old branches must not be merged back. See [publication notes](provenance/GITHUB_SYNC.md).
+
 ## Reproduce analyses or launch new simulations
 
 1. Select a versioned scenario from [CURRENT_STATE.md](CURRENT_STATE.md). Do not substitute historical defaults for a current comparison.

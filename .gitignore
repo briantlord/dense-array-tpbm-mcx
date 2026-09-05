@@ -5,6 +5,9 @@
 .pytest_cache/
 .ruff_cache/
 tmp/
+private/
+*_helmet_info/
+inputs/emitters/*288*/
 __pycache__/
 *.py[cod]
 *.egg-info/

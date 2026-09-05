@@ -1,0 +1,281 @@
+{
+  "purpose": "Path-only publication redactions; original scientific provenance hashes remain references to private originals.",
+  "files": [
+    {
+      "path": "benchmarks/yue2015_approx_v1/convergence_paperscale_m4_v1/results.json",
+      "original_sha256": "5fa724b197cbd1161f908c610c01994f2be42aad0301257efa4fe2b58f3d00f9",
+      "public_sha256": "76c0eaee624496ac0e8d914ba522b59e3129c9f85010a2c93cf3fcc2168b1961",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "benchmarks/yue2015_approx_v1/convergence_paperscale_m4_v2/results.json",
+      "original_sha256": "c44e014c2c8eb5cb134f0eb228cc2aebc0fe5adf1d25afe5987f44397dfd5445",
+      "public_sha256": "25bad9b71e14855e3b0e58e40326bde623250e97967ca6044ce3ec1d7678ddf0",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "benchmarks/yue2015_approx_v1/convergence_pilot_m4_v1/results.json",
+      "original_sha256": "f7b61a75cbe5fb35569dd831bcb9b13cb918efe3e10a598c654eae9c462cc8f9",
+      "public_sha256": "187b27854716cbddf1cdb68b130677c157b7dbcc22e531a33c7fdacdeda2a132",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "benchmarks/yue2015_approx_v1/convergence_representative_m4_v1/results.json",
+      "original_sha256": "18ff7997b0688b5e429e5807038121bfbc59f9fd44564cecdbe784dec45a2c5c",
+      "public_sha256": "1e9e68f3ca5dd5a6bdf89bffa8bb5ce9bd04bc44ae80b2297c1a7e73b276045a",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "environment/windows_rtx3080ti_opencl_v1.json",
+      "original_sha256": "71f4e80f73b9a93c34c7ac692bb3ec581f52d45002ee93096b611249e3d7b30a",
+      "public_sha256": "ce4f184af9a17a3f437b3b6bf10ea4ef44c37166ede4177a8f878be51536fd7e",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_intracranial_bypass_audit_v1/result.json",
+      "original_sha256": "ce38b155044d76c33911cd2889769c7a69b517d2fc058ee7e685b684b74b110e",
+      "public_sha256": "a6c59e58b86353de76bda036e03acc9404dcca33cc5b503326777ee2ca61711d",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_penetration_tallies_pilot_intracranial_mua100_v1/result.json",
+      "original_sha256": "a0f2a24d956bd06bd1b6c62dd959e9f13725e094ab1809638f8084fbf7009db2",
+      "public_sha256": "501cdcb18645c5c1809c16e6c23ffe1bdf5ba916db562237b569ed5e33260867",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_penetration_tallies_pilot_intracranial_v1/result.json",
+      "original_sha256": "4961640f605c7894423b8350e8109131aadbd20f102356f1d542039939069060",
+      "public_sha256": "933360a55b330f879a0d19497008aea59466aa2f5f91b452b140448665210f27",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_penetration_tallies_pilot_v1/result.json",
+      "original_sha256": "3dd5a5db4a1e58ad7c9c0ec13f7133a3b172930a551b63e6cfae4911e0b8eb23",
+      "public_sha256": "2bb157a4e1e39ec5c9563cfc424f2f9e36045828ca7c4975e1b4a831a124cbbc",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_penetration_tallies_v1/result.json",
+      "original_sha256": "79b99d4131da400358f3e2c043b4a40d724268ec0716eaaa02956bc62f8149a5",
+      "public_sha256": "04ef86943ff6f2b0c14fc1e54eea53684c7468e3e58eeba707f4559b2fff0675",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_water_brain_csf_v1/result.json",
+      "original_sha256": "1618f430fe13233c223473c7aea6cdeb6c4a8afbcaf078ef62a83d1b393a9c34",
+      "public_sha256": "4ce607252f8b29bb7250f9a756957d769387ed3c3185c1fd7bd498c718c9585d",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_water_whole_head_v1/result.json",
+      "original_sha256": "5ffe4f507c639a46fcdf8f4126d88a4395e8b9d76957cb2072634175d22f7d36",
+      "public_sha256": "abebcc9190a685b93b0c65e2e4623d5b20ab7366619fb21b3845c550c208d621",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_v1/regional_convergence_v1/results.json",
+      "original_sha256": "e88dc1634d46646e5c2c2b99237baa82ab16a0dcabeacd22a22b88f991e7c033",
+      "public_sha256": "959dd3139ea7d058ddeb12fe18abd1f967e49776afe16a31a1404ba63d8ce205",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_1070_v1/regional_convergence_v2/results.json",
+      "original_sha256": "637d3daaa4fbbf8fe6009dea23dec1b4bd57b424699eb48ad52973d3dfb55db4",
+      "public_sha256": "faeacba491d01da434abdfc00fa1f3a11eb00e2fe129d7d8c9b8501fa228c436",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_dura_marrow_refined_pilot_v2/result.json",
+      "original_sha256": "1116a62bef791f575da7798f8765677a7f8613509f8f8daef0d81d04f9358c96",
+      "public_sha256": "0d382423bf0a93d9add10e783c92a472c7f60d7cce87f7c52302af57d74f1a67",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_dura_marrow_refined_v2/result.json",
+      "original_sha256": "5b48874407aea05ddd7a9f38d42173a204d4cfa4b2b510a6a22a13bbf612a687",
+      "public_sha256": "49dd61d3119b82f405b765362af4a6915cb8a1b7b161602523d4c4b5579685e3",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_dura_skull_like_v2/result.json",
+      "original_sha256": "e7dffebe05f9f4c5ab1174352732d6629ac691e89e0df78fcf5fb13c0648d061",
+      "public_sha256": "93747f7d7c27ff5481e0dc7233c22c8b9bc835711ac93426c5114d3255d43b7f",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_marrow_skull_like_v2/result.json",
+      "original_sha256": "fe53db9c65980e24669db0eedfabb716cef2cc5d7810118e67b0829a48a9390c",
+      "public_sha256": "c0d1477ba6307edfeeb9e44c1ffbd80109d4e1df158b4061294a67d56ebc20df",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_marrow_trabecular_v2/result.json",
+      "original_sha256": "72f5ee84884d5988625fb836369f4a1899eef65aaf2329bbb20564e945e2d6b1",
+      "public_sha256": "9746b187106040e7e5bcdd142a964a110f1b56a24c4af5b3c39766bc2aba4878",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_skull_cassano_v1/result.json",
+      "original_sha256": "73f1ba15bc031fbee71e1b9c82a73a15563be6d28914023815da447dee3168a9",
+      "public_sha256": "b69277650baf498ea92c617650777640c4856a7c644bacdac9379092d617054e",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_skull_in_vivo_pilot_v1/result.json",
+      "original_sha256": "bbddf8932e49f478211e9160fd82ffae2639faae73dce5c1d3c485eecb967497",
+      "public_sha256": "ddebffdc65e65e4dd2b9fd85e69c62238f186ff012a336b45650a0bcf4e79d11",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_skull_in_vivo_v1/result.json",
+      "original_sha256": "192153f21d936310ee5cf0ad3f3da4b15f575d14b8d554dd9f3a8cf42091c91b",
+      "public_sha256": "6a0c56c64309de9ab3ef0a639f9c217f6ebe0ce04e3a7dfa7967280def9ac087",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/surrogate_yue277_810_targeted_skull_pitzschke_v1/result.json",
+      "original_sha256": "27f1407d6c5100979db22d02fdee6acc4bc9d394403a83b396670e119716b292",
+      "public_sha256": "0400c29c6e1d13c063d3c4fb71acea7701dca87543398c25997d9f11aaf2f94a",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_extended_r1/result.json",
+      "original_sha256": "8e6ee1cb661af6e21f92608c4d14933ea68a8b1cf92bc801d1cc7ca53329ff6c",
+      "public_sha256": "2c136673969065b0cf257a1f84cbd3ea1da4580f94980e29991c23cc07a7f00e",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_extended_r2/result.json",
+      "original_sha256": "679453887232cb7762c5b2ad80ff73d9ed376c2589cc7146be98dc95518d2587",
+      "public_sha256": "6ae854f8097c36127289dfffe4353107ccf379974ebe90ae9bdd8f3dee99a49f",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_extended_r3/result.json",
+      "original_sha256": "0d56d908bb78fa3db01470786aa924e07cf41ca529eea463735f47642cf561b5",
+      "public_sha256": "1f39a7ef2647e4aa3e377a0fed0e392156af84bf72ca8872b12fc894fab1fdd7",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_high_r1/result.json",
+      "original_sha256": "40f3741e7edb6f2d2f818b8b880df3f9241987f53ad0f95e5e10826428dd367a",
+      "public_sha256": "340aa5312465a99ac17cf2e2981affcf4cb414edde300b8bed7d7c8774173295",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_high_r2/result.json",
+      "original_sha256": "1e96aaa205df2fc9ab545923cc989cf75a7e0b92194b7d9453703a19d792bf2b",
+      "public_sha256": "27318c898c7560bcfa58e936146e83bceb66ca142a35cbdf2aff4fecfd2bf912",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_high_r3/result.json",
+      "original_sha256": "14bd1fb0e8f396ac70ed826d1493c5f80bf9846248fd3b7155fa4c3a3974f68e",
+      "public_sha256": "ec20bfcf23eec158d79529840d11cc385c3eae5fb2aa3a6d078d1f92f1cab9a4",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_low_r1/result.json",
+      "original_sha256": "dc723a74c1ff2f19ca9abf5723d1f8d68c4c93481facddfdba2fd7fdea15f125",
+      "public_sha256": "fdf07608be13aebac92eb81f831900497397203b3950283880b450c88c59dfc2",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_low_r2/result.json",
+      "original_sha256": "edc1e332a1b8d89dca2c90504df6cd832f4bddb4e548952d62675e22f2377d7a",
+      "public_sha256": "eff1b2bb6ec9a498e146dba657c7a46b6ac18b0485fbf961e62ed1198546b603",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_low_r3/result.json",
+      "original_sha256": "2ec08db243f8f85aac5c72b89ddb7d48461c3eb8679b20784b498fa24b60abed",
+      "public_sha256": "08d633276770474ae0abeb2470f7a660178ac8343df4ec096852aef8e011ed4f",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_extended_r1/result.json",
+      "original_sha256": "b2531a107c2c21ae62c6ad28f72004449e1fc423d734bfe46892d94fe8099171",
+      "public_sha256": "6100df3efb72a1d42b0a79c67c84fd289dade9cbdac1df2420ed95dd1ad31bf4",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_extended_r2/result.json",
+      "original_sha256": "3cc6933f906dc2cacd9617ca3ec48c6345d221eab0d90b843e04b92c90a4167a",
+      "public_sha256": "c872636f80603382858100e0a128be40846eee575e8ec415568913fc4d93520e",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_extended_r3/result.json",
+      "original_sha256": "d28a682c9a8396e0002e93f3e00cd31dd8a257a482f9d29675a8a275ca0d94c2",
+      "public_sha256": "5585faea2bba89f60a4ccd3dab5e9e9ce2dac6e54aeeb861588c2a8becfe6fc0",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_high_r1/result.json",
+      "original_sha256": "991af8e812c1725c57d0d0ca9316ab79d03e47d29ec8a551711ec208932d7860",
+      "public_sha256": "3773b7809d8d5940554528db0ceb8b13e3b3812d2cb3ff2aaea543a983051a5b",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_high_r2/result.json",
+      "original_sha256": "3830527c691d3f894e2f984bf4abb332e7ac182863927bc0b83e186432e03e3a",
+      "public_sha256": "9bf8a1da6be2133fd2a55ac72b4d82d0cad9f99f2fe8076785148a029b7c38a6",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_high_r3/result.json",
+      "original_sha256": "89ae4fa0adf2dae6c14198c05a16679ed62656eec13f54cc22a351cd4fb3a245",
+      "public_sha256": "166bab054c97fd16e5899056ad6761d1f2768fdc08de8ca7165480ea2d81a19e",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_low_r1/result.json",
+      "original_sha256": "7dfe888974df62b63bccf65b9c429fea62a0e2a874a275c8a0bee3a17d2c27b6",
+      "public_sha256": "a4936630d70fbb2de72b53edf1f0c1625f1d4625a3d482be729183d3805a3f9c",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_low_r2/result.json",
+      "original_sha256": "e08b8cceb58d3b02344cb04efbec7cf564a063eee208e342d978308845ba964f",
+      "public_sha256": "cc710149cd79b5d82faba37010e0d01572e9b471c422c4eae4ae76233de5e5f6",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm810_low_r3/result.json",
+      "original_sha256": "a81614865b1c3a26b73212040d99d21b6065a210cab3db783a1c555c198ca422",
+      "public_sha256": "a2d7a1c7d0824c40d24e0649ca3e7cb569f7a214f302b92df148477f0cbd3846",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "reviews/PROJECT_REVIEW_2026-09-04.md",
+      "original_sha256": "882f5175db32ea010b0fda03901ef339f18d428849d73fa2fcce2438efcb48a2",
+      "public_sha256": "9331142ac9930c10891d4a049f18622d894be2d06c309435e821941998d8a678",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/sur1070_075/r001/failure.json",
+      "original_sha256": "fad8da2b5f6f1d4db87185283b0ecce461072fd54883328cd39d686ed36187cc",
+      "public_sha256": "c37efde935731e9422edc16dff2b8a8c5970db48f49bb684c2300e0f8cee8567",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1/sur1070_021/r001/preexecution_sync_failure.json",
+      "original_sha256": "9c52d699ea7e5bae4c1d41ac71a073251b3cea2317c8b8b51d352de6c29f36e3",
+      "public_sha256": "4f9e86188b0607d4615427b4781d926fedc6cfef549b6e50a6393c5e0cc98183",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1/sur1070_043/r001/failure.json",
+      "original_sha256": "214aaf558d63f72847c05810dac9ccf44e59b15813ac1f897749ee6d9db11ab1",
+      "public_sha256": "68701bbd4ae70b1e7227f619830d3b63d5a9a5ae812391935bd25f5c5b616b59",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1/sur1070_267/r001/preexecution_sync_failure.json",
+      "original_sha256": "7150093a91e364c3aa637956d0560c4108c5dd2c8d6d7aa575b0e71dd15c7a9f",
+      "public_sha256": "bd76dc370fde662c13784199c4d2d496c4c1ed034776d4e8b09a053a3adbff42",
+      "transformation": "Remove personal directory prefix; use relative paths and repository links."
+    }
+  ]
+}

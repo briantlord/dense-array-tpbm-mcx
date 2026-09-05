@@ -9,6 +9,7 @@ TEST_MODULES = (
     "metrics", "optics", "aggregation", "standalone", "execution_guards",
     "uncertainty", "targeted_tally_optical_override", "basis", "preflight",
     "artifact_restore", "analysis_configuration", "regional_reporting",
+    "publication_privacy",
 )
 
 

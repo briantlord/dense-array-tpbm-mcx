@@ -5,6 +5,8 @@ jobs:
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: '3.13'
@@ -14,3 +16,5 @@ jobs:
         run: uv sync --frozen --group dev
       - name: Run portable software checks
         run: uv run --frozen python scripts/check_software.py
+      - name: Check publication privacy and history
+        run: uv run --frozen python scripts/check_publication.py --ref HEAD --history
