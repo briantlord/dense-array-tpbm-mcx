@@ -1,0 +1,23 @@
+{
+  "engine": {
+    "absorbed_energy_percent": 63.02334,
+    "backend": "mcxcl_cli",
+    "engine_version": "MCXCL Revision 12544350",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "input_sha256": "8c088f9b3b6ccb7d8217be9c1f54e7007b308973ee25f654f710df4ac3ab1522",
+    "jnifti_sha256": "854bf1a5236182346284ede73cac2a36dbfc01eadf30b481083e86119bbd483f",
+    "log_sha256": "50313fc84815ac96fbc01e92caf54acfe2eadb825eb3f065b040ae15aa090047",
+    "prepared_volume_sha256": "3cf65394bd546a8bd69c6758c5aae59018c12685ce46a27b05b07b247bccadeb"
+  },
+  "maximum": 0.652826726436615,
+  "minimum": 0.0,
+  "run_id": "provisional_1070_v1__20260815t214247z__f053c0b0",
+  "shape": [
+    181,
+    217,
+    181,
+    1
+  ],
+  "standard_deviation": 0.00041986516810095943,
+  "sum": 17.396205341446453
+}

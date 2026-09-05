@@ -1,0 +1,490 @@
+{
+  "baseline": {
+    "brain_absorbed_percent": 1.214248248479565,
+    "brain_integrated_fluence": 0.14150773171477074,
+    "case": "fat_abs_010",
+    "escaped_or_unabsorbed_percent": 43.180211833108075,
+    "execution": {
+      "all_fluence_checksums_verified": true,
+      "all_manifests_complete": true,
+      "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1",
+      "manifest_count": 277,
+      "summed_execution_seconds": 3976.0
+    },
+    "fat_absorbed_percent": 5.336591680279349,
+    "fat_mua_mm-1": 0.01,
+    "gray_matter_absorbed_percent": 1.1775797514082886,
+    "role": "recommended_effective_adipose",
+    "scenario_id": "provisional_1070_fat_abs_010_v1",
+    "tissues": [
+      {
+        "absorbed_fraction_of_launched_energy": 0.0,
+        "absorbed_percent_of_launched_energy": 0.0,
+        "integrated_fluence": 0.0,
+        "mua_mm-1": 0.0,
+        "share_of_all_tissue_absorption_percent": 0.0,
+        "tissue_id": 0,
+        "tissue_name": "background_air",
+        "voxel_count": 3286799
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.0027579140397845656,
+        "absorbed_percent_of_launched_energy": 0.2757914039784566,
+        "integrated_fluence": 0.22063312318276523,
+        "mua_mm-1": 0.0125,
+        "share_of_all_tissue_absorption_percent": 0.48537914849030755,
+        "tissue_id": 1,
+        "tissue_name": "cerebrospinal_fluid",
+        "voxel_count": 338002
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.011775797514082887,
+        "absorbed_percent_of_launched_energy": 1.1775797514082886,
+        "integrated_fluence": 0.13243137105356373,
+        "mua_mm-1": 0.08892,
+        "share_of_all_tissue_absorption_percent": 2.0724817698184372,
+        "tissue_id": 2,
+        "tissue_name": "gray_matter",
+        "voxel_count": 1001274
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.0003666849707127635,
+        "absorbed_percent_of_launched_energy": 0.036668497071276354,
+        "integrated_fluence": 0.009076360661207018,
+        "mua_mm-1": 0.0404,
+        "share_of_all_tissue_absorption_percent": 0.06453473033650373,
+        "tissue_id": 3,
+        "tissue_name": "white_matter",
+        "voxel_count": 640621
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.023918137287167976,
+        "absorbed_percent_of_launched_energy": 2.3918137287167975,
+        "integrated_fluence": 2.3918137287167975,
+        "mua_mm-1": 0.01,
+        "share_of_all_tissue_absorption_percent": 4.209473153422408,
+        "tissue_id": 4,
+        "tissue_name": "fat",
+        "voxel_count": 140570
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.32969424543409187,
+        "absorbed_percent_of_launched_energy": 32.96942454340919,
+        "integrated_fluence": 11.038253850827292,
+        "mua_mm-1": 0.0298683333333,
+        "share_of_all_tissue_absorption_percent": 58.02454674165786,
+        "tissue_id": 5,
+        "tissue_name": "muscles",
+        "voxel_count": 668388
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.13200172799247997,
+        "absorbed_percent_of_launched_energy": 13.200172799247998,
+        "integrated_fluence": 7.4682731537470985,
+        "mua_mm-1": 0.017675,
+        "share_of_all_tissue_absorption_percent": 23.23164732764623,
+        "tissue_id": 6,
+        "tissue_name": "skin_and_muscles",
+        "voxel_count": 383231
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.031200124789529087,
+        "absorbed_percent_of_launched_energy": 3.120012478952909,
+        "integrated_fluence": 1.8682709454807838,
+        "mua_mm-1": 0.0167,
+        "share_of_all_tissue_absorption_percent": 5.491066720961299,
+        "tissue_id": 7,
+        "tissue_name": "skull",
+        "voxel_count": 355103
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.029447779515625508,
+        "absorbed_percent_of_launched_energy": 2.9447779515625507,
+        "integrated_fluence": 2.9447779515625507,
+        "mua_mm-1": 0.01,
+        "share_of_all_tissue_absorption_percent": 5.182662671872527,
+        "tissue_id": 9,
+        "tissue_name": "fat_2",
+        "voxel_count": 170283
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.0013229885006454118,
+        "absorbed_percent_of_launched_energy": 0.13229885006454117,
+        "integrated_fluence": 0.01884330580608762,
+        "mua_mm-1": 0.07021,
+        "share_of_all_tissue_absorption_percent": 0.23283939333943138,
+        "tissue_id": 10,
+        "tissue_name": "dura",
+        "voxel_count": 8868
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.002724646248983387,
+        "absorbed_percent_of_launched_energy": 0.2724646248983387,
+        "integrated_fluence": 0.4086969353040234,
+        "mua_mm-1": 0.0066666667,
+        "share_of_all_tissue_absorption_percent": 0.4795241828393509,
+        "tissue_id": 11,
+        "tissue_name": "marrow",
+        "voxel_count": 74917
+      },
+      {
+        "absorbed_fraction_of_launched_energy": 0.0029878353758159277,
+        "absorbed_percent_of_launched_energy": 0.29878353758159276,
+        "integrated_fluence": 0.007002742698453643,
+        "mua_mm-1": 0.4266664512,
+        "share_of_all_tissue_absorption_percent": 0.525844159615663,
+        "tissue_id": 12,
+        "tissue_name": "vessels",
+        "voxel_count": 41081
+      }
+    ],
+    "total_tissue_absorbed_percent": 56.819788166891925,
+    "white_matter_absorbed_percent": 0.036668497071276354
+  },
+  "changes_vs_corrected_1070": {
+    "brain_absorbed_percent_relative": 57.530280575552716,
+    "brain_absorbed_percentage_point": 0.6985604242340282,
+    "brain_integrated_fluence_percent": 76.26774052784546,
+    "total_tissue_absorption_percent_relative": -12.18351422007129
+  },
+  "counterfactual": {
+    "brain_absorbed_percent": 1.9128086727135931,
+    "brain_integrated_fluence": 0.24943248136583177,
+    "escaped_or_unabsorbed_percent": 50.10285880423574,
+    "gray_matter_absorbed_percent": 1.8524173714937884,
+    "scenario_id": "provisional_1070_whole_head_water_term_at_810_v1",
+    "tissues": [
+      {
+        "absorbed_percent_of_launched_energy": 0.0,
+        "integrated_fluence": 0.0,
+        "mua_mm-1": 0.0,
+        "tissue_id": 0,
+        "tissue_name": "background_air"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 0.0731508174231104,
+        "integrated_fluence": 0.3683695106411039,
+        "mua_mm-1": 0.0019858,
+        "tissue_id": 1,
+        "tissue_name": "cerebrospinal_fluid"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 1.8524173714937884,
+        "integrated_fluence": 0.23120647556057872,
+        "mua_mm-1": 0.0801196146,
+        "tissue_id": 2,
+        "tissue_name": "gray_matter"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 0.06039130121980473,
+        "integrated_fluence": 0.018226005805253048,
+        "mua_mm-1": 0.0331346878,
+        "tissue_id": 3,
+        "tissue_name": "white_matter"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 2.4926984800123635,
+        "integrated_fluence": 2.9716821987443662,
+        "mua_mm-1": 0.00838817314,
+        "tissue_id": 4,
+        "tissue_name": "fat"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 28.498597598152198,
+        "integrated_fluence": 13.189321565943043,
+        "mua_mm-1": 0.0216073263933,
+        "tissue_id": 5,
+        "tissue_name": "muscles"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 9.014878804658082,
+        "integrated_fluence": 8.739531136666274,
+        "mua_mm-1": 0.01031506,
+        "tissue_id": 6,
+        "tissue_name": "skin_and_muscles"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 3.8968799991883207,
+        "integrated_fluence": 2.6131483829755084,
+        "mua_mm-1": 0.014912586,
+        "tissue_id": 7,
+        "tissue_name": "skull"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 3.0653359183650695,
+        "integrated_fluence": 3.6543546100016115,
+        "mua_mm-1": 0.00838817314,
+        "tissue_id": 9,
+        "tissue_name": "fat_2"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 0.18192299519813696,
+        "integrated_fluence": 0.02894555632852808,
+        "mua_mm-1": 0.06285006,
+        "tissue_id": 10,
+        "tissue_name": "dura"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 0.2937175959090653,
+        "integrated_fluence": 0.5810621210682421,
+        "mua_mm-1": 0.00505483984,
+        "tissue_id": 11,
+        "tissue_name": "marrow"
+      },
+      {
+        "absorbed_percent_of_launched_energy": 0.4671503141443218,
+        "integrated_fluence": 0.011169028757164398,
+        "mua_mm-1": 0.4182550912,
+        "tissue_id": 12,
+        "tissue_name": "vessels"
+      }
+    ],
+    "total_tissue_absorbed_percent": 49.89714119576426,
+    "white_matter_absorbed_percent": 0.06039130121980473
+  },
+  "created_at": "2026-08-25T01:29:50.914848Z",
+  "execution": {
+    "all_fluence_checksums_verified": true,
+    "all_manifests_complete": true,
+    "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1",
+    "manifest_count": 277
+  },
+  "question": "Contribution of the 1070-vs-810 pure-water absorption spectrum with all other terms frozen at corrected 1070 values",
+  "result_id": "surrogate_yue277_1070_water_counterfactual_v1",
+  "scientific_status": "provisional_counterfactual_component_isolation_not_physical_810_model",
+  "status": "complete",
+  "targeted_first_entry": {
+    "baseline": [
+      {
+        "fraction_of_launched_energy_percent": 99.99999640500941,
+        "fraction_of_preceding_stage_percent": 99.99999640500941,
+        "stage": "entered_head_tissue"
+      },
+      {
+        "fraction_of_launched_energy_percent": 12.027815009564945,
+        "fraction_of_preceding_stage_percent": 12.027815441963778,
+        "stage": "reached_skull_complex"
+      },
+      {
+        "fraction_of_launched_energy_percent": 2.5811311339458887,
+        "fraction_of_preceding_stage_percent": 21.45968433911963,
+        "stage": "reached_intracranial_compartment"
+      },
+      {
+        "fraction_of_launched_energy_percent": 1.8597299098800824,
+        "fraction_of_preceding_stage_percent": 72.0509657731737,
+        "stage": "reached_brain_parenchyma"
+      },
+      {
+        "fraction_of_launched_energy_percent": 0.17663128147955823,
+        "fraction_of_preceding_stage_percent": 9.497684612221333,
+        "stage": "reached_white_matter"
+      }
+    ],
+    "brain_csf_only": [
+      {
+        "fraction_of_launched_energy_percent": 99.99999646986812,
+        "fraction_of_preceding_stage_percent": 99.99999646986812,
+        "stage": "entered_head_tissue"
+      },
+      {
+        "fraction_of_launched_energy_percent": 12.026960402782331,
+        "fraction_of_preceding_stage_percent": 12.026960827349908,
+        "stage": "reached_skull_complex"
+      },
+      {
+        "fraction_of_launched_energy_percent": 2.5816791934648133,
+        "fraction_of_preceding_stage_percent": 21.465766137116113,
+        "stage": "reached_intracranial_compartment"
+      },
+      {
+        "fraction_of_launched_energy_percent": 1.9465657838706,
+        "fraction_of_preceding_stage_percent": 75.3992126054267,
+        "stage": "reached_brain_parenchyma"
+      },
+      {
+        "fraction_of_launched_energy_percent": 0.21663335857200447,
+        "fraction_of_preceding_stage_percent": 11.129002696289323,
+        "stage": "reached_white_matter"
+      }
+    ],
+    "whole_head": [
+      {
+        "fraction_of_launched_energy_percent": 99.99999639027754,
+        "fraction_of_preceding_stage_percent": 99.99999639027754,
+        "stage": "entered_head_tissue"
+      },
+      {
+        "fraction_of_launched_energy_percent": 14.91825430452657,
+        "fraction_of_preceding_stage_percent": 14.918254843034164,
+        "stage": "reached_skull_complex"
+      },
+      {
+        "fraction_of_launched_energy_percent": 3.6345192680995364,
+        "fraction_of_preceding_stage_percent": 24.362899263600383,
+        "stage": "reached_intracranial_compartment"
+      },
+      {
+        "fraction_of_launched_energy_percent": 2.7736478050648956,
+        "fraction_of_preceding_stage_percent": 76.31402120796064,
+        "stage": "reached_brain_parenchyma"
+      },
+      {
+        "fraction_of_launched_energy_percent": 0.31121103257127397,
+        "fraction_of_preceding_stage_percent": 11.220279373717837,
+        "stage": "reached_white_matter"
+      }
+    ]
+  },
+  "tissue_comparison": [
+    {
+      "absorption_change_percent": null,
+      "baseline_absorbed_percent": 0.0,
+      "baseline_integrated_fluence": 0.0,
+      "baseline_mua_mm-1": 0.0,
+      "counterfactual_absorbed_percent": 0.0,
+      "counterfactual_integrated_fluence": 0.0,
+      "counterfactual_mua_mm-1": 0.0,
+      "fluence_change_percent": null,
+      "tissue_id": 0,
+      "tissue_name": "background_air"
+    },
+    {
+      "absorption_change_percent": -73.47603428973277,
+      "baseline_absorbed_percent": 0.2757914039784566,
+      "baseline_integrated_fluence": 0.22063312318276523,
+      "baseline_mua_mm-1": 0.0125,
+      "counterfactual_absorbed_percent": 0.0731508174231104,
+      "counterfactual_integrated_fluence": 0.3683695106411039,
+      "counterfactual_mua_mm-1": 0.0019858,
+      "fluence_change_percent": 66.9602031314032,
+      "tissue_id": 1,
+      "tissue_name": "cerebrospinal_fluid"
+    },
+    {
+      "absorption_change_percent": 57.307169155927596,
+      "baseline_absorbed_percent": 1.1775797514082886,
+      "baseline_integrated_fluence": 0.13243137105356373,
+      "baseline_mua_mm-1": 0.08892,
+      "counterfactual_absorbed_percent": 1.8524173714937884,
+      "counterfactual_integrated_fluence": 0.23120647556057872,
+      "counterfactual_mua_mm-1": 0.0801196146,
+      "fluence_change_percent": 74.5858807631494,
+      "tissue_id": 2,
+      "tissue_name": "gray_matter"
+    },
+    {
+      "absorption_change_percent": 64.69532716984803,
+      "baseline_absorbed_percent": 0.036668497071276354,
+      "baseline_integrated_fluence": 0.009076360661207018,
+      "baseline_mua_mm-1": 0.0404,
+      "counterfactual_absorbed_percent": 0.06039130121980473,
+      "counterfactual_integrated_fluence": 0.018226005805253048,
+      "counterfactual_mua_mm-1": 0.0331346878,
+      "fluence_change_percent": 100.80742144979138,
+      "tissue_id": 3,
+      "tissue_name": "white_matter"
+    },
+    {
+      "absorption_change_percent": 4.217918397420117,
+      "baseline_absorbed_percent": 2.3918137287167975,
+      "baseline_integrated_fluence": 2.3918137287167975,
+      "baseline_mua_mm-1": 0.01,
+      "counterfactual_absorbed_percent": 2.4926984800123635,
+      "counterfactual_integrated_fluence": 2.9716821987443662,
+      "counterfactual_mua_mm-1": 0.00838817314,
+      "fluence_change_percent": 24.243880828406606,
+      "tissue_id": 4,
+      "tissue_name": "fat"
+    },
+    {
+      "absorption_change_percent": -13.560524659356666,
+      "baseline_absorbed_percent": 32.96942454340919,
+      "baseline_integrated_fluence": 11.038253850827292,
+      "baseline_mua_mm-1": 0.0298683333333,
+      "counterfactual_absorbed_percent": 28.498597598152198,
+      "counterfactual_integrated_fluence": 13.189321565943043,
+      "counterfactual_mua_mm-1": 0.0216073263933,
+      "fluence_change_percent": 19.487391250333786,
+      "tissue_id": 5,
+      "tissue_name": "muscles"
+    },
+    {
+      "absorption_change_percent": -31.706357623048298,
+      "baseline_absorbed_percent": 13.200172799247998,
+      "baseline_integrated_fluence": 7.4682731537470985,
+      "baseline_mua_mm-1": 0.017675,
+      "counterfactual_absorbed_percent": 9.014878804658082,
+      "counterfactual_integrated_fluence": 8.739531136666274,
+      "counterfactual_mua_mm-1": 0.01031506,
+      "fluence_change_percent": 17.022114172154247,
+      "tissue_id": 6,
+      "tissue_name": "skin_and_muscles"
+    },
+    {
+      "absorption_change_percent": 24.89950041790001,
+      "baseline_absorbed_percent": 3.120012478952909,
+      "baseline_integrated_fluence": 1.8682709454807838,
+      "baseline_mua_mm-1": 0.0167,
+      "counterfactual_absorbed_percent": 3.8968799991883207,
+      "counterfactual_integrated_fluence": 2.6131483829755084,
+      "counterfactual_mua_mm-1": 0.014912586,
+      "fluence_change_percent": 39.86988286129112,
+      "tissue_id": 7,
+      "tissue_name": "skull"
+    },
+    {
+      "absorption_change_percent": 4.093957805495951,
+      "baseline_absorbed_percent": 2.9447779515625507,
+      "baseline_integrated_fluence": 2.9447779515625507,
+      "baseline_mua_mm-1": 0.01,
+      "counterfactual_absorbed_percent": 3.0653359183650695,
+      "counterfactual_integrated_fluence": 3.6543546100016115,
+      "counterfactual_mua_mm-1": 0.00838817314,
+      "fluence_change_percent": 24.096100626621,
+      "tissue_id": 9,
+      "tissue_name": "fat_2"
+    },
+    {
+      "absorption_change_percent": 37.50912809097506,
+      "baseline_absorbed_percent": 0.13229885006454117,
+      "baseline_integrated_fluence": 0.01884330580608762,
+      "baseline_mua_mm-1": 0.07021,
+      "counterfactual_absorbed_percent": 0.18192299519813696,
+      "counterfactual_integrated_fluence": 0.02894555632852808,
+      "counterfactual_mua_mm-1": 0.06285006,
+      "fluence_change_percent": 53.61188013611058,
+      "tissue_id": 10,
+      "tissue_name": "dura"
+    },
+    {
+      "absorption_change_percent": 7.800268023291634,
+      "baseline_absorbed_percent": 0.2724646248983387,
+      "baseline_integrated_fluence": 0.4086969353040234,
+      "baseline_mua_mm-1": 0.0066666667,
+      "counterfactual_absorbed_percent": 0.2937175959090653,
+      "counterfactual_integrated_fluence": 0.5810621210682421,
+      "counterfactual_mua_mm-1": 0.00505483984,
+      "fluence_change_percent": 42.17432793715441,
+      "tissue_id": 11,
+      "tissue_name": "marrow"
+    },
+    {
+      "absorption_change_percent": 56.350754102960195,
+      "baseline_absorbed_percent": 0.29878353758159276,
+      "baseline_integrated_fluence": 0.007002742698453643,
+      "baseline_mua_mm-1": 0.4266664512,
+      "counterfactual_absorbed_percent": 0.4671503141443218,
+      "counterfactual_integrated_fluence": 0.011169028757164398,
+      "counterfactual_mua_mm-1": 0.4182550912,
+      "fluence_change_percent": 59.495061265506166,
+      "tissue_id": 12,
+      "tissue_name": "vessels"
+    }
+  ],
+  "water_absorption": {
+    "difference_mm-1": 0.0105142,
+    "mua_1070_mm-1": 0.0125,
+    "mua_810_mm-1": 0.0019858
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "acceptance_components": {
+    "maximum_tissue_integral_relative_error": true,
+    "median_axis_profile_relative_error": true,
+    "median_valid_voxel_relative_error": true
+  },
+  "basis_field_sha256": {
+    "SUR1070_011": "17682923e3f1ff4d65525b01a167cd35ee40191c577d71a8e26849b00c9afbe0",
+    "SUR1070_031": "5398798a320a4f320c00579e07c5414e71fb42bde917b473208eab878a15b03e"
+  },
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+  "basis_index_sha256": "f1510d0e5f3240cb1bf5b0ff4d824b8a71d16e5ff8707ea3bcd92d9bb74c4107",
+  "basis_manifest_sha256": {
+    "SUR1070_011": "f1a4e9e2091302f3455697fb1b261c1b64933d1ef704abf37a4aaa9bca3e3764",
+    "SUR1070_031": "b222e71270a9153b4c63c8734b19981fa69979c27d4ccd66318daa3728811257"
+  },
+  "created_at": "2026-08-16T17:04:00.162313Z",
+  "direct_absorbed_energy_percent": 62.03466,
+  "direct_elapsed_seconds": 22.171962199965492,
+  "direct_field_sha256": "1424fe6abf2a049d88c22742fb0e7b5f7bb0b381f4639db122f81882acb14720",
+  "direct_input_sha256": "1fda9af5c25078ae7b98a7743c6a3fd87a43366843a2d1f3c08fd447aea0af53",
+  "direct_log_sha256": "9e87fa48b24f90baa6bec213cc1ae55d0a3bd04b678a8af93071f02444c33007",
+  "direct_seed": 1167564826,
+  "direct_total_photons": 200000000,
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "code_revision": "08975d859601dcd5fda37738edf200750cf87e16",
+    "device": "NVIDIA GeForce RTX 3080 Ti",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "executable_path": ".local/windows/mcxcl-v2025.10/mcxcl/bin/mcxcl.exe",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "metrics": {
+    "maximum_tissue_integral_relative_error": 0.0008770186916416321,
+    "median_axis_profile_relative_error": 0.01202512074210861,
+    "median_valid_voxel_relative_error": 0.038390788993389005
+  },
+  "normalization_correction": 2.0,
+  "protocol_path": "configs/surrogate_yue277_1070_windows_rtx3080ti_aggregate_equivalence_v1.json",
+  "protocol_sha256": "e2f90612871c475d25529a5d69ace2060e236010ad595bebf0bb6dfe8da7f026",
+  "result_id": "surrogate_yue277_1070_windows_rtx3080ti_aggregate_equivalence_v1",
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet",
+  "status": "pass",
+  "thresholds": {
+    "maximum_tissue_integral_relative_error": 0.05,
+    "median_axis_profile_relative_error": 0.1,
+    "median_valid_voxel_relative_error": 0.1
+  },
+  "tissue_integral_relative_errors": {
+    "brain_total": 0.0008760516180220727,
+    "gray_matter": 0.0008770186916416321,
+    "white_matter": 0.0008626345154175626
+  },
+  "tissue_integrals_basis_sum": {
+    "brain_total": 0.21924557607481934,
+    "gray_matter": 0.2045053080530641,
+    "white_matter": 0.014740268021755251
+  },
+  "tissue_integrals_corrected_direct": {
+    "brain_total": 0.21905350563315482,
+    "gray_matter": 0.20432595307536164,
+    "white_matter": 0.01472755255779318
+  }
+}

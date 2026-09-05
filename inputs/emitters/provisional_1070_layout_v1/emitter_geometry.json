@@ -1,0 +1,162 @@
+{
+  "coordinate_frame": "colin27_talairach_ras_mm",
+  "dataset_id": "provisional_1070_layout_v1",
+  "emitters": [
+    {
+      "beam_parameter_kind": "fitted_profile",
+      "beam_parameter_value": "zero-width pencil software scaffold; target 1070-nm beam profile has not been supplied",
+      "calibration_id": "provisional_1070_unit_source_v1",
+      "coupling_factor": 1.0,
+      "duty_cycle": 1.0,
+      "emitter_id": "P1070_SUPERIOR",
+      "emitting_area_mm2": 1e-06,
+      "enabled": true,
+      "group_id": "representative_superior",
+      "normal": [
+        -0.08877597485976035,
+        0.15615464084705052,
+        -0.9837350021370734
+      ],
+      "optical_power_cw_W": 1.0,
+      "phase_group": "cw_unit_basis",
+      "position_mm": [
+        9.351349125825097,
+        -35.375736202826744,
+        101.66042372980333
+      ],
+      "power_uncertainty_W": 0.0,
+      "provenance": "Software-only spatial donor YUE275 from yue2015_table1_277_approx_v1, selected by a deterministic superior coordinate extremum. Position and inward normal are retained only to exercise Colin27 transport. This is not target helmet geometry, hardware registration, or radiometry.",
+      "pulse_frequency_Hz": 0.0,
+      "source_type": "pencil",
+      "spectral_fwhm_nm": 1.0,
+      "standoff_mm": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "beam_parameter_kind": "fitted_profile",
+      "beam_parameter_value": "zero-width pencil software scaffold; target 1070-nm beam profile has not been supplied",
+      "calibration_id": "provisional_1070_unit_source_v1",
+      "coupling_factor": 1.0,
+      "duty_cycle": 1.0,
+      "emitter_id": "P1070_ANTERIOR",
+      "emitting_area_mm2": 1e-06,
+      "enabled": true,
+      "group_id": "representative_anterior",
+      "normal": [
+        -6.098451632925986e-17,
+        -1.0,
+        5.5034738793676065e-18
+      ],
+      "optical_power_cw_W": 1.0,
+      "phase_group": "cw_unit_basis",
+      "position_mm": [
+        0.9620195015777492,
+        87.63087735721953,
+        8.697466027849885
+      ],
+      "power_uncertainty_W": 0.0,
+      "provenance": "Software-only spatial donor YUE011 from yue2015_table1_277_approx_v1, selected by a deterministic anterior coordinate extremum. Position and inward normal are retained only to exercise Colin27 transport. This is not target helmet geometry, hardware registration, or radiometry.",
+      "pulse_frequency_Hz": 0.0,
+      "source_type": "pencil",
+      "spectral_fwhm_nm": 1.0,
+      "standoff_mm": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "beam_parameter_kind": "fitted_profile",
+      "beam_parameter_value": "zero-width pencil software scaffold; target 1070-nm beam profile has not been supplied",
+      "calibration_id": "provisional_1070_unit_source_v1",
+      "coupling_factor": 1.0,
+      "duty_cycle": 1.0,
+      "emitter_id": "P1070_POSTERIOR",
+      "emitting_area_mm2": 1e-06,
+      "enabled": true,
+      "group_id": "representative_posterior",
+      "normal": [
+        1.8295354898777958e-16,
+        1.0,
+        -1.6510421638102818e-17
+      ],
+      "optical_power_cw_W": 1.0,
+      "phase_group": "cw_unit_basis",
+      "position_mm": [
+        0.9620195015777251,
+        -116.61912264278047,
+        8.697466027849886
+      ],
+      "power_uncertainty_W": 0.0,
+      "provenance": "Software-only spatial donor YUE031 from yue2015_table1_277_approx_v1, selected by a deterministic posterior coordinate extremum. Position and inward normal are retained only to exercise Colin27 transport. This is not target helmet geometry, hardware registration, or radiometry.",
+      "pulse_frequency_Hz": 0.0,
+      "source_type": "pencil",
+      "spectral_fwhm_nm": 1.0,
+      "standoff_mm": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "beam_parameter_kind": "fitted_profile",
+      "beam_parameter_value": "zero-width pencil software scaffold; target 1070-nm beam profile has not been supplied",
+      "calibration_id": "provisional_1070_unit_source_v1",
+      "coupling_factor": 1.0,
+      "duty_cycle": 1.0,
+      "emitter_id": "P1070_LEFT_TEMPORAL",
+      "emitting_area_mm2": 1e-06,
+      "enabled": true,
+      "group_id": "representative_left_temporal",
+      "normal": [
+        0.9836909021798089,
+        0.15643446504023073,
+        -0.08877199511248197
+      ],
+      "optical_power_cw_W": 1.0,
+      "phase_group": "cw_unit_basis",
+      "position_mm": [
+        -84.61908898806563,
+        -34.22892110128054,
+        16.420629602635817
+      ],
+      "power_uncertainty_W": 0.0,
+      "provenance": "Software-only spatial donor YUE022 from yue2015_table1_277_approx_v1, selected by a deterministic left_temporal coordinate extremum. Position and inward normal are retained only to exercise Colin27 transport. This is not target helmet geometry, hardware registration, or radiometry.",
+      "pulse_frequency_Hz": 0.0,
+      "source_type": "pencil",
+      "spectral_fwhm_nm": 1.0,
+      "standoff_mm": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "beam_parameter_kind": "fitted_profile",
+      "beam_parameter_value": "zero-width pencil software scaffold; target 1070-nm beam profile has not been supplied",
+      "calibration_id": "provisional_1070_unit_source_v1",
+      "coupling_factor": 1.0,
+      "duty_cycle": 1.0,
+      "emitter_id": "P1070_RIGHT_TEMPORAL",
+      "emitting_area_mm2": 1e-06,
+      "enabled": true,
+      "group_id": "representative_right_temporal",
+      "normal": [
+        -0.9836909021798088,
+        0.15643446504023112,
+        0.08877199511248196
+      ],
+      "optical_power_cw_W": 1.0,
+      "phase_group": "cw_unit_basis",
+      "position_mm": [
+        86.54312799122111,
+        -34.22892110128058,
+        0.9743024530639541
+      ],
+      "power_uncertainty_W": 0.0,
+      "provenance": "Software-only spatial donor YUE040 from yue2015_table1_277_approx_v1, selected by a deterministic right_temporal coordinate extremum. Position and inward normal are retained only to exercise Colin27 transport. This is not target helmet geometry, hardware registration, or radiometry.",
+      "pulse_frequency_Hz": 0.0,
+      "source_type": "pencil",
+      "spectral_fwhm_nm": 1.0,
+      "standoff_mm": 0.0,
+      "wavelength_peak_nm": 1070.0
+    }
+  ],
+  "expected_emitter_count": 5,
+  "geometry_id": "provisional_1070_representative_layout_v1",
+  "geometry_version": "v1",
+  "helmet_model": "software-only representative Colin27 scaffold; target helmet unknown",
+  "position_unit": "mm",
+  "synthetic_test_only": false
+}

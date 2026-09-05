@@ -1,0 +1,8 @@
+{
+  "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "inventory_path": "results/corrected_1070_overlap_20260904_v1_inventory.json",
+  "optical_path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+  "output_dir": "results/corrected_1070_overlap_20260904_v1",
+  "result_id": "corrected_1070_overlap_20260904_v1",
+  "manifest_id": "corrected_1070_overlap_20260904_v1_manifest"
+}

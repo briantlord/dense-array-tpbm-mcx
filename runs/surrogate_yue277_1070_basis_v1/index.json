@@ -1,0 +1,2501 @@
+{
+  "basis_set_id": "surrogate_yue277_1070_basis_v1",
+  "created_at": "2026-08-14T23:30:00Z",
+  "plan_path": "configs/surrogate_yue277_1070_basis_v1.json",
+  "plan_sha256": "ef086c32356a51b5e55dc69a923239af90bc53bdef69daae8dbf855fb21289e7",
+  "runs": [
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_001/r001.json",
+      "configuration_sha256": "a2814ce2d5764b1fd3d24b596f95d3c3da382e7da33db6ef5d370a4e8c66d411",
+      "emitter_id": "SUR1070_001",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_001/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a2814ce2",
+      "seed": 1228664075
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_002/r001.json",
+      "configuration_sha256": "5d6543405c5935af61dde77f6d3ebaaa1ff8b429dae2173cd1ba94c25de6bc18",
+      "emitter_id": "SUR1070_002",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_002/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__5d654340",
+      "seed": 83587576
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_003/r001.json",
+      "configuration_sha256": "a2f5d5cb51ff1d714f30bb8fb371f53110022c2b28e70da1fc7f742b9718be2f",
+      "emitter_id": "SUR1070_003",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_003/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a2f5d5cb",
+      "seed": 1361478172
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_004/r001.json",
+      "configuration_sha256": "e3d306aa462a21e6106af11f41b1a8094a0d9ae6007ec005408b57f4f24a44c3",
+      "emitter_id": "SUR1070_004",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_004/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e3d306aa",
+      "seed": 347645740
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_005/r001.json",
+      "configuration_sha256": "9cb17de344a38806ad37f51cfd008f661838071ac08ef789a32df83f0663f5e9",
+      "emitter_id": "SUR1070_005",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_005/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9cb17de3",
+      "seed": 1292313635
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_006/r001.json",
+      "configuration_sha256": "c9fd405b44cf7d9ecea3c526c7eaedff9b60b493be8388caa236aa8a561fc188",
+      "emitter_id": "SUR1070_006",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_006/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__c9fd405b",
+      "seed": 458990317
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_007/r001.json",
+      "configuration_sha256": "69398ee41cd053b8452dd61de6b8915058400db4c69e3fbba08ac0dcad784a81",
+      "emitter_id": "SUR1070_007",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_007/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__69398ee4",
+      "seed": 1009304562
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_008/r001.json",
+      "configuration_sha256": "d9941196b72af098b21cbb5fb6b47b2b5082954d0b1179dcbbebffc7749a5dbf",
+      "emitter_id": "SUR1070_008",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_008/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d9941196",
+      "seed": 1070549647
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_009/r001.json",
+      "configuration_sha256": "807b55907c0a5b0ea8056dd8c559442da128ebcb91be4157bc2f14f4a4e13c6b",
+      "emitter_id": "SUR1070_009",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_009/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__807b5590",
+      "seed": 734078922
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_010/r001.json",
+      "configuration_sha256": "6c65c547d32e105d3fcf1492cee485617b9c76272c8b82493978bfd093beaf43",
+      "emitter_id": "SUR1070_010",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_010/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6c65c547",
+      "seed": 1137908076
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_011/r001.json",
+      "configuration_sha256": "587acd30e7cd1b53d58f7c35b951ca87e8d8b4b4c38a493ad995ff139c20620f",
+      "emitter_id": "SUR1070_011",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_011/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__587acd30",
+      "seed": 747547835
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_012/r001.json",
+      "configuration_sha256": "ed472fb954812947d2adbf5939d5fd7a76b7f3727cf20e525dbe809092205b92",
+      "emitter_id": "SUR1070_012",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_012/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__ed472fb9",
+      "seed": 1205353315
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_013/r001.json",
+      "configuration_sha256": "9892f0a3a080e1f94b29113ffca5c9a6e8dc25c06f318a52312099bc711f90d0",
+      "emitter_id": "SUR1070_013",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_013/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9892f0a3",
+      "seed": 486028578
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_014/r001.json",
+      "configuration_sha256": "07243baa96fc5e4f82a8bd8736cc2621312217e11926ae991fa36b0944d04610",
+      "emitter_id": "SUR1070_014",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_014/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__07243baa",
+      "seed": 431957866
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_015/r001.json",
+      "configuration_sha256": "05c44bdc3bc209ce5f461899579f6617590e23decb416618e323968c0137a563",
+      "emitter_id": "SUR1070_015",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_015/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__05c44bdc",
+      "seed": 1451346404
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_016/r001.json",
+      "configuration_sha256": "d7212cc01a65f1f56320daa72baac22bedb7760ebde79f6ba89de135b8646785",
+      "emitter_id": "SUR1070_016",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_016/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d7212cc0",
+      "seed": 123819728
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_017/r001.json",
+      "configuration_sha256": "0785358241aab23a31ec072e428dd4feb187deb1eb24908162e041973ac11950",
+      "emitter_id": "SUR1070_017",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_017/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__07853582",
+      "seed": 914348221
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_018/r001.json",
+      "configuration_sha256": "fc6aab672acbc2e2557d1536e362f1d77c5aca61498c1b15bd578a3fc6d52669",
+      "emitter_id": "SUR1070_018",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_018/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__fc6aab67",
+      "seed": 1285488886
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_019/r001.json",
+      "configuration_sha256": "6a83288300b24b2283c95d3a516b068c6ef87ea4ad6c19da9f14c6c98cdf19b7",
+      "emitter_id": "SUR1070_019",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_019/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6a832883",
+      "seed": 1348541328
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_020/r001.json",
+      "configuration_sha256": "300d432ac09a6c933d198fa152c99f4608248cf87107928da180f83a5dd72d75",
+      "emitter_id": "SUR1070_020",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_020/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__300d432a",
+      "seed": 1031731776
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_021/r001.json",
+      "configuration_sha256": "82da7b9bcd1a545880ce14e0ab669bfb080d1ce936f22aa7bcd54d8c7b32ee89",
+      "emitter_id": "SUR1070_021",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_021/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__82da7b9b",
+      "seed": 458618452
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_022/r001.json",
+      "configuration_sha256": "59edd36e9a99084663f9249021d6df780686dbf826d8e26bd63b7e166a64dd05",
+      "emitter_id": "SUR1070_022",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_022/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__59edd36e",
+      "seed": 353108716
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_023/r001.json",
+      "configuration_sha256": "abf5f70ccfbcc4dd69694f262ebf8605bc824657f986a8dbe10ae6ebb4a6ce38",
+      "emitter_id": "SUR1070_023",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_023/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__abf5f70c",
+      "seed": 715368846
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_024/r001.json",
+      "configuration_sha256": "1446162ef0f9673e066438ab2a5d13fef5dcbcffcb2493c6f61a6c2ce97d8d33",
+      "emitter_id": "SUR1070_024",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_024/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1446162e",
+      "seed": 1486522577
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_025/r001.json",
+      "configuration_sha256": "3d50a056363975f16e5c5ca0a0f8be04174341984bd9a03f9d00fdcb4a5e5eab",
+      "emitter_id": "SUR1070_025",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_025/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3d50a056",
+      "seed": 701403700
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_026/r001.json",
+      "configuration_sha256": "7ec699cfdac92bf95d05caf979d1b07a10eebeb83f8cd3df64ea76a42ea3938b",
+      "emitter_id": "SUR1070_026",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_026/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7ec699cf",
+      "seed": 265652939
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_027/r001.json",
+      "configuration_sha256": "a7653b3712d6800345187c4b7f2dd811de45c39e26f99f1b0c88b9c3893654e8",
+      "emitter_id": "SUR1070_027",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_027/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a7653b37",
+      "seed": 1860835349
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_028/r001.json",
+      "configuration_sha256": "e927e14abba677c082426a7eaa1d9c03ebebed5caad0e9cf519216f450841c98",
+      "emitter_id": "SUR1070_028",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_028/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e927e14a",
+      "seed": 135323312
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_029/r001.json",
+      "configuration_sha256": "2633820f43e734d985a6a28bf3f99d4b4a62b28c3b1f606c1af5b01806b37a43",
+      "emitter_id": "SUR1070_029",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_029/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2633820f",
+      "seed": 85011908
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_030/r001.json",
+      "configuration_sha256": "d2e64712080d3c12128811b7f3aa767d10492a2a5fdac5d66da8d5a10b0f8c57",
+      "emitter_id": "SUR1070_030",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_030/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d2e64712",
+      "seed": 498015896
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_031/r001.json",
+      "configuration_sha256": "7cd48c175cfbc3ba5d1e4f0a289050402bef83eb72ad0096a04bf04641638105",
+      "emitter_id": "SUR1070_031",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_031/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7cd48c17",
+      "seed": 1770769552
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_032/r001.json",
+      "configuration_sha256": "03eda82551fe1448e5e9b04f3e867f13c05d6155239595f4ae6e3e69c3b09409",
+      "emitter_id": "SUR1070_032",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_032/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__03eda825",
+      "seed": 1306051050
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_033/r001.json",
+      "configuration_sha256": "3bc6c93312711f15dea5dde4733af309dd02b76fa33c85a0af1710a687913120",
+      "emitter_id": "SUR1070_033",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_033/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3bc6c933",
+      "seed": 561946844
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_034/r001.json",
+      "configuration_sha256": "c636671bac13c7917f8ba57e240dc4b3fdb48b5967924b27563d5efd349d192f",
+      "emitter_id": "SUR1070_034",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_034/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__c636671b",
+      "seed": 1551567099
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_035/r001.json",
+      "configuration_sha256": "997a019489eb17c67688f99f9464586b0539aaa38995224f95d53b225db87929",
+      "emitter_id": "SUR1070_035",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_035/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__997a0194",
+      "seed": 789600522
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_036/r001.json",
+      "configuration_sha256": "9e137b8944de7cfef1023f9d0b481e9dd43b8d1e15347aa31885a9eadcf5953f",
+      "emitter_id": "SUR1070_036",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_036/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9e137b89",
+      "seed": 1844529739
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_037/r001.json",
+      "configuration_sha256": "d2aea755dd651f60e21b3a3914adfa04672928f3267790abae3bd2f9ce86ba7b",
+      "emitter_id": "SUR1070_037",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_037/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d2aea755",
+      "seed": 624390787
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_038/r001.json",
+      "configuration_sha256": "6ee1419015dd16d43753b0ee8baab0f4768f815b98b322df630e5f62e51cbc64",
+      "emitter_id": "SUR1070_038",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_038/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6ee14190",
+      "seed": 491457609
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_039/r001.json",
+      "configuration_sha256": "e830cf5cc0e14b68ed0511dacec017bb268853fb08dcff50ec932853e23c8c9d",
+      "emitter_id": "SUR1070_039",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_039/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e830cf5c",
+      "seed": 642676248
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_040/r001.json",
+      "configuration_sha256": "5305f09cb4318d48fce8e289f3c5465b92559357ffde65786f4f3d4d2e95084b",
+      "emitter_id": "SUR1070_040",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_040/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__5305f09c",
+      "seed": 49510998
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_041/r001.json",
+      "configuration_sha256": "75ec54a0f3200c94ac1341e417d81684293de7b2933df3ba501595e1fc7d899f",
+      "emitter_id": "SUR1070_041",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_041/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__75ec54a0",
+      "seed": 1163265902
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_042/r001.json",
+      "configuration_sha256": "330916d18940e832651a0d95430b54f9f8af706cfaade71c620cb6791dc5295a",
+      "emitter_id": "SUR1070_042",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_042/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__330916d1",
+      "seed": 676816731
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_043/r001.json",
+      "configuration_sha256": "d650b5dbb5dc830b316e96a22ec6fc4122e798f4547a91c1473077bf7d265045",
+      "emitter_id": "SUR1070_043",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_043/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d650b5db",
+      "seed": 768604732
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_044/r001.json",
+      "configuration_sha256": "3a57d49b57db7e3be34477d431ea12eefcab739a8d3dc0aa371ff0ad0b12724d",
+      "emitter_id": "SUR1070_044",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_044/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3a57d49b",
+      "seed": 352293672
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_045/r001.json",
+      "configuration_sha256": "0430ae1357f3da897cf0f996ec7dd646ace1a83e8d1fb7cfa037ed2876bfd36c",
+      "emitter_id": "SUR1070_045",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_045/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__0430ae13",
+      "seed": 383444356
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_046/r001.json",
+      "configuration_sha256": "310e7117a1dad4d1b92c3f87926e483753452fe53578ae4e46dd45203c267fa6",
+      "emitter_id": "SUR1070_046",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_046/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__310e7117",
+      "seed": 1815742056
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_047/r001.json",
+      "configuration_sha256": "a21e3109ce7bc712b1d55acbf0046758bc044321279eb182fefd5f39aec40ddb",
+      "emitter_id": "SUR1070_047",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_047/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a21e3109",
+      "seed": 469340161
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_048/r001.json",
+      "configuration_sha256": "46ce2abf75fbf500cfc59f6688102b9ac160d4301a128fd95d0dcc0361dd8535",
+      "emitter_id": "SUR1070_048",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_048/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__46ce2abf",
+      "seed": 55412243
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_049/r001.json",
+      "configuration_sha256": "e90983d36b12b45c240d393a553cdefa6577605d51d35e2f166268d1a5aae5d2",
+      "emitter_id": "SUR1070_049",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_049/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e90983d3",
+      "seed": 2011629065
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_050/r001.json",
+      "configuration_sha256": "238e3236dfcdb9393703c8718ac8d097b5545ba1bf942fa702291cd127a4afa5",
+      "emitter_id": "SUR1070_050",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_050/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__238e3236",
+      "seed": 1658238829
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_051/r001.json",
+      "configuration_sha256": "80d9b5430df9061675ec1ae2f45731818f302eb9609dffd2f3df31b33d2dc9ef",
+      "emitter_id": "SUR1070_051",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_051/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__80d9b543",
+      "seed": 1797061091
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_052/r001.json",
+      "configuration_sha256": "3b585213f7c0f913915da94516844fdc4cc45f01a1426b32f9d3682d9b5ec813",
+      "emitter_id": "SUR1070_052",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_052/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3b585213",
+      "seed": 1459526972
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_053/r001.json",
+      "configuration_sha256": "3bf33d86b12eff0545f00a1b8ba26397a854b8ed79a7ce23a2325132de4aef8e",
+      "emitter_id": "SUR1070_053",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_053/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3bf33d86",
+      "seed": 476414785
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_054/r001.json",
+      "configuration_sha256": "547b331dbc87e40e58530341ae1b2bbb67578ae24c58e7fefcb3902c8b18c18a",
+      "emitter_id": "SUR1070_054",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_054/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__547b331d",
+      "seed": 1434725617
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_055/r001.json",
+      "configuration_sha256": "14c42f258984bd57fba9b674156c4d1a5393e4f475194319e65e375ea8b2118b",
+      "emitter_id": "SUR1070_055",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_055/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__14c42f25",
+      "seed": 338180472
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_056/r001.json",
+      "configuration_sha256": "1d29f9f2b018d14192823fbc78ae87d6c1b3392eca5cbcb3ac5e2cb1d6f894fe",
+      "emitter_id": "SUR1070_056",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_056/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1d29f9f2",
+      "seed": 1900380875
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_057/r001.json",
+      "configuration_sha256": "07d7a6764ee17162b09624c78ed52bc35b905149ef03462764d36c54a4e207ec",
+      "emitter_id": "SUR1070_057",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_057/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__07d7a676",
+      "seed": 771767277
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_058/r001.json",
+      "configuration_sha256": "52d645f35ecace825261affb3869d15415dd4bd682be6f34c0d950867288dfc1",
+      "emitter_id": "SUR1070_058",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_058/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__52d645f3",
+      "seed": 2034100211
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_059/r001.json",
+      "configuration_sha256": "dd0db55cbb9d32b2cfd8fec684a721a67042c35007e0c914b7bb32a7aff3c699",
+      "emitter_id": "SUR1070_059",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_059/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__dd0db55c",
+      "seed": 1906211671
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_060/r001.json",
+      "configuration_sha256": "d94522a7bae937f05c81e2fc80c310579c7d63aab822233ee3e9c06d2c78def1",
+      "emitter_id": "SUR1070_060",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_060/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d94522a7",
+      "seed": 1146051621
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_061/r001.json",
+      "configuration_sha256": "71b912e8b3a03977c9d16e1c49e28a27b8308aac82c3e7cc6b519349769dd5e2",
+      "emitter_id": "SUR1070_061",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_061/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__71b912e8",
+      "seed": 918146342
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_062/r001.json",
+      "configuration_sha256": "edece6811ca548219e1792390dd86b9fd11e107e1fb24059dff10697c3013aff",
+      "emitter_id": "SUR1070_062",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_062/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__edece681",
+      "seed": 1027841427
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_063/r001.json",
+      "configuration_sha256": "e53de09aa2c055ec2ff4cffa542bd7ac7f3545400e8abc962d45f2d01590f731",
+      "emitter_id": "SUR1070_063",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_063/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e53de09a",
+      "seed": 233825623
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_064/r001.json",
+      "configuration_sha256": "9eaa48375f81b747b93913a31c36dfe02fa9d3919338f19cf6fefcaf7408336e",
+      "emitter_id": "SUR1070_064",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_064/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9eaa4837",
+      "seed": 29638713
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_065/r001.json",
+      "configuration_sha256": "0257b589a20e6f6f13c850eeaa12e72a4a34bbc4cca3f9fdc733bfed7267bcdf",
+      "emitter_id": "SUR1070_065",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_065/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__0257b589",
+      "seed": 218515715
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_066/r001.json",
+      "configuration_sha256": "7203bb4d3cb1d2db15be88426e48a67167c0b4913a2c7373a4fad57b42ff60f8",
+      "emitter_id": "SUR1070_066",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_066/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7203bb4d",
+      "seed": 1587250176
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_067/r001.json",
+      "configuration_sha256": "e5dd6ac1f4933e7f39900ae706a945d9e7defd0e4f0f69bbea160e32b138e543",
+      "emitter_id": "SUR1070_067",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_067/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e5dd6ac1",
+      "seed": 1231622416
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_068/r001.json",
+      "configuration_sha256": "28f6b55c377bbf6a9af15e7ef75818f9d3722fce4b9e72eb034876a88e992b91",
+      "emitter_id": "SUR1070_068",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_068/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__28f6b55c",
+      "seed": 1836067345
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_069/r001.json",
+      "configuration_sha256": "95289b2da318b166b91f1761cb0069e09819acff780a3ffcc94f2c42392f0067",
+      "emitter_id": "SUR1070_069",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_069/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__95289b2d",
+      "seed": 1695980774
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_070/r001.json",
+      "configuration_sha256": "592ffef429ee0dc51b3fa0c5f08bdcd4d3f450ab33bd74d1ccba35debdad163b",
+      "emitter_id": "SUR1070_070",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_070/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__592ffef4",
+      "seed": 699189179
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_071/r001.json",
+      "configuration_sha256": "58e1573d7410346583abcbee6e147d560f0a5740ba9c7200b073dc1ca3109d19",
+      "emitter_id": "SUR1070_071",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_071/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__58e1573d",
+      "seed": 798306660
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_072/r001.json",
+      "configuration_sha256": "d0443df4dcee23231fe3993d3115855ddc351a097b953e0ee431fa35f53fa51b",
+      "emitter_id": "SUR1070_072",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_072/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d0443df4",
+      "seed": 412070236
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_073/r001.json",
+      "configuration_sha256": "5787b08033b141bc4660c547edfaba9768353b19995e8a6449cf1e968dbd1aa7",
+      "emitter_id": "SUR1070_073",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_073/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__5787b080",
+      "seed": 711082421
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_074/r001.json",
+      "configuration_sha256": "d1bccb11ae75216234ff8a8b04d7e2a2282e06418f1fb9c09866106895e4d232",
+      "emitter_id": "SUR1070_074",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_074/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d1bccb11",
+      "seed": 1291912235
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_075/r001.json",
+      "configuration_sha256": "6e5723c7cd2141843c194b2c8ce4adfe6ac0381d79482cf54d78c1ea1cce9197",
+      "emitter_id": "SUR1070_075",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_075/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6e5723c7",
+      "seed": 75522184
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_076/r001.json",
+      "configuration_sha256": "2cd20b1d86b86253f1f1e91a4aa57120dbe12b37f55302d7e7884ac7cfb37838",
+      "emitter_id": "SUR1070_076",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_076/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2cd20b1d",
+      "seed": 969494035
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_077/r001.json",
+      "configuration_sha256": "6460af088fe39d4884d3d250e7f110cd2f25df513f16592f9754c9ca9d21874e",
+      "emitter_id": "SUR1070_077",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_077/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6460af08",
+      "seed": 1555056265
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_078/r001.json",
+      "configuration_sha256": "0f4bcebae1fd7a5e40435740fb24e45cdabd3a287727d6ef02b70f3240318fa6",
+      "emitter_id": "SUR1070_078",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_078/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__0f4bceba",
+      "seed": 1589900844
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_079/r001.json",
+      "configuration_sha256": "54f0bbe1094bc4deee8a2fa3cf750034fb22aea3272550eac968260d68bb3a0f",
+      "emitter_id": "SUR1070_079",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_079/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__54f0bbe1",
+      "seed": 1356145185
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_080/r001.json",
+      "configuration_sha256": "bb67b45444bf7b620833db15f904521ec8f6a225de4b2874811b631b4915c38e",
+      "emitter_id": "SUR1070_080",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_080/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bb67b454",
+      "seed": 430575053
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_081/r001.json",
+      "configuration_sha256": "7a82120e5a4b87a8acd22d6f5e8ab0b90539e9f5ca35138cdc1fc9e55d6d5718",
+      "emitter_id": "SUR1070_081",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_081/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7a82120e",
+      "seed": 868943972
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_082/r001.json",
+      "configuration_sha256": "bcbec70ae0e4dfe68a3ad15cbb90f3fdebe239680ad19fc4a558c8bf193bad17",
+      "emitter_id": "SUR1070_082",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_082/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bcbec70a",
+      "seed": 1080573183
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_083/r001.json",
+      "configuration_sha256": "807484b45918f48f4fbcf7b8c48475f1f3a3bb6116bc9b0d606a56135c708812",
+      "emitter_id": "SUR1070_083",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_083/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__807484b4",
+      "seed": 588089707
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_084/r001.json",
+      "configuration_sha256": "cbf9ff0648c44bb62b847c2a8a6af0882fa069b20f46663831c45e99df59b59b",
+      "emitter_id": "SUR1070_084",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_084/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__cbf9ff06",
+      "seed": 2016869648
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_085/r001.json",
+      "configuration_sha256": "2234a867908a2a97ba142abc5cb28f87ca63f380ad61d3d901f2e5ce72d20d5a",
+      "emitter_id": "SUR1070_085",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_085/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2234a867",
+      "seed": 928714807
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_086/r001.json",
+      "configuration_sha256": "59588c242a7947ca3ca89f9c0f096ba4ade646f2e8ec21399f4ddd31c0602163",
+      "emitter_id": "SUR1070_086",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_086/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__59588c24",
+      "seed": 1226271556
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_087/r001.json",
+      "configuration_sha256": "d82186a9ebb12ae24a00e776ac41ade34c6f0b1c24812fd13e2b783004b23f32",
+      "emitter_id": "SUR1070_087",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_087/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d82186a9",
+      "seed": 459058951
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_088/r001.json",
+      "configuration_sha256": "bf8245dde76201c46a2ab0d7053186f62f877887d3dc3f62a7a19056cc1378eb",
+      "emitter_id": "SUR1070_088",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_088/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bf8245dd",
+      "seed": 404587711
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_089/r001.json",
+      "configuration_sha256": "46a1da747f4662024fd47fe733332d49db4c307a47525ef39c63759c02fb5245",
+      "emitter_id": "SUR1070_089",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_089/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__46a1da74",
+      "seed": 1882260883
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_090/r001.json",
+      "configuration_sha256": "2d7c1ac5d0274a726bd54d0abca28fbc04600c611635cf24d353d2e5195e5d8f",
+      "emitter_id": "SUR1070_090",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_090/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2d7c1ac5",
+      "seed": 1188009608
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_091/r001.json",
+      "configuration_sha256": "cbb299dfe83ffdbe7ac458f514a468350faa93f4b4d04d47830bda8218f9e899",
+      "emitter_id": "SUR1070_091",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_091/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__cbb299df",
+      "seed": 1062818438
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_092/r001.json",
+      "configuration_sha256": "4539aa8e347ca4aef55f7cb3216dff1f0ed2388e062e32a74a2a194867ef4abf",
+      "emitter_id": "SUR1070_092",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_092/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__4539aa8e",
+      "seed": 1234448453
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_093/r001.json",
+      "configuration_sha256": "cfd1269b770737e6ff74bcd591c6595f8aa3f3f3cd4d3f0d72a70b06a783ff04",
+      "emitter_id": "SUR1070_093",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_093/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__cfd1269b",
+      "seed": 1582726400
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_094/r001.json",
+      "configuration_sha256": "17119d9f26d915c5e9a9a402a63391ee36c31653ef63a09210745f1e62aba865",
+      "emitter_id": "SUR1070_094",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_094/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__17119d9f",
+      "seed": 1028314086
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_095/r001.json",
+      "configuration_sha256": "cfc625ddd060a8ef4f325676a83764b4cb6b87eaf8ab4fe7e5a99fb9167afb63",
+      "emitter_id": "SUR1070_095",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_095/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__cfc625dd",
+      "seed": 1525508371
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_096/r001.json",
+      "configuration_sha256": "628c405bb259de7ec7830cb3dca0a4abe867ed344a7dc1faf920b40f9aba03c7",
+      "emitter_id": "SUR1070_096",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_096/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__628c405b",
+      "seed": 1121538189
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_097/r001.json",
+      "configuration_sha256": "3220000d1e729f7d7484a63ef26e26fc6219f5cc7956af12a21f6c1b9acc9552",
+      "emitter_id": "SUR1070_097",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_097/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3220000d",
+      "seed": 1931213127
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_098/r001.json",
+      "configuration_sha256": "c0f2488b04ae67b51f28e88c7cc39d2b57523c01f0e5d61a3a8e79862c489a10",
+      "emitter_id": "SUR1070_098",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_098/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__c0f2488b",
+      "seed": 1738034516
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_099/r001.json",
+      "configuration_sha256": "54d57af15462e0cb05b1ea247a005787abbb9bc4394396d31c0568cec408f22c",
+      "emitter_id": "SUR1070_099",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_099/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__54d57af1",
+      "seed": 1887926199
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_100/r001.json",
+      "configuration_sha256": "e9e90e4733cdba9b69b57ed26c10c516721d18e0abe986d6dd9bfbeea7271e17",
+      "emitter_id": "SUR1070_100",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_100/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e9e90e47",
+      "seed": 908640859
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_101/r001.json",
+      "configuration_sha256": "a66a505662f8f52341d3733b55702186fb32869e48ff3dcea437ef1e0e3ad4ff",
+      "emitter_id": "SUR1070_101",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_101/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a66a5056",
+      "seed": 1401470397
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_102/r001.json",
+      "configuration_sha256": "7ca1c489464cb6f510eeb6fb1fd77139f9abcf823cb769a31ae97d65ed0e3e44",
+      "emitter_id": "SUR1070_102",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_102/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7ca1c489",
+      "seed": 1594401280
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_103/r001.json",
+      "configuration_sha256": "c6e6716b25fb59eafe5ad5b3c64fad9aa72a0dc6a4b1b65dae3aa2cd852d8dec",
+      "emitter_id": "SUR1070_103",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_103/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__c6e6716b",
+      "seed": 922944515
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_104/r001.json",
+      "configuration_sha256": "af3039bb7d1808643fe40ad36d63fd930da8215ca232233857d3b28babfa604a",
+      "emitter_id": "SUR1070_104",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_104/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__af3039bb",
+      "seed": 1316248139
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_105/r001.json",
+      "configuration_sha256": "4daff9c74a7754b4b3b2a323e3f949c1ba98fe916d7b8e35302a002d52048b5f",
+      "emitter_id": "SUR1070_105",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_105/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__4daff9c7",
+      "seed": 835056304
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_106/r001.json",
+      "configuration_sha256": "f50d058eb0540ad375bce436a3a77feda81380ae4eba7dd18cadb9c45512c9d8",
+      "emitter_id": "SUR1070_106",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_106/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f50d058e",
+      "seed": 1737065687
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_107/r001.json",
+      "configuration_sha256": "161165eb4d878c1c2cb10fce9aca40a31bca04e9bc317a118bdd0e9c1f4f6700",
+      "emitter_id": "SUR1070_107",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_107/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__161165eb",
+      "seed": 372658224
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_108/r001.json",
+      "configuration_sha256": "4c4a902ec0b0143d219365fe81bfdf2934baefaaa842db0cebb5bf4cf321b4f4",
+      "emitter_id": "SUR1070_108",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_108/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__4c4a902e",
+      "seed": 248270552
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_109/r001.json",
+      "configuration_sha256": "8de354db0891cc09ebc413ec7640e0ad2dfce57ea3d49c9599955a04041c0d59",
+      "emitter_id": "SUR1070_109",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_109/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__8de354db",
+      "seed": 1795651121
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_110/r001.json",
+      "configuration_sha256": "d84dd11ff5524fca5438112f6fabe925037a83bed3231512fadc2692f1349149",
+      "emitter_id": "SUR1070_110",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_110/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d84dd11f",
+      "seed": 867501767
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_111/r001.json",
+      "configuration_sha256": "65d43a7df93832026c154be34d268444a152e44ff680d864462b1015bfca5280",
+      "emitter_id": "SUR1070_111",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_111/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__65d43a7d",
+      "seed": 1670870522
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_112/r001.json",
+      "configuration_sha256": "c86a24ad0cb5e7f041df515d8a8e08622aa63ae90d80b164068830fe60702e47",
+      "emitter_id": "SUR1070_112",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_112/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__c86a24ad",
+      "seed": 1059505219
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_113/r001.json",
+      "configuration_sha256": "2c37f0674eef3a24bc854431f6ba8f26b750ef15207eec037d17cdcdccbdebad",
+      "emitter_id": "SUR1070_113",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_113/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2c37f067",
+      "seed": 463289648
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_114/r001.json",
+      "configuration_sha256": "7681d566b3eeceeecc8609bcf6bcc43eb47ed7ba62e99273df912096a371e879",
+      "emitter_id": "SUR1070_114",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_114/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7681d566",
+      "seed": 55653419
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_115/r001.json",
+      "configuration_sha256": "2196f871cbaf9d06e1080e5c6b74270c6a4e42e927bedbbdb01d23207b6c4aae",
+      "emitter_id": "SUR1070_115",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_115/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2196f871",
+      "seed": 982333663
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_116/r001.json",
+      "configuration_sha256": "80de6204b939c62cc4d834e45fb8c0f2226ba46857b72a252b9e424e547e06c5",
+      "emitter_id": "SUR1070_116",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_116/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__80de6204",
+      "seed": 649793700
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_117/r001.json",
+      "configuration_sha256": "25b041f73d42b5e61fc59d95f6abd1464a1c96da20630faef77f1e9e2e53d3b8",
+      "emitter_id": "SUR1070_117",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_117/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__25b041f7",
+      "seed": 1378997243
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_118/r001.json",
+      "configuration_sha256": "1e05935b5f828f530f94ff02dcca251e9ab4acfdde63007bda2c07c57ce5f3ad",
+      "emitter_id": "SUR1070_118",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_118/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1e05935b",
+      "seed": 698439248
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_119/r001.json",
+      "configuration_sha256": "ddbaea0b24cbcca84c45c57c99e7419f1b39682a719b9c5262783c6e9cb033e7",
+      "emitter_id": "SUR1070_119",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_119/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__ddbaea0b",
+      "seed": 966025185
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_120/r001.json",
+      "configuration_sha256": "93add4699acc0f7935c142e79a536947c6edaee257bae53fdcb93e5b04b6c8ff",
+      "emitter_id": "SUR1070_120",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_120/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__93add469",
+      "seed": 756319961
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_121/r001.json",
+      "configuration_sha256": "d81761c1ec90a728c3b07bad1988d8c36a2e8f0584bae1ec3ab34bc13840aa8f",
+      "emitter_id": "SUR1070_121",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_121/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d81761c1",
+      "seed": 678635577
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_122/r001.json",
+      "configuration_sha256": "0848076cb0cfca7f15f305d5ae660a317519267c16a52d1459b1cc3bdc4761ea",
+      "emitter_id": "SUR1070_122",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_122/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__0848076c",
+      "seed": 1792296102
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_123/r001.json",
+      "configuration_sha256": "037d3a53ff408cc8aaafbf930ce593e787e85b77efa31d086643f2d6658bcfe2",
+      "emitter_id": "SUR1070_123",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_123/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__037d3a53",
+      "seed": 1658231546
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_124/r001.json",
+      "configuration_sha256": "8a8ffc61b74128794de4e37c54edfd72a4d321d0b3a8c73305c039f0c2304ad7",
+      "emitter_id": "SUR1070_124",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_124/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__8a8ffc61",
+      "seed": 751732221
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_125/r001.json",
+      "configuration_sha256": "3871bc9fbac6e7fc38383629112b174e770c8565564246755c9abc2bf41bee42",
+      "emitter_id": "SUR1070_125",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_125/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3871bc9f",
+      "seed": 1850296058
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_126/r001.json",
+      "configuration_sha256": "d2cea901bd1b3953ffb2cf78307f2ec0fb559da489b9562a5c7e8d050044b617",
+      "emitter_id": "SUR1070_126",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_126/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d2cea901",
+      "seed": 1993951668
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_127/r001.json",
+      "configuration_sha256": "eb504afb341c4318a960b955cda838e91d65ccd65abe27464fe2156f9bf1d31e",
+      "emitter_id": "SUR1070_127",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_127/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__eb504afb",
+      "seed": 1881730781
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_128/r001.json",
+      "configuration_sha256": "c53117b61115958680de8c6c10ab731c3aea65632a6b75f1ad8ae50294a8213e",
+      "emitter_id": "SUR1070_128",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_128/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__c53117b6",
+      "seed": 1497504878
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_129/r001.json",
+      "configuration_sha256": "e7d6557e5a5113ef1667f67af20e49d71f4484a222e25feac0148b76f8f80e66",
+      "emitter_id": "SUR1070_129",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_129/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e7d6557e",
+      "seed": 662856460
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_130/r001.json",
+      "configuration_sha256": "5d2358458d0806f094c3ac3b4111f14d48545466179b3a1bee8c2984a3727e83",
+      "emitter_id": "SUR1070_130",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_130/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__5d235845",
+      "seed": 5598237
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_131/r001.json",
+      "configuration_sha256": "2adbc2360cca10422b41aed34d274d5e011f184f441cf44310f5d3e95125dcf3",
+      "emitter_id": "SUR1070_131",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_131/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2adbc236",
+      "seed": 1730986758
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_132/r001.json",
+      "configuration_sha256": "7d72534a3c3a5ddd6c2bf5430ede28044b51951fb4f34c2689cd4605d649bbc0",
+      "emitter_id": "SUR1070_132",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_132/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7d72534a",
+      "seed": 248425402
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_133/r001.json",
+      "configuration_sha256": "2c5e3daa51ecf43e3fbae6090857e4f8c494991696c04e4904ce5cba802975ca",
+      "emitter_id": "SUR1070_133",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_133/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2c5e3daa",
+      "seed": 420782244
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_134/r001.json",
+      "configuration_sha256": "768ccfd28586c07e648e8765410fea004b30441c7f10cbc4e8316ad8bd72321f",
+      "emitter_id": "SUR1070_134",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_134/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__768ccfd2",
+      "seed": 1312490888
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_135/r001.json",
+      "configuration_sha256": "b50983f161eff3d332ecff542f331d0176694bd668e8630d63d0547123ecb5f7",
+      "emitter_id": "SUR1070_135",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_135/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b50983f1",
+      "seed": 1697294779
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_136/r001.json",
+      "configuration_sha256": "3eda0c1e6d8d39428217968b17d80c2723d3e60ddc220a3718f8fc6e77ec8daa",
+      "emitter_id": "SUR1070_136",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_136/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3eda0c1e",
+      "seed": 1929049934
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_137/r001.json",
+      "configuration_sha256": "447065ffd4adbe6a7c4591081eed97a063dcbca60b884bda6cb74ff704d54497",
+      "emitter_id": "SUR1070_137",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_137/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__447065ff",
+      "seed": 441143606
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_138/r001.json",
+      "configuration_sha256": "7ce4315a7c0ed22ad0a1d95251ccc60eedf79aa416739a45ad04487c0eb3087c",
+      "emitter_id": "SUR1070_138",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_138/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7ce4315a",
+      "seed": 1227873460
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_139/r001.json",
+      "configuration_sha256": "3f7e1010e3778e65ab4c40e9e7de3d2e338543117ffdb91765d0b02c3c8d39de",
+      "emitter_id": "SUR1070_139",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_139/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3f7e1010",
+      "seed": 29134529
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_140/r001.json",
+      "configuration_sha256": "c51a2da2c742c5e78beb6bcd39c48346e76c3ca8bb6cb667645366fd7defcb8c",
+      "emitter_id": "SUR1070_140",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_140/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__c51a2da2",
+      "seed": 1794728175
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_141/r001.json",
+      "configuration_sha256": "9148c17c1f37859d45b04df3a42106fc5d11036ac51235ad79560d2e2a873819",
+      "emitter_id": "SUR1070_141",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_141/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9148c17c",
+      "seed": 681135958
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_142/r001.json",
+      "configuration_sha256": "34892220fea5e831a6f9ec32ca2bbe7b15c41017b483bbc83b3d3f4e18ba8fbf",
+      "emitter_id": "SUR1070_142",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_142/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__34892220",
+      "seed": 1422306936
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_143/r001.json",
+      "configuration_sha256": "bdeaa91a1d60d0d996af3dddfd82fe6ce2ed7049003fb2d44cc1345b4ab03e2f",
+      "emitter_id": "SUR1070_143",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_143/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bdeaa91a",
+      "seed": 450788753
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_144/r001.json",
+      "configuration_sha256": "fcbf275e4c64ec28678a9218a2b088a26ab2482d7d64d9890c18342b60034a47",
+      "emitter_id": "SUR1070_144",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_144/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__fcbf275e",
+      "seed": 469263724
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_145/r001.json",
+      "configuration_sha256": "2595b8aaced83f0aae75c0b30d422d32dba223df038273584be25104da50c155",
+      "emitter_id": "SUR1070_145",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_145/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2595b8aa",
+      "seed": 820784096
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_146/r001.json",
+      "configuration_sha256": "41f67bd4d5c81fb02e14c2884096363e3a719b994adcb4d24d8f595a7c0c008a",
+      "emitter_id": "SUR1070_146",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_146/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__41f67bd4",
+      "seed": 1510257987
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_147/r001.json",
+      "configuration_sha256": "eb161b1947dd9b68d22b7f1b077c6c73699abd1231f4cd2eb53d6e6cbbbdf76f",
+      "emitter_id": "SUR1070_147",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_147/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__eb161b19",
+      "seed": 2108562356
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_148/r001.json",
+      "configuration_sha256": "f8d3fa04afa2a274b7754469f60b75d65ecab9e8f3d17e34a2657a9932704153",
+      "emitter_id": "SUR1070_148",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_148/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f8d3fa04",
+      "seed": 1094692963
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_149/r001.json",
+      "configuration_sha256": "d6e03b3bf75df648145a2d66113840406c27d18e4df118f9b9ff76e1f9d4d021",
+      "emitter_id": "SUR1070_149",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_149/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d6e03b3b",
+      "seed": 1851986887
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_150/r001.json",
+      "configuration_sha256": "77e48a932a35105f0225f8bc78bd82f053b5ee5910c16b467db5c19550845f5b",
+      "emitter_id": "SUR1070_150",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_150/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__77e48a93",
+      "seed": 1935006111
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_151/r001.json",
+      "configuration_sha256": "9e4ed9af23fe7a53856d429461a9477ad1a604692972dd537a833a3bd5d0e6c7",
+      "emitter_id": "SUR1070_151",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_151/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9e4ed9af",
+      "seed": 1832187629
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_152/r001.json",
+      "configuration_sha256": "d8d51d469df5ceb7f94497be27cac810bd07e69d78b4a78ab41ecfeab286fa52",
+      "emitter_id": "SUR1070_152",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_152/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d8d51d46",
+      "seed": 1780913664
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_153/r001.json",
+      "configuration_sha256": "771d9c69752b8322d999217945cce78afa3d1da2f2dfff56341e4ae6750a4634",
+      "emitter_id": "SUR1070_153",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_153/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__771d9c69",
+      "seed": 1460123788
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_154/r001.json",
+      "configuration_sha256": "51596cbbdc7ec41f01e12ffd168baf3febe2b4c59bb99d1048b9452cc352e992",
+      "emitter_id": "SUR1070_154",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_154/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__51596cbb",
+      "seed": 253073440
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_155/r001.json",
+      "configuration_sha256": "62947280abb8e780fb3f0d4a52bc0b1b8e730511a7425335531f6d95211737b6",
+      "emitter_id": "SUR1070_155",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_155/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__62947280",
+      "seed": 1309136057
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_156/r001.json",
+      "configuration_sha256": "bdce6924130030303ed7dd1c70bf30f49c92e03c18f1f6ff23f02ddf20b603f8",
+      "emitter_id": "SUR1070_156",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_156/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bdce6924",
+      "seed": 1905205134
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_157/r001.json",
+      "configuration_sha256": "6a8f0bbd9e05edb656ecbcca39a51bdf41a8d05370f360fcff399c2b9fcdcbd7",
+      "emitter_id": "SUR1070_157",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_157/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6a8f0bbd",
+      "seed": 568908684
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_158/r001.json",
+      "configuration_sha256": "8fefe2f87b4324ccdcc3151fd2698f675b1eb08e9dc249bbfd26a71db262bc4b",
+      "emitter_id": "SUR1070_158",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_158/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__8fefe2f8",
+      "seed": 1263373668
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_159/r001.json",
+      "configuration_sha256": "de3757680ec15660d8f607268d313b7d70ee26011ae6233675fb5e0d27a6971d",
+      "emitter_id": "SUR1070_159",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_159/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__de375768",
+      "seed": 217105061
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_160/r001.json",
+      "configuration_sha256": "32d13f65b6066771c03502057e2d73b7f08faec96640528c01b344857d3078c6",
+      "emitter_id": "SUR1070_160",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_160/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__32d13f65",
+      "seed": 853451447
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_161/r001.json",
+      "configuration_sha256": "d606e63a9d7b6b4c4711ac58c43cdb7c79fd36d20479ae2c0ca4f9ae81b60c8c",
+      "emitter_id": "SUR1070_161",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_161/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__d606e63a",
+      "seed": 1970883944
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_162/r001.json",
+      "configuration_sha256": "e2517f22b2974fb25fbc0469b37cae837b68d4919dd42f4529581d46740a0044",
+      "emitter_id": "SUR1070_162",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_162/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e2517f22",
+      "seed": 886063468
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_163/r001.json",
+      "configuration_sha256": "616c7b7f6f0b23644e29be51fb57f2eaabb3dc14524f38d58ce2c5dbe95ee93a",
+      "emitter_id": "SUR1070_163",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_163/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__616c7b7f",
+      "seed": 911267715
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_164/r001.json",
+      "configuration_sha256": "3d406ee9d32d4dbf8f659fd2b0cc3d3a2072674a009daf495c849eb9cb838031",
+      "emitter_id": "SUR1070_164",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_164/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3d406ee9",
+      "seed": 864091029
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_165/r001.json",
+      "configuration_sha256": "9e3eaae8f136bc3c7fc9167e2aff11a941e5b38a7f49bcc6184c906b9b166f5c",
+      "emitter_id": "SUR1070_165",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_165/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9e3eaae8",
+      "seed": 1204534822
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_166/r001.json",
+      "configuration_sha256": "f05749166d5d69b42c7197f90eb2ad3b8891c21d438a8cfb848d6526c4d6f368",
+      "emitter_id": "SUR1070_166",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_166/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f0574916",
+      "seed": 1463492146
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_167/r001.json",
+      "configuration_sha256": "2bc61005c44f1606c5dc2d22c53a4ea52f6f8013b0c836559e519f6d743754a8",
+      "emitter_id": "SUR1070_167",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_167/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2bc61005",
+      "seed": 1038612428
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_168/r001.json",
+      "configuration_sha256": "3ab15fb27076cc286e228d7bcb0f9abb9ffa46ca653cd6f4996f8a949962bda6",
+      "emitter_id": "SUR1070_168",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_168/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3ab15fb2",
+      "seed": 1742505937
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_169/r001.json",
+      "configuration_sha256": "b52cb8c054b873c7020d07372eefa3593aeaf4a22f0bba45c739b3352dc39563",
+      "emitter_id": "SUR1070_169",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_169/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b52cb8c0",
+      "seed": 2023649558
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_170/r001.json",
+      "configuration_sha256": "13bd5a25813e4bbf177205401abcbafdd0af9534e019f934f8f5f2b3f64f285f",
+      "emitter_id": "SUR1070_170",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_170/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__13bd5a25",
+      "seed": 1125230271
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_171/r001.json",
+      "configuration_sha256": "892ca4ef51347abff008f2f7b21332e0c4224f4f518fc576212c80d03efae47e",
+      "emitter_id": "SUR1070_171",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_171/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__892ca4ef",
+      "seed": 1520164875
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_172/r001.json",
+      "configuration_sha256": "2e6d100bf4eb3a5166e23a087870c15b31ff832852c383b0983a3ab65819d745",
+      "emitter_id": "SUR1070_172",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_172/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2e6d100b",
+      "seed": 1865093296
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_173/r001.json",
+      "configuration_sha256": "0e9637cea22b5c6845d5ee104a6496e9aac4a327271e8ff650bc593624202e8a",
+      "emitter_id": "SUR1070_173",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_173/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__0e9637ce",
+      "seed": 468156413
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_174/r001.json",
+      "configuration_sha256": "b1ae55143f5be716ab955b30b18e4dfbe7525a7e41242999b0c64904c5ab9704",
+      "emitter_id": "SUR1070_174",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_174/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b1ae5514",
+      "seed": 1814417529
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_175/r001.json",
+      "configuration_sha256": "8192461a73e249d2d2581c39037744bcfb0a2da3a76c271ed906f9fe1d3c3d19",
+      "emitter_id": "SUR1070_175",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_175/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__8192461a",
+      "seed": 1875109492
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_176/r001.json",
+      "configuration_sha256": "886ac49988b0aaf3489e2ea11ab190ed142e7fa242ecf8129e38ee96601801bc",
+      "emitter_id": "SUR1070_176",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_176/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__886ac499",
+      "seed": 1910598657
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_177/r001.json",
+      "configuration_sha256": "4e5f490d64dee1b1df66cec291c05c41161e6ae5fdc050aa90baf53739578fec",
+      "emitter_id": "SUR1070_177",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_177/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__4e5f490d",
+      "seed": 1724087726
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_178/r001.json",
+      "configuration_sha256": "592765e3da66c040d7b985cebb0b991924b8be0a1961cfc8162b61a86b13c03e",
+      "emitter_id": "SUR1070_178",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_178/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__592765e3",
+      "seed": 1526062601
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_179/r001.json",
+      "configuration_sha256": "f8d75378f248dbb76e6d6aa803e19389ffe5470d9e9ce0617c76fa8c1e2d4fd9",
+      "emitter_id": "SUR1070_179",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_179/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f8d75378",
+      "seed": 1154833655
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_180/r001.json",
+      "configuration_sha256": "abdae36ba341ab9d65e85b568a9ae488f53ad6a9b146b0a0215be9b01632b8da",
+      "emitter_id": "SUR1070_180",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_180/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__abdae36b",
+      "seed": 437299419
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_181/r001.json",
+      "configuration_sha256": "225eec107ea3c8840c5a4678c5636f0739dec8ad51bf790c73f4f66175b20c1d",
+      "emitter_id": "SUR1070_181",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_181/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__225eec10",
+      "seed": 1704882728
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_182/r001.json",
+      "configuration_sha256": "8b218f0aa675124a70cf3ae8b1d77cb9b0b4f87a0b7f41d9e6de228e42e6af97",
+      "emitter_id": "SUR1070_182",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_182/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__8b218f0a",
+      "seed": 349410082
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_183/r001.json",
+      "configuration_sha256": "a7c94bdb3dcdb971207eb1ab55819e164b64a1d0f67715d132a56d887006182c",
+      "emitter_id": "SUR1070_183",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_183/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a7c94bdb",
+      "seed": 610454307
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_184/r001.json",
+      "configuration_sha256": "1e1fa1a44d6c65e0b449024f007c5ef7ab7ae6dca76c5047a6bc509236da4909",
+      "emitter_id": "SUR1070_184",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_184/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1e1fa1a4",
+      "seed": 1760100897
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_185/r001.json",
+      "configuration_sha256": "f309243f230c4b2ba0f6532b66acabba2a22e1e79e74565f6560ce0ede1824ce",
+      "emitter_id": "SUR1070_185",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_185/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f309243f",
+      "seed": 2116182818
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_186/r001.json",
+      "configuration_sha256": "311756d03f1bb65bb5774d2118ef3d2aedbc45ba8d435270cb961cf66871e125",
+      "emitter_id": "SUR1070_186",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_186/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__311756d0",
+      "seed": 71115998
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_187/r001.json",
+      "configuration_sha256": "b69f49b3ce3849596ab56a0bb0b0f88100d5dd0552f73033807c819d927a2a53",
+      "emitter_id": "SUR1070_187",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_187/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b69f49b3",
+      "seed": 2004369464
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_188/r001.json",
+      "configuration_sha256": "f470ef8d541c86f2b34d7bd5dfbb77ae248f72daede077362ae7f4ead86f231a",
+      "emitter_id": "SUR1070_188",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_188/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f470ef8d",
+      "seed": 1018587743
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_189/r001.json",
+      "configuration_sha256": "103ae676a7a29d402bfb048524e6b5a57ef0cdd5914ea4b74676eb97a57a611c",
+      "emitter_id": "SUR1070_189",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_189/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__103ae676",
+      "seed": 50682637
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_190/r001.json",
+      "configuration_sha256": "511c2d76d2cb82a037549ddbd598ed5d51bbd0e2de832f13207b778149f4e591",
+      "emitter_id": "SUR1070_190",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_190/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__511c2d76",
+      "seed": 74730950
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_191/r001.json",
+      "configuration_sha256": "09e08e7dceb843c40a81c9efa024b1f9f849f496ceb0dd6d53d3fe1c56bfbb5c",
+      "emitter_id": "SUR1070_191",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_191/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__09e08e7d",
+      "seed": 315275570
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_192/r001.json",
+      "configuration_sha256": "bbdc8e0360447267e2c38d4f5890fe1a5bc6469423c0e12d46de12596edb78ca",
+      "emitter_id": "SUR1070_192",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_192/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bbdc8e03",
+      "seed": 1604279155
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_193/r001.json",
+      "configuration_sha256": "82d48e38befe33d9b049f6a6746fc5e894530380a33c636a5acac06d268d16a8",
+      "emitter_id": "SUR1070_193",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_193/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__82d48e38",
+      "seed": 1136572774
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_194/r001.json",
+      "configuration_sha256": "9c22fdc00b7cb89a79ff27817a45e5c12989aaa1f706e68a069f1fee2c6ca75d",
+      "emitter_id": "SUR1070_194",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_194/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9c22fdc0",
+      "seed": 786582247
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_195/r001.json",
+      "configuration_sha256": "2b9a7b55205af3964d10205910c88058f8ba491e50c3d084b52e56196d648e0f",
+      "emitter_id": "SUR1070_195",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_195/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2b9a7b55",
+      "seed": 1897311482
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_196/r001.json",
+      "configuration_sha256": "f6eda97acb65f5562ddb3e2cba31b3540ad341f8d77b97c3a77038f217f019af",
+      "emitter_id": "SUR1070_196",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_196/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f6eda97a",
+      "seed": 1690767513
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_197/r001.json",
+      "configuration_sha256": "5f057ae0f438b6d0d9ec4c2bfb78404e3e795f01fae97b25a3f1f93baa3c6523",
+      "emitter_id": "SUR1070_197",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_197/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__5f057ae0",
+      "seed": 293811511
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_198/r001.json",
+      "configuration_sha256": "1c29868c82111c21ab9e55625d8fd681b8e0680835939adc2168426e0b626641",
+      "emitter_id": "SUR1070_198",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_198/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1c29868c",
+      "seed": 80812184
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_199/r001.json",
+      "configuration_sha256": "fbfc13807c4c56496fed891b1d5eb029d34efef3f662c13f72519a20cfdbf12f",
+      "emitter_id": "SUR1070_199",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_199/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__fbfc1380",
+      "seed": 1251691543
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_200/r001.json",
+      "configuration_sha256": "44d69c427d331bf412e0c997ef406f0afc060fc5991424fdd85810f3efbf8bf0",
+      "emitter_id": "SUR1070_200",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_200/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__44d69c42",
+      "seed": 1627121448
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_201/r001.json",
+      "configuration_sha256": "6269f69ed63b1d2cd928bd63657cbe43f4b65b559d7b9a6681dc908757a9dacc",
+      "emitter_id": "SUR1070_201",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_201/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6269f69e",
+      "seed": 702624949
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_202/r001.json",
+      "configuration_sha256": "2103f6b36ff351624e8f934e5090caeb53e32175eb3e4d4f750429cbb9a9ce0c",
+      "emitter_id": "SUR1070_202",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_202/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2103f6b3",
+      "seed": 1041505765
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_203/r001.json",
+      "configuration_sha256": "fe47fba52235531b3a9f1f545c024f137745d1cbbc20eee3f54972bd97ce6b5e",
+      "emitter_id": "SUR1070_203",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_203/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__fe47fba5",
+      "seed": 1180905334
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_204/r001.json",
+      "configuration_sha256": "1b14386c76ded135df26260e84175d72118f3c14e11297bb00a72bf1f99281e9",
+      "emitter_id": "SUR1070_204",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_204/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1b14386c",
+      "seed": 100389321
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_205/r001.json",
+      "configuration_sha256": "efebb7b4f1cc48c87989e52ae465c438c882399cfce82e382eb951c46cfca051",
+      "emitter_id": "SUR1070_205",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_205/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__efebb7b4",
+      "seed": 1307140096
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_206/r001.json",
+      "configuration_sha256": "1e9d1b594394cbb1b88bb879b328c53625d92b068db7f0d15f13dd24318c69c7",
+      "emitter_id": "SUR1070_206",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_206/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1e9d1b59",
+      "seed": 254386933
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_207/r001.json",
+      "configuration_sha256": "2456a1682e820fc1c2f837d400551b61b2ac6c6c6ab90eaa50831f0dbc61a1ca",
+      "emitter_id": "SUR1070_207",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_207/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2456a168",
+      "seed": 1695463122
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_208/r001.json",
+      "configuration_sha256": "3958527c2f6e0acf7e9ab511bbda80e1f15ffc0a26385b41c5f6fc62ccb6da43",
+      "emitter_id": "SUR1070_208",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_208/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3958527c",
+      "seed": 1049766750
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_209/r001.json",
+      "configuration_sha256": "a9e4a1dbce5b076124b64f5b0293c31c19d2abf4bb1690d41fc50fa0b5b8c8ef",
+      "emitter_id": "SUR1070_209",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_209/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a9e4a1db",
+      "seed": 914659085
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_210/r001.json",
+      "configuration_sha256": "7aeb28345035e97e9917a45fee02b89d2e6182aa01815ae4c6cdc3ad53c0d096",
+      "emitter_id": "SUR1070_210",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_210/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7aeb2834",
+      "seed": 448694192
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_211/r001.json",
+      "configuration_sha256": "33fc2d93bca5d519aef6a708ed569738f82062bf28220a3715f2f1604b302b76",
+      "emitter_id": "SUR1070_211",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_211/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__33fc2d93",
+      "seed": 972460664
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_212/r001.json",
+      "configuration_sha256": "978547b82bc51cffabd821d17067b3ad7c2d9f16b54d227a74c02ea31160243c",
+      "emitter_id": "SUR1070_212",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_212/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__978547b8",
+      "seed": 1563320404
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_213/r001.json",
+      "configuration_sha256": "f2ac2fa757f9692975e65a76021cfa3dd186f9991bd44626765cce4825561b2b",
+      "emitter_id": "SUR1070_213",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_213/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f2ac2fa7",
+      "seed": 1881239257
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_214/r001.json",
+      "configuration_sha256": "13b86adabb8c28e755f925056f9ad3e7b5693e273ddc777148e34aa83a763347",
+      "emitter_id": "SUR1070_214",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_214/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__13b86ada",
+      "seed": 516599560
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_215/r001.json",
+      "configuration_sha256": "b99810a01b04c4c392c46dd0dfc54b031d2053d8b8c50a4af078af1302584afc",
+      "emitter_id": "SUR1070_215",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_215/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b99810a0",
+      "seed": 821280323
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_216/r001.json",
+      "configuration_sha256": "5d8034c9afb94ffb7eb0ab34b7609c6cd726433c191a903a23a86776c27883aa",
+      "emitter_id": "SUR1070_216",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_216/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__5d8034c9",
+      "seed": 1290030615
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_217/r001.json",
+      "configuration_sha256": "e4790746989c3c8d5c8a078772722e0a19cf2190ee79dca8d7db299384431e32",
+      "emitter_id": "SUR1070_217",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_217/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e4790746",
+      "seed": 718368477
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_218/r001.json",
+      "configuration_sha256": "41b6ce6178797804a5a65c505936e1098aaa840154833ec8b720cd8664a56802",
+      "emitter_id": "SUR1070_218",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_218/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__41b6ce61",
+      "seed": 538320206
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_219/r001.json",
+      "configuration_sha256": "b98124926a086b078c7fe338e8f5236929ceff381a5045b44b56de546189c189",
+      "emitter_id": "SUR1070_219",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_219/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b9812492",
+      "seed": 1598771522
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_220/r001.json",
+      "configuration_sha256": "9f29d8e82e89e40d655c4583e826946fe33d25a481d8547fed6a7dd383d14803",
+      "emitter_id": "SUR1070_220",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_220/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9f29d8e8",
+      "seed": 456030219
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_221/r001.json",
+      "configuration_sha256": "a8c17c7f02331ee42d337b3f0f4bcf81636f7b4ca82a2dbf13c885f4ea2b23b6",
+      "emitter_id": "SUR1070_221",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_221/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a8c17c7f",
+      "seed": 903207644
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_222/r001.json",
+      "configuration_sha256": "7257743d133fd65535e2b39531b5a335a31aaa5d990b1227f56cec0101b49d80",
+      "emitter_id": "SUR1070_222",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_222/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7257743d",
+      "seed": 1892617727
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_223/r001.json",
+      "configuration_sha256": "9190d3ec90b9693a107cfd8b2c8c86d3f13f36b9bae0c705fcceacd05cf3fb0f",
+      "emitter_id": "SUR1070_223",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_223/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9190d3ec",
+      "seed": 2074799691
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_224/r001.json",
+      "configuration_sha256": "6067ce61d8766a8f6db2f2407be469c35e2d6d726c90458b212fe231116982bd",
+      "emitter_id": "SUR1070_224",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_224/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6067ce61",
+      "seed": 948026399
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_225/r001.json",
+      "configuration_sha256": "b32caa6f5e2ca265a792c07a72a5a59c3f626a4e0391b0607d428cbd7903190a",
+      "emitter_id": "SUR1070_225",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_225/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b32caa6f",
+      "seed": 16010527
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_226/r001.json",
+      "configuration_sha256": "f083d74d00187aa2bbad65b89080d98dcb8d134a2632ab5a7773fa655b5e891d",
+      "emitter_id": "SUR1070_226",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_226/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f083d74d",
+      "seed": 2025035277
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_227/r001.json",
+      "configuration_sha256": "e9ed28b517bc7e75d296c6c0474f0cda29ab8bceff90522a8aed91ff9e0ad8f2",
+      "emitter_id": "SUR1070_227",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_227/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e9ed28b5",
+      "seed": 604968655
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_228/r001.json",
+      "configuration_sha256": "9f391f05bf71a54327de7560ea7f4375c570b6cce48908e2603e0dbb329b59f3",
+      "emitter_id": "SUR1070_228",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_228/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9f391f05",
+      "seed": 863110843
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_229/r001.json",
+      "configuration_sha256": "bfa075996114b328b299751e9489260029006d51e1dd44bde4a92c8e206d3c0e",
+      "emitter_id": "SUR1070_229",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_229/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bfa07599",
+      "seed": 1272696466
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_230/r001.json",
+      "configuration_sha256": "0860d461e9789a39fb5f7b948f71ace02de25a0352786dacbb01132de2466c4b",
+      "emitter_id": "SUR1070_230",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_230/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__0860d461",
+      "seed": 1822538957
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_231/r001.json",
+      "configuration_sha256": "dee3c2b4e352b6dcd7b8f4b190be8982bb500fd469b087faabb820fca6653fea",
+      "emitter_id": "SUR1070_231",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_231/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__dee3c2b4",
+      "seed": 910387081
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_232/r001.json",
+      "configuration_sha256": "3abb3e063ce7ceef8d6400da629a20166fd347cf2ab676018693c79517dc616d",
+      "emitter_id": "SUR1070_232",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_232/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__3abb3e06",
+      "seed": 1796314850
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_233/r001.json",
+      "configuration_sha256": "9d3a04ac5f93f8e4e341cea033af890e9400d006fd9e830016318815d5bd7c18",
+      "emitter_id": "SUR1070_233",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_233/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9d3a04ac",
+      "seed": 1175591400
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_234/r001.json",
+      "configuration_sha256": "e696538f013eb1ed058446e872708c4750b251a7696c1a83eb8c0e1005e20ef3",
+      "emitter_id": "SUR1070_234",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_234/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e696538f",
+      "seed": 883525256
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_235/r001.json",
+      "configuration_sha256": "a6612328b70eca504052ee29c3459dd40e8c818d6ab0d1c3fd9963706755095f",
+      "emitter_id": "SUR1070_235",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_235/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a6612328",
+      "seed": 261262898
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_236/r001.json",
+      "configuration_sha256": "8a82516a49cd948d87c334c0c05765bfddad0869f1c59cd7ac66e9b80a22ebe8",
+      "emitter_id": "SUR1070_236",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_236/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__8a82516a",
+      "seed": 1805652590
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_237/r001.json",
+      "configuration_sha256": "f8b7d2e43216e983660c275e099ae86a52a05a2a8b600a63e3181b8279eed673",
+      "emitter_id": "SUR1070_237",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_237/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f8b7d2e4",
+      "seed": 1878145526
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_238/r001.json",
+      "configuration_sha256": "b52dfcd95553bb2521c89f1afea0a4e81c722c4f07da3062b615f6ff0280d6dc",
+      "emitter_id": "SUR1070_238",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_238/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b52dfcd9",
+      "seed": 1599904951
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_239/r001.json",
+      "configuration_sha256": "669f3ed65f98d951a31fcaba7f9e8737a54f53386271cdd76709688851214639",
+      "emitter_id": "SUR1070_239",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_239/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__669f3ed6",
+      "seed": 1585745389
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_240/r001.json",
+      "configuration_sha256": "b72fb603d79b692e753c6b927e4bf533e3c6c5930f4f37cf418da05e4f0cf82d",
+      "emitter_id": "SUR1070_240",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_240/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__b72fb603",
+      "seed": 1428417567
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_241/r001.json",
+      "configuration_sha256": "24704d56a41fd74f71593e3e6c6707ef8507224423f5abc031eff4a731f728d2",
+      "emitter_id": "SUR1070_241",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_241/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__24704d56",
+      "seed": 813689305
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_242/r001.json",
+      "configuration_sha256": "0f0901aa8964b60fcbe96703043e56c1618d414cb60a9c2befefef642df0cbbc",
+      "emitter_id": "SUR1070_242",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_242/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__0f0901aa",
+      "seed": 11477825
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_243/r001.json",
+      "configuration_sha256": "71df9afc2908999e2079b648b40f2d8a3cb97de756c366197392274df9c307b8",
+      "emitter_id": "SUR1070_243",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_243/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__71df9afc",
+      "seed": 1841519959
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_244/r001.json",
+      "configuration_sha256": "1049821ac9dfd844fcf66abc60cd4175c162f3942a8bca0f24ca8283b74976c9",
+      "emitter_id": "SUR1070_244",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_244/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1049821a",
+      "seed": 1363319862
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_245/r001.json",
+      "configuration_sha256": "1bf13ea8a70de1bc69806b9be47f45812310e98962054bfe60862525209321ab",
+      "emitter_id": "SUR1070_245",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_245/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__1bf13ea8",
+      "seed": 1043872536
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_246/r001.json",
+      "configuration_sha256": "99ca305f51f3bd1efa3942fb56a4a42df1183cbc4efbbba7576884a185a04800",
+      "emitter_id": "SUR1070_246",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_246/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__99ca305f",
+      "seed": 205730285
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_247/r001.json",
+      "configuration_sha256": "3873198130da49e09d1d8b38227225aaf9eddccd75e79bff369038a785beda49",
+      "emitter_id": "SUR1070_247",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_247/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__38731981",
+      "seed": 46606164
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_248/r001.json",
+      "configuration_sha256": "4fc3dbb83263f93494df3774926e718b669b6a31d21ef099a54d4d231c40c1d8",
+      "emitter_id": "SUR1070_248",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_248/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__4fc3dbb8",
+      "seed": 1644689342
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_249/r001.json",
+      "configuration_sha256": "7ec20992da8cf58d35bf67eaa1de98562594a9886d5f3f1c7c27a365a2a37401",
+      "emitter_id": "SUR1070_249",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_249/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7ec20992",
+      "seed": 1647199038
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_250/r001.json",
+      "configuration_sha256": "eb2d78c47a04f5e3d17a7410380bf4c4d209007033af6f625734994cd298d4d4",
+      "emitter_id": "SUR1070_250",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_250/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__eb2d78c4",
+      "seed": 1615361263
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_251/r001.json",
+      "configuration_sha256": "536da7135b9fac028dcd82d561436faca043c1f7829c408ddbbcdbbe57b334e2",
+      "emitter_id": "SUR1070_251",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_251/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__536da713",
+      "seed": 519542944
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_252/r001.json",
+      "configuration_sha256": "4e4f0767c88e05b27182e5bff5d795fc7241e8e3b07186a44c8ff785558aa238",
+      "emitter_id": "SUR1070_252",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_252/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__4e4f0767",
+      "seed": 1980152974
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_253/r001.json",
+      "configuration_sha256": "785640f012417da9afc09d7bf60da21499fad8079ca62f88a2433f0aec2b7761",
+      "emitter_id": "SUR1070_253",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_253/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__785640f0",
+      "seed": 2025919693
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_254/r001.json",
+      "configuration_sha256": "9271f7a20d97b7676833e0e6dfb7470ce2d62fa84aaec3852a773517dbf2d1b1",
+      "emitter_id": "SUR1070_254",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_254/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__9271f7a2",
+      "seed": 1154067001
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_255/r001.json",
+      "configuration_sha256": "c3f567e4109a76e64c75e9600ab1ee13666b7b07d6a32a1d0ceaaea5dffe912e",
+      "emitter_id": "SUR1070_255",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_255/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__c3f567e4",
+      "seed": 353728588
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_256/r001.json",
+      "configuration_sha256": "bab03e50928e98aefa6b0014222c4ae2cadfe7b3969b1aa450691054796499ee",
+      "emitter_id": "SUR1070_256",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_256/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bab03e50",
+      "seed": 1224080646
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_257/r001.json",
+      "configuration_sha256": "6952d5aaa50cf7a10c95773d593137dd4b4bf32170837e4917e4ecf23b47dbb8",
+      "emitter_id": "SUR1070_257",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_257/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__6952d5aa",
+      "seed": 1808848197
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_258/r001.json",
+      "configuration_sha256": "efa3038824a5f607a4befe048fe0d9a7d1a3e8d8e40df7a7de535bbf0ee86d5c",
+      "emitter_id": "SUR1070_258",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_258/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__efa30388",
+      "seed": 1798773490
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_259/r001.json",
+      "configuration_sha256": "7489ca15122a3a38494f379cceb4febd43e31df009c30439ba9fce6ff392fa48",
+      "emitter_id": "SUR1070_259",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_259/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7489ca15",
+      "seed": 738336447
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_260/r001.json",
+      "configuration_sha256": "95d3d9b11f95d5e87696a7ea31f89e2bf7aa46f4de7f7eeb2f026b8b3d23517f",
+      "emitter_id": "SUR1070_260",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_260/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__95d3d9b1",
+      "seed": 1270513481
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_261/r001.json",
+      "configuration_sha256": "918048fbe425f6e42ab69cfa1a2421302439d0754f9802662e21ef2c32b20de5",
+      "emitter_id": "SUR1070_261",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_261/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__918048fb",
+      "seed": 1654627942
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_262/r001.json",
+      "configuration_sha256": "0a1747f4543004193fe27fb0e95e7f854455c4de53d20e782ca011d15da553a0",
+      "emitter_id": "SUR1070_262",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_262/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__0a1747f4",
+      "seed": 344499374
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_263/r001.json",
+      "configuration_sha256": "a622682c19f1b512409d6d8ad0f6d757ab932bbe733db6b1e4057810c758055c",
+      "emitter_id": "SUR1070_263",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_263/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a622682c",
+      "seed": 435222949
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_264/r001.json",
+      "configuration_sha256": "2278a193d4d14bfb326927864f0b0237dee0385981d50d42a4f83e60a0bb3670",
+      "emitter_id": "SUR1070_264",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_264/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__2278a193",
+      "seed": 1734730651
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_265/r001.json",
+      "configuration_sha256": "a70b5349fb8f443273ebea1fa89aa7f14b9f52c5eb263539458b2938c988c86a",
+      "emitter_id": "SUR1070_265",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_265/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a70b5349",
+      "seed": 5441246
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_266/r001.json",
+      "configuration_sha256": "7b08436bef3899628f91c027037a1ac4b235b5d7732565d02f673313c205ce8a",
+      "emitter_id": "SUR1070_266",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_266/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7b08436b",
+      "seed": 529502589
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_267/r001.json",
+      "configuration_sha256": "e2ccc8d77f2fabfbb29b10c446ae822e355905ea13ae32ed7d55ad59708aa24b",
+      "emitter_id": "SUR1070_267",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_267/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e2ccc8d7",
+      "seed": 522214153
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_268/r001.json",
+      "configuration_sha256": "e5eadb8535700c4b564654ea0c912f1289f10985b5e6d313f87be0e65ba76910",
+      "emitter_id": "SUR1070_268",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_268/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e5eadb85",
+      "seed": 1071539838
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_269/r001.json",
+      "configuration_sha256": "42a4d420511dd23dcd1ccd9d2aeaa1483a8f30b7adf09be10336716e940961fe",
+      "emitter_id": "SUR1070_269",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_269/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__42a4d420",
+      "seed": 564952492
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_270/r001.json",
+      "configuration_sha256": "97939bac26c571865e3f3d54eaf3e6950f3ba0d045fbeaf38b18522fc6ec6320",
+      "emitter_id": "SUR1070_270",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_270/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__97939bac",
+      "seed": 931083725
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_271/r001.json",
+      "configuration_sha256": "e62244d1c9bf9ffab029fbbaab2e3e18b7fde74115e3179fa35b518074f93b7d",
+      "emitter_id": "SUR1070_271",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_271/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__e62244d1",
+      "seed": 1131049106
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_272/r001.json",
+      "configuration_sha256": "71f812eb678a63752bf8bc508f844bc7f72470dadb4b9c3afbcfbb2a0d9e4811",
+      "emitter_id": "SUR1070_272",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_272/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__71f812eb",
+      "seed": 1391688781
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_273/r001.json",
+      "configuration_sha256": "a1a696f2fe1b7c0b350e1605d265039851fb7c2c16f352dae76b6f60ca177bf2",
+      "emitter_id": "SUR1070_273",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_273/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__a1a696f2",
+      "seed": 2106275050
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_274/r001.json",
+      "configuration_sha256": "bbb866876d1dc69b6415f3788277651fa5080c939f873d8222941817908cbe61",
+      "emitter_id": "SUR1070_274",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_274/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__bbb86687",
+      "seed": 1447875450
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_275/r001.json",
+      "configuration_sha256": "36949a11de1b1a8c3abb93f14edf859ec37d475e4d162032a2f57534082a5160",
+      "emitter_id": "SUR1070_275",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_275/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__36949a11",
+      "seed": 1288814645
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_276/r001.json",
+      "configuration_sha256": "f255f30ed189ded2cb808cda47086978a2a76b5c21f3968d8b273d0b3cc586d7",
+      "emitter_id": "SUR1070_276",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_276/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__f255f30e",
+      "seed": 712043546
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_basis_v1/sur1070_277/r001.json",
+      "configuration_sha256": "7dcb9f2aefe84b8f1406949ecc87dedde6dbac780b5f0955106077f63be0e430",
+      "emitter_id": "SUR1070_277",
+      "manifest_path": "runs/surrogate_yue277_1070_basis_v1/sur1070_277/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t233000z__7dcb9f2a",
+      "seed": 788926576
+    }
+  ]
+}

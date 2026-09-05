@@ -1,0 +1,46 @@
+{
+  "protocol_id": "two_wavelength_mc_audit_20260904_v1",
+  "output_path": "results/two_wavelength_mc_audit_20260904_v1",
+  "binary_path": ".local/windows/mcxcl-v2025.10/mcxcl/bin/mcxcl.exe",
+  "environment_path": "environment/windows_rtx3080ti_opencl_v1.json",
+  "scenarios": [
+    {
+      "wavelength_nm": 810,
+      "basis_index_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/index.json",
+      "basis_index_sha256": "ed7eb38967e95cf7b58b0f17b9902c7477a647b7eb78dbdd67d080e8e430525e",
+      "baseline_fluence_path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/total_fluence_constant_total.npy",
+      "baseline_fluence_sha256": "9624b5b48ac9794f722fcb908e555b6249c3e4c1639d3ae43a2d357cd8e48b5c"
+    },
+    {
+      "wavelength_nm": 1070,
+      "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+      "basis_index_sha256": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b",
+      "baseline_fluence_path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_010/total_fluence_constant_total.npy",
+      "baseline_fluence_sha256": "ca216e69d30475ad81307f19f77ca25972d5e0056a1d7c17938d07050681fc85"
+    }
+  ],
+  "replicates": 3,
+  "settings": [
+    {
+      "name": "low",
+      "total_photons": 27700000,
+      "end_s": 5e-09
+    },
+    {
+      "name": "high",
+      "total_photons": 277000000,
+      "end_s": 5e-09
+    },
+    {
+      "name": "extended",
+      "total_photons": 277000000,
+      "end_s": 1e-08
+    }
+  ],
+  "criteria": {
+    "minimum_absorbed_fraction": 1e-08,
+    "max_cv": 0.05,
+    "max_relative_change": 0.1
+  },
+  "interpretation": "Screening criteria frozen before these runs, informed by prior review. Signal floor is an engineering reporting threshold, not biological relevance. Counts are total across all 277 sources, not per emitter. Three replicates provide limited uncertainty precision. Whole GM/WM and geometric depth shells only; no cortical parcellation or voxelwise convergence claim. Student-t intervals condition on the selected fixed optical/anatomical/source model."
+}

@@ -1,0 +1,38 @@
+{
+  "backend_equivalence_passed": true,
+  "backend_equivalence_path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_v1/backend_equivalence.json",
+  "backend_equivalence_sha256": "c704d681dbd439ab6728f219f06eb26f2a2234f962bbd62ccca345cf8cf387e6",
+  "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1",
+  "batch_completed_local": "2026-08-15T15:51:23",
+  "batch_elapsed_seconds": 3858.0,
+  "batch_started_local": "2026-08-15T14:47:05",
+  "batch_transcript_path": "windows_277_rtx3080ti_run_transcript.log",
+  "batch_transcript_sha256": "b2595168db59ee0240eadaee26cce753d09187ec04f4d320e8f388690c74e03a",
+  "checksum_preflight_manifest_count": 277,
+  "created_at": "2026-08-15T22:54:36Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "code_revision": "08975d859601dcd5fda37738edf200750cf87e16",
+    "device": "NVIDIA GeForce RTX 3080 Ti",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "platform": "Windows-10-10.0.19045-SP0"
+  },
+  "environment_path": "environment/windows_rtx3080ti_opencl_v1.json",
+  "environment_sha256": "71f4e80f73b9a93c34c7ac692bb3ec581f52d45002ee93096b611249e3d7b30a",
+  "failure_record_count": 0,
+  "failure_records": [],
+  "free_disk_bytes_after_run": 1115589402624,
+  "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+  "index_sha256": "f1510d0e5f3240cb1bf5b0ff4d824b8a71d16e5ff8707ea3bcd92d9bb74c4107",
+  "inventory_id": "surrogate_yue277_1070_windows_rtx3080ti_opencl_postrun_v1",
+  "manifest_count": 277,
+  "manifest_status_counts": {
+    "complete": 277
+  },
+  "native_fluence_field_count": 277,
+  "run_root_bytes": 12475975025,
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy",
+  "summed_field_execution_seconds": 3697.0
+}

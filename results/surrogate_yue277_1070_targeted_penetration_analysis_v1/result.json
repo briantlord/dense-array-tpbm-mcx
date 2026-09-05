@@ -1,0 +1,98 @@
+{
+  "analysis_id": "surrogate_yue277_1070_targeted_penetration_analysis_v1",
+  "created_at": "2026-08-18T01:24:52.997763Z",
+  "headline": {
+    "energy_reaching_brain_parenchyma_percent_of_launched": 1.8597299098800824,
+    "energy_reaching_intracranial_compartment_percent_of_launched": 2.5811311339458887,
+    "energy_reaching_skull_complex_percent_of_launched": 12.027815009564945,
+    "energy_reaching_white_matter_percent_of_launched": 0.17663128147955823,
+    "intracranial_retention_after_reaching_skull_percent": 21.45968433911963
+  },
+  "inputs": {
+    "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f",
+    "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_010/summary.json": "0f18fb3597625acea7e0a6f57710b1ac2c4f0f00575888680a47cf6208e2ee99",
+    "results/surrogate_yue277_1070_intracranial_bypass_audit_v1/result.json": "ce38b155044d76c33911cd2889769c7a69b517d2fc058ee7e685b684b74b110e",
+    "results/surrogate_yue277_1070_targeted_penetration_tallies_pilot_intracranial_mua100_v1/result.json": "a0f2a24d956bd06bd1b6c62dd959e9f13725e094ab1809638f8084fbf7009db2",
+    "results/surrogate_yue277_1070_targeted_penetration_tallies_pilot_intracranial_v1/result.json": "4961640f605c7894423b8350e8109131aadbd20f102356f1d542039939069060",
+    "results/surrogate_yue277_1070_targeted_penetration_tallies_v1/result.json": "79b99d4131da400358f3e2c043b4a40d724268ec0716eaaa02956bc62f8149a5",
+    "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b"
+  },
+  "interpretation": {
+    "denominator": "normalized energy launched by the 277 in-model sources",
+    "first_entry": "target absorbers count photon weight on first entry into each target tissue set",
+    "skull_penetration_statement": "2.581% of in-model launched energy reaches the intracranial compartment; among energy that first reaches skull or marrow, 21.460% subsequently reaches the intracranial compartment",
+    "source_coupling_boundary": "276 of 277 nominal source positions are already in superficial tissue voxels, so external-device coupling and scalp Fresnel entry loss are not represented"
+  },
+  "quality_control": {
+    "absorber_mua_sensitivity": {
+      "intracranial_capture_percent_at_1000_mm-1": 2.5837559858471892,
+      "intracranial_capture_percent_at_100_mm-1": 2.5826094594666356,
+      "pilot_photons": 10000000,
+      "symmetric_relative_difference": 0.0004438425398627744
+    },
+    "intracranial_before_skull_bypass": {
+      "launched_energy_percent": 3.7410458708791304e-05,
+      "percent_of_all_intracranial_reaching_energy": 0.0014493823353949587
+    },
+    "maximum_stage_relative_standard_deviation_percent": 0.06910824969885575,
+    "production_photons_per_stage": 831000000,
+    "production_replicates_per_stage": 3
+  },
+  "relationship_to_absorption": {
+    "brain_absorbed_percent_of_energy_reaching_brain": 65.29164487965143,
+    "brain_absorbed_percent_of_launched": 1.214248248479565,
+    "white_matter_absorbed_percent_of_energy_reaching_white_matter": 20.759911134721655,
+    "white_matter_absorbed_percent_of_launched": 0.036668497071276354
+  },
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy",
+  "source_ids_at_background_nominal_positions": [
+    "SUR1070_138"
+  ],
+  "source_position_material_counts": {
+    "0": 1,
+    "5": 141,
+    "6": 135
+  },
+  "stage_rows": [
+    {
+      "description": "First entry into any modeled non-background head tissue",
+      "launched_energy_percent": 99.99999640500941,
+      "preceding_stage_retention_percent": 99.99999640500941,
+      "relative_standard_deviation_percent": 1.0426166734534937e-07,
+      "replicate_standard_deviation_percentage_points": 1.0426166359715224e-07,
+      "stage": "entered_head_tissue"
+    },
+    {
+      "description": "First entry into skull or marrow",
+      "launched_energy_percent": 12.027815009564945,
+      "preceding_stage_retention_percent": 12.027815441963778,
+      "relative_standard_deviation_percent": 0.010824065657415359,
+      "replicate_standard_deviation_percentage_points": 0.001301898593787769,
+      "stage": "reached_skull_complex"
+    },
+    {
+      "description": "First entry into the intracranial compartment: dura, CSF, brain parenchyma, or vessels",
+      "launched_energy_percent": 2.5811311339458887,
+      "preceding_stage_retention_percent": 21.45968433911963,
+      "relative_standard_deviation_percent": 0.012729677148322856,
+      "replicate_standard_deviation_percentage_points": 0.0003285696601261564,
+      "stage": "reached_intracranial_compartment"
+    },
+    {
+      "description": "First entry into gray or white matter",
+      "launched_energy_percent": 1.8597299098800824,
+      "preceding_stage_retention_percent": 72.0509657731737,
+      "relative_standard_deviation_percent": 0.026204454638607794,
+      "replicate_standard_deviation_percentage_points": 0.00048733208063514774,
+      "stage": "reached_brain_parenchyma"
+    },
+    {
+      "description": "First entry into white matter",
+      "launched_energy_percent": 0.17663128147955823,
+      "preceding_stage_retention_percent": 9.497684612221333,
+      "relative_standard_deviation_percent": 0.06910824969885575,
+      "replicate_standard_deviation_percentage_points": 0.00012206678705118184,
+      "stage": "reached_white_matter"
+    }
+  ]
+}

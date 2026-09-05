@@ -1,0 +1,1671 @@
+{
+  "calibration_id": "surrogate_yue277_1070_unit_source_v1",
+  "date": "2026-08-14",
+  "instrument": "numerical unit-launched-energy convention; not a radiometer",
+  "provenance": "Every source is assigned unit relative weight solely to create normalized basis fields. No target-device optical power, spectrum, duty cycle, beam, coupling, or uncertainty is represented.",
+  "records": [
+    {
+      "emitter_id": "SUR1070_001",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_002",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_003",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_004",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_005",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_006",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_007",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_008",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_009",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_010",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_011",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_012",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_013",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_014",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_015",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_016",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_017",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_018",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_019",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_020",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_021",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_022",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_023",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_024",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_025",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_026",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_027",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_028",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_029",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_030",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_031",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_032",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_033",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_034",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_035",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_036",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_037",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_038",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_039",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_040",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_041",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_042",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_043",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_044",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_045",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_046",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_047",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_048",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_049",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_050",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_051",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_052",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_053",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_054",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_055",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_056",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_057",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_058",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_059",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_060",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_061",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_062",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_063",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_064",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_065",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_066",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_067",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_068",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_069",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_070",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_071",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_072",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_073",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_074",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_075",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_076",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_077",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_078",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_079",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_080",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_081",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_082",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_083",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_084",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_085",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_086",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_087",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_088",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_089",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_090",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_091",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_092",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_093",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_094",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_095",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_096",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_097",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_098",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_099",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_100",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_101",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_102",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_103",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_104",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_105",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_106",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_107",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_108",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_109",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_110",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_111",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_112",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_113",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_114",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_115",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_116",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_117",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_118",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_119",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_120",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_121",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_122",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_123",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_124",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_125",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_126",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_127",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_128",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_129",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_130",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_131",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_132",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_133",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_134",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_135",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_136",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_137",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_138",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_139",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_140",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_141",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_142",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_143",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_144",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_145",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_146",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_147",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_148",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_149",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_150",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_151",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_152",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_153",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_154",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_155",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_156",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_157",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_158",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_159",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_160",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_161",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_162",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_163",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_164",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_165",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_166",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_167",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_168",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_169",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_170",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_171",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_172",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_173",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_174",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_175",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_176",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_177",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_178",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_179",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_180",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_181",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_182",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_183",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_184",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_185",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_186",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_187",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_188",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_189",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_190",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_191",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_192",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_193",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_194",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_195",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_196",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_197",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_198",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_199",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_200",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_201",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_202",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_203",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_204",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_205",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_206",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_207",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_208",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_209",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_210",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_211",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_212",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_213",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_214",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_215",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_216",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_217",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_218",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_219",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_220",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_221",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_222",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_223",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_224",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_225",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_226",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_227",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_228",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_229",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_230",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_231",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_232",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_233",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_234",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_235",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_236",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_237",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_238",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_239",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_240",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_241",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_242",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_243",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_244",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_245",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_246",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_247",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_248",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_249",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_250",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_251",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_252",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_253",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_254",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_255",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_256",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_257",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_258",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_259",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_260",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_261",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_262",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_263",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_264",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_265",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_266",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_267",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_268",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_269",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_270",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_271",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_272",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_273",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_274",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_275",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_276",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "SUR1070_277",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    }
+  ],
+  "synthetic_test_only": false
+}

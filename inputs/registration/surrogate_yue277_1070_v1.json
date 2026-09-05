@@ -1,0 +1,39 @@
+{
+  "accepted": true,
+  "landmark_residual_mm": 0.0,
+  "matrix_4x4": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "method": "Identity transform because the software-only donor coordinates were already generated directly in the accepted Colin27 frame.",
+  "provenance": "Identity transform because the Yue-derived donor positions were already projected into the accepted Colin27 frame. Accepted only for this surrogate; it does not cross the target-hardware registration gate.",
+  "ray_hit_fraction": 1.0,
+  "registration_id": "surrogate_yue277_1070_v1_direct_colin27_v1",
+  "source_frame": "colin27_talairach_ras_mm",
+  "synthetic_test_only": false,
+  "target_frame": "colin27_talairach_ras_mm",
+  "transform_name": "T_colin27_talairach_ras_mm_from_colin27_talairach_ras_mm",
+  "units": "mm"
+}

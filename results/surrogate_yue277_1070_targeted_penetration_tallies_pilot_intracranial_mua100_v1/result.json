@@ -1,0 +1,62 @@
+{
+  "absorber_mua_mm-1": 100.0,
+  "anatomy_path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+  "anatomy_sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f",
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "basis_index_sha256": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b",
+  "created_at": "2026-08-18T01:13:22.676924Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "captured_at": "2026-08-15T21:42:47Z",
+    "code_revision": "08975d859601dcd5fda37738edf200750cf87e16",
+    "device": "NVIDIA GeForce RTX 3080 Ti",
+    "device_report": "\u001b[33mPlatform [0] Name NVIDIA CUDA\n\u001b[0m\u001b[34m============ GPU device ID 0 [1 of 1]: NVIDIA GeForce RTX 3080 Ti  ============\n\u001b[0m Device 1 of 1:\t\tNVIDIA GeForce RTX 3080 Ti\n Compute units   :\t80 core(s)\n Global memory   :\t12884246528 B\n Local memory    :\t49152 B\n Constant memory :\t65536 B\n Clock speed     :\t1755 MHz\n Compute Capacity:\t8.6\n Stream Processor:\t5120\n Vendor name    :\tNVIDIA\n Auto-thread    :\t327680\n Auto-block     :\t64\n",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "environment_id": "windows_rtx3080ti_opencl_v1",
+    "executable": "C:\\Users\\brian\\OneDrive\\Projects\\MCX Project\\.local\\windows\\mcxcl-v2025.10\\mcxcl\\bin\\mcxcl.exe",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "scientific_status": "provisional_yue_derived_surrogate_not_target_hardware",
+    "source_plan": "configs/surrogate_yue277_1070_basis_v1.json",
+    "source_plan_sha256": "ef086c32356a51b5e55dc69a923239af90bc53bdef69daae8dbf855fb21289e7"
+  },
+  "method": {
+    "interpretation": "first entry into the requested target tissue set",
+    "refractive_index_handling": "absorber media preserve each target label's original refractive index",
+    "tally": "energy deposited in target absorber voxels divided by normalized launched energy"
+  },
+  "photon_count_per_replicate": 10000000,
+  "protocol_id": "surrogate_yue277_1070_targeted_penetration_tallies_v1",
+  "protocol_path": "configs/surrogate_yue277_1070_targeted_penetration_tallies_v1.json",
+  "protocol_sha256": "966e17ad17cc4d6efe4e4cc328d87d94c449d5cac2118febcf668b4a45e59ce1",
+  "replicates": 1,
+  "retention": [
+    {
+      "fraction_of_launched_energy_percent": 2.5826094594666356,
+      "fraction_of_preceding_stage_percent": 2.582609459466636,
+      "stage": "reached_intracranial_compartment"
+    }
+  ],
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy",
+  "stage_summaries": {
+    "reached_intracranial_compartment": {
+      "description": "First entry into the intracranial compartment: dura, CSF, brain parenchyma, or vessels",
+      "half_range_relative_to_mean": 0.0,
+      "mean_target_capture_percent": 2.5826094594666356,
+      "relative_standard_deviation": 0.0,
+      "replicate_count": 1,
+      "replicate_values_percent": [
+        2.5826094594666356
+      ],
+      "standard_deviation_percent_points": 0.0,
+      "target_labels": [
+        1,
+        2,
+        3,
+        10,
+        12
+      ]
+    }
+  }
+}

@@ -14,7 +14,7 @@
     "run_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*__20[0-9]{6}t[0-9]{6}z__[a-f0-9]{8}$"},
     "scenario_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
     "stage": {"enum": ["smoke", "pilot", "benchmark", "nominal", "sensitivity"]},
-    "scientific_status": {"enum": ["synthetic_test_only", "benchmark", "production"]},
+    "scientific_status": {"enum": ["synthetic_test_only", "benchmark", "provisional", "production"]},
     "created_at": {"type": "string", "format": "date-time"},
     "status": {"enum": ["planned", "running", "complete", "failed"]},
     "error": {"type": ["string", "null"]},

@@ -1,0 +1,65 @@
+{
+  "analysis_id": "surrogate_yue277_810_targeted_skull_comparison_v1",
+  "created_at": "2026-08-24T20:46:56.892986Z",
+  "inputs": {
+    "inputs/optical_properties/provisional_810_v1/scenario_set_manifest.json": "3c7a1ea275f9cd2fa133a29762d388b844a396e89b62ae0a7d97ed7919d492f8",
+    "results/surrogate_yue277_810_targeted_skull_cassano_v1/result.json": "73f1ba15bc031fbee71e1b9c82a73a15563be6d28914023815da447dee3168a9",
+    "results/surrogate_yue277_810_targeted_skull_in_vivo_v1/result.json": "192153f21d936310ee5cf0ad3f3da4b15f575d14b8d554dd9f3a8cf42091c91b",
+    "results/surrogate_yue277_810_targeted_skull_pitzschke_v1/result.json": "27f1407d6c5100979db22d02fdee6acc4bc9d394403a83b396670e119716b292"
+  },
+  "interpretation": {
+    "attrition_warning": "skull-to-intracranial attrition is not skull absorption alone; it includes absorption and trajectories redirected or escaped before first intracranial entry",
+    "conditional_metric": "intracranial first-entry tally divided by skull-or-marrow first-entry tally from separate matched simulations",
+    "denominator": "normalized energy launched by the 277 in-model sources",
+    "isolation": "only skull label 7 changes; all other media, emitter geometry, anatomy, photon counts, and tally definitions are fixed",
+    "marrow_limit": "label 11 remains the Cassano skull-like proxy and is not part of the sensitivity axis"
+  },
+  "rows": [
+    {
+      "case": "in_vivo_first",
+      "conditional_change_vs_primary_percent": 0.0,
+      "diffusion_mueff_mm-1": 0.24348100541931397,
+      "intracranial_change_vs_primary_percent": 0.0,
+      "intracranial_percent_of_skull_reaching": 24.27457848974213,
+      "intracranial_relative_sd_percent": 0.026845313061536872,
+      "intracranial_replicate_sd_percentage_points": 0.0005651393481682726,
+      "reached_intracranial_percent_launched": 2.10516952017962,
+      "reached_skull_percent_launched": 8.67232162679659,
+      "scenario_id": "provisional_810_in_vivo_skull_v1",
+      "skull_mua_mm-1": 0.021,
+      "skull_musp_mm-1": 0.92,
+      "skull_to_intracranial_attrition_percent": 75.72542151025787
+    },
+    {
+      "case": "cassano_high_scatter",
+      "conditional_change_vs_primary_percent": -21.134278370175064,
+      "diffusion_mueff_mm-1": 0.25243414982921786,
+      "intracranial_change_vs_primary_percent": -21.14615773004379,
+      "intracranial_percent_of_skull_reaching": 19.14432149853339,
+      "intracranial_relative_sd_percent": 0.0048678120174090195,
+      "intracranial_replicate_sd_percentage_points": 8.080602281370889e-05,
+      "reached_intracranial_percent_launched": 1.6600070529576314,
+      "reached_skull_percent_launched": 8.67101533519901,
+      "scenario_id": "provisional_810_cassano_skull_v1",
+      "skull_mua_mm-1": 0.011,
+      "skull_musp_mm-1": 1.92,
+      "skull_to_intracranial_attrition_percent": 80.85567850146661
+    },
+    {
+      "case": "pitzschke_low_attenuation",
+      "conditional_change_vs_primary_percent": 71.46099852134009,
+      "diffusion_mueff_mm-1": 0.08079603950689662,
+      "intracranial_change_vs_primary_percent": 71.46027900894573,
+      "intracranial_percent_of_skull_reaching": 41.621434665358294,
+      "intracranial_relative_sd_percent": 0.01819204065386531,
+      "intracranial_replicate_sd_percentage_points": 0.0006566470800404912,
+      "reached_intracranial_percent_launched": 3.6095295329112607,
+      "reached_skull_percent_launched": 8.672285234596893,
+      "scenario_id": "provisional_810_pitzschke_skull_v1",
+      "skull_mua_mm-1": 0.004,
+      "skull_musp_mm-1": 0.54,
+      "skull_to_intracranial_attrition_percent": 58.378565334641706
+    }
+  ],
+  "scientific_status": "provisional_810_optics_yue_derived_spatial_surrogate_not_target_hardware_not_measured_dose_not_biological_efficacy"
+}

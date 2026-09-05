@@ -1,0 +1,75 @@
+{
+  "configuration_id": "yue2015_850_277_pencil_basis_v2__yue235__r001",
+  "isnormalize": 1,
+  "nphoton": 100000000,
+  "outputtype": "fluence",
+  "properties_mm": [
+    [
+      0.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    [
+      0.012,
+      1.8,
+      0.0,
+      1.0
+    ],
+    [
+      0.025,
+      1.6,
+      0.0,
+      1.0
+    ],
+    [
+      0.003,
+      0.01,
+      0.0,
+      1.0
+    ],
+    [
+      0.036,
+      0.9,
+      0.0,
+      1.0
+    ],
+    [
+      0.014,
+      1.1,
+      0.0,
+      1.0
+    ]
+  ],
+  "seed": 430820996,
+  "source": {
+    "direction": [
+      -0.5799981209562759,
+      0.2940858651656878,
+      -0.7596813039669582
+    ],
+    "emitter_id": "YUE235",
+    "position_voxels": [
+      145.04684428075046,
+      77.95737043051915,
+      151.53774762276873
+    ],
+    "type": "pencil"
+  },
+  "synthetic_test_only": false,
+  "time_gates_s": {
+    "end": 5e-09,
+    "start": 0.0,
+    "step": 5e-09
+  },
+  "volume": {
+    "generator": "label_volume_nifti",
+    "path": "inputs/anatomy/colin27_2008/derived/yue5_1mm_v1/colin27_labels_yue5_1mm_v1.nii",
+    "sha256": "e213a2cc47d64e76f19bfe5fad809949b42573f2410400738d0cd4154444fbff",
+    "shape_voxels": [
+      181,
+      217,
+      181
+    ]
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "basis_set_id": "provisional_1070_representative_pilot_v1",
+  "code_dirty": true,
+  "code_revision": "39d58f606315707a7b8a4b4a672c0b9ff22a17c7",
+  "config_root": "configs/generated/provisional_1070_representative_pilot_v1",
+  "created_at": "2026-08-14T00:00:00Z",
+  "emitter_ids": [
+    "P1070_SUPERIOR",
+    "P1070_ANTERIOR",
+    "P1070_POSTERIOR",
+    "P1070_LEFT_TEMPORAL",
+    "P1070_RIGHT_TEMPORAL"
+  ],
+  "engine_binding": "mcxcl_cli",
+  "engine_build": "official source tag v2025.10; local arm64 build",
+  "engine_version": "v2025.10",
+  "photon_count": 100000,
+  "replicates": 1,
+  "run_root": "runs/provisional_1070_representative_pilot_v1/prepared",
+  "scenario_id": "provisional_1070_v1",
+  "scientific_status": "provisional",
+  "synthetic_test_only": false,
+  "template_manifest_path": "runs/provisional_1070_representative_pilot_v1/template_manifest.json",
+  "template_manifest_sha256": "f088f071047cbd2ee21c1caa40630092bf817e7fadb7a6d0668c8d2c55088a20"
+}

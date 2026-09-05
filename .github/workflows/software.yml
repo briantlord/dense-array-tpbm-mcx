@@ -1,0 +1,16 @@
+name: Software validation
+on: [push, pull_request]
+jobs:
+  software:
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install environment manager
+        run: python -m pip install uv
+      - name: Synchronize committed dependency lock
+        run: uv sync --frozen --group dev
+      - name: Run portable software checks
+        run: uv run --frozen python scripts/check_software.py

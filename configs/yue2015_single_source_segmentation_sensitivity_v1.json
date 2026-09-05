@@ -1,0 +1,85 @@
+{
+  "analysis_id": "yue2015_single_source_segmentation_sensitivity_v1",
+  "baseline_configuration": "configs/generated/yue2015_850_277_pencil_basis_v2/yue277/r001.json",
+  "baseline_field": "runs/yue2015_850_277_pencil_basis_v2/yue277/r001/mcx_field.jnii",
+  "baseline_volume": "inputs/anatomy/colin27_2008/derived/yue5_1mm_v1/colin27_labels_yue5_1mm_v1.nii",
+  "common_random_seeds": [
+    873963303,
+    112149004,
+    9573696
+  ],
+  "comparison_depths_mm": [
+    20,
+    40,
+    60
+  ],
+  "depth_grid_mm": {
+    "start": 0,
+    "step": 1,
+    "stop": 100
+  },
+  "engine_output": "fluence",
+  "photon_count_per_run": 100000000,
+  "reference_emitter_id": "YUE277",
+  "variants": [
+    {
+      "description": "Unmodified accepted five-tissue Colin27 derivative.",
+      "id": "baseline",
+      "operation": "identity"
+    },
+    {
+      "description": "Make the innermost 2 mm of scalp adjacent to skull optically transparent while keeping the source voxel, surface, and sampling coordinates fixed. This isolates scalp optical thickness without launching the source from background air.",
+      "id": "inner_scalp_transparent_2mm",
+      "operation": "inner_scalp_to_transparent",
+      "thickness_mm": 2.0
+    },
+    {
+      "description": "Replace the innermost 2 mm of skull adjacent to CSF with CSF while keeping all coordinates fixed.",
+      "id": "inner_skull_to_csf_2mm",
+      "operation": "inner_skull_to_csf",
+      "thickness_mm": 2.0
+    },
+    {
+      "description": "Globally expand every CSF boundary by 2 mm into adjacent gray matter. This is an intentionally aggressive topology upper bound, not a plausible Yue reconstruction.",
+      "id": "csf_into_gm_2mm",
+      "operation": "csf_into_gm",
+      "thickness_mm": 2.0
+    },
+    {
+      "depth_range_mm": [
+        14.0,
+        30.0
+      ],
+      "description": "Expand CSF by 2 mm into gray matter only within 20 mm of the superior source axis and 14-30 mm depth.",
+      "id": "superior_csf_into_gm_2mm_r20",
+      "operation": "csf_into_gm_local",
+      "radius_mm": 20.0,
+      "thickness_mm": 2.0
+    },
+    {
+      "description": "Replace gray matter with white matter in a 20-mm-radius cylinder around the source axis from 48 to 60 mm depth.",
+      "depth_range_mm": [
+        48.0,
+        60.0
+      ],
+      "id": "deep_axis_gm_to_wm_r20",
+      "operation": "deep_axis_gm_to_wm",
+      "radius_mm": 20.0
+    },
+    {
+      "components": [
+        "inner_scalp_transparent_2mm",
+        "inner_skull_to_csf_2mm",
+        "superior_csf_into_gm_2mm_r20",
+        "deep_axis_gm_to_wm_r20"
+      ],
+      "description": "Sequential combination of the localized scalp, skull, superior-CSF, and deep gray/white operations; an explanatory scenario, not a reconstructed Yue anatomy.",
+      "id": "combined_explanatory_bound",
+      "operation": "combined"
+    }
+  ],
+  "yue_figure2b_north_pole_60mm": {
+    "digitized_normalized_photon_flux": 1.2110702385598619e-06,
+    "source": "literature/yue2015_figure_digitization_v1.csv"
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "Domain": {
+    "Dim": [
+      181,
+      217,
+      181
+    ],
+    "LengthUnit": 1.0,
+    "Media": [
+      {
+        "g": 1.0,
+        "mua": 0.0,
+        "mus": 0.0,
+        "n": 1.0
+      },
+      {
+        "g": 0.0,
+        "mua": 0.012,
+        "mus": 1.8,
+        "n": 1.0
+      },
+      {
+        "g": 0.0,
+        "mua": 0.025,
+        "mus": 1.6,
+        "n": 1.0
+      },
+      {
+        "g": 0.0,
+        "mua": 0.003,
+        "mus": 0.01,
+        "n": 1.0
+      },
+      {
+        "g": 0.0,
+        "mua": 0.036,
+        "mus": 0.9,
+        "n": 1.0
+      },
+      {
+        "g": 0.0,
+        "mua": 0.014,
+        "mus": 1.1,
+        "n": 1.0
+      }
+    ],
+    "MediaFormat": "byte",
+    "OriginType": 1,
+    "VolumeFile": "volume.uint8.bin"
+  },
+  "Forward": {
+    "Dt": 5e-09,
+    "T0": 0.0,
+    "T1": 5e-09
+  },
+  "Optode": {
+    "Detector": [],
+    "Source": {
+      "Dir": [
+        0.09324320148209943,
+        0.6896525683610919,
+        -0.7181121363201698
+      ],
+      "Pos": [
+        82.1039153607783,
+        39.8638833629158,
+        148.91811897826602
+      ],
+      "Type": "pencil"
+    }
+  },
+  "Session": {
+    "DoAutoThread": true,
+    "DoNormalize": true,
+    "DoPartialPath": false,
+    "DoSaveVolume": true,
+    "ID": "mcx_field",
+    "OutputFormat": "jnii",
+    "OutputType": "f",
+    "Photons": 100000000,
+    "RNGSeed": 1976205438
+  }
+}

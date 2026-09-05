@@ -1,0 +1,39 @@
+{
+  "calibration_id": "provisional_1070_unit_source_v1",
+  "date": "2026-08-14",
+  "instrument": "numerical unit-launched-energy normalization; not a radiometer",
+  "provenance": "Software-pilot convention only: every representative emitter has unit weight so normalized basis fields can be tested. No physical optical power, spectrum, uncertainty, duty cycle, or coupling has been measured.",
+  "records": [
+    {
+      "emitter_id": "P1070_SUPERIOR",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "P1070_ANTERIOR",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "P1070_POSTERIOR",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "P1070_LEFT_TEMPORAL",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    },
+    {
+      "emitter_id": "P1070_RIGHT_TEMPORAL",
+      "optical_power_cw_W": 1.0,
+      "power_uncertainty_W": 0.0,
+      "wavelength_peak_nm": 1070.0
+    }
+  ],
+  "synthetic_test_only": false
+}

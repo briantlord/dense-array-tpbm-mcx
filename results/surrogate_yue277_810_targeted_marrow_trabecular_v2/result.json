@@ -1,0 +1,132 @@
+{
+  "absorber_mua_mm-1": 1000.0,
+  "anatomy_path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+  "anatomy_sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f",
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "basis_index_sha256": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b",
+  "created_at": "2026-08-24T21:35:59.724587Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "captured_at": "2026-08-15T21:42:47Z",
+    "code_revision": "08975d859601dcd5fda37738edf200750cf87e16",
+    "device": "NVIDIA GeForce RTX 3080 Ti",
+    "device_report": "\u001b[33mPlatform [0] Name NVIDIA CUDA\n\u001b[0m\u001b[34m============ GPU device ID 0 [1 of 1]: NVIDIA GeForce RTX 3080 Ti  ============\n\u001b[0m Device 1 of 1:\t\tNVIDIA GeForce RTX 3080 Ti\n Compute units   :\t80 core(s)\n Global memory   :\t12884246528 B\n Local memory    :\t49152 B\n Constant memory :\t65536 B\n Clock speed     :\t1755 MHz\n Compute Capacity:\t8.6\n Stream Processor:\t5120\n Vendor name    :\tNVIDIA\n Auto-thread    :\t327680\n Auto-block     :\t64\n",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "environment_id": "windows_rtx3080ti_opencl_v1",
+    "executable": "C:\\Users\\brian\\OneDrive\\Projects\\MCX Project\\.local\\windows\\mcxcl-v2025.10\\mcxcl\\bin\\mcxcl.exe",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "scientific_status": "provisional_yue_derived_surrogate_not_target_hardware",
+    "source_plan": "configs/surrogate_yue277_1070_basis_v1.json",
+    "source_plan_sha256": "ef086c32356a51b5e55dc69a923239af90bc53bdef69daae8dbf855fb21289e7"
+  },
+  "method": {
+    "interpretation": "first entry into the requested target tissue set",
+    "refractive_index_handling": "absorber media preserve each target label's original refractive index",
+    "tally": "energy deposited in target absorber voxels divided by normalized launched energy"
+  },
+  "optical_properties": {
+    "base_scenario_id": "provisional_810_in_vivo_skull_v1",
+    "overlay_inputs": [
+      {
+        "path": "inputs/optical_properties/provisional_810_v2/refined_primary_overlay.json",
+        "scenario_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2",
+        "sha256": "039354b6a62167d2740b51871570027710a6978afe6b5db985b7f358905258f7"
+      },
+      {
+        "path": "inputs/optical_properties/provisional_810_v2/marrow_trabecular_overlay.json",
+        "scenario_id": "provisional_810_refined_dura_marrow_trabecular_v2",
+        "sha256": "5a5729639293493fc5ae04d6a9b763292d1d805106264de93f284e0285260743"
+      }
+    ],
+    "overrides": [],
+    "path": "inputs/optical_properties/provisional_810_v1/central_in_vivo_skull.json",
+    "scenario_id": "provisional_810_refined_dura_marrow_trabecular_v2",
+    "sha256": "48d61543a3e288e0d19dc301c1377a0c657c583e514bafe9b800b61bb5f4a45c",
+    "wavelength_nm": 810.0
+  },
+  "photon_count_per_replicate": 277000000,
+  "protocol_id": "surrogate_yue277_810_targeted_marrow_trabecular_v2",
+  "protocol_path": "configs/surrogate_yue277_810_targeted_marrow_trabecular_v2.json",
+  "protocol_sha256": "179855edabdc7e0f09c71b7045c5ed455d5a4974351813bfc9a27ce0f5ec9227",
+  "replicates": 3,
+  "retention": [
+    {
+      "fraction_of_launched_energy_percent": 2.5658831089932597,
+      "fraction_of_preceding_stage_percent": 2.5658831089932597,
+      "stage": "reached_intracranial_compartment"
+    },
+    {
+      "fraction_of_launched_energy_percent": 2.0960559137245025,
+      "fraction_of_preceding_stage_percent": 81.68945445636076,
+      "stage": "reached_brain_parenchyma"
+    },
+    {
+      "fraction_of_launched_energy_percent": 0.7892331799203082,
+      "fraction_of_preceding_stage_percent": 37.653250314201394,
+      "stage": "reached_white_matter"
+    }
+  ],
+  "runner_path": "scripts/run_targeted_penetration_tallies.py",
+  "runner_sha256": "88b004dcc468682fbea83eeee30fe14763d9938ae4a3791810c2f480d1fddb06",
+  "scientific_status": "provisional_810_refined_dura_marrow_sensitivity_yue_spatial_surrogate_not_target_hardware",
+  "stage_summaries": {
+    "reached_brain_parenchyma": {
+      "blocker_labels": [],
+      "description": "First entry into gray or white matter",
+      "half_range_relative_to_mean": 0.0003387576570176986,
+      "mean_target_capture_percent": 2.0960559137245025,
+      "relative_standard_deviation": 0.0003403944701122006,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        2.096136610338057,
+        2.0953055104274143,
+        2.096725620408037
+      ],
+      "standard_deviation_percent_points": 0.0007134858420777965,
+      "target_labels": [
+        2,
+        3
+      ]
+    },
+    "reached_intracranial_compartment": {
+      "blocker_labels": [],
+      "description": "First entry into dura, CSF, brain parenchyma, or vessels",
+      "half_range_relative_to_mean": 0.00012434361159555557,
+      "mean_target_capture_percent": 2.5658831089932597,
+      "relative_standard_deviation": 0.00012961363894398577,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        2.5659914999323234,
+        2.5661479646964316,
+        2.565509862351023
+      ],
+      "standard_deviation_percent_points": 0.00033257344686152404,
+      "target_labels": [
+        1,
+        2,
+        3,
+        10,
+        12
+      ]
+    },
+    "reached_white_matter": {
+      "blocker_labels": [],
+      "description": "First entry into white matter",
+      "half_range_relative_to_mean": 1.867560147831772e-05,
+      "mean_target_capture_percent": 0.7892331799203082,
+      "relative_standard_deviation": 1.9556850699701743e-05,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        0.7892157956104783,
+        0.7892452744191616,
+        0.7892384697312846
+      ],
+      "standard_deviation_percent_points": 1.543491546695231e-05,
+      "target_labels": [
+        3
+      ]
+    }
+  }
+}

@@ -1,0 +1,7 @@
+record_id,sex_group,separation,subjects,A_cm-1_at_785,b,model_endpoint_nm,target_nm,musp_target_cm-1,musp_target_mm-1,source_location,interpretation
+cortese_2023_scm_musp_extrap_1070,all,long_2.5_cm,65,8.0,0.66,1050,1070,6.5209469511,0.6520946951,Table A2 and Eq. 1,Human in-vivo muscle-rich layered SCM region; 20-nm extrapolation beyond measured endpoint; not isolated muscle.
+cortese_2023_scm_musp_short_extrap_1070,all,short_1.9_cm,65,9.6,0.70,1050,1070,7.7287871737,0.7728787174,Table A2 and Eq. 1,Shallower human in-vivo muscle-rich layered SCM region; sensitivity only.
+cortese_2023_scm_musp_male_long_extrap_1070,male,long_2.5_cm,32,7.2,0.68,1050,1070,5.8326094100,0.5832609410,Table A2 and Eq. 1,Sex-stratified sensitivity only.
+cortese_2023_scm_musp_female_long_extrap_1070,female,long_2.5_cm,33,8.2,0.65,1050,1070,6.7047049950,0.6704704995,Table A2 and Eq. 1,Sex-stratified sensitivity only.
+cortese_2023_scm_musp_male_short_extrap_1070,male,short_1.9_cm,32,8.4,0.76,1050,1070,6.6381728110,0.6638172811,Table A2 and Eq. 1,Sex-stratified sensitivity only.
+cortese_2023_scm_musp_female_short_extrap_1070,female,short_1.9_cm,33,9.9,0.69,1050,1070,7.9950365070,0.7995036507,Table A2 and Eq. 1,Sex-stratified sensitivity only.

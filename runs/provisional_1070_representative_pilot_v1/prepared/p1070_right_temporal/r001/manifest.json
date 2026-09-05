@@ -1,0 +1,113 @@
+{
+  "code": {
+    "dirty": true,
+    "repository": "MCX Project",
+    "revision": "39d58f606315707a7b8a4b4a672c0b9ff22a17c7"
+  },
+  "created_at": "2026-08-14T00:00:00Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "binding_version": "v2025.10",
+    "build": "official source tag v2025.10; local arm64 build",
+    "configuration_sha256": "8fda0dd3dc0531525eb46b8b7a7a9ad01f8eac13b68de99cfaf39f62448e8fcb",
+    "engine_version": "v2025.10",
+    "family": "MCX",
+    "gpu": "Apple M4 Pro",
+    "runtime": "Apple OpenCL on macOS arm64"
+  },
+  "error": null,
+  "execution": {
+    "photon_count": 100000,
+    "replicate": 1,
+    "seed": 272811415,
+    "time_gates_s": {
+      "end": 5e-09,
+      "start": 0.0,
+      "step": 5e-09
+    }
+  },
+  "grid": {
+    "coordinate_frame": "colin27_talairach_ras_mm",
+    "shape_voxels": [
+      181,
+      217,
+      181
+    ],
+    "voxel_size_mm": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "inputs": {
+    "analysis_configuration": {
+      "artifact_id": "provisional_1070_pilot_analysis_v1",
+      "id_field": "analysis_id",
+      "path": "configs/provisional_1070_pilot_analysis_v1.json",
+      "schema_path": "schemas/analysis_configuration.schema.json",
+      "sha256": "e8c2433912576016ffd16f9bac794ec463de79beaaf6c2989ff3e39d4dd1dd5e"
+    },
+    "anatomy": {
+      "artifact_id": "colin27_2008_native12_1mm_v3",
+      "id_field": "anatomy_id",
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/anatomy_metadata.json",
+      "schema_path": "schemas/anatomy_metadata.schema.json",
+      "sha256": "a445e71bc7a18648e1e7b0f90f6a192d6e7c771619c51c32020a3340a069de4c"
+    },
+    "calibration": {
+      "artifact_id": "provisional_1070_unit_source_v1",
+      "id_field": "calibration_id",
+      "path": "inputs/emitters/provisional_1070_layout_v1/calibration.json",
+      "schema_path": "schemas/calibration.schema.json",
+      "sha256": "fcdeb8a5744f3c2be2743e80ccc7aefcb31de72f8ca0cad353bffbb6abf603c6"
+    },
+    "emitter_geometry": {
+      "artifact_id": "provisional_1070_representative_layout_v1",
+      "id_field": "geometry_id",
+      "path": "inputs/emitters/provisional_1070_layout_v1/emitter_geometry.json",
+      "schema_path": "schemas/emitter_geometry.schema.json",
+      "sha256": "e00c4d83c11e95c09a68b0f68576596734db66046a6f53659ddca3233efa4469"
+    },
+    "engine_configuration": {
+      "artifact_id": "provisional_1070_representative_pilot_v1__p1070_right_temporal__r001",
+      "id_field": "configuration_id",
+      "path": "configs/generated/provisional_1070_representative_pilot_v1/p1070_right_temporal/r001.json",
+      "schema_path": "schemas/engine_configuration.schema.json",
+      "sha256": "8fda0dd3dc0531525eb46b8b7a7a9ad01f8eac13b68de99cfaf39f62448e8fcb"
+    },
+    "optical_properties": {
+      "artifact_id": "provisional_1070_v1",
+      "id_field": "scenario_id",
+      "path": "inputs/optical_properties/provisional_1070_v1/central.json",
+      "schema_path": "schemas/optical_properties.schema.json",
+      "sha256": "4e225b1da983b24c7e2889704b420f8f0e0f9bd66ce495a2a438093f1030b061"
+    },
+    "registration": {
+      "artifact_id": "provisional_1070_direct_colin27_v1",
+      "id_field": "registration_id",
+      "path": "inputs/registration/provisional_1070_layout_v1.json",
+      "schema_path": "schemas/registration.schema.json",
+      "sha256": "4e774d7d1315900f6c9e9e07d10c312ced39f995eaacf4095df85e4907a13048"
+    }
+  },
+  "manifest_version": "1.0.0",
+  "output_contract": {
+    "derivation": "standalone MCX-CL JNIfTI normalized field; Python validates and records the raw engine output without altering it",
+    "normalization": "normalized by launched photon count through MCX isnormalize=1",
+    "quantity": "fluence",
+    "unit": "MCX normalized fluence units"
+  },
+  "outputs": [],
+  "run_id": "provisional_1070_v1__20260814t000000z__8fda0dd3",
+  "scenario_id": "provisional_1070_v1",
+  "scientific_status": "provisional",
+  "source": {
+    "emitter_id": "P1070_RIGHT_TEMPORAL",
+    "normalization": "unit launched-energy normalized basis field (MCX DoNormalize=true)",
+    "source_model": "pencil"
+  },
+  "stage": "pilot",
+  "status": "planned",
+  "wavelength_nm": 1070.0
+}

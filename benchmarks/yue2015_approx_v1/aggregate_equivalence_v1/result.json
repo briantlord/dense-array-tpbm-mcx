@@ -1,0 +1,46 @@
+{
+  "acceptance_components": {
+    "maximum_tissue_integral_relative_error": true,
+    "median_axis_profile_relative_error": true,
+    "median_valid_voxel_relative_error": true
+  },
+  "basis_field_sha256": {
+    "YUE001": "4b1f90e5bea7272f0a6216dba35ba204e522fb6f990bece7d49040db56ef1945",
+    "YUE002": "39141c5b4b9325a34cdae7980bdd1cd2b5e6df689cefac7d2a4a884908e779f7"
+  },
+  "direct_absorbed_energy_percent": 47.3837,
+  "direct_elapsed_seconds": 36.19453770900145,
+  "direct_field_sha256": "743ab11a2992788cee308b867753679e6dc0595321204fc2fd4c89258c7ca811",
+  "direct_input_sha256": "087ab107cd7de39fea3ef3678b6c18b022706ca657fcc16e939af28f713f36f9",
+  "direct_log_sha256": "a29ca415fe58876963997368a21bc9d6c6c71212b4995d398ee81ce8c392b193",
+  "metrics": {
+    "maximum_tissue_integral_relative_error": 0.00027484817215507054,
+    "median_axis_profile_relative_error": 0.015565363983368502,
+    "median_valid_voxel_relative_error": 0.008883287470982265
+  },
+  "normalization_correction": 2.0,
+  "protocol_path": "configs/yue2015_aggregate_equivalence_v1.json",
+  "protocol_sha256": "688a584410cad3893b148644edb6e230500ceaa5190d07e0d55e96a4ea2e5549",
+  "result_id": "yue2015_aggregate_equivalence_m4_v1",
+  "status": "pass",
+  "thresholds": {
+    "maximum_tissue_integral_relative_error": 0.05,
+    "median_axis_profile_relative_error": 0.1,
+    "median_valid_voxel_relative_error": 0.1
+  },
+  "tissue_integral_relative_errors": {
+    "brain_total": 0.00014935552084874393,
+    "gray_matter": 0.00015990514017980614,
+    "white_matter": 0.00027484817215507054
+  },
+  "tissue_integrals_basis_sum": {
+    "brain_total": 1.3877287514160765,
+    "gray_matter": 0.8134169975130311,
+    "white_matter": 0.08598977684618658
+  },
+  "tissue_integrals_corrected_direct": {
+    "brain_total": 1.387521486465612,
+    "gray_matter": 0.8132869279540191,
+    "white_matter": 0.08601341097917678
+  }
+}

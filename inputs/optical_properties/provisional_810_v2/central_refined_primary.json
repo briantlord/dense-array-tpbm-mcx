@@ -1,0 +1,239 @@
+{
+  "coefficient_unit": "mm^-1",
+  "scenario_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2",
+  "scientific_status": "provisional",
+  "synthetic_test_only": false,
+  "tissues": [
+    {
+      "citation": "MCX boundary-medium convention",
+      "conversion": "No conversion.",
+      "g": 0.0,
+      "mua_mm-1": 0.0,
+      "mus_mm-1": 0.0,
+      "n": 1.0,
+      "notes": "Background only.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": "not_used",
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Exterior background and atlas air cavities.",
+      "tissue_id": 0,
+      "tissue_name": "background_air",
+      "uncertainty": "Idealized boundary convention, not a tissue measurement."
+    },
+    {
+      "citation": "Cassano et al. 2019, Table 1, 810-nm CSF row",
+      "conversion": "Table musp converted with mus=musp/(1-g).",
+      "g": 0.89,
+      "mua_mm-1": 0.0026,
+      "mus_mm-1": 0.09090909090909093,
+      "n": 1.37,
+      "notes": "Independent 810-nm model input, not an interpolation from the 1070-nm ledger.",
+      "review_status": "single_reviewed",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 0.01,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Colin27 CSF represented by the Cassano water-like CSF model.",
+      "tissue_id": 1,
+      "tissue_name": "cerebrospinal_fluid",
+      "uncertainty": "Simulation-table value; physiological CSF scattering was not directly measured."
+    },
+    {
+      "citation": "Cassano et al. 2019, Table 1, 810-nm gray-matter row",
+      "conversion": "Table mus used directly; musp=mus*(1-g) recorded for audit.",
+      "g": 0.89,
+      "mua_mm-1": 0.028,
+      "mus_mm-1": 7.3,
+      "n": 1.37,
+      "notes": "Held fixed across the skull-only sensitivity cases.",
+      "review_status": "single_reviewed",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 0.8029999999999999,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Colin27 gray matter bound to the Cassano compiled adult gray-matter model.",
+      "tissue_id": 2,
+      "tissue_name": "gray_matter",
+      "uncertainty": "Compiled simulation input; not a direct measurement in Colin27."
+    },
+    {
+      "citation": "Cassano et al. 2019, Table 1, 810-nm white-matter row",
+      "conversion": "Table mus used directly; musp=mus*(1-g) recorded for audit.",
+      "g": 0.87,
+      "mua_mm-1": 0.092,
+      "mus_mm-1": 38.0,
+      "n": 1.37,
+      "notes": "Held fixed across the skull-only sensitivity cases.",
+      "review_status": "single_reviewed",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 4.9399999999999995,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Colin27 white matter bound to the Cassano compiled adult white-matter model.",
+      "tissue_id": 3,
+      "tissue_name": "white_matter",
+      "uncertainty": "Compiled simulation input; white-matter optical estimates vary substantially by method and tissue state."
+    },
+    {
+      "citation": "Cassano et al. 2019, Table 1, 810-nm fat row",
+      "conversion": "Table musp converted with mus=musp/(1-g).",
+      "g": 0.89,
+      "mua_mm-1": 0.00054,
+      "mus_mm-1": 9.90909090909091,
+      "n": 1.37,
+      "notes": "The two native fat labels share this explicitly declared proxy.",
+      "review_status": "single_reviewed",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 1.09,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Colin27 fat represented by the Cassano adipose proxy.",
+      "tissue_id": 4,
+      "tissue_name": "fat",
+      "uncertainty": "Compiled proxy; atlas fat composition and measurement provenance remain uncertain."
+    },
+    {
+      "citation": "Cassano et al. 2019, Table 1, 810-nm muscle row",
+      "conversion": "Table mus used directly; musp=mus*(1-g) recorded for audit.",
+      "g": 0.89,
+      "mua_mm-1": 0.028,
+      "mus_mm-1": 6.4,
+      "n": 1.37,
+      "notes": "Held fixed across the skull-only sensitivity cases.",
+      "review_status": "single_reviewed",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 0.7040000000000001,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Colin27 muscle represented by the Cassano muscle proxy.",
+      "tissue_id": 5,
+      "tissue_name": "muscles",
+      "uncertainty": "Compiled proxy; muscle perfusion, orientation, and tissue state are not individualized."
+    },
+    {
+      "citation": "Cassano et al. 2019, Table 1, 810-nm skin row; project composite-label binding",
+      "conversion": "Table skin musp converted with mus=musp/(1-g); skin is bound to the composite atlas label.",
+      "g": 0.89,
+      "mua_mm-1": 0.045,
+      "mus_mm-1": 19.81818181818182,
+      "n": 1.37,
+      "notes": "This choice is deliberately held fixed so the present comparison isolates skull optics.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 2.18,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Native Colin27 skin-and-muscles composite represented by the Cassano skin endpoint.",
+      "tissue_id": 6,
+      "tissue_name": "skin_and_muscles",
+      "uncertainty": "The voxel class is composite, so a pure-skin binding is an explicit approximation."
+    },
+    {
+      "citation": "Bevilacqua et al. 1999, in-vivo exposed human skull at 849 nm (mua 0.0215, musp 0.91 mm^-1); Matcher et al. 1997, intact-head in-vivo scattering fit evaluated at 810 nm (musp 0.9235 mm^-1)",
+      "conversion": "Rounded in-vivo-nearby consensus: mua=0.021 mm^-1 and musp=0.92 mm^-1; mus=musp/(1-0.89).",
+      "g": 0.89,
+      "mua_mm-1": 0.021,
+      "mus_mm-1": 8.363636363636365,
+      "n": 1.37,
+      "notes": "Primary scenario. Cassano and Pitzschke alternatives are explicit overlays in the scenario manifest.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 0.92,
+      "source_wavelengths_nm": [
+        800.0,
+        810.0,
+        849.0
+      ],
+      "tissue_definition": "Colin27 skull represented by an in-vivo-first human cranial-bone estimate.",
+      "tissue_id": 7,
+      "tissue_name": "skull",
+      "uncertainty": "Absorption is a nearby 849-nm exposed-skull measurement; intact-head scattering is a layered homogeneous fit, and neither resolves cortical versus diploic bone."
+    },
+    {
+      "citation": "Cassano et al. 2019, Table 1, 810-nm fat row; shared-adipose project assumption",
+      "conversion": "Same declared adipose proxy as tissue 4; mus=musp/(1-g).",
+      "g": 0.89,
+      "mua_mm-1": 0.00054,
+      "mus_mm-1": 9.90909090909091,
+      "n": 1.37,
+      "notes": "Explicit shared proxy, not a silent copy.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 1.09,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Native Colin27 fat_2 label with undocumented distinction from fat.",
+      "tissue_id": 9,
+      "tissue_name": "fat_2",
+      "uncertainty": "The atlas identity is unresolved; shared values do not establish biological equivalence."
+    },
+    {
+      "citation": "Shapey et al. 2022 Table S1, Dura!D43 and E43",
+      "conversion": "Exact 810-nm revised mua and model-fitted musp; mus=musp/(1-0.85).",
+      "g": 0.85,
+      "mua_mm-1": 0.05682,
+      "mus_mm-1": 23.728565627011537,
+      "n": 1.4,
+      "notes": "Ex vivo post-mortem human dura from one donor; g and n were fixed IAD inputs.",
+      "review_status": "double_checked",
+      "source_kind": "direct_measurement",
+      "source_musp_mm-1": 3.55928484405173,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Colin27 dura represented by ex-vivo post-mortem human cranial dura measured at 810 nm.",
+      "tissue_id": 10,
+      "tissue_name": "dura",
+      "uncertainty": "One post-mortem donor; sample preparation and fixed IAD g/n inputs limit in-vivo generalization."
+    },
+    {
+      "citation": "Kothuri et al. 2025 Zenodo record 14170681, Bone Constituents, 810-nm frozen bone marrow row",
+      "conversion": "Arithmetic mean of three exact 810-nm cm^-1 replicates divided by 10; mus=musp/(1-0.89).",
+      "g": 0.89,
+      "mua_mm-1": 0.01,
+      "mus_mm-1": 10.766666666363637,
+      "n": 1.37,
+      "notes": "Human frozen tibial marrow from one 89-year-old donor; provisional cranial proxy with notable boundary effects.",
+      "review_status": "double_checked",
+      "source_kind": "direct_measurement",
+      "source_musp_mm-1": 1.1843333333,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Colin27 cranial-marrow label represented by frozen human tibial marrow measured at 810 nm.",
+      "tissue_id": 11,
+      "tissue_name": "marrow",
+      "uncertainty": "One elderly donor and a non-cranial frozen-marrow proxy; targeted endpoint runs define the retained sensitivity band."
+    },
+    {
+      "citation": "Cassano et al. 2019, Table 1, 810-nm vessel row",
+      "conversion": "Table mus used directly; musp=mus*(1-g) recorded for audit.",
+      "g": 0.99,
+      "mua_mm-1": 0.11,
+      "mus_mm-1": 28.0,
+      "n": 1.37,
+      "notes": "Held fixed across the skull-only sensitivity cases.",
+      "review_status": "single_reviewed",
+      "source_kind": "reported_table",
+      "source_musp_mm-1": 0.28000000000000025,
+      "source_wavelengths_nm": [
+        810.0
+      ],
+      "tissue_definition": "Native vessel class represented operationally by the Cassano vessel model.",
+      "tissue_id": 12,
+      "tissue_name": "vessels",
+      "uncertainty": "Oxygenation, hematocrit, vessel wall, and lumen partial volume are not individualized."
+    }
+  ],
+  "wavelength_nm": 810.0
+}

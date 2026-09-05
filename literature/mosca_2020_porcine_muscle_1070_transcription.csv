@@ -1,0 +1,3 @@
+record_id,quantity,wavelength_nm,mean_cm-1,sd_cm-1,mean_mm-1,sd_mm-1,species,state,source_doi,data_doi,source_file_md5,transformation,scenario_role
+mosca_2020_porcine_muscle_mua,mua,1070,0.150583,0.00715684,0.0150583,0.000715684,porcine,ex vivo refrigerated tissue measured at room temperature,10.1364/BOE.386349,10.6084/m9.figshare.11844789,1635bb59ff2b6795ef6f234d3f64f687,divide cm^-1 by 10,sensitivity_only
+mosca_2020_porcine_muscle_musp,musp,1070,2.488027,0.161099332,0.2488027,0.0161099332,porcine,ex vivo refrigerated tissue measured at room temperature,10.1364/BOE.386349,10.6084/m9.figshare.11482923,0bd13535370c8d897a599f0da5265a06,divide cm^-1 by 10,sensitivity_only

@@ -1,0 +1,10 @@
+metric,810_nm,1070_nm_corrected_fat_010,ratio_810_to_1070,notes
+brain_absorbed_percent_equal_total,1.1335479848009091,1.214248248479565,0.9335389087201027,corrected 1070 comparator uses effective adipose mua 0.010 mm^-1
+gray_matter_absorbed_percent_equal_total,0.8269750669895097,1.1775797514082886,0.7022667178172141,absorption equals fluence times wavelength-specific gray-matter mua
+white_matter_absorbed_percent_equal_total,0.3065729178113993,0.036668497071276354,8.360662211365842,810 white-matter mua is substantially higher than the 1070 model value
+brain_integrated_fluence_equal_total,0.3286713814509087,0.14150773171477074,2.3226390351121826,relative MCX integrated fluence under equal-total source weighting
+gray_matter_integrated_fluence_equal_total,0.2953482382105392,0.13243137105356373,2.2301984481538097,relative MCX integrated fluence
+white_matter_integrated_fluence_equal_total,0.03332314324036949,0.009076360661207018,3.671421231947609,relative MCX integrated fluence
+brain_absorbed_percent_1070_low_fat_endpoint,,1.3222345647126976,,1070 adipose mua 0.005065 mm^-1
+brain_absorbed_percent_1070_high_fat_endpoint,,0.9063615754883819,,1070 adipose mua 0.030 mm^-1
+brain_absorbed_percent_1070_superseded_extreme_high_fat,,0.44582326612101314,,superseded baseline adipose mua 0.103 mm^-1; not the corrected comparator

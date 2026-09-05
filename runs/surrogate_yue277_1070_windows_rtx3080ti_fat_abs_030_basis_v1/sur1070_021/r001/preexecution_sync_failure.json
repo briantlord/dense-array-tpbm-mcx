@@ -1,0 +1,6 @@
+{
+  "error_type": "PermissionError",
+  "failed_at": "2026-08-17T22:45:58Z",
+  "message": "[WinError 5] Access is denied: 'C:\\\\Users\\\\brian\\\\OneDrive\\\\Projects\\\\MCX Project\\\\runs\\\\surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1\\\\sur1070_021\\\\r001\\\\.manifest.json.9yi4c3ic.tmp' -> 'C:\\\\Users\\\\brian\\\\OneDrive\\\\Projects\\\\MCX Project\\\\runs\\\\surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1\\\\sur1070_021\\\\r001\\\\manifest.json'",
+  "run_id": "provisional_1070_fat_abs_030_v1__20260817t201453z__8d3e5a7c"
+}

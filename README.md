@@ -1,119 +1,70 @@
-# 1070-nm Dense-Array tPBM Monte Carlo Project
+# Dense-array tPBM Monte Carlo research
 
-This repository is a Python-first, provenance-gated workflow for MCX-family photon-transport simulations. Python validates and orchestrates the official standalone MCX-CL executable on Apple Silicon; PMCX/MCX is reserved for a later NVIDIA CUDA backend. MATLAB is optional and is not required for production execution.
+This project models near-infrared light transport through a labeled head atlas using Python and the standalone MCX-CL simulator. The current research compares **810 nm and 1070 nm across a 277-source, Yue-derived surrogate array**.
 
-The repository is currently at the V0 scaffold stage. All numeric fixtures under `inputs/synthetic_test_only/` are software-test values and must not be interpreted as tissue or device measurements.
+The results are conditional simulations of light transport. They are not measured device dose, a validated device model, or evidence of biological efficacy.
 
-## Environment
+## Start here
 
-The project is pinned to Python 3.13. From the repository root:
+- **[Current research status](CURRENT_STATE.md):** current versus historical scenarios and unresolved work.
+- **[Qualified wavelength comparison](results/review_comparison_public_20260905_v1/report.md):** results, uncertainty checks, and corrected overlap comparison.
+- **[Regional absorption report](results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/report.md):** tissue and depth summaries with unsupported ratios suppressed.
+- **[Project review](reviews/PROJECT_REVIEW_2026-09-04.md)** and **[task list](TASKS.md):** quality assessment and remaining work.
 
-```bash
-UV_CACHE_DIR=/tmp/mcx-project-uv-cache uv sync --group dev
-./scripts/build_mcxcl.sh
+## Current findings
+
+The saved bases use the same spatial source layout and total launched-energy normalization:
+
+| Provisional scenario | Total brain absorption | Integrated brain fluence, relative to corrected 1070 |
+|---|---:|---:|
+| Corrected 1070 nm, fat absorption 0.010 mm^-1 | 1.21425% | 1.000 |
+| Refined 810 nm | 1.13355% | 2.323 |
+
+Absorption and fluence are different observables. These results do not establish an overall wavelength winner.
+
+An independent **18-run Monte Carlo audit** tested both wavelengths with repeated seeds, two photon counts, and a longer time window. **18 of 21 endpoint ratios passed** the declared numerical screening criteria. All three ratios at depths of 50 mm or more failed and are suppressed in the revised report. These checks address sampling and selected numerical stability; they do not include optical-property, anatomy, placement, or coupling uncertainty.
+
+The earlier high-fat 1070 results remain a historical sensitivity baseline. Use the **corrected 1070 comparator**, not the original high-fat overlap maps, for current comparisons. The [scenario inventory](provenance/scenario_inventory_20260904_v1.json) identifies the bases and their roles.
+
+## What this public repository contains
+
+It includes code, schemas, configurations, compact run records, project-generated reports and plots, source citations, and checksum/provenance records.
+
+**Manufacturer information, device images, and research-paper files are excluded.** Citations and research-source metadata remain. Some documentation is a redacted publication copy; the complete original research workspace is retained locally. Simulation plots are research visualizations, not device images.
+
+Large raw simulation fields, most downloaded anatomy, the local simulator binary, and Python environments are also excluded. A GitHub clone is therefore **not a complete backup of the research data**. See [restore instructions](provenance/RESTORE.md) and [publication provenance](provenance/GITHUB_SYNC.md).
+
+## Install and run software checks
+
+Use **Python 3.13** and [uv](https://docs.astral.sh/uv/). No GPU or raw simulation data is needed for the portable checks.
+
+```sh
+git clone https://github.com/briantlord/dense-array-tpbm-mcx.git
+cd dense-array-tpbm-mcx
+uv sync --frozen --group dev
+uv run --frozen python scripts/check_software.py
 ```
 
-This creates `.venv`, installs the test tools, checks out the official MCX-CL `v2025.10` source at commit `bf695e81e239359f92a8fdd845bcdcacc50a7c31`, and builds an ignored local ARM64 executable at `.local/bin/mcxcl`. On an NVIDIA CUDA host, install the optional backend with `uv sync --extra cuda --group dev` after its separate validation gate is implemented.
+These commands work in a shell or PowerShell and use `.venv` by default. If you use the existing Windows `.venv-win` convention, set `$env:UV_PROJECT_ENVIRONMENT = ".venv-win"` before running them.
 
-PMCXCL was evaluated but is not used by the runner: the current macOS wheel set has architecture inconsistencies, and the ARM64-loadable wheel intermittently returned corrupted in-process NumPy fields despite a successful GPU kernel. File-based JNIfTI output from the pinned standalone executable passed the same M4 Pro simulation and avoids that buffer boundary.
+The [GitHub Actions workflow](.github/workflows/software.yml) runs the same portable checks. The complete local suite additionally checks research artifacts that may be absent from a clone; run `uv run --frozen pytest -q` after restoring its required data.
 
-## Validate the scaffold
+## Reproduce analyses or launch new simulations
 
-From a clean checkout on the Apple Silicon host, install, test, preflight every referenced artifact, and execute the manifest-locked GPU smoke run with one command:
+1. Select a versioned scenario from [CURRENT_STATE.md](CURRENT_STATE.md). Do not substitute historical defaults for a current comparison.
+2. Restore the required anatomy and native fields and verify their recorded SHA-256 checksums using [RESTORE.md](provenance/RESTORE.md).
+3. Regenerate reports using their associated script and a new output identity, or an isolated checkout where that output is absent. Frozen outputs must not be overwritten.
+4. For new GPU work, obtain the exact MCX-CL executable recorded by the environment and prepare a new versioned run binding. The runner checks executable identity, GPU, geometry, optical coefficients, and supported input scope before execution.
 
-```bash
-./scripts/verify_scaffold.sh
-```
+The validated implementation uses **MCX-CL v2025.10 through OpenCL** on Apple Silicon and Windows/NVIDIA. The Windows records identify an RTX 3080 Ti. The separate CUDA backend remains unvalidated. Current source/grid adapters support pencil sources and orthogonal, 1-mm voxels.
 
-For a fast software-only check that does not launch the GPU:
+The [Windows handoff](WINDOWS_RTX3080TI_HANDOFF.md) and [environment notes](ENVIRONMENT.md) document the historical setup. Their prepared plans and completed directories retain their original identities; they are not instructions to overwrite existing runs.
 
-```bash
-.venv/bin/pytest
-.venv/bin/mcx-project preflight \
-  runs/synthetic_smoke_m4pro/manifest.json \
-  --project-root .
-```
+## Scientific limitations and next work
 
-Validate an individual JSON input against its schema:
+- Optical tables are provisional; unresolved production optical cells remain blocked.
+- The Yue quantitative external benchmark still fails its declared tolerance. Internal consistency is not independent experimental validation.
+- Current regions are whole gray matter, white matter, their union, and geometric depth shells. Validated cortical-ribbon and named target-region masks remain to be added.
+- Broader parameter uncertainty and the inputs needed for a validated device model remain future work.
 
-```bash
-.venv/bin/mcx-project validate \
-  schemas/emitter_geometry.schema.json \
-  inputs/synthetic_test_only/emitter_geometry.json \
-  --require-complete
-```
-
-## Probe and smoke-test the M4 Pro
-
-```bash
-.venv/bin/mcx-project probe-opencl
-.venv/bin/mcx-project smoke-opencl \
-  runs/synthetic_smoke_m4pro/manifest.json \
-  --project-root .
-```
-
-The smoke command refuses to launch until the manifest, all seven referenced artifacts, their schemas, checksums, and cross-file invariants pass. The standalone M4 Pro smoke run completed 100,000 photons, reported 27.20888% absorbed energy, and produced a spatially non-uniform 60 x 60 x 60 field. The earlier PMCXCL smoke provenance is retained under `runs/synthetic_smoke_m4pro/` as a legacy bootstrap record; new basis execution uses standalone MCX-CL. These runs use a homogeneous synthetic cube, not production anatomy, properties, or helmet geometry.
-
-## Scientific gate
-
-Production simulation remains blocked until the anatomy, optical-property, hardware, registration, benchmark, and convergence gates in `PROJECT_PLAN.md` pass. A valid JSON file is not, by itself, a scientifically acceptable input.
-
-## Colin27 anatomy source
-
-The official MNI Colin27 high-resolution 2008 NIfTI release is the selected anatomy source and is documented under `inputs/anatomy/colin27_2008/`. Its large source images and download archive are intentionally ignored by Git; acquisition is reproducible with:
-
-```bash
-scripts/acquire_colin27.sh
-```
-
-The accepted anatomy derivative is `colin27_2008_native12_1mm_v3`: 181 x 217 x 181 voxels at 1-mm isotropic resolution with all native tissue identities retained. Reproduce it and its QC artifacts with:
-
-```bash
-.venv/bin/python scripts/derive_colin27_1mm.py
-```
-
-The anatomy metadata passes the fail-closed schema gate and automated plus visual anatomy QC. It is not yet a complete production simulation input because wavelength-specific optical properties, emitter registration, and ROI mapping remain separate gates. See the anatomy README for the source NIfTI scaling hazard and the documented removal of a superior field-of-view artifact.
-
-## Yue 850-nm benchmark implementation
-
-The executable approximation `yue2015_850_approx_v1` contains the paper's verified five-tissue 850-nm table, a separately derived five-tissue Colin27 volume, the Table-1 277-source elevation/count layout, deterministic nested density tiers, and a provenance-locked MCX template. Rebuild and preflight it with:
-
-```bash
-.venv/bin/python scripts/build_yue2015_approx_v1.py
-.venv/bin/mcx-project preflight \
-  benchmarks/yue2015_approx_v1/template_manifest.json \
-  --project-root .
-```
-
-The convergence and acceptance protocol is frozen in `configs/yue2015_convergence_acceptance_v1.json`. Three independent north-pole replicates were evaluated at each tier from `10^5` through `10^9` photons on the M4 Pro. At `10^9`, tissue-integral CVs were at most 0.015%, and the 20--60 mm profile median CV was 9.95%, but the `10^8` to `10^9` median profile change was 14.23% against the frozen 10% threshold. The representative-source convergence check therefore did not pass, no final photon count was selected, and the full 277-source launch remains blocked. This is a convergence result for one source, not a Yue curve reproduction; plot digitization, multisource depth curves, density comparisons, and a discrepancy report remain pending. See `benchmarks/yue2015_approx_v1/README.md` for the declared approximations and result links.
-
-## Research ledgers
-
-- `literature/novelty_search_2026-08-13.md` documents the current novelty search, screened precedents, and allowed claim language.
-- `literature/novelty_screening_2026-08-13.csv` is the machine-readable screening table.
-- `benchmarks/yue_2015_benchmark_ledger.md` defines what can and cannot be reproduced from the Yue and Humayun paper.
-- `benchmarks/yue_2015_parameter_ledger.csv` classifies each benchmark field as reported, inferred, missing, inconsistent, or a project decision.
-
-The search rules out a broad “first multisource 1064/1070-nm simulation” claim: frontal 1064-nm LED-array simulations already exist. The remaining candidate gap is the combined dense whole-head 1070-nm helmet and emitter-resolved cortical-overlap analysis.
-
-## Per-emitter basis runner
-
-The next execution layer prepares one immutable configuration and planned manifest per enabled emitter and replicate:
-
-```bash
-.venv/bin/mcx-project prepare-basis \
-  configs/synthetic_basis_plan_v1.json \
-  --project-root .
-```
-
-Execute one prepared synthetic run with:
-
-```bash
-.venv/bin/mcx-project execute-basis \
-  runs/synthetic_two_emitter_basis_v1/syn001/r001/manifest.json \
-  --project-root .
-```
-
-Preparation derives a deterministic independent seed from the basis-set ID, emitter ID, and replicate; refuses to replace changed generated files; and records the declared code revision. Execution preflights all inputs before launch, acquires an exclusive run lock, writes the full field and compact records atomically, skips a checksum-valid completed run, and preserves a failed run as immutable evidence. Retrying a failed source requires a replacement manifest with a new run ID.
-
-The checked-in synthetic plan and generated manifests remain software fixtures. Benchmark preparation now also accepts provenance-gated anatomical label volumes and benchmark-status manifests. Production preparation remains disabled until the independent optical-property, hardware, and registration gates pass.
+Read [MODEL_SPEC.md](MODEL_SPEC.md), [VALIDATION_AND_SENSITIVITY.md](VALIDATION_AND_SENSITIVITY.md), and [REFERENCES.md](REFERENCES.md) for the model contracts, validation plan, and literature sources.

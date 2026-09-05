@@ -1,0 +1,182 @@
+{
+  "absorber_mua_mm-1": 1000.0,
+  "anatomy_path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+  "anatomy_sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f",
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "basis_index_sha256": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b",
+  "created_at": "2026-08-25T00:16:51.359377Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "captured_at": "2026-08-15T21:42:47Z",
+    "code_revision": "08975d859601dcd5fda37738edf200750cf87e16",
+    "device": "NVIDIA GeForce RTX 3080 Ti",
+    "device_report": "\u001b[33mPlatform [0] Name NVIDIA CUDA\n\u001b[0m\u001b[34m============ GPU device ID 0 [1 of 1]: NVIDIA GeForce RTX 3080 Ti  ============\n\u001b[0m Device 1 of 1:\t\tNVIDIA GeForce RTX 3080 Ti\n Compute units   :\t80 core(s)\n Global memory   :\t12884246528 B\n Local memory    :\t49152 B\n Constant memory :\t65536 B\n Clock speed     :\t1755 MHz\n Compute Capacity:\t8.6\n Stream Processor:\t5120\n Vendor name    :\tNVIDIA\n Auto-thread    :\t327680\n Auto-block     :\t64\n",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "environment_id": "windows_rtx3080ti_opencl_v1",
+    "executable": "C:\\Users\\brian\\OneDrive\\Projects\\MCX Project\\.local\\windows\\mcxcl-v2025.10\\mcxcl\\bin\\mcxcl.exe",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "scientific_status": "provisional_yue_derived_surrogate_not_target_hardware",
+    "source_plan": "configs/surrogate_yue277_1070_basis_v1.json",
+    "source_plan_sha256": "ef086c32356a51b5e55dc69a923239af90bc53bdef69daae8dbf855fb21289e7"
+  },
+  "method": {
+    "interpretation": "first entry into the requested target tissue set",
+    "refractive_index_handling": "absorber media preserve each target label's original refractive index",
+    "tally": "energy deposited in target absorber voxels divided by normalized launched energy"
+  },
+  "optical_properties": {
+    "base_scenario_id": "provisional_1070_fat_abs_010_v1",
+    "overlay_inputs": [
+      {
+        "path": "inputs/optical_properties/provisional_1070_water_sensitivity_v1/whole_head_water_to_810_overlay.json",
+        "scenario_id": "provisional_1070_whole_head_water_term_at_810_v1",
+        "sha256": "3d9c84fe10801a7ca8192b8c54a9ebfc28b24a8ffafbd086c6e67e521fe270db"
+      }
+    ],
+    "overrides": [],
+    "path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+    "scenario_id": "provisional_1070_whole_head_water_term_at_810_v1",
+    "sha256": "35fb2b89576e60df421f431632dad8dc80c1fba8bc0ec4ad2b76c1660adfbb8f",
+    "wavelength_nm": 1070.0
+  },
+  "photon_count_per_replicate": 277000000,
+  "protocol_id": "surrogate_yue277_1070_targeted_water_whole_head_v1",
+  "protocol_path": "configs/surrogate_yue277_1070_targeted_water_whole_head_v1.json",
+  "protocol_sha256": "865c2b9c0b42f8350743d37616c7e13c82f1d7143c1f33c64976d7c51f15af48",
+  "replicates": 3,
+  "retention": [
+    {
+      "fraction_of_launched_energy_percent": 99.99999639027754,
+      "fraction_of_preceding_stage_percent": 99.99999639027754,
+      "stage": "entered_head_tissue"
+    },
+    {
+      "fraction_of_launched_energy_percent": 14.91825430452657,
+      "fraction_of_preceding_stage_percent": 14.918254843034164,
+      "stage": "reached_skull_complex"
+    },
+    {
+      "fraction_of_launched_energy_percent": 3.6345192680995364,
+      "fraction_of_preceding_stage_percent": 24.362899263600383,
+      "stage": "reached_intracranial_compartment"
+    },
+    {
+      "fraction_of_launched_energy_percent": 2.7736478050648956,
+      "fraction_of_preceding_stage_percent": 76.31402120796064,
+      "stage": "reached_brain_parenchyma"
+    },
+    {
+      "fraction_of_launched_energy_percent": 0.31121103257127397,
+      "fraction_of_preceding_stage_percent": 11.220279373717837,
+      "stage": "reached_white_matter"
+    }
+  ],
+  "runner_path": "scripts/run_targeted_penetration_tallies.py",
+  "runner_sha256": "88b004dcc468682fbea83eeee30fe14763d9938ae4a3791810c2f480d1fddb06",
+  "scientific_status": "provisional_counterfactual_water_component_isolation_not_physical_810_model",
+  "stage_summaries": {
+    "entered_head_tissue": {
+      "blocker_labels": [],
+      "description": "First entry into any modeled non-background head tissue",
+      "half_range_relative_to_mean": 2.5300001940777134e-09,
+      "mean_target_capture_percent": 99.99999639027754,
+      "relative_standard_deviation": 2.76885876618382e-09,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        99.99999670823081,
+        99.99999620223079,
+        99.99999626037102
+      ],
+      "standard_deviation_percent_points": 2.7688586662357033e-07,
+      "target_labels": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    "reached_brain_parenchyma": {
+      "blocker_labels": [],
+      "description": "First entry into gray or white matter",
+      "half_range_relative_to_mean": 4.59142397500079e-05,
+      "mean_target_capture_percent": 2.7736478050648956,
+      "relative_standard_deviation": 5.142286760094144e-05,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        2.7737380739795237,
+        2.773721967096247,
+        2.773483374118916
+      ],
+      "standard_deviation_percent_points": 0.00014262892385149395,
+      "target_labels": [
+        2,
+        3
+      ]
+    },
+    "reached_intracranial_compartment": {
+      "blocker_labels": [],
+      "description": "First entry into the intracranial compartment",
+      "half_range_relative_to_mean": 0.0002500021436916832,
+      "mean_target_capture_percent": 3.6345192680995364,
+      "relative_standard_deviation": 0.0002697960130610402,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        3.63494496360153,
+        3.633397782740226,
+        3.635215057956853
+      ],
+      "standard_deviation_percent_points": 0.0009805788079267847,
+      "target_labels": [
+        1,
+        2,
+        3,
+        10,
+        12
+      ]
+    },
+    "reached_skull_complex": {
+      "blocker_labels": [],
+      "description": "First entry into skull or marrow",
+      "half_range_relative_to_mean": 2.866703494057161e-05,
+      "mean_target_capture_percent": 14.91825430452657,
+      "relative_standard_deviation": 2.8734137443427197e-05,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        14.918220496710626,
+        14.917843546317144,
+        14.918698870551944
+      ],
+      "standard_deviation_percent_points": 0.0004286631696022659,
+      "target_labels": [
+        7,
+        11
+      ]
+    },
+    "reached_white_matter": {
+      "blocker_labels": [],
+      "description": "First entry into white matter",
+      "half_range_relative_to_mean": 0.0006801915586503619,
+      "mean_target_capture_percent": 0.31121103257127397,
+      "relative_standard_deviation": 0.0006814533305235339,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        0.31143016329484885,
+        0.31119613735875185,
+        0.31100679706022116
+      ],
+      "standard_deviation_percent_points": 0.00021207579464136266,
+      "target_labels": [
+        3
+      ]
+    }
+  }
+}

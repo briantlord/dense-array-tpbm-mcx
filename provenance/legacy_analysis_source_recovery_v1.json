@@ -1,0 +1,26 @@
+{
+  "sources": [
+    {
+      "path": "scripts/analyze_fat_absorption_bracket.py",
+      "sha256": "445f1bdb25b350e534f66cef87c4f29552501a7e4f1a9019e9c46e0367655377",
+      "snapshot": "provenance/source_snapshots/445f1bdb25b350e534f66cef87c4f29552501a7e4f1a9019e9c46e0367655377/analyze_fat_absorption_bracket.py",
+      "recovered_from_revision": "e183ac4f",
+      "evidence_status": "recovered_reviewed_workspace_source_not_contemporaneous_generation_proof"
+    },
+    {
+      "path": "scripts/analyze_surrogate_1070_water_counterfactual.py",
+      "sha256": "ab057fd78a02419b30370da7f3b49ce0d55064b957f59c321b2b2224d61cfef3",
+      "snapshot": "provenance/source_snapshots/ab057fd78a02419b30370da7f3b49ce0d55064b957f59c321b2b2224d61cfef3/analyze_surrogate_1070_water_counterfactual.py",
+      "recovered_from_revision": "e183ac4f",
+      "evidence_status": "recovered_reviewed_workspace_source_not_contemporaneous_generation_proof"
+    },
+    {
+      "path": "scripts/analyze_regional_absorbed_energy_density.py",
+      "sha256": "11510ec0180a9e3269dbf6ada4b882e2db957f4a7741b8c0519f251e52873bba",
+      "snapshot": "provenance/source_snapshots/11510ec0180a9e3269dbf6ada4b882e2db957f4a7741b8c0519f251e52873bba/analyze_regional_absorbed_energy_density.py",
+      "recovered_from_revision": "e183ac4f",
+      "evidence_status": "recovered_reviewed_workspace_source_not_contemporaneous_generation_proof"
+    }
+  ],
+  "note": "These original result manifests omitted code identity. This recovery supplement does not retroactively claim that their entrypoints were recorded at generation."
+}

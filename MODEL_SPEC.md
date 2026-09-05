@@ -205,6 +205,18 @@ Photon count is not fixed in advance. Select it from convergence testing in `VAL
 
 ## 8. Output volumes and summaries
 
+### Frozen output contract (v1)
+
+The canonical transport artifact is the MCX normalized fluence basis field produced with `OutputType=f` for one independently simulated emitter at declared unit launched energy. It is stored unchanged, together with the MCX configuration, photon count, seed, medium table, normalization flag, and engine identity. Device power, duty cycle, exposure time, and coupling are downstream weights and never overwrite this basis field.
+
+For a labeled voxel `r` with absorption coefficient `mua(r)`, the canonical derived absorbed-energy basis is
+
+`A_i(r) = mua(r) * F_i(r)`.
+
+The derived field must record the exact optical-scenario checksum used for the label-to-`mua` mapping. An MCX `OutputType=e` run may be retained as an independent verification artifact, but it is not a second freely interchangeable primary field. The Yue segmentation sensitivity study verified `OutputType=e` against `mua * fluence` after one global unit scale (median relative residual `8e-7`, 95th percentile `6.5e-6`); that check validates quantity identity, not Yue's unpublished plot normalization.
+
+Every downstream array or plot must name both its quantity and normalization. At minimum, distinguish `fluence_normalized_per_launched_energy`, `fluence_device_weighted`, `absorbed_energy_normalized_per_launched_energy`, and `absorbed_energy_device_weighted`. Display-only normalizations such as division by the surface value or by a shallow peak are separate, explicitly named analysis products and cannot replace the canonical basis field. Fluence and absorbed energy must never be compared as if they were the same observable.
+
 ### Required per-emitter outputs
 
 - normalized fluence or fluence-rate basis volume;

@@ -1,0 +1,2 @@
+wavelength_nm,hct_percent,source_block,mua_oxygenated_mm-1,mua_deoxygenated_mm-1,mus_oxygenated_mm-1,g_oxygenated,mus_theory_oxygenated_mm-1,mus_theory_deoxygenated_mm-1,g_theory_oxygenated,g_theory_deoxygenated,source_doi,scenario_role
+1070,45,compiled averages from literature spectra,0.42,0.19,59.04,0.9799,47.41,41.27,0.9722,0.9730,10.1007/s10103-013-1446-7,secondary physiological-haematocrit sensitivity

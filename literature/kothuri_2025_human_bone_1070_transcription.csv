@@ -1,0 +1,7 @@
+source_component,quantity,replicate_1_cm-1,replicate_2_cm-1,replicate_3_cm-1,mean_cm-1,sample_sd_cm-1,reported_spectral_fit_cm-1,mean_mm-1,atlas_candidate,eligibility,notes
+cortical_bone_powder,mua,0.03,0.04,0.02,0.03,0.01,0.04,0.003,"7:skull",sensitivity_only,"Powder/flakes add scattering and tibia is not cranial bone; direct absorption replicates retained."
+cortical_bone_powder,musp,43.22,48.17,37.57,42.9866666667,5.3038508023,45.49,4.2986666667,"7:skull",sensitivity_only,"Powder/flakes add scattering and tibia is not cranial bone; direct reduced-scattering replicates retained."
+trabecular_bone,mua,0.09,0.08,0.08,0.0833333333,0.0057735027,0.09,0.0083333333,"7:skull;11:marrow",sensitivity_only,"Human tibial trabecular bone; does not directly identify the cranial atlas class."
+trabecular_bone,musp,5.73,5.44,5.15,5.44,0.29,5.75,0.544,"7:skull;11:marrow",sensitivity_only,"Human tibial trabecular bone; does not directly identify the cranial atlas class."
+frozen_bone_marrow,mua,0.07,0.06,0.07,0.0666666667,0.0057735027,0.05,0.0066666667,"11:marrow",sensitivity_only,"Frozen marrow from one 89-year-old donor's tibia; authors report boundary effects."
+frozen_bone_marrow,musp,9.75,9.55,9.69,9.6633333333,0.1026320288,8.88,0.9663333333,"11:marrow",sensitivity_only,"Frozen marrow from one 89-year-old donor's tibia; authors report boundary effects."

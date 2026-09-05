@@ -1,0 +1,49 @@
+{
+  "scenario_set_id": "provisional_810_skull_in_vivo_first_v1",
+  "wavelength_nm": 810.0,
+  "scientific_status": "provisional",
+  "production_eligible": false,
+  "central_path": "inputs/optical_properties/provisional_810_v1/central_in_vivo_skull.json",
+  "scope": "Skull-only uncertainty comparison; all non-skull tissues, including the provisional cranial-marrow and dura proxies, are held fixed.",
+  "cases": [
+    {
+      "case": "in_vivo_first",
+      "scenario_id": "provisional_810_in_vivo_skull_v1",
+      "protocol_path": "configs/surrogate_yue277_810_targeted_skull_in_vivo_v1.json",
+      "skull_mua_mm-1": 0.021,
+      "skull_musp_mm-1": 0.92,
+      "skull_g": 0.89,
+      "skull_mus_mm-1": 8.363636363636365,
+      "evidence": "Bevilacqua 1999 exposed living human skull absorption at 849 nm plus Matcher 1997 intact living-head scattering fit evaluated at 810 nm.",
+      "role": "primary"
+    },
+    {
+      "case": "cassano_high_scatter",
+      "scenario_id": "provisional_810_cassano_skull_v1",
+      "protocol_path": "configs/surrogate_yue277_810_targeted_skull_cassano_v1.json",
+      "skull_mua_mm-1": 0.011,
+      "skull_musp_mm-1": 1.92,
+      "skull_g": 0.89,
+      "skull_mus_mm-1": 17.454545454545457,
+      "evidence": "Cassano et al. 2019 Table 1 compiled 810-nm skull model.",
+      "role": "higher-scattering sensitivity"
+    },
+    {
+      "case": "pitzschke_low_attenuation",
+      "scenario_id": "provisional_810_pitzschke_skull_v1",
+      "protocol_path": "configs/surrogate_yue277_810_targeted_skull_pitzschke_v1.json",
+      "skull_mua_mm-1": 0.004,
+      "skull_musp_mm-1": 0.54,
+      "skull_g": 0.89,
+      "skull_mus_mm-1": 4.90909090909091,
+      "evidence": "Pitzschke et al. 2015 coefficients fitted to 808-nm cadaver-head fluence data.",
+      "role": "lower-attenuation sensitivity"
+    }
+  ],
+  "interpretation_limits": [
+    "The 277 emitter locations and directions are the existing Yue-derived spatial surrogate, not a measured 810-nm helmet.",
+    "Source positions are in superficial atlas voxels, so external coupling and scalp-entry Fresnel loss are outside this model boundary.",
+    "Skull label 7 varies; marrow label 11 remains the Cassano skull-like proxy because direct in-vivo cranial-marrow coefficients are unavailable.",
+    "The comparison isolates optical coefficients and does not imply wavelength-dependent biological efficacy."
+  ]
+}

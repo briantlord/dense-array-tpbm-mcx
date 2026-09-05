@@ -1,0 +1,40 @@
+{
+  "scenario_set_id": "provisional_810_dura_marrow_v2",
+  "wavelength_nm": 810.0,
+  "scientific_status": "provisional",
+  "production_eligible": false,
+  "base_path": "inputs/optical_properties/provisional_810_v1/central_in_vivo_skull.json",
+  "primary_overlay_path": "inputs/optical_properties/provisional_810_v2/refined_primary_overlay.json",
+  "cases": [
+    {
+      "case": "refined_primary",
+      "scenario_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2",
+      "protocol_path": "configs/surrogate_yue277_810_targeted_dura_marrow_refined_v2.json",
+      "changed_tissue_ids_from_v1": [10, 11]
+    },
+    {
+      "case": "marrow_skull_like",
+      "scenario_id": "provisional_810_refined_dura_marrow_skull_like_v2",
+      "protocol_path": "configs/surrogate_yue277_810_targeted_marrow_skull_like_v2.json",
+      "changed_tissue_ids_from_primary": [11]
+    },
+    {
+      "case": "marrow_trabecular",
+      "scenario_id": "provisional_810_refined_dura_marrow_trabecular_v2",
+      "protocol_path": "configs/surrogate_yue277_810_targeted_marrow_trabecular_v2.json",
+      "changed_tissue_ids_from_primary": [11]
+    },
+    {
+      "case": "dura_skull_like",
+      "scenario_id": "provisional_810_dura_skull_like_marrow_primary_v2",
+      "protocol_path": "configs/surrogate_yue277_810_targeted_dura_skull_like_v2.json",
+      "changed_tissue_ids_from_primary": [10]
+    }
+  ],
+  "interpretation_limits": [
+    "The refined dura row is one-donor post-mortem ex vivo data with fixed g and n inversion inputs.",
+    "The refined marrow row is frozen tibial marrow from one elderly donor and has reported boundary effects.",
+    "The anatomy has a homogeneous marrow label and does not resolve diploic microstructure or blood content.",
+    "The emitter geometry remains the Yue-derived spatial surrogate and omits external device coupling."
+  ]
+}

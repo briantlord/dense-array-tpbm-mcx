@@ -1,0 +1,25 @@
+{
+  "absorber_mua_mm-1": 1000,
+  "anatomy_path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "binary_path": ".local/windows/mcxcl-v2025.10/mcxcl/bin/mcxcl.exe",
+  "environment_path": "environment/windows_rtx3080ti_opencl_v1.json",
+  "optical_properties_path": "inputs/optical_properties/provisional_810_v1/central_in_vivo_skull.json",
+  "optical_scenario_id": "provisional_810_in_vivo_skull_v1",
+  "photon_count_per_replicate": 277000000,
+  "protocol_id": "surrogate_yue277_810_targeted_skull_in_vivo_v1",
+  "replicates": 3,
+  "scientific_status": "provisional_810_optics_yue_derived_spatial_surrogate_not_target_hardware_not_measured_dose_not_biological_efficacy",
+  "stages": [
+    {
+      "name": "reached_skull_complex",
+      "description": "First entry into skull or marrow",
+      "target_labels": [7, 11]
+    },
+    {
+      "name": "reached_intracranial_compartment",
+      "description": "First entry into dura, CSF, brain parenchyma, or vessels",
+      "target_labels": [1, 2, 3, 10, 12]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 # Yue and Humayun (2015) Benchmark Ledger
 
 **Primary source:** Yue, L., & Humayun, M. S. (2015). *Monte Carlo analysis of the enhanced transcranial penetration using distributed near-infrared emitter array*. Journal of Biomedical Optics, 20(8), 088001. DOI `10.1117/1.JBO.20.8.088001`.  
-**Verification source:** Publisher PDF read locally and intentionally excluded from GitHub; retrieve via DOI.
+**Local source:** `references/papers/Yue_Humayun_2015_distributed_NIR_emitter_array.pdf`  
 **Audit date:** 2026-08-13  
 **Machine-readable ledger:** `benchmarks/yue_2015_parameter_ledger.csv`
 
