@@ -1,0 +1,17 @@
+{
+  "scenario_id": "provisional_810_refined_dura_marrow_trabecular_v2",
+  "scientific_status": "provisional",
+  "overrides": [
+    {
+      "tissue_id": 11,
+      "mua_mm-1": 0.006,
+      "source_musp_mm-1": 0.742,
+      "mus_mm-1": 6.745454545454546,
+      "g": 0.89,
+      "n": 1.37,
+      "citation": "Kothuri et al. 2025 Zenodo record 14170681, Bone Constituents, 810-nm trabecular-bone row",
+      "conversion": "Arithmetic mean of three exact 810-nm cm^-1 replicates divided by 10; mus=musp/(1-0.89).",
+      "notes": "Porous trabecular endpoint for the diploic/marrow atlas label; not a claim that trabecular bone equals marrow."
+    }
+  ]
+}

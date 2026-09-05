@@ -1,0 +1,242 @@
+{
+  "coefficient_unit": "mm^-1",
+  "scenario_id": "provisional_1070_fat_low_abs_1064_v1",
+  "scientific_status": "provisional",
+  "synthetic_test_only": false,
+  "tissues": [
+    {
+      "citation": "literature/optical_properties_1070_source_ledger.json#air_boundary_convention",
+      "conversion": "No conversion; MCX boundary-medium convention.",
+      "g": 0.0,
+      "mua_mm-1": 0.0,
+      "mus_mm-1": 0.0,
+      "n": 1.0,
+      "notes": "Provisional only; frozen with the complete scenario rather than independently.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": "not_used",
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Exterior background and atlas air cavities.",
+      "tissue_id": 0,
+      "tissue_name": "background_air",
+      "uncertainty": "Idealized boundary convention, not a tissue measurement."
+    },
+    {
+      "citation": "ledger#hale_querry_1973_water_mua_interp; ledger#daimon_masumura_2007_water_n; Cassano et al. 2019 Table 1",
+      "conversion": "Water mua is the documented 1060/1080-nm midpoint at 1070; n is the 21.5 C Sellmeier evaluation; musp=0.01 and g=0.89 are unchanged 1064-nm simulation assumptions. mus=musp/(1-g).",
+      "g": 0.89,
+      "mua_mm-1": 0.0125,
+      "mus_mm-1": 0.09090909090909093,
+      "n": 1.32431985643,
+      "notes": "Proxy/assumption row. No component is represented as measured physiological CSF.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 0.01,
+      "source_wavelengths_nm": [
+        1060.0,
+        1064.0,
+        1070.0,
+        1080.0
+      ],
+      "tissue_definition": "Colin27 CSF represented by an explicit water-like optical proxy.",
+      "tissue_id": 1,
+      "tissue_name": "cerebrospinal_fluid",
+      "uncertainty": "No physiological CSF scattering measurement; water temperature and 1064-nm scattering assumptions are tested separately."
+    },
+    {
+      "citation": "ledger#shapey_2022_gm_mua; ledger#shapey_2022_gm_musp; ledger#shapey_2022_fixed_g_085; ledger#shapey_2022_fixed_n_140",
+      "conversion": "Exact 1070-nm mua and model-fitted musp; mus=musp/(1-0.85).",
+      "g": 0.85,
+      "mua_mm-1": 0.08892,
+      "mus_mm-1": 13.930922420623263,
+      "n": 1.4,
+      "notes": "Internally consistent reproduction of the Shapey inversion assumptions.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 2.08963836309349,
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Colin27 gray matter bound to ex vivo human cortical gray matter.",
+      "tissue_id": 2,
+      "tissue_name": "gray_matter",
+      "uncertainty": "One frozen cadaver; g and n were fixed inversion inputs rather than measurements."
+    },
+    {
+      "citation": "ledger#shapey_2022_wm_mua; ledger#shapey_2022_wm_musp; ledger#shapey_2022_fixed_g_085; ledger#shapey_2022_fixed_n_140",
+      "conversion": "Exact 1070-nm mua and model-fitted musp; mus=musp/(1-0.85).",
+      "g": 0.85,
+      "mua_mm-1": 0.0404,
+      "mus_mm-1": 47.62505206606693,
+      "n": 1.4,
+      "notes": "Provisional Shapey central case; conflicts remain sensitivity questions.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 7.14375780991004,
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Colin27 white matter bound to ex vivo human white matter.",
+      "tissue_id": 3,
+      "tissue_name": "white_matter",
+      "uncertainty": "One frozen cadaver; g and n were fixed inversion inputs; independent datasets conflict."
+    },
+    {
+      "citation": "ledger#bashkatov_2005_fat_mua_digitized; ledger#bashkatov_2005_fat_musp; ledger#bashkatov_2005_fixed_g; Cassano et al. 2019 Table 1 fat mua at 1064 nm",
+      "conversion": "No wavelength transformation: 0.0054 mm^-1 at 1064 nm is carried unchanged only as a neighboring-wavelength sensitivity assumption; scattering remains central exact-1070 Bashkatov.",
+      "g": 0.9,
+      "mua_mm-1": 0.0054,
+      "mus_mm-1": 9.150744461129545,
+      "n": 1.4,
+      "notes": "High-absorption central value is paired with an explicit low-absorption sensitivity. This is not represented as a measured 1070-nm value.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 0.9150744461129543,
+      "source_wavelengths_nm": [
+        1064.0,
+        1070.0
+      ],
+      "tissue_definition": "Colin27 fat bound to human subcutaneous/peritoneal adipose as a proxy.",
+      "tissue_id": 4,
+      "tissue_name": "fat",
+      "uncertainty": "Large absorption-method conflict; g was fixed and n is a project assumption."
+    },
+    {
+      "citation": "ledger#damagatla_2026_upper_arm_mua; ledger#damagatla_2026_upper_arm_musp; project g/n assumptions",
+      "conversion": "Exact 1070-nm bulk upper-arm means; mus=musp/(1-0.9).",
+      "g": 0.9,
+      "mua_mm-1": 0.0298683333333,
+      "mus_mm-1": 7.318666666670001,
+      "n": 1.4,
+      "notes": "Cortese human SCM and Mosca porcine cases are separate sensitivities.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 0.731866666667,
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Colin27 muscle bound to a muscle-rich but layered in vivo human upper-arm measurement.",
+      "tissue_id": 5,
+      "tissue_name": "muscles",
+      "uncertainty": "Not isolated muscle; g=0.9 and n=1.4 are assumptions."
+    },
+    {
+      "citation": "ledger#damagatla_2026_forehead_mua; ledger#damagatla_2026_forehead_musp; project g/n assumptions",
+      "conversion": "Exact 1070-nm bulk forehead means; mus=musp/(1-0.9).",
+      "g": 0.9,
+      "mua_mm-1": 0.017675,
+      "mus_mm-1": 8.687166666670002,
+      "n": 1.4,
+      "notes": "Pure-skin and pure-muscle bindings are separate one-at-a-time sensitivities.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 0.868716666667,
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Native Colin27 composite skin-and-muscles label represented by bulk forehead tissue.",
+      "tissue_id": 6,
+      "tissue_name": "skin_and_muscles",
+      "uncertainty": "Atlas composition is unknown; g=0.9 and n=1.4 are assumptions."
+    },
+    {
+      "citation": "ledger#bashkatov_2006_skull_mua_digitized; ledger#bashkatov_2006_skull_musp; ledger#bashkatov_2006_fixed_g",
+      "conversion": "Intact-cranial graph mua and evaluated cortical-skull musp model; mus=musp/(1-0.9).",
+      "g": 0.9,
+      "mua_mm-1": 0.0167,
+      "mus_mm-1": 16.460702478505784,
+      "n": 1.4,
+      "notes": "Tibial trabecular and cortical-powder cases remain separate sensitivities.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 1.646070247850578,
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Colin27 skull represented by intact human cortical cranial bone.",
+      "tissue_id": 7,
+      "tissue_name": "skull",
+      "uncertainty": "Cortical/trabecular composition is unknown; graph audit and n assumption remain."
+    },
+    {
+      "citation": "ledger#bashkatov_2005_fat_mua_digitized; ledger#bashkatov_2005_fat_musp; ledger#fat_label_identity_gap; Cassano et al. 2019 Table 1 fat mua at 1064 nm",
+      "conversion": "No wavelength transformation: 0.0054 mm^-1 at 1064 nm is carried unchanged only as a neighboring-wavelength sensitivity assumption; scattering remains central exact-1070 Bashkatov.",
+      "g": 0.9,
+      "mua_mm-1": 0.0054,
+      "mus_mm-1": 9.150744461129545,
+      "n": 1.4,
+      "notes": "Explicit shared-adipose proxy assumption, never a silent copy. This is not represented as a measured 1070-nm value.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 0.9150744461129543,
+      "source_wavelengths_nm": [
+        1064.0,
+        1070.0
+      ],
+      "tissue_definition": "Native Colin27 fat_2 label with undocumented distinction from fat.",
+      "tissue_id": 9,
+      "tissue_name": "fat_2",
+      "uncertainty": "Atlas identity is unresolved; shared numerical values do not establish equivalence."
+    },
+    {
+      "citation": "ledger#shapey_2022_dura_mua; ledger#shapey_2022_dura_musp; ledger#shapey_2022_fixed_g_085; ledger#shapey_2022_fixed_n_140",
+      "conversion": "Exact 1070-nm mua and model-fitted musp; mus=musp/(1-0.85).",
+      "g": 0.85,
+      "mua_mm-1": 0.07021,
+      "mus_mm-1": 15.27719366804753,
+      "n": 1.4,
+      "notes": "Dura remains separate from skull.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 2.29157905020713,
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Colin27 dura bound to ex vivo human dura.",
+      "tissue_id": 10,
+      "tissue_name": "dura",
+      "uncertainty": "One frozen cadaver; g and n were fixed inversion inputs."
+    },
+    {
+      "citation": "ledger#kothuri_2025_bone_table; project g/n assumptions",
+      "conversion": "Mean of three exact 1070-nm frozen-marrow iterations; cm^-1 divided by 10; mus=musp/(1-0.9).",
+      "g": 0.9,
+      "mua_mm-1": 0.0066666667,
+      "mus_mm-1": 9.663333333000002,
+      "n": 1.4,
+      "notes": "Material surrogate, not a claim of cranial equivalence.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 0.9663333333,
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Colin27 cranial-marrow label represented by frozen human tibial marrow.",
+      "tissue_id": 11,
+      "tissue_name": "marrow",
+      "uncertainty": "One elderly donor, tibial site, frozen state, boundary effects, and assumed g/n."
+    },
+    {
+      "citation": "ledger#friebel_2006_blood_mua_oxy_hct42; ledger#friebel_2006_blood_musp_oxy_hct42; ledger#friebel_2006_blood_g_oxy_hct42; project n assumption",
+      "conversion": "Graph-digitized oxygenated hct-42.1 coefficients; mus=musp/(1-g).",
+      "g": 0.9707272727,
+      "mua_mm-1": 0.4266664512,
+      "mus_mm-1": 70.19732857621375,
+      "n": 1.4,
+      "notes": "Effective-blood binding, not a claim that every vessel voxel is pure lumen.",
+      "review_status": "single_reviewed",
+      "source_kind": "assumption",
+      "source_musp_mm-1": 2.0548672566,
+      "source_wavelengths_nm": [
+        1070.0
+      ],
+      "tissue_definition": "Native vessel class represented operationally as oxygenated intravascular whole blood.",
+      "tissue_id": 12,
+      "tissue_name": "vessels",
+      "uncertainty": "Graph audit, n, lumen/wall partial volume, and arterial/venous composition remain unresolved."
+    }
+  ],
+  "wavelength_nm": 1070.0
+}

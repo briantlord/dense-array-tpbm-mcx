@@ -1,0 +1,674 @@
+{
+  "aggregation": {
+    "field_checksum_verified_before_use": true,
+    "method": "one-source-at-a-time streaming sufficient statistics",
+    "source_stack_materialized": false,
+    "sum_dtype": "float64"
+  },
+  "created_at": "2026-09-04T23:11:53.330606Z",
+  "ratio_absolute_threshold": 1e-12,
+  "reference_protocol": {
+    "interpretation": "Superior-region single-source reference inherited from the frozen five-region convergence protocol. EF_ref is a Yue-style conditional comparison only, not a target-device baseline or biological reference.",
+    "reference_emitter_id": "SUR1070_275"
+  },
+  "representative_visual_qc": {
+    "anterior": "SUR1070_011",
+    "left temporal": "SUR1070_022",
+    "posterior": "SUR1070_031",
+    "right temporal": "SUR1070_040",
+    "superior": "SUR1070_275"
+  },
+  "result_id": "corrected_1070_overlap_20260904_v1",
+  "roi_results": {
+    "brain_total": {
+      "field_first": {
+        "dominant_emitter_id": "SUR1070_013",
+        "dominant_integrated_fluence": 0.3379206559139271,
+        "ef_dom": 115.99658381041868,
+        "ef_ref": 667.5936304461709,
+        "n_eff": 239.96587084370407,
+        "non_dominant_contribution_fraction": 0.9913790564588146,
+        "reference_emitter_id": "SUR1070_275",
+        "top_contributors": [
+          {
+            "emitter_id": "SUR1070_013",
+            "fraction": 0.008620943541185401,
+            "integrated_fluence": 0.3379206559139271,
+            "rank": 1
+          },
+          {
+            "emitter_id": "SUR1070_014",
+            "fraction": 0.007987589033736576,
+            "integrated_fluence": 0.3130946528713738,
+            "rank": 2
+          },
+          {
+            "emitter_id": "SUR1070_010",
+            "fraction": 0.00768253691739323,
+            "integrated_fluence": 0.301137329319699,
+            "rank": 3
+          },
+          {
+            "emitter_id": "SUR1070_047",
+            "fraction": 0.007306571844510469,
+            "integrated_fluence": 0.2864003851067688,
+            "rank": 4
+          },
+          {
+            "emitter_id": "SUR1070_086",
+            "fraction": 0.007121659267344671,
+            "integrated_fluence": 0.27915224816397555,
+            "rank": 5
+          },
+          {
+            "emitter_id": "SUR1070_012",
+            "fraction": 0.0070579278510765585,
+            "integrated_fluence": 0.276654126945021,
+            "rank": 6
+          },
+          {
+            "emitter_id": "SUR1070_132",
+            "fraction": 0.006718164946296769,
+            "integrated_fluence": 0.26333622234561094,
+            "rank": 7
+          },
+          {
+            "emitter_id": "SUR1070_033",
+            "fraction": 0.006658391465122549,
+            "integrated_fluence": 0.26099324284827924,
+            "rank": 8
+          },
+          {
+            "emitter_id": "SUR1070_030",
+            "fraction": 0.006642181529021881,
+            "integrated_fluence": 0.2603578515812687,
+            "rank": 9
+          },
+          {
+            "emitter_id": "SUR1070_009",
+            "fraction": 0.00651352605776928,
+            "integrated_fluence": 0.2553148605182955,
+            "rank": 10
+          }
+        ],
+        "total_integrated_fluence": 39.1976416849915
+      },
+      "metric_first": {
+        "ef_dom": {
+          "mean": 3.066650814725036,
+          "median": 2.8056041800178657,
+          "p05": 1.385333665426835,
+          "p95": 5.557488512758293,
+          "valid_voxel_count": 1151473
+        },
+        "ef_ref": {
+          "mean": 4899144.78615747,
+          "median": 8230.731608134402,
+          "p05": 13.475161874326147,
+          "p95": 16546741.138731003,
+          "valid_voxel_count": 204473
+        },
+        "n_eff": {
+          "mean": 5.1312266404775135,
+          "median": 4.605499985417685,
+          "p05": 1.8051545782976288,
+          "p95": 10.212072726896807,
+          "valid_voxel_count": 1176114
+        },
+        "non_dominant_contribution_fraction": {
+          "mean": 0.6096876331181823,
+          "median": 0.6423819933051047,
+          "p05": 0.2764743942660404,
+          "p95": 0.8195726553951985,
+          "valid_voxel_count": 1176114
+        }
+      },
+      "top_dominant_by_voxel_count": [
+        {
+          "emitter_id": "SUR1070_031",
+          "fraction": 0.03389376299946099,
+          "rank": 1,
+          "voxel_count": 55650
+        },
+        {
+          "emitter_id": "SUR1070_018",
+          "fraction": 0.02729650799837992,
+          "rank": 2,
+          "voxel_count": 44818
+        },
+        {
+          "emitter_id": "SUR1070_011",
+          "fraction": 0.02333340438944025,
+          "rank": 3,
+          "voxel_count": 38311
+        },
+        {
+          "emitter_id": "SUR1070_004",
+          "fraction": 0.022382064626544327,
+          "rank": 4,
+          "voxel_count": 36749
+        },
+        {
+          "emitter_id": "SUR1070_037",
+          "fraction": 0.020696207735573832,
+          "rank": 5,
+          "voxel_count": 33981
+        },
+        {
+          "emitter_id": "SUR1070_019",
+          "fraction": 0.01680984472210464,
+          "rank": 6,
+          "voxel_count": 27600
+        },
+        {
+          "emitter_id": "SUR1070_025",
+          "fraction": 0.01677573779078443,
+          "rank": 7,
+          "voxel_count": 27544
+        },
+        {
+          "emitter_id": "SUR1070_032",
+          "fraction": 0.01652541727698787,
+          "rank": 8,
+          "voxel_count": 27133
+        },
+        {
+          "emitter_id": "SUR1070_003",
+          "fraction": 0.016071673279960046,
+          "rank": 9,
+          "voxel_count": 26388
+        },
+        {
+          "emitter_id": "SUR1070_036",
+          "fraction": 0.014298112851309006,
+          "rank": 10,
+          "voxel_count": 23476
+        }
+      ],
+      "voxel_count": 1641895
+    },
+    "gray_matter": {
+      "field_first": {
+        "dominant_emitter_id": "SUR1070_013",
+        "dominant_integrated_fluence": 0.31792743789480943,
+        "ef_dom": 115.383214562231,
+        "ef_ref": 788.4337185241055,
+        "n_eff": 239.45234601340752,
+        "non_dominant_contribution_fraction": 0.9913332281147301,
+        "reference_emitter_id": "SUR1070_275",
+        "top_contributors": [
+          {
+            "emitter_id": "SUR1070_013",
+            "fraction": 0.00866677188526983,
+            "integrated_fluence": 0.31792743789480943,
+            "rank": 1
+          },
+          {
+            "emitter_id": "SUR1070_014",
+            "fraction": 0.008057297290576327,
+            "integrated_fluence": 0.29556978282808094,
+            "rank": 2
+          },
+          {
+            "emitter_id": "SUR1070_010",
+            "fraction": 0.007935341744173504,
+            "integrated_fluence": 0.29109602778777466,
+            "rank": 3
+          },
+          {
+            "emitter_id": "SUR1070_047",
+            "fraction": 0.007563041551085671,
+            "integrated_fluence": 0.27743875745886115,
+            "rank": 4
+          },
+          {
+            "emitter_id": "SUR1070_086",
+            "fraction": 0.007417703841167086,
+            "integrated_fluence": 0.2721072630621471,
+            "rank": 5
+          },
+          {
+            "emitter_id": "SUR1070_012",
+            "fraction": 0.007075786187734939,
+            "integrated_fluence": 0.2595645303162392,
+            "rank": 6
+          },
+          {
+            "emitter_id": "SUR1070_132",
+            "fraction": 0.006879004473584653,
+            "integrated_fluence": 0.2523458903159548,
+            "rank": 7
+          },
+          {
+            "emitter_id": "SUR1070_009",
+            "fraction": 0.006649173423728683,
+            "integrated_fluence": 0.2439148853470144,
+            "rank": 8
+          },
+          {
+            "emitter_id": "SUR1070_049",
+            "fraction": 0.006588682305762953,
+            "integrated_fluence": 0.24169586003922663,
+            "rank": 9
+          },
+          {
+            "emitter_id": "SUR1070_048",
+            "fraction": 0.006549209756017855,
+            "integrated_fluence": 0.24024786916398927,
+            "rank": 10
+          }
+        ],
+        "total_integrated_fluence": 36.68348978183717
+      },
+      "metric_first": {
+        "ef_dom": {
+          "mean": 2.964461652776702,
+          "median": 2.6886202588170054,
+          "p05": 1.3753952257326911,
+          "p95": 5.364765750847749,
+          "valid_voxel_count": 728220
+        },
+        "ef_ref": {
+          "mean": 7185690.069110507,
+          "median": 18994.76651815859,
+          "p05": 13.435145413197402,
+          "p95": 31265954.5348969,
+          "valid_voxel_count": 132940
+        },
+        "n_eff": {
+          "mean": 4.917492315032192,
+          "median": 4.319598239901951,
+          "p05": 1.7771945075492046,
+          "p95": 10.006067231858145,
+          "valid_voxel_count": 739637
+        },
+        "non_dominant_contribution_fraction": {
+          "mean": 0.5986724096094225,
+          "median": 0.6269274877389321,
+          "p05": 0.2706919051857703,
+          "p95": 0.8131653007940914,
+          "valid_voxel_count": 739637
+        }
+      },
+      "top_dominant_by_voxel_count": [
+        {
+          "emitter_id": "SUR1070_031",
+          "fraction": 0.0487828506482741,
+          "rank": 1,
+          "voxel_count": 48845
+        },
+        {
+          "emitter_id": "SUR1070_018",
+          "fraction": 0.0318733932969397,
+          "rank": 2,
+          "voxel_count": 31914
+        },
+        {
+          "emitter_id": "SUR1070_004",
+          "fraction": 0.027406084648158247,
+          "rank": 3,
+          "voxel_count": 27441
+        },
+        {
+          "emitter_id": "SUR1070_011",
+          "fraction": 0.026926695390073047,
+          "rank": 4,
+          "voxel_count": 26961
+        },
+        {
+          "emitter_id": "SUR1070_037",
+          "fraction": 0.025360690480328064,
+          "rank": 5,
+          "voxel_count": 25393
+        },
+        {
+          "emitter_id": "SUR1070_032",
+          "fraction": 0.02351304438145802,
+          "rank": 6,
+          "voxel_count": 23543
+        },
+        {
+          "emitter_id": "SUR1070_025",
+          "fraction": 0.019960570233522493,
+          "rank": 7,
+          "voxel_count": 19986
+        },
+        {
+          "emitter_id": "SUR1070_036",
+          "fraction": 0.017988083182026098,
+          "rank": 8,
+          "voxel_count": 18011
+        },
+        {
+          "emitter_id": "SUR1070_003",
+          "fraction": 0.017875226960851875,
+          "rank": 9,
+          "voxel_count": 17898
+        },
+        {
+          "emitter_id": "SUR1070_019",
+          "fraction": 0.017314940765464797,
+          "rank": 10,
+          "voxel_count": 17337
+        }
+      ],
+      "voxel_count": 1001274
+    },
+    "white_matter": {
+      "field_first": {
+        "dominant_emitter_id": "SUR1070_033",
+        "dominant_integrated_fluence": 0.05350432429087521,
+        "ef_dom": 46.9896954400584,
+        "ef_ref": 206.2846573159356,
+        "n_eff": 151.10433473573593,
+        "non_dominant_contribution_fraction": 0.9787187384247759,
+        "reference_emitter_id": "SUR1070_275",
+        "top_contributors": [
+          {
+            "emitter_id": "SUR1070_033",
+            "fraction": 0.021281261575224145,
+            "integrated_fluence": 0.05350432429087521,
+            "rank": 1
+          },
+          {
+            "emitter_id": "SUR1070_032",
+            "fraction": 0.017156381312230008,
+            "integrated_fluence": 0.04313374872738471,
+            "rank": 2
+          },
+          {
+            "emitter_id": "SUR1070_072",
+            "fraction": 0.016618412437513212,
+            "integrated_fluence": 0.04178121325717767,
+            "rank": 3
+          },
+          {
+            "emitter_id": "SUR1070_073",
+            "fraction": 0.01567935470818853,
+            "integrated_fluence": 0.03942027947982423,
+            "rank": 4
+          },
+          {
+            "emitter_id": "SUR1070_110",
+            "fraction": 0.015167784791039704,
+            "integrated_fluence": 0.038134114999027996,
+            "rank": 5
+          },
+          {
+            "emitter_id": "SUR1070_109",
+            "fraction": 0.014161669181931952,
+            "integrated_fluence": 0.03560458752559645,
+            "rank": 6
+          },
+          {
+            "emitter_id": "SUR1070_268",
+            "fraction": 0.01380245318355056,
+            "integrated_fluence": 0.03470146393962238,
+            "rank": 7
+          },
+          {
+            "emitter_id": "SUR1070_248",
+            "fraction": 0.012729504778478796,
+            "integrated_fluence": 0.03200390866502479,
+            "rank": 8
+          },
+          {
+            "emitter_id": "SUR1070_257",
+            "fraction": 0.012345038670434176,
+            "integrated_fluence": 0.031037302467786063,
+            "rank": 9
+          },
+          {
+            "emitter_id": "SUR1070_267",
+            "fraction": 0.012209066527112369,
+            "integrated_fluence": 0.030695447844877568,
+            "rank": 10
+          }
+        ],
+        "total_integrated_fluence": 2.5141519031543447
+      },
+      "metric_first": {
+        "ef_dom": {
+          "mean": 3.2424704580920434,
+          "median": 3.0398912479079336,
+          "p05": 1.4019641119493367,
+          "p95": 5.752331180649589,
+          "valid_voxel_count": 423253
+        },
+        "ef_ref": {
+          "mean": 649730.8105689081,
+          "median": 2091.8472573155523,
+          "p05": 13.544752101798274,
+          "p95": 1895290.5443891422,
+          "valid_voxel_count": 71533
+        },
+        "n_eff": {
+          "mean": 5.493412540924503,
+          "median": 5.144428467129617,
+          "p05": 1.8554384807815127,
+          "p95": 10.374499222760997,
+          "valid_voxel_count": 436477
+        },
+        "non_dominant_contribution_fraction": {
+          "mean": 0.6283536037657736,
+          "median": 0.6692972995018173,
+          "p05": 0.28609131876119637,
+          "p95": 0.8256460073101941,
+          "valid_voxel_count": 436477
+        }
+      },
+      "top_dominant_by_voxel_count": [
+        {
+          "emitter_id": "SUR1070_018",
+          "fraction": 0.02014295503893878,
+          "rank": 1,
+          "voxel_count": 12904
+        },
+        {
+          "emitter_id": "SUR1070_011",
+          "fraction": 0.017717183795098818,
+          "rank": 2,
+          "voxel_count": 11350
+        },
+        {
+          "emitter_id": "SUR1070_019",
+          "fraction": 0.016020392712695963,
+          "rank": 3,
+          "voxel_count": 10263
+        },
+        {
+          "emitter_id": "SUR1070_004",
+          "fraction": 0.014529651697337427,
+          "rank": 4,
+          "voxel_count": 9308
+        },
+        {
+          "emitter_id": "SUR1070_037",
+          "fraction": 0.01340574224073204,
+          "rank": 5,
+          "voxel_count": 8588
+        },
+        {
+          "emitter_id": "SUR1070_003",
+          "fraction": 0.013252765675805194,
+          "rank": 6,
+          "voxel_count": 8490
+        },
+        {
+          "emitter_id": "SUR1070_014",
+          "fraction": 0.012044563009954403,
+          "rank": 7,
+          "voxel_count": 7716
+        },
+        {
+          "emitter_id": "SUR1070_025",
+          "fraction": 0.011797927323643776,
+          "rank": 8,
+          "voxel_count": 7558
+        },
+        {
+          "emitter_id": "SUR1070_020",
+          "fraction": 0.011677731451201257,
+          "rank": 9,
+          "voxel_count": 7481
+        },
+        {
+          "emitter_id": "SUR1070_005",
+          "fraction": 0.010709920530235506,
+          "rank": 10,
+          "voxel_count": 6861
+        }
+      ],
+      "voxel_count": 640621
+    }
+  },
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy",
+  "source_count": 277,
+  "status": "complete",
+  "tissue_absorption": [
+    {
+      "absorbed_fraction_constant_per_emitter": 0.0,
+      "absorbed_fraction_constant_total": 0.0,
+      "absorbed_percent_constant_total": 0.0,
+      "mua_mm-1": 0.0,
+      "tissue_id": 0,
+      "tissue_name": "background_air",
+      "voxel_count": 3286799
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 0.7639421890203247,
+      "absorbed_fraction_constant_total": 0.002757914039784566,
+      "absorbed_percent_constant_total": 0.2757914039784566,
+      "mua_mm-1": 0.0125,
+      "tissue_id": 1,
+      "tissue_name": "cerebrospinal_fluid",
+      "voxel_count": 338002
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 3.26189591140096,
+      "absorbed_fraction_constant_total": 0.011775797514082888,
+      "absorbed_percent_constant_total": 1.1775797514082889,
+      "mua_mm-1": 0.08892,
+      "tissue_id": 2,
+      "tissue_name": "gray_matter",
+      "voxel_count": 1001274
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 0.10157173688743551,
+      "absorbed_fraction_constant_total": 0.0003666849707127636,
+      "absorbed_percent_constant_total": 0.036668497071276354,
+      "mua_mm-1": 0.0404,
+      "tissue_id": 3,
+      "tissue_name": "white_matter",
+      "voxel_count": 640621
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 6.6253240285455295,
+      "absorbed_fraction_constant_total": 0.023918137287167976,
+      "absorbed_percent_constant_total": 2.3918137287167975,
+      "mua_mm-1": 0.01,
+      "tissue_id": 4,
+      "tissue_name": "fat",
+      "voxel_count": 140570
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 91.32530598524346,
+      "absorbed_fraction_constant_total": 0.3296942454340919,
+      "absorbed_percent_constant_total": 32.96942454340919,
+      "mua_mm-1": 0.0298683333333,
+      "tissue_id": 5,
+      "tissue_name": "muscles",
+      "voxel_count": 668388
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 36.56447865391695,
+      "absorbed_fraction_constant_total": 0.13200172799247997,
+      "absorbed_percent_constant_total": 13.200172799247998,
+      "mua_mm-1": 0.017675,
+      "tissue_id": 6,
+      "tissue_name": "skin_and_muscles",
+      "voxel_count": 383231
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 8.642434566699556,
+      "absorbed_fraction_constant_total": 0.031200124789529084,
+      "absorbed_percent_constant_total": 3.1200124789529085,
+      "mua_mm-1": 0.0167,
+      "tissue_id": 7,
+      "tissue_name": "skull",
+      "voxel_count": 355103
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 8.157034925828265,
+      "absorbed_fraction_constant_total": 0.029447779515625504,
+      "absorbed_percent_constant_total": 2.9447779515625503,
+      "mua_mm-1": 0.01,
+      "tissue_id": 9,
+      "tissue_name": "fat_2",
+      "voxel_count": 170283
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 0.36646781467877904,
+      "absorbed_fraction_constant_total": 0.0013229885006454116,
+      "absorbed_percent_constant_total": 0.13229885006454117,
+      "mua_mm-1": 0.07021,
+      "tissue_id": 10,
+      "tissue_name": "dura",
+      "voxel_count": 8868
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 0.7547270109683982,
+      "absorbed_fraction_constant_total": 0.002724646248983387,
+      "absorbed_percent_constant_total": 0.2724646248983387,
+      "mua_mm-1": 0.0066666667,
+      "tissue_id": 11,
+      "tissue_name": "marrow",
+      "voxel_count": 74917
+    },
+    {
+      "absorbed_fraction_constant_per_emitter": 0.8276303991010121,
+      "absorbed_fraction_constant_total": 0.002987835375815928,
+      "absorbed_percent_constant_total": 0.2987835375815928,
+      "mua_mm-1": 0.4266664512,
+      "tissue_id": 12,
+      "tissue_name": "vessels",
+      "voxel_count": 41081
+    }
+  ],
+  "total_absorbed_fraction_constant_total": 0.5681978816689194,
+  "units": {
+    "absorbed_energy_density": "fluence times mua (mm^-3 per unit launched energy under each declared relative weighting)",
+    "fluence": "MCX normalized fluence (mm^-2 per unit launched energy under each declared relative weighting)",
+    "integrated_absorbed_energy": "relative absorbed energy per unit launched energy",
+    "integrated_fluence": "MCX normalized fluence times mm^3 voxel volume",
+    "interpretation": "Modeled relative transport quantities; not measured dose."
+  },
+  "weighting_results": [
+    {
+      "brain_total_integrated_absorbed_energy": 3.3634676482883963,
+      "brain_total_integrated_fluence": 39.19764168499151,
+      "gray_matter_integrated_absorbed_energy": 3.261895911400961,
+      "gray_matter_integrated_fluence": 36.68348978183717,
+      "interpretation": "Unit relative output per emitter; total relative launched energy increases with enabled-source count.",
+      "per_emitter_weight": 1.0,
+      "policy": "constant_per_emitter",
+      "total_weight": 277.0,
+      "weighting_id": "constant_per_emitter_unit_v1",
+      "white_matter_integrated_absorbed_energy": 0.10157173688743552,
+      "white_matter_integrated_fluence": 2.5141519031543447
+    },
+    {
+      "brain_total_integrated_absorbed_energy": 0.012142482484795655,
+      "brain_total_integrated_fluence": 0.1415077317147708,
+      "gray_matter_integrated_absorbed_energy": 0.011775797514082892,
+      "gray_matter_integrated_fluence": 0.13243137105356378,
+      "interpretation": "Unit total relative launched energy divided equally across all 277 emitters; not a measured device-power condition.",
+      "per_emitter_weight": 0.0036101083032490976,
+      "policy": "constant_total",
+      "total_weight": 1.0,
+      "weighting_id": "constant_total_unit_v1",
+      "white_matter_integrated_absorbed_energy": 0.00036668497071276363,
+      "white_matter_integrated_fluence": 0.00907636066120702
+    }
+  ]
+}

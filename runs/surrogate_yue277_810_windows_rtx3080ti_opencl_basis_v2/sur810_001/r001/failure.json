@@ -1,0 +1,6 @@
+{
+  "error_type": "OSError",
+  "failed_at": "2026-08-24T21:54:24Z",
+  "message": "[WinError 193] %1 is not a valid Win32 application",
+  "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__dd73d704"
+}

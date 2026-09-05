@@ -8,6 +8,28 @@
     "ratio_absolute_threshold": {"type": "number", "minimum": 0},
     "sum_dtype": {"const": "float64"},
     "roi_methods": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["field_first", "metric_first"]}},
-    "metrics": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["ef_dom", "ef_ref", "ncf", "n_eff"]}}
+    "metrics": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"enum": ["ef_dom", "ef_ref", "ncf", "n_eff"]}},
+    "reference_protocol": {
+      "type": "object", "additionalProperties": false,
+      "required": ["reference_emitter_id", "interpretation"],
+      "properties": {
+        "reference_emitter_id": {"type": "string", "minLength": 1},
+        "interpretation": {"type": "string", "minLength": 1}
+      }
+    },
+    "source_weighting": {
+      "type": "array", "minItems": 1,
+      "items": {
+        "type": "object", "additionalProperties": false,
+        "required": ["weighting_id", "policy", "per_emitter_weight", "total_weight", "interpretation"],
+        "properties": {
+          "weighting_id": {"type": "string", "minLength": 1},
+          "policy": {"enum": ["constant_per_emitter", "constant_total"]},
+          "per_emitter_weight": {"type": "number", "exclusiveMinimum": 0},
+          "total_weight": {"type": "number", "exclusiveMinimum": 0},
+          "interpretation": {"type": "string", "minLength": 1}
+        }
+      }
+    }
   }
 }

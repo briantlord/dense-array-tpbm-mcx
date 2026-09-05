@@ -1,0 +1,28 @@
+{
+  "scenario_id": "provisional_1070_brain_csf_water_term_at_810_v1",
+  "scientific_status": "provisional_counterfactual_component_isolation",
+  "base_path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+  "overrides": [
+    {
+      "tissue_id": 1,
+      "mua_mm-1": 0.0019858,
+      "citation": "Hale and Querry 1973 water spectrum; Oros-Peusquens et al. 2019 CSF calibration proxy",
+      "conversion": "0.0125 - 1.0 * (0.0125 - 0.0019858) mm^-1",
+      "notes": "Only the water absorption term is moved to 810 nm; all other optical terms remain at 1070 nm."
+    },
+    {
+      "tissue_id": 2,
+      "mua_mm-1": 0.0801196146,
+      "citation": "Hale and Querry 1973 water spectrum; Oros-Peusquens et al. 2019 gray-matter water fraction 0.837",
+      "conversion": "0.08892 - 0.837 * (0.0125 - 0.0019858) mm^-1",
+      "notes": "Only the water absorption term is moved to 810 nm; all other optical terms remain at 1070 nm."
+    },
+    {
+      "tissue_id": 3,
+      "mua_mm-1": 0.0331346878,
+      "citation": "Hale and Querry 1973 water spectrum; Oros-Peusquens et al. 2019 white-matter water fraction 0.691",
+      "conversion": "0.0404 - 0.691 * (0.0125 - 0.0019858) mm^-1",
+      "notes": "Only the water absorption term is moved to 810 nm; all other optical terms remain at 1070 nm."
+    }
+  ]
+}

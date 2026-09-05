@@ -1,0 +1,54 @@
+{
+  "inputs": [
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/index.json",
+      "sha256": "d8bace04e321e2afffe6feab1b79eefa3ce3a2ecb50e8540323ef5fc1427cf53"
+    },
+    {
+      "path": "inputs/optical_properties/provisional_1070_water_sensitivity_v1/whole_head_water_to_810_effective.json",
+      "sha256": "f57527f91b0a8de614f568cc2b4884d84227b618b79367928cd80ff10dcf9cee"
+    },
+    {
+      "path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+      "sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f"
+    },
+    {
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_010/summary.json",
+      "sha256": "0f18fb3597625acea7e0a6f57710b1ac2c4f0f00575888680a47cf6208e2ee99"
+    },
+    {
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_010/total_fluence_constant_total.npy",
+      "sha256": "ca216e69d30475ad81307f19f77ca25972d5e0056a1d7c17938d07050681fc85"
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_penetration_tallies_v1/result.json",
+      "sha256": "79b99d4131da400358f3e2c043b4a40d724268ec0716eaaa02956bc62f8149a5"
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_water_brain_csf_v1/result.json",
+      "sha256": "1618f430fe13233c223473c7aea6cdeb6c4a8afbcaf078ef62a83d1b393a9c34"
+    },
+    {
+      "path": "results/surrogate_yue277_1070_targeted_water_whole_head_v1/result.json",
+      "sha256": "5ffe4f507c639a46fcdf8f4126d88a4395e8b9d76957cb2072634175d22f7d36"
+    }
+  ],
+  "outputs": [
+    {
+      "bytes": 19009,
+      "path": "results/surrogate_yue277_1070_water_counterfactual_v1/result.json",
+      "sha256": "9ee62fffb1f2b7b4ac700aef0b9a8e6e1d2d32bd0cec8f9b486aaad4abdabc22"
+    },
+    {
+      "bytes": 1914,
+      "path": "results/surrogate_yue277_1070_water_counterfactual_v1/tissue_comparison.csv",
+      "sha256": "dbcfbbd4b50d03afd51fa8966830cbc0088626a8c91bfb9a8d1e459f1e0fbdc7"
+    },
+    {
+      "bytes": 56873224,
+      "path": "results/surrogate_yue277_1070_water_counterfactual_v1/total_fluence_constant_total.npy",
+      "sha256": "0803915f3cd7951d5a0965ec0b4df17f4d3c75f81cfac6340c5b209294718a79"
+    }
+  ],
+  "result_id": "surrogate_yue277_1070_water_counterfactual_v1"
+}

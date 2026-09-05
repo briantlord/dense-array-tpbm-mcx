@@ -1,0 +1,6 @@
+{
+  "error_type": "PermissionError",
+  "failed_at": "2026-08-17T22:52:40Z",
+  "message": "[WinError 5] Access is denied: 'runs\\\\surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1\\\\sur1070_043\\\\r001\\\\.manifest.json.d041wfdd.tmp' -> 'runs\\\\surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1\\\\sur1070_043\\\\r001\\\\manifest.json'",
+  "run_id": "provisional_1070_fat_abs_030_v1__20260817t201453z__01e9710b"
+}

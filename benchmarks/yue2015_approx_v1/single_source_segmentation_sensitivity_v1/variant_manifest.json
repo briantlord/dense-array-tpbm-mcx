@@ -1,0 +1,782 @@
+{
+  "baseline": {
+    "axis_transitions": [
+      {
+        "depth_start_mm": 0.0,
+        "depth_stop_mm": 10.150000000000002,
+        "label": 1,
+        "tissue": "scalp"
+      },
+      {
+        "depth_start_mm": 10.200000000000001,
+        "depth_stop_mm": 16.15,
+        "label": 2,
+        "tissue": "skull"
+      },
+      {
+        "depth_start_mm": 16.2,
+        "depth_stop_mm": 21.150000000000002,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 21.200000000000003,
+        "depth_stop_mm": 24.150000000000002,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 24.200000000000003,
+        "depth_stop_mm": 32.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 32.300000000000004,
+        "depth_stop_mm": 33.25,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 33.300000000000004,
+        "depth_stop_mm": 48.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 48.300000000000004,
+        "depth_stop_mm": 71.35,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 71.4,
+        "depth_stop_mm": 80.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 80.4,
+        "depth_stop_mm": 82.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 82.5,
+        "depth_stop_mm": 90.45,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 90.5,
+        "depth_stop_mm": 91.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 91.5,
+        "depth_stop_mm": 100.0,
+        "label": 3,
+        "tissue": "CSF"
+      }
+    ],
+    "description": "Unmodified accepted five-tissue Colin27 derivative.",
+    "label_counts": {
+      "CSF": 358004,
+      "air": 3286799,
+      "gray_matter": 1012425,
+      "scalp": 1363120,
+      "skull": 447791,
+      "transparent_tissue_control": 0,
+      "white_matter": 640998
+    },
+    "label_volume_sha256": "063e3e71f82f6fdc05aad0e42918abc21fe2050c92ac013b2b3aebbadec0bc16",
+    "operations": [
+      {
+        "changed_voxel_count": 0,
+        "from_label_counts": {},
+        "operation": "identity",
+        "to_label_counts": {}
+      }
+    ],
+    "total_changed_voxel_count": 0
+  },
+  "combined_explanatory_bound": {
+    "axis_transitions": [
+      {
+        "depth_start_mm": 0.0,
+        "depth_stop_mm": 7.15,
+        "label": 1,
+        "tissue": "scalp"
+      },
+      {
+        "depth_start_mm": 7.2,
+        "depth_stop_mm": 10.150000000000002,
+        "label": 6,
+        "tissue": "transparent_tissue_control"
+      },
+      {
+        "depth_start_mm": 10.200000000000001,
+        "depth_stop_mm": 14.150000000000002,
+        "label": 2,
+        "tissue": "skull"
+      },
+      {
+        "depth_start_mm": 14.200000000000001,
+        "depth_stop_mm": 23.150000000000002,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 23.200000000000003,
+        "depth_stop_mm": 24.150000000000002,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 24.200000000000003,
+        "depth_stop_mm": 32.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 32.300000000000004,
+        "depth_stop_mm": 33.25,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 33.300000000000004,
+        "depth_stop_mm": 60.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 60.400000000000006,
+        "depth_stop_mm": 71.35,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 71.4,
+        "depth_stop_mm": 80.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 80.4,
+        "depth_stop_mm": 82.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 82.5,
+        "depth_stop_mm": 90.45,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 90.5,
+        "depth_stop_mm": 91.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 91.5,
+        "depth_stop_mm": 100.0,
+        "label": 3,
+        "tissue": "CSF"
+      }
+    ],
+    "description": "Sequential combination of the localized scalp, skull, superior-CSF, and deep gray/white operations; an explanatory scenario, not a reconstructed Yue anatomy.",
+    "label_counts": {
+      "CSF": 497994,
+      "air": 3286799,
+      "gray_matter": 999999,
+      "scalp": 1165882,
+      "skull": 311382,
+      "transparent_tissue_control": 197238,
+      "white_matter": 649843
+    },
+    "label_volume_sha256": "f12eeedb89c4f039ee52deadeb1ca62e7f06b577f5c9d36a1d87962156624f71",
+    "operations": [
+      {
+        "changed_voxel_count": 197238,
+        "from_label_counts": {
+          "scalp": 197238
+        },
+        "operation": "inner_scalp_to_transparent",
+        "to_label_counts": {
+          "transparent_tissue_control": 197238
+        }
+      },
+      {
+        "changed_voxel_count": 136409,
+        "from_label_counts": {
+          "skull": 136409
+        },
+        "operation": "inner_skull_to_csf",
+        "to_label_counts": {
+          "CSF": 136409
+        }
+      },
+      {
+        "changed_voxel_count": 3581,
+        "from_label_counts": {
+          "gray_matter": 3581
+        },
+        "operation": "csf_into_gm_local",
+        "to_label_counts": {
+          "CSF": 3581
+        }
+      },
+      {
+        "changed_voxel_count": 8845,
+        "from_label_counts": {
+          "gray_matter": 8845
+        },
+        "operation": "deep_axis_gm_to_wm",
+        "to_label_counts": {
+          "white_matter": 8845
+        }
+      }
+    ],
+    "total_changed_voxel_count": 346073
+  },
+  "csf_into_gm_2mm": {
+    "axis_transitions": [
+      {
+        "depth_start_mm": 0.0,
+        "depth_stop_mm": 10.150000000000002,
+        "label": 1,
+        "tissue": "scalp"
+      },
+      {
+        "depth_start_mm": 10.200000000000001,
+        "depth_stop_mm": 16.15,
+        "label": 2,
+        "tissue": "skull"
+      },
+      {
+        "depth_start_mm": 16.2,
+        "depth_stop_mm": 23.150000000000002,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 23.200000000000003,
+        "depth_stop_mm": 24.150000000000002,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 24.200000000000003,
+        "depth_stop_mm": 32.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 32.300000000000004,
+        "depth_stop_mm": 33.25,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 33.300000000000004,
+        "depth_stop_mm": 48.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 48.300000000000004,
+        "depth_stop_mm": 51.25,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 51.300000000000004,
+        "depth_stop_mm": 54.25,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 54.300000000000004,
+        "depth_stop_mm": 69.35,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 69.4,
+        "depth_stop_mm": 71.35,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 71.4,
+        "depth_stop_mm": 80.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 80.4,
+        "depth_stop_mm": 100.0,
+        "label": 3,
+        "tissue": "CSF"
+      }
+    ],
+    "description": "Globally expand every CSF boundary by 2 mm into adjacent gray matter. This is an intentionally aggressive topology upper bound, not a plausible Yue reconstruction.",
+    "label_counts": {
+      "CSF": 770706,
+      "air": 3286799,
+      "gray_matter": 599723,
+      "scalp": 1363120,
+      "skull": 447791,
+      "transparent_tissue_control": 0,
+      "white_matter": 640998
+    },
+    "label_volume_sha256": "4b6b40e79692624ce30c3f8a78c555b843d1999a74fc27e174658a74faa12155",
+    "operations": [
+      {
+        "changed_voxel_count": 412702,
+        "from_label_counts": {
+          "gray_matter": 412702
+        },
+        "operation": "csf_into_gm",
+        "to_label_counts": {
+          "CSF": 412702
+        }
+      }
+    ],
+    "total_changed_voxel_count": 412702
+  },
+  "deep_axis_gm_to_wm_r20": {
+    "axis_transitions": [
+      {
+        "depth_start_mm": 0.0,
+        "depth_stop_mm": 10.150000000000002,
+        "label": 1,
+        "tissue": "scalp"
+      },
+      {
+        "depth_start_mm": 10.200000000000001,
+        "depth_stop_mm": 16.15,
+        "label": 2,
+        "tissue": "skull"
+      },
+      {
+        "depth_start_mm": 16.2,
+        "depth_stop_mm": 21.150000000000002,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 21.200000000000003,
+        "depth_stop_mm": 24.150000000000002,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 24.200000000000003,
+        "depth_stop_mm": 32.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 32.300000000000004,
+        "depth_stop_mm": 33.25,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 33.300000000000004,
+        "depth_stop_mm": 60.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 60.400000000000006,
+        "depth_stop_mm": 71.35,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 71.4,
+        "depth_stop_mm": 80.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 80.4,
+        "depth_stop_mm": 82.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 82.5,
+        "depth_stop_mm": 90.45,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 90.5,
+        "depth_stop_mm": 91.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 91.5,
+        "depth_stop_mm": 100.0,
+        "label": 3,
+        "tissue": "CSF"
+      }
+    ],
+    "description": "Replace gray matter with white matter in a 20-mm-radius cylinder around the source axis from 48 to 60 mm depth.",
+    "label_counts": {
+      "CSF": 358004,
+      "air": 3286799,
+      "gray_matter": 1003580,
+      "scalp": 1363120,
+      "skull": 447791,
+      "transparent_tissue_control": 0,
+      "white_matter": 649843
+    },
+    "label_volume_sha256": "b6e53ca1ad30a52119244e2af79e6e39b0595f44b39504d5a2802a420071ef7a",
+    "operations": [
+      {
+        "changed_voxel_count": 8845,
+        "from_label_counts": {
+          "gray_matter": 8845
+        },
+        "operation": "deep_axis_gm_to_wm",
+        "to_label_counts": {
+          "white_matter": 8845
+        }
+      }
+    ],
+    "total_changed_voxel_count": 8845
+  },
+  "inner_scalp_transparent_2mm": {
+    "axis_transitions": [
+      {
+        "depth_start_mm": 0.0,
+        "depth_stop_mm": 7.15,
+        "label": 1,
+        "tissue": "scalp"
+      },
+      {
+        "depth_start_mm": 7.2,
+        "depth_stop_mm": 10.150000000000002,
+        "label": 6,
+        "tissue": "transparent_tissue_control"
+      },
+      {
+        "depth_start_mm": 10.200000000000001,
+        "depth_stop_mm": 16.15,
+        "label": 2,
+        "tissue": "skull"
+      },
+      {
+        "depth_start_mm": 16.2,
+        "depth_stop_mm": 21.150000000000002,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 21.200000000000003,
+        "depth_stop_mm": 24.150000000000002,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 24.200000000000003,
+        "depth_stop_mm": 32.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 32.300000000000004,
+        "depth_stop_mm": 33.25,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 33.300000000000004,
+        "depth_stop_mm": 48.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 48.300000000000004,
+        "depth_stop_mm": 71.35,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 71.4,
+        "depth_stop_mm": 80.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 80.4,
+        "depth_stop_mm": 82.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 82.5,
+        "depth_stop_mm": 90.45,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 90.5,
+        "depth_stop_mm": 91.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 91.5,
+        "depth_stop_mm": 100.0,
+        "label": 3,
+        "tissue": "CSF"
+      }
+    ],
+    "description": "Make the innermost 2 mm of scalp adjacent to skull optically transparent while keeping the source voxel, surface, and sampling coordinates fixed. This isolates scalp optical thickness without launching the source from background air.",
+    "label_counts": {
+      "CSF": 358004,
+      "air": 3286799,
+      "gray_matter": 1012425,
+      "scalp": 1165882,
+      "skull": 447791,
+      "transparent_tissue_control": 197238,
+      "white_matter": 640998
+    },
+    "label_volume_sha256": "e17310dae2f06b4e33a888c33afdc7c3ac9b081752b444906e22c96ba0733f31",
+    "operations": [
+      {
+        "changed_voxel_count": 197238,
+        "from_label_counts": {
+          "scalp": 197238
+        },
+        "operation": "inner_scalp_to_transparent",
+        "to_label_counts": {
+          "transparent_tissue_control": 197238
+        }
+      }
+    ],
+    "total_changed_voxel_count": 197238
+  },
+  "inner_skull_to_csf_2mm": {
+    "axis_transitions": [
+      {
+        "depth_start_mm": 0.0,
+        "depth_stop_mm": 10.150000000000002,
+        "label": 1,
+        "tissue": "scalp"
+      },
+      {
+        "depth_start_mm": 10.200000000000001,
+        "depth_stop_mm": 14.150000000000002,
+        "label": 2,
+        "tissue": "skull"
+      },
+      {
+        "depth_start_mm": 14.200000000000001,
+        "depth_stop_mm": 21.150000000000002,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 21.200000000000003,
+        "depth_stop_mm": 24.150000000000002,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 24.200000000000003,
+        "depth_stop_mm": 32.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 32.300000000000004,
+        "depth_stop_mm": 33.25,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 33.300000000000004,
+        "depth_stop_mm": 48.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 48.300000000000004,
+        "depth_stop_mm": 71.35,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 71.4,
+        "depth_stop_mm": 80.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 80.4,
+        "depth_stop_mm": 82.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 82.5,
+        "depth_stop_mm": 90.45,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 90.5,
+        "depth_stop_mm": 91.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 91.5,
+        "depth_stop_mm": 100.0,
+        "label": 3,
+        "tissue": "CSF"
+      }
+    ],
+    "description": "Replace the innermost 2 mm of skull adjacent to CSF with CSF while keeping all coordinates fixed.",
+    "label_counts": {
+      "CSF": 494413,
+      "air": 3286799,
+      "gray_matter": 1012425,
+      "scalp": 1363120,
+      "skull": 311382,
+      "transparent_tissue_control": 0,
+      "white_matter": 640998
+    },
+    "label_volume_sha256": "a387f8c345edcec68e599e11d799dd780c421a46ce5c13fd0754faf6415ef354",
+    "operations": [
+      {
+        "changed_voxel_count": 136409,
+        "from_label_counts": {
+          "skull": 136409
+        },
+        "operation": "inner_skull_to_csf",
+        "to_label_counts": {
+          "CSF": 136409
+        }
+      }
+    ],
+    "total_changed_voxel_count": 136409
+  },
+  "superior_csf_into_gm_2mm_r20": {
+    "axis_transitions": [
+      {
+        "depth_start_mm": 0.0,
+        "depth_stop_mm": 10.150000000000002,
+        "label": 1,
+        "tissue": "scalp"
+      },
+      {
+        "depth_start_mm": 10.200000000000001,
+        "depth_stop_mm": 16.15,
+        "label": 2,
+        "tissue": "skull"
+      },
+      {
+        "depth_start_mm": 16.2,
+        "depth_stop_mm": 23.150000000000002,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 23.200000000000003,
+        "depth_stop_mm": 24.150000000000002,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 24.200000000000003,
+        "depth_stop_mm": 32.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 32.300000000000004,
+        "depth_stop_mm": 33.25,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 33.300000000000004,
+        "depth_stop_mm": 48.25,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 48.300000000000004,
+        "depth_stop_mm": 71.35,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 71.4,
+        "depth_stop_mm": 80.35000000000001,
+        "label": 5,
+        "tissue": "white_matter"
+      },
+      {
+        "depth_start_mm": 80.4,
+        "depth_stop_mm": 82.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 82.5,
+        "depth_stop_mm": 90.45,
+        "label": 3,
+        "tissue": "CSF"
+      },
+      {
+        "depth_start_mm": 90.5,
+        "depth_stop_mm": 91.45,
+        "label": 4,
+        "tissue": "gray_matter"
+      },
+      {
+        "depth_start_mm": 91.5,
+        "depth_stop_mm": 100.0,
+        "label": 3,
+        "tissue": "CSF"
+      }
+    ],
+    "description": "Expand CSF by 2 mm into gray matter only within 20 mm of the superior source axis and 14-30 mm depth.",
+    "label_counts": {
+      "CSF": 361585,
+      "air": 3286799,
+      "gray_matter": 1008844,
+      "scalp": 1363120,
+      "skull": 447791,
+      "transparent_tissue_control": 0,
+      "white_matter": 640998
+    },
+    "label_volume_sha256": "4649529b9291779b976fdb7eda93d30d0d2637cc0dde91055c0374d972d50e24",
+    "operations": [
+      {
+        "changed_voxel_count": 3581,
+        "from_label_counts": {
+          "gray_matter": 3581
+        },
+        "operation": "csf_into_gm_local",
+        "to_label_counts": {
+          "CSF": 3581
+        }
+      }
+    ],
+    "total_changed_voxel_count": 3581
+  }
+}

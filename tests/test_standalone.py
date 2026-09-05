@@ -8,6 +8,7 @@ import pytest
 from mcx_project.standalone import (
     load_jnii_field,
     parse_absorbed_energy_percent,
+    parse_mcxcl_identity,
     render_mcxcl_input,
 )
 from mcx_project.validation import InputValidationError
@@ -54,7 +55,9 @@ def test_load_uncompressed_jnifti_field(tmp_path: Path) -> None:
             "_ArrayOrder_": "c",
             "_ArrayZipType_": "base64",
             "_ArrayZipSize_": expected.size,
-            "_ArrayZipData_": base64.b64encode(expected.tobytes()).decode("ascii"),
+            "_ArrayZipData_": base64.b64encode(
+                expected.tobytes(order="F")
+            ).decode("ascii"),
         }
     }
     path = tmp_path / "field.jnii"
@@ -65,6 +68,36 @@ def test_load_uncompressed_jnifti_field(tmp_path: Path) -> None:
     np.testing.assert_array_equal(actual, expected.astype(np.float64))
 
 
+def test_load_row_major_jnifti_field(tmp_path: Path) -> None:
+    expected = np.arange(24, dtype="<f4").reshape(2, 3, 4, 1)
+    document = {
+        "NIFTIData": {
+            "_ArrayType_": "single",
+            "_ArraySize_": list(expected.shape),
+            "_ArrayOrder_": "r",
+            "_ArrayZipType_": "base64",
+            "_ArrayZipSize_": expected.size,
+            "_ArrayZipData_": base64.b64encode(
+                expected.tobytes(order="C")
+            ).decode("ascii"),
+        }
+    }
+    path = tmp_path / "row_major_field.jnii"
+    path.write_text(json.dumps(document), encoding="utf-8")
+
+    np.testing.assert_array_equal(
+        load_jnii_field(path), expected.astype(np.float64)
+    )
+
+
 def test_absorbed_energy_parser_ignores_console_color_codes() -> None:
     log = "total energy: 100000.00\tabsorbed: \x1b[1m\x1b[34m27.17860%\x1b[0m"
     assert parse_absorbed_energy_percent(log) == 27.17860
+
+
+def test_mcxcl_identity_combines_revision_and_banner_release() -> None:
+    banner = "$Rev::bf695e$\x1b[36mv2025.10\x1b[0m$Date::2025-10-12$"
+    assert (
+        parse_mcxcl_identity("MCXCL Revision 12544350", banner)
+        == "MCXCL Revision 12544350; v2025.10"
+    )

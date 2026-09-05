@@ -1,0 +1,23 @@
+{
+  "recovered_sources": [
+    {
+      "path": "scripts/analyze_surrogate_1070_windows_basis.py",
+      "sha256": "646e5c5b9a7ee9c404a882ea6cc35545cd297181b999a9b3505d9e74e3c711c5",
+      "recovered_from_revision": "00f714df",
+      "snapshot": "provenance/source_snapshots/646e5c5b9a7ee9c404a882ea6cc35545cd297181b999a9b3505d9e74e3c711c5/analyze_surrogate_1070_windows_basis.py"
+    },
+    {
+      "path": "scripts/analyze_surrogate_1070_windows_basis.py",
+      "sha256": "efa6c64cd9c7cb624cd950d984d130b5a869cd5340b65cf56ec86351043da0e3",
+      "recovered_from_revision": "e183ac4f",
+      "snapshot": "provenance/source_snapshots/efa6c64cd9c7cb624cd950d984d130b5a869cd5340b65cf56ec86351043da0e3/analyze_surrogate_1070_windows_basis.py"
+    },
+    {
+      "path": "scripts/analyze_surrogate_810_windows_basis.py",
+      "sha256": "b323daf585e7bcbc8099754b10ada9dc2a27264906c6eb873f53aa1329d6bcd7",
+      "recovered_from_revision": "e183ac4f",
+      "snapshot": "provenance/source_snapshots/b323daf585e7bcbc8099754b10ada9dc2a27264906c6eb873f53aa1329d6bcd7/analyze_surrogate_810_windows_basis.py"
+    }
+  ],
+  "note": "Supplemental recovery record; original result manifests are unchanged. The original 1070 hash matches its result manifest. The 810 wrapper is recovered from the preserved workspace, not contemporaneously recorded by its result manifest."
+}

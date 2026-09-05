@@ -1,0 +1,122 @@
+{
+  "analysis_id": "yue2015_single_source_segmentation_sensitivity_v1",
+  "comparison_at_60mm": {
+    "baseline": {
+      "absorbed_proxy_depth0_over_yue_60mm": 0.16948167310896364,
+      "cv_fluence_raw": 0.02522947266741691,
+      "depth_mm": 60,
+      "mean_absorbed_proxy_normalized_depth0": 2.0525421028359713e-07,
+      "mean_absorbed_proxy_normalized_peak_0_20": 1.1470929243435483e-07,
+      "mean_fluence_normalized_depth0": 6.841807009453238e-08,
+      "mean_fluence_normalized_peak_0_20": 3.823643081145161e-08,
+      "mean_fluence_raw": 2.122134745566343e-08,
+      "ratio_to_baseline_mean": 1.0,
+      "sd_fluence_raw": 5.354034055984178e-10,
+      "variant_id": "baseline"
+    },
+    "combined_explanatory_bound": {
+      "absorbed_proxy_depth0_over_yue_60mm": 0.7220682311746276,
+      "cv_fluence_raw": 0.05371253025590937,
+      "depth_mm": 60,
+      "mean_absorbed_proxy_normalized_depth0": 8.744753449851537e-07,
+      "mean_absorbed_proxy_normalized_peak_0_20": 4.887276603037208e-07,
+      "mean_fluence_normalized_depth0": 7.495502957015603e-07,
+      "mean_fluence_normalized_peak_0_20": 4.1890942311747506e-07,
+      "mean_fluence_raw": 2.323980086794377e-07,
+      "ratio_to_baseline_mean": 10.951142907629867,
+      "sd_fluence_raw": 1.2482685072607387e-08,
+      "variant_id": "combined_explanatory_bound"
+    },
+    "csf_into_gm_2mm": {
+      "absorbed_proxy_depth0_over_yue_60mm": 4.420635518307372,
+      "cv_fluence_raw": 0.018061968294919635,
+      "depth_mm": 60,
+      "mean_absorbed_proxy_normalized_depth0": 5.3537001117427075e-06,
+      "mean_absorbed_proxy_normalized_peak_0_20": 2.9889408053600076e-06,
+      "mean_fluence_normalized_depth0": 1.7845667039142362e-06,
+      "mean_fluence_normalized_peak_0_20": 9.963136017866696e-07,
+      "mean_fluence_raw": 5.498227329462761e-07,
+      "ratio_to_baseline_mean": 25.908945418993298,
+      "sd_fluence_raw": 9.930880770301704e-09,
+      "variant_id": "csf_into_gm_2mm"
+    },
+    "deep_axis_gm_to_wm_r20": {
+      "absorbed_proxy_depth0_over_yue_60mm": 0.13161445556204904,
+      "cv_fluence_raw": 0.006017931448938199,
+      "depth_mm": 60,
+      "mean_absorbed_proxy_normalized_depth0": 1.5939435009545707e-07,
+      "mean_absorbed_proxy_normalized_peak_0_20": 8.906164673858148e-08,
+      "mean_fluence_normalized_depth0": 1.3662372865324892e-07,
+      "mean_fluence_normalized_peak_0_20": 7.633855434735556e-08,
+      "mean_fluence_raw": 4.231395228447261e-08,
+      "ratio_to_baseline_mean": 1.9939333434352733,
+      "sd_fluence_raw": 2.546424641815981e-10,
+      "variant_id": "deep_axis_gm_to_wm_r20"
+    },
+    "inner_scalp_transparent_2mm": {
+      "absorbed_proxy_depth0_over_yue_60mm": 0.284695753765886,
+      "cv_fluence_raw": 0.0420967808633941,
+      "depth_mm": 60,
+      "mean_absorbed_proxy_normalized_depth0": 3.4478655443023127e-07,
+      "mean_absorbed_proxy_normalized_peak_0_20": 1.9238919329962975e-07,
+      "mean_fluence_normalized_depth0": 1.1492885147674376e-07,
+      "mean_fluence_normalized_peak_0_20": 6.412973109987659e-08,
+      "mean_fluence_raw": 3.524623074391479e-08,
+      "ratio_to_baseline_mean": 1.6608856161255907,
+      "sd_fluence_raw": 1.483752851887205e-09,
+      "variant_id": "inner_scalp_transparent_2mm"
+    },
+    "inner_skull_to_csf_2mm": {
+      "absorbed_proxy_depth0_over_yue_60mm": 0.32140558224477583,
+      "cv_fluence_raw": 0.026001540138700013,
+      "depth_mm": 60,
+      "mean_absorbed_proxy_normalized_depth0": 3.89244735163652e-07,
+      "mean_absorbed_proxy_normalized_peak_0_20": 2.1742537027286547e-07,
+      "mean_fluence_normalized_depth0": 1.2974824505455066e-07,
+      "mean_fluence_normalized_peak_0_20": 7.247512342428849e-08,
+      "mean_fluence_raw": 4.0109011378753336e-08,
+      "ratio_to_baseline_mean": 1.8900313216467919,
+      "sd_fluence_raw": 1.0428960692882304e-09,
+      "variant_id": "inner_skull_to_csf_2mm"
+    },
+    "superior_csf_into_gm_2mm_r20": {
+      "absorbed_proxy_depth0_over_yue_60mm": 0.263831287979972,
+      "cv_fluence_raw": 0.052657706959227134,
+      "depth_mm": 60,
+      "mean_absorbed_proxy_normalized_depth0": 3.195182208734603e-07,
+      "mean_absorbed_proxy_normalized_peak_0_20": 1.7842849544036773e-07,
+      "mean_fluence_normalized_depth0": 1.065060736244868e-07,
+      "mean_fluence_normalized_peak_0_20": 5.947616514678924e-08,
+      "mean_fluence_raw": 3.284587501925202e-08,
+      "ratio_to_baseline_mean": 1.5477751866546205,
+      "sd_fluence_raw": 1.7295884615831718e-09,
+      "variant_id": "superior_csf_into_gm_2mm_r20"
+    }
+  },
+  "config_path": "configs/yue2015_single_source_segmentation_sensitivity_v1.json",
+  "config_sha256": "fd2274f5499f64bc42ba5ed2bd233d07f223ddb0137ace67a8d1692da088ae9d",
+  "observable_comparison": {
+    "depth_mm": 60.0,
+    "digitized_yue_value": 1.2110702385598619e-06,
+    "energy_vs_mua_times_fluence": {
+      "median_relative_error_after_scaling": 7.98881722954279e-07,
+      "p95_relative_error_after_scaling": 6.537419946158748e-06,
+      "scale_factor": 0.9999999443654981
+    },
+    "existing_baseline": {
+      "absorbed_proxy_normalized_depth0": 2.2544112888732906e-07,
+      "absorbed_proxy_normalized_depth0_over_yue": 0.18615033357223876,
+      "absorbed_proxy_normalized_peak_0_20": 1.2591451496885752e-07,
+      "absorbed_proxy_normalized_peak_0_20_over_yue": 0.1039696220415656,
+      "fluence_normalized_depth0": 7.514704296244302e-08,
+      "fluence_normalized_depth0_over_yue": 0.06205011119074626,
+      "fluence_normalized_peak_0_20": 4.197150498961918e-08,
+      "fluence_normalized_peak_0_20_over_yue": 0.03465654068052187
+    }
+  },
+  "photon_count_per_run": 100000000,
+  "replicate_count": 3,
+  "run_root": "runs/yue2015_850_single_source_segmentation_sensitivity_v1",
+  "script_path": "scripts/run_yue_segmentation_sensitivity.py",
+  "script_sha256": "81490a0693528810be8f6e91b2f49e5b339f895a12ad6b2c135be0539d6c45cc"
+}

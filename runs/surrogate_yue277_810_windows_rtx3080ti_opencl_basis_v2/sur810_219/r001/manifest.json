@@ -1,0 +1,113 @@
+{
+  "code": {
+    "dirty": true,
+    "repository": "MCX Project",
+    "revision": "00f714dfc3557d9803c94645e62c79b59f3f4e01"
+  },
+  "created_at": "2026-08-24T21:50:01Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "binding_version": "MCXCL Revision 12544350; v2025.10",
+    "build": "official Windows MCX-CL v2025.10 binary; executable_sha256=15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "configuration_sha256": "25e3be69fa702f3159d0a248f56e8112754c9aa2efde1787b3d043b214ed905e",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "family": "MCX",
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "runtime": "Windows-10-10.0.19045-SP0"
+  },
+  "error": null,
+  "execution": {
+    "photon_count": 100000000,
+    "replicate": 1,
+    "seed": 1537169359,
+    "time_gates_s": {
+      "end": 5e-09,
+      "start": 0.0,
+      "step": 5e-09
+    }
+  },
+  "grid": {
+    "coordinate_frame": "colin27_talairach_ras_mm",
+    "shape_voxels": [
+      181,
+      217,
+      181
+    ],
+    "voxel_size_mm": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "inputs": {
+    "analysis_configuration": {
+      "artifact_id": "surrogate_yue277_810_v2_analysis_v1",
+      "id_field": "analysis_id",
+      "path": "configs/surrogate_yue277_810_v2_analysis.json",
+      "schema_path": "schemas/analysis_configuration.schema.json",
+      "sha256": "c3391420a8cbae7864effdbcd3f2de4e600264c448be7a3afa7c2ecdef4330e5"
+    },
+    "anatomy": {
+      "artifact_id": "colin27_2008_native12_1mm_v3",
+      "id_field": "anatomy_id",
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/anatomy_metadata.json",
+      "schema_path": "schemas/anatomy_metadata.schema.json",
+      "sha256": "a445e71bc7a18648e1e7b0f90f6a192d6e7c771619c51c32020a3340a069de4c"
+    },
+    "calibration": {
+      "artifact_id": "surrogate_yue277_810_unit_source_v1",
+      "id_field": "calibration_id",
+      "path": "inputs/emitters/surrogate_yue277_810_v1/calibration.json",
+      "schema_path": "schemas/calibration.schema.json",
+      "sha256": "f168a5031a0956cdeab1eb02ca02a2947edd73d9a16f092d17e1f8a5bcc0c892"
+    },
+    "emitter_geometry": {
+      "artifact_id": "surrogate_yue277_810_v1",
+      "id_field": "geometry_id",
+      "path": "inputs/emitters/surrogate_yue277_810_v1/emitter_geometry.json",
+      "schema_path": "schemas/emitter_geometry.schema.json",
+      "sha256": "46ad9925b201af70590bf28f01271364183a39633a8b56d234a73672257e07f8"
+    },
+    "engine_configuration": {
+      "artifact_id": "surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v2__sur810_219__r001",
+      "id_field": "configuration_id",
+      "path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v2/sur810_219/r001.json",
+      "schema_path": "schemas/engine_configuration.schema.json",
+      "sha256": "25e3be69fa702f3159d0a248f56e8112754c9aa2efde1787b3d043b214ed905e"
+    },
+    "optical_properties": {
+      "artifact_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2",
+      "id_field": "scenario_id",
+      "path": "inputs/optical_properties/provisional_810_v2/central_refined_primary.json",
+      "schema_path": "schemas/optical_properties.schema.json",
+      "sha256": "48d9cf31c5769e31519eab9261562ad0d4cfd8a81ef02c5ec894d407816148d1"
+    },
+    "registration": {
+      "artifact_id": "surrogate_yue277_1070_v1_direct_colin27_v1",
+      "id_field": "registration_id",
+      "path": "inputs/registration/surrogate_yue277_1070_v1.json",
+      "schema_path": "schemas/registration.schema.json",
+      "sha256": "78066167fbd2e3d7fb824f4bfd25f161816058639a751b68a7e1b27c440151b3"
+    }
+  },
+  "manifest_version": "1.0.0",
+  "output_contract": {
+    "derivation": "standalone MCX-CL JNIfTI normalized field; Python validates and records the raw engine output without altering it",
+    "normalization": "normalized per launched energy through MCX isnormalize=1",
+    "quantity": "fluence",
+    "unit": "MCX normalized fluence units"
+  },
+  "outputs": [],
+  "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__25e3be69",
+  "scenario_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2",
+  "scientific_status": "provisional",
+  "source": {
+    "emitter_id": "SUR810_219",
+    "normalization": "unit launched-energy normalized basis field (MCX DoNormalize=true)",
+    "source_model": "pencil"
+  },
+  "stage": "pilot",
+  "status": "planned",
+  "wavelength_nm": 810.0
+}

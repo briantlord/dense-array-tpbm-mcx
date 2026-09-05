@@ -1,0 +1,53 @@
+{
+  "basis_set_id": "provisional_1070_representative_pilot_v2",
+  "created_at": "2026-08-14T17:36:00Z",
+  "plan_path": "configs/provisional_1070_pilot_basis_plan_v2.json",
+  "plan_sha256": "85e5c3fd459b3ff1fbd17f15acbd6504f3a9d8b93965e995b7cca40f2425887a",
+  "runs": [
+    {
+      "configuration_path": "configs/generated/provisional_1070_representative_pilot_v2/p1070_superior/r001.json",
+      "configuration_sha256": "23f19b0240ce50e28226bfc4697daf655f257fd833fc62e8b5a4cc79afb1a011",
+      "emitter_id": "P1070_SUPERIOR",
+      "manifest_path": "runs/provisional_1070_representative_pilot_v2/prepared/p1070_superior/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t173600z__23f19b02",
+      "seed": 1247850598
+    },
+    {
+      "configuration_path": "configs/generated/provisional_1070_representative_pilot_v2/p1070_anterior/r001.json",
+      "configuration_sha256": "a46166d70545aeb0176468645caeed921bc55c9607436731d487ab77b3f044b7",
+      "emitter_id": "P1070_ANTERIOR",
+      "manifest_path": "runs/provisional_1070_representative_pilot_v2/prepared/p1070_anterior/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t173600z__a46166d7",
+      "seed": 1059840065
+    },
+    {
+      "configuration_path": "configs/generated/provisional_1070_representative_pilot_v2/p1070_posterior/r001.json",
+      "configuration_sha256": "fe890e830a7d75d0cc2d784d38e23264ab4dbcb805f42e231de28ef35ea259e0",
+      "emitter_id": "P1070_POSTERIOR",
+      "manifest_path": "runs/provisional_1070_representative_pilot_v2/prepared/p1070_posterior/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t173600z__fe890e83",
+      "seed": 730311439
+    },
+    {
+      "configuration_path": "configs/generated/provisional_1070_representative_pilot_v2/p1070_left_temporal/r001.json",
+      "configuration_sha256": "dd79a06463284ef8b7f4749f79d175e165a14868c511ffd12a0358454b316898",
+      "emitter_id": "P1070_LEFT_TEMPORAL",
+      "manifest_path": "runs/provisional_1070_representative_pilot_v2/prepared/p1070_left_temporal/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t173600z__dd79a064",
+      "seed": 599853208
+    },
+    {
+      "configuration_path": "configs/generated/provisional_1070_representative_pilot_v2/p1070_right_temporal/r001.json",
+      "configuration_sha256": "2a2c1ec8bfa3ea1c5d62d0ad7cd552d46b01ed081807eeda3bf3ade21610c41b",
+      "emitter_id": "P1070_RIGHT_TEMPORAL",
+      "manifest_path": "runs/provisional_1070_representative_pilot_v2/prepared/p1070_right_temporal/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_v1__20260814t173600z__2a2c1ec8",
+      "seed": 1611515713
+    }
+  ]
+}

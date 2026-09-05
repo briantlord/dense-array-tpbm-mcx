@@ -1,0 +1,16 @@
+{
+  "acceptance": {
+    "maximum_tissue_integral_relative_error": 0.05,
+    "median_axis_profile_relative_error": 0.10,
+    "median_valid_voxel_relative_error": 0.10
+  },
+  "axis_depth_range_mm": [0.0, 60.0],
+  "axis_depth_step_mm": 1.0,
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+  "direct_normalization_correction": 2.0,
+  "direct_total_photons": 200000000,
+  "protocol_id": "surrogate_yue277_1070_windows_rtx3080ti_aggregate_equivalence_v1",
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet",
+  "source_emitter_ids": ["SUR1070_011", "SUR1070_031"],
+  "voxel_validity_fraction_of_basis_max": 1e-8
+}

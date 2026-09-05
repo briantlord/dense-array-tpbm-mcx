@@ -1,0 +1,305 @@
+{
+  "audit_date": "2026-08-14",
+  "audit_id": "provisional_1070_independent_quantity_unit_wavelength_v1",
+  "errors": [],
+  "mechanical_status": "pass",
+  "out_of_scope": [
+    "second-operator graph redigitization",
+    "new primary-source measurements",
+    "scientific acceptance of surrogate tissue mappings"
+  ],
+  "production_launch_allowed": false,
+  "scientific_blockers": [
+    "Bashkatov and Friebel central graph points remain single-operator digitizations, not independently redigitized values.",
+    "CSF scattering and anisotropy are unchanged neighboring-1064 simulation assumptions; the absorption and refractive index are water proxies.",
+    "The muscle, composite skin-and-muscle, marrow, vessel, and fat_2 bindings contain unresolved atlas-to-measurement surrogate assumptions.",
+    "Most tissue refractive indices and several anisotropy values are fixed inverse-model or project assumptions rather than 1070-nm measurements.",
+    "The all-TBD production table remains authoritative and no nominal scenario is frozen."
+  ],
+  "scientific_status": "blocked",
+  "scope": [
+    "independent reconstruction from saved source transcriptions",
+    "mua versus musp versus mus quantity identity",
+    "cm^-1 to mm^-1 and spectral-formula arithmetic",
+    "1070 versus neighboring-wavelength labeling",
+    "field-provenance record resolution"
+  ],
+  "source_tables": [
+    {
+      "path": "literature/shapey_2022_1070_transcription.csv",
+      "sha256": "4a75b7f77968db90267317ccd0d09e2f47ce7dde9bc81fe595b07947f786ef3c"
+    },
+    {
+      "path": "literature/digitized_1070_primary_curves.csv",
+      "sha256": "94b66927fab7ff867d42d613f197952c737ae789fa8a331057398f030b6efd0f"
+    },
+    {
+      "path": "literature/friebel_blood_1070_digitization.csv",
+      "sha256": "d9e79e862b8a4334a6f548ceb7d3f5fe4de9541d97545ff5648770ace472b70b"
+    },
+    {
+      "path": "literature/damagatla_2026_in_vivo_human_1070_summary.csv",
+      "sha256": "832bc51fe6db1d468c94b4f6ae85531ecac124b5a253086b6eb2bd086a5839bf"
+    },
+    {
+      "path": "literature/kothuri_2025_human_bone_1070_transcription.csv",
+      "sha256": "f5d333ac1aa900217706d4007170b917dd7c9fff5a637d4c5baade82e2b91be7"
+    },
+    {
+      "path": "literature/water_csf_1070_candidates.csv",
+      "sha256": "2191d145b631f8148633cca6b4016d1a3cb0b45507c539e883e3dd2ad7bed70e"
+    }
+  ],
+  "tissues": [
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "model_convention",
+      "status": "pass",
+      "tissue_id": 0,
+      "tissue_name": "background_air"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "water_proxy_plus_neighboring_1064_assumption",
+      "status": "pass",
+      "tissue_id": 1,
+      "tissue_name": "cerebrospinal_fluid"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "exact_table_plus_fixed_inverse_inputs",
+      "status": "pass",
+      "tissue_id": 2,
+      "tissue_name": "gray_matter"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "exact_table_plus_fixed_inverse_inputs",
+      "status": "pass",
+      "tissue_id": 3,
+      "tissue_name": "white_matter"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "graph_plus_spectral_model_and_assumptions",
+      "status": "pass",
+      "tissue_id": 4,
+      "tissue_name": "fat"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "exact_bulk_tissue_surrogate_plus_assumptions",
+      "status": "pass",
+      "tissue_id": 5,
+      "tissue_name": "muscles"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "exact_bulk_composite_surrogate_plus_assumptions",
+      "status": "pass",
+      "tissue_id": 6,
+      "tissue_name": "skin_and_muscles"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "graph_plus_spectral_model_and_assumptions",
+      "status": "pass",
+      "tissue_id": 7,
+      "tissue_name": "skull"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "shared_fat_proxy_assumption",
+      "status": "pass",
+      "tissue_id": 9,
+      "tissue_name": "fat_2"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "exact_table_plus_fixed_inverse_inputs",
+      "status": "pass",
+      "tissue_id": 10,
+      "tissue_name": "dura"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "exact_tibial_surrogate_plus_assumptions",
+      "status": "pass",
+      "tissue_id": 11,
+      "tissue_name": "marrow"
+    },
+    {
+      "checks": {
+        "assumption_label": true,
+        "g": true,
+        "mua_mm-1": true,
+        "mus_from_musp_and_g": true,
+        "musp_quantity": true,
+        "n": true,
+        "tissue_name": true,
+        "wavelength_labels": true
+      },
+      "evidence_class": "graph_digitized_blood_binding_plus_n_assumption",
+      "status": "pass",
+      "tissue_id": 12,
+      "tissue_name": "vessels"
+    }
+  ],
+  "variants": [
+    {
+      "case": "n_tissue_137",
+      "status": "pass"
+    },
+    {
+      "case": "csf_transparent",
+      "status": "pass"
+    },
+    {
+      "case": "fat_low_abs_1064",
+      "status": "pass"
+    },
+    {
+      "case": "muscle_cortese_scm",
+      "status": "pass"
+    },
+    {
+      "case": "muscle_mosca_porcine",
+      "status": "pass"
+    },
+    {
+      "case": "composite_pure_skin",
+      "status": "pass"
+    },
+    {
+      "case": "composite_pure_muscle",
+      "status": "pass"
+    },
+    {
+      "case": "marrow_trabecular",
+      "status": "pass"
+    },
+    {
+      "case": "marrow_skull_like",
+      "status": "pass"
+    },
+    {
+      "case": "blood_hct33_oxy",
+      "status": "pass"
+    },
+    {
+      "case": "blood_hct33_deoxy",
+      "status": "pass"
+    },
+    {
+      "case": "brain_yaroslavsky_gray",
+      "status": "pass"
+    },
+    {
+      "case": "skull_trabecular",
+      "status": "pass"
+    },
+    {
+      "case": "skull_cortical_powder",
+      "status": "pass"
+    }
+  ]
+}

@@ -1,0 +1,2501 @@
+{
+  "basis_set_id": "surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3",
+  "created_at": "2026-08-24T21:50:01Z",
+  "plan_path": "configs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3.json",
+  "plan_sha256": "d9e13dc99ff825d907c27e43c762ac3ad2a686d3ea4185a3d6cb6b96e3622e43",
+  "runs": [
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_001/r001.json",
+      "configuration_sha256": "241b0e9cc1488f7fc057fbf30b0fa694156def1c90c66c82d5dcb1e6de756478",
+      "emitter_id": "SUR810_001",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_001/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__241b0e9c",
+      "seed": 1816449963
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_002/r001.json",
+      "configuration_sha256": "19ba72d212b890fc98e201931d07ce53634d98fac1fbdeabdc6f8630150cc54f",
+      "emitter_id": "SUR810_002",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_002/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__19ba72d2",
+      "seed": 822068930
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_003/r001.json",
+      "configuration_sha256": "5f9b6da9b4486c77c2df03b47c4944524b27fdb1f8045f5f9af533b51f809d9a",
+      "emitter_id": "SUR810_003",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_003/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5f9b6da9",
+      "seed": 866697395
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_004/r001.json",
+      "configuration_sha256": "6bb1e7850484ad1878389b0a12c5e3e10175f7e288357c92163fe1e5d5dc4ff5",
+      "emitter_id": "SUR810_004",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_004/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6bb1e785",
+      "seed": 1745011244
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_005/r001.json",
+      "configuration_sha256": "dece5c45d408f7922e1bec574db6e2fa4580f6243dc1e817a85e35adf6fbc17f",
+      "emitter_id": "SUR810_005",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_005/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__dece5c45",
+      "seed": 818528812
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_006/r001.json",
+      "configuration_sha256": "2ed797bb8f279b1c6e58bef424d3d146446315d75309d10e9f0271aa67d922b9",
+      "emitter_id": "SUR810_006",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_006/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2ed797bb",
+      "seed": 57604380
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_007/r001.json",
+      "configuration_sha256": "2eb3b4f5e02ca1c8d45f0d6499aae6c5eb87f9050ad3e1a0c29895b07ca61a6f",
+      "emitter_id": "SUR810_007",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_007/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2eb3b4f5",
+      "seed": 156126794
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_008/r001.json",
+      "configuration_sha256": "fface81c4b46559d529ddc4b2df63b65a84194cf47c11cba3756c5c43e553948",
+      "emitter_id": "SUR810_008",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_008/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__fface81c",
+      "seed": 935566331
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_009/r001.json",
+      "configuration_sha256": "faaf466219a9996eea3597276f3a41135b0801257dbb56dd2b0b0bb7612b98af",
+      "emitter_id": "SUR810_009",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_009/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__faaf4662",
+      "seed": 714260767
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_010/r001.json",
+      "configuration_sha256": "27356cc594cf579ed4f1fd1a49172d1279d1b18fa43a3e5aff8ba112f901a81b",
+      "emitter_id": "SUR810_010",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_010/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__27356cc5",
+      "seed": 580456256
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_011/r001.json",
+      "configuration_sha256": "b678919259531067c976f63d1a21ce98340da5756388b956f238cf39ef02b424",
+      "emitter_id": "SUR810_011",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_011/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b6789192",
+      "seed": 624755816
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_012/r001.json",
+      "configuration_sha256": "4719c06bda66951638fbf256b14094d45cc779d24ae6042d2472a4f1c4df3204",
+      "emitter_id": "SUR810_012",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_012/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4719c06b",
+      "seed": 1471771079
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_013/r001.json",
+      "configuration_sha256": "284b29148c31a1a5baf3465295446d511c38f822918fa666e0031069ac68c2c2",
+      "emitter_id": "SUR810_013",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_013/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__284b2914",
+      "seed": 1351083939
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_014/r001.json",
+      "configuration_sha256": "dd084ab66c559994accdece90d5eb6b5b5c96cfb6f64b115912720b60675949c",
+      "emitter_id": "SUR810_014",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_014/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__dd084ab6",
+      "seed": 362425039
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_015/r001.json",
+      "configuration_sha256": "13e1d5f0366f54e898a1f69fabe36fcad5632aba85f4f7de0302b644f0db9da9",
+      "emitter_id": "SUR810_015",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_015/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__13e1d5f0",
+      "seed": 569212414
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_016/r001.json",
+      "configuration_sha256": "e58ae15d5d73379ef75e76e3d9b3d2eee522bdfcdaf111cf2b3d77e13ae2d73e",
+      "emitter_id": "SUR810_016",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_016/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__e58ae15d",
+      "seed": 1301860666
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_017/r001.json",
+      "configuration_sha256": "c8e89669cc99549e8350b1837e3fc23a65ee32a9647708d75404b2404a7e3b38",
+      "emitter_id": "SUR810_017",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_017/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c8e89669",
+      "seed": 823891390
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_018/r001.json",
+      "configuration_sha256": "d0f7b2877a7c351083f09ae130873df755284d55b054bcdbd56bcdc666bb0975",
+      "emitter_id": "SUR810_018",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_018/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d0f7b287",
+      "seed": 1301297584
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_019/r001.json",
+      "configuration_sha256": "44b900d3d37540cdfde94b9416704ad7bbb65b75ad53eff7863996e511d47adf",
+      "emitter_id": "SUR810_019",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_019/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__44b900d3",
+      "seed": 1136294212
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_020/r001.json",
+      "configuration_sha256": "ef7b36ed7ec31f88ec9df072e7043477bc286bd684efd39082789976676373f0",
+      "emitter_id": "SUR810_020",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_020/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ef7b36ed",
+      "seed": 1669536434
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_021/r001.json",
+      "configuration_sha256": "ee9b37bd3d707809a6f56502d0f7139dc6eb4d304d4d4aef0abfcefa745a9db8",
+      "emitter_id": "SUR810_021",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_021/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ee9b37bd",
+      "seed": 1103070126
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_022/r001.json",
+      "configuration_sha256": "da2c65b0be89d97e93523b028df0085d3733af374d157914c192909e1259e91e",
+      "emitter_id": "SUR810_022",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_022/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__da2c65b0",
+      "seed": 564352664
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_023/r001.json",
+      "configuration_sha256": "591b1be1e5c8622239e5b1d5c5c581a20d965e99cc120a0c8b395b0e0d927346",
+      "emitter_id": "SUR810_023",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_023/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__591b1be1",
+      "seed": 422784419
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_024/r001.json",
+      "configuration_sha256": "0984532c15ab0a82a106a7c2c8167d32bdd485c9f17382a468a05627c3136c07",
+      "emitter_id": "SUR810_024",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_024/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__0984532c",
+      "seed": 1906349255
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_025/r001.json",
+      "configuration_sha256": "5cafc9f7d9b2e399c532da9c27af29949588e39f1f7fc55245910e763a5a0965",
+      "emitter_id": "SUR810_025",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_025/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5cafc9f7",
+      "seed": 460780516
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_026/r001.json",
+      "configuration_sha256": "2d800d9454dcf02a37bd22d4c4b0fc75e45d33c5b8c6263bc382539539536f9a",
+      "emitter_id": "SUR810_026",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_026/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2d800d94",
+      "seed": 533130835
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_027/r001.json",
+      "configuration_sha256": "aafb9bd7ae278525b7329e616173956febe467b0e5eb8db1455aeff3a8e2d75d",
+      "emitter_id": "SUR810_027",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_027/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__aafb9bd7",
+      "seed": 658257432
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_028/r001.json",
+      "configuration_sha256": "9fb0518db0daebabcfcb832c33797fbcf8da9eaea3405d0678fa83b7e5629a10",
+      "emitter_id": "SUR810_028",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_028/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__9fb0518d",
+      "seed": 732702717
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_029/r001.json",
+      "configuration_sha256": "d3bd493c6ef26b0eff31c390a456a0b8eab6e66d70ee646e84c600595e79c43f",
+      "emitter_id": "SUR810_029",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_029/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d3bd493c",
+      "seed": 692397972
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_030/r001.json",
+      "configuration_sha256": "2bbad4b977e5a38bf32d4c367cec76b8969b386d185a6dfe934b77b18dd7c783",
+      "emitter_id": "SUR810_030",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_030/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2bbad4b9",
+      "seed": 2123563910
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_031/r001.json",
+      "configuration_sha256": "db21303a1bd9155dd77681f97030755b218b0bf9e206db26d58408acf85aa251",
+      "emitter_id": "SUR810_031",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_031/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__db21303a",
+      "seed": 1620230579
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_032/r001.json",
+      "configuration_sha256": "327abb2ccd491a5eb9443ff51d2cc4ef1e9b5abffc9be9666b901513246c1cfa",
+      "emitter_id": "SUR810_032",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_032/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__327abb2c",
+      "seed": 1957348287
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_033/r001.json",
+      "configuration_sha256": "ae847587ccf3e6c389fbf54bcf2885be8fe0623cc49138a76e4fb3eccd4faf2f",
+      "emitter_id": "SUR810_033",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_033/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ae847587",
+      "seed": 1627175961
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_034/r001.json",
+      "configuration_sha256": "6491ae9299345e395c85a377c47b383079e6f2cda7bc5297e61c21c1c70d05e5",
+      "emitter_id": "SUR810_034",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_034/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6491ae92",
+      "seed": 1367158974
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_035/r001.json",
+      "configuration_sha256": "6f1054289d08976cf9ca16e6ac678943416e534ada264a6ce1dd14bea1c23c25",
+      "emitter_id": "SUR810_035",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_035/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6f105428",
+      "seed": 1870506594
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_036/r001.json",
+      "configuration_sha256": "131a1fea0fa51a3b1178b6723114137f8c301911a4703e0d56aedcb1ee9eba89",
+      "emitter_id": "SUR810_036",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_036/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__131a1fea",
+      "seed": 388047393
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_037/r001.json",
+      "configuration_sha256": "0bd3c59487ee72f94e4235e1379ca474380720c461c3b6f8c4717aa831387acf",
+      "emitter_id": "SUR810_037",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_037/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__0bd3c594",
+      "seed": 903772642
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_038/r001.json",
+      "configuration_sha256": "18211ed52dd409e6f2f8447c42d98d22c148cd93a8afda5a430ebfd93a7cfb06",
+      "emitter_id": "SUR810_038",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_038/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__18211ed5",
+      "seed": 1058694078
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_039/r001.json",
+      "configuration_sha256": "91dd815153c75985aab77e8ba36839f12853f37490f2f6a0a0bfef1cad6ed91a",
+      "emitter_id": "SUR810_039",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_039/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__91dd8151",
+      "seed": 1008367855
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_040/r001.json",
+      "configuration_sha256": "ef242a8889c641c9a00e5b53449b1362d7a12f0b5da7e8ecc51bd743f7cc0656",
+      "emitter_id": "SUR810_040",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_040/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ef242a88",
+      "seed": 1533359628
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_041/r001.json",
+      "configuration_sha256": "b8177f099d03afa1847da3423eff0fdfdd5accc56d01887a8b3d12fb9f0c2a3c",
+      "emitter_id": "SUR810_041",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_041/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b8177f09",
+      "seed": 621524920
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_042/r001.json",
+      "configuration_sha256": "c240de60b597bf650813175a0ba68b4b2c41105dc4ed07a0da43e7489a72b44d",
+      "emitter_id": "SUR810_042",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_042/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c240de60",
+      "seed": 1974093913
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_043/r001.json",
+      "configuration_sha256": "3e464ed7a4a1d9bdc8e39d23aefd5213a3bf8c50723fba7eeedea2a27dcab455",
+      "emitter_id": "SUR810_043",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_043/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__3e464ed7",
+      "seed": 1501230984
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_044/r001.json",
+      "configuration_sha256": "d528af148eb4123b3b1c53bc0fac990c5522b135e1e926a8cec04df5bf7408ce",
+      "emitter_id": "SUR810_044",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_044/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d528af14",
+      "seed": 156686852
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_045/r001.json",
+      "configuration_sha256": "20d1bd65943a862920de563d7786f3905eaf8596d37d6a3eba8d8ac4cd5d0a71",
+      "emitter_id": "SUR810_045",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_045/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__20d1bd65",
+      "seed": 1510848546
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_046/r001.json",
+      "configuration_sha256": "6a30811a9f06d18daaf2218a45b430a8375247b1e7ff7145e4c44b184f29ea74",
+      "emitter_id": "SUR810_046",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_046/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6a30811a",
+      "seed": 1278631483
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_047/r001.json",
+      "configuration_sha256": "c7d3f3641f580541e432ef96184d6d3985998cecc85df96e0fd48a5d9915d2fe",
+      "emitter_id": "SUR810_047",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_047/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c7d3f364",
+      "seed": 1059593101
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_048/r001.json",
+      "configuration_sha256": "98b21ecb509b73519493902d72edcc99060355df600a7260dd0c7ea77da5977c",
+      "emitter_id": "SUR810_048",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_048/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__98b21ecb",
+      "seed": 343082520
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_049/r001.json",
+      "configuration_sha256": "8979eb7c260f1cfdc54bdac92fe22ef0968338836af38c6f811cbf927b5a6dcd",
+      "emitter_id": "SUR810_049",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_049/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__8979eb7c",
+      "seed": 800030190
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_050/r001.json",
+      "configuration_sha256": "e009a988dd4b54ff3eaf1fd8f8f7c8fcbe623159b3839661396850b5e7453987",
+      "emitter_id": "SUR810_050",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_050/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__e009a988",
+      "seed": 507398960
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_051/r001.json",
+      "configuration_sha256": "a07763e3311393a7f31e5b26352c6c1af15c93c4e885e070ebcccdf832ff7ce5",
+      "emitter_id": "SUR810_051",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_051/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__a07763e3",
+      "seed": 1989725830
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_052/r001.json",
+      "configuration_sha256": "4404c5e6fdaa20ba3ebe5e54e5cfdf43079b448c067cebf9f0125ceb86f65b47",
+      "emitter_id": "SUR810_052",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_052/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4404c5e6",
+      "seed": 2086584831
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_053/r001.json",
+      "configuration_sha256": "8c3947c1ceb8052da5bf0324d761de461ebbd799694657734c29d8066aa2913a",
+      "emitter_id": "SUR810_053",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_053/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__8c3947c1",
+      "seed": 239311183
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_054/r001.json",
+      "configuration_sha256": "8023c691711e629754d996af3d9f6701885a5c4832974065252d47340fe6457c",
+      "emitter_id": "SUR810_054",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_054/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__8023c691",
+      "seed": 1929372919
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_055/r001.json",
+      "configuration_sha256": "2629349f8f093057132fc561df7d05f6b9c99edbc03258c3d01e89af7570ab6a",
+      "emitter_id": "SUR810_055",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_055/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2629349f",
+      "seed": 1882852359
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_056/r001.json",
+      "configuration_sha256": "4fd3a7784e7013d5b45cfb22b5acc35cdacd49b4cebdc8b3b70a28313e17138a",
+      "emitter_id": "SUR810_056",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_056/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4fd3a778",
+      "seed": 935582510
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_057/r001.json",
+      "configuration_sha256": "3dc5fd4872e32d20960aa7936d40f5f114ae3f6cd26917ae26a6c7a654eac3bb",
+      "emitter_id": "SUR810_057",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_057/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__3dc5fd48",
+      "seed": 1541780202
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_058/r001.json",
+      "configuration_sha256": "6e5f3f272228a680fced7dd94508abcc03625c33290b192f1852a59f2f830fce",
+      "emitter_id": "SUR810_058",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_058/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6e5f3f27",
+      "seed": 1291852266
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_059/r001.json",
+      "configuration_sha256": "3e07db08c12c75430dab0be50c8a8f58c9069669cdd55034285141d3779190da",
+      "emitter_id": "SUR810_059",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_059/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__3e07db08",
+      "seed": 1682053680
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_060/r001.json",
+      "configuration_sha256": "b1faf4c55b4fb696dfbcfdc5d33102b9592cd32838878e91023326c60e8149a3",
+      "emitter_id": "SUR810_060",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_060/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b1faf4c5",
+      "seed": 557216533
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_061/r001.json",
+      "configuration_sha256": "4546b66c3fa9d80773c540896c591a2bcc149ea57958f14a61855dfbe57fd4ce",
+      "emitter_id": "SUR810_061",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_061/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4546b66c",
+      "seed": 624065196
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_062/r001.json",
+      "configuration_sha256": "a3a6cd8f32e007902d43ab11500de2688fd878ef26fcd8a2d08755992c69f702",
+      "emitter_id": "SUR810_062",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_062/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__a3a6cd8f",
+      "seed": 1604396759
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_063/r001.json",
+      "configuration_sha256": "df3ca5b3c48cb2812b9de6d93af4a371befa17bdb10cff7a0bdbe6ccf89b1df0",
+      "emitter_id": "SUR810_063",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_063/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__df3ca5b3",
+      "seed": 1288485806
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_064/r001.json",
+      "configuration_sha256": "3c0d7f8d17ffe191c0f2b648bcf52aaacaabc1aaaae5d5c026b306f29fed990a",
+      "emitter_id": "SUR810_064",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_064/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__3c0d7f8d",
+      "seed": 1601955271
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_065/r001.json",
+      "configuration_sha256": "7e6ded6e33b6602a1b36e9c390569c41c2fae738c68732bedb116c5a7faf1258",
+      "emitter_id": "SUR810_065",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_065/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__7e6ded6e",
+      "seed": 2012461520
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_066/r001.json",
+      "configuration_sha256": "008c34079f5d5f14339539fd8a3ab023cc6b6bbfbbfb334727bc82890af8838b",
+      "emitter_id": "SUR810_066",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_066/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__008c3407",
+      "seed": 841063736
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_067/r001.json",
+      "configuration_sha256": "f29ea21e4c6fe1a05763ff533d1f68e734bd39e78e6f391e9e956348d73164c0",
+      "emitter_id": "SUR810_067",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_067/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f29ea21e",
+      "seed": 1446215561
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_068/r001.json",
+      "configuration_sha256": "4ddb2c0594582f881999cd4449177b90ec21d7cefe9cd65a29853453a8cdf8f5",
+      "emitter_id": "SUR810_068",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_068/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4ddb2c05",
+      "seed": 664382798
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_069/r001.json",
+      "configuration_sha256": "1ed055afeae43b58a3fd3bb40a5800b781b46d7a834e4f678ce5878be656ef9d",
+      "emitter_id": "SUR810_069",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_069/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__1ed055af",
+      "seed": 1624867119
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_070/r001.json",
+      "configuration_sha256": "97c249bf9061d9860db918a0d66b2e41e8a676ba5a5e86d22e2360a1fe95e50c",
+      "emitter_id": "SUR810_070",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_070/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__97c249bf",
+      "seed": 2002259952
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_071/r001.json",
+      "configuration_sha256": "1bce532dd695053671bf64754d7c9092e06c90cbe727743a7b0d440c401d25e4",
+      "emitter_id": "SUR810_071",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_071/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__1bce532d",
+      "seed": 1569220550
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_072/r001.json",
+      "configuration_sha256": "039f41f80cf3002fcd9ef2ec61f7c5a6998269cba671aca2d27451910d2b23ed",
+      "emitter_id": "SUR810_072",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_072/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__039f41f8",
+      "seed": 670560853
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_073/r001.json",
+      "configuration_sha256": "064061170a846a9237dacc34848c7ecad9bf13a68b7b8e994d7e4ad185c81cb8",
+      "emitter_id": "SUR810_073",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_073/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__06406117",
+      "seed": 418471421
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_074/r001.json",
+      "configuration_sha256": "d26bd1eece78787e6165548d5dfa9c6378759a496bda395fc1ef7bee7da486c5",
+      "emitter_id": "SUR810_074",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_074/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d26bd1ee",
+      "seed": 1667535043
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_075/r001.json",
+      "configuration_sha256": "2bcb47b1faf6156e729e7defda9d5a73dca6948fa6d9fa2da1bdebdabab6ef06",
+      "emitter_id": "SUR810_075",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_075/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2bcb47b1",
+      "seed": 519851056
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_076/r001.json",
+      "configuration_sha256": "67d84e007458038c64412c7ab2518399241ddd67728121f1dd8449d203e17007",
+      "emitter_id": "SUR810_076",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_076/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__67d84e00",
+      "seed": 406577501
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_077/r001.json",
+      "configuration_sha256": "dec7568b3abf1783907f8454a09eda69a491be63c64f55de50e3f4a0c88595a1",
+      "emitter_id": "SUR810_077",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_077/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__dec7568b",
+      "seed": 1596274767
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_078/r001.json",
+      "configuration_sha256": "3fcfeb0939d04bd7160fca7df3fb432ca1366861d403a8fcb438fce9d5e92d24",
+      "emitter_id": "SUR810_078",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_078/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__3fcfeb09",
+      "seed": 1277419504
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_079/r001.json",
+      "configuration_sha256": "d6a60c7c9f45dc6bb956c4fc9f8e8e9cbcfc26dbdd235453a59c1b3a9f27833d",
+      "emitter_id": "SUR810_079",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_079/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d6a60c7c",
+      "seed": 1502626495
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_080/r001.json",
+      "configuration_sha256": "2dcca62c798995e4511784099295417c470bf0cfa5168cd2166cfe02dbece805",
+      "emitter_id": "SUR810_080",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_080/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2dcca62c",
+      "seed": 858639957
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_081/r001.json",
+      "configuration_sha256": "142719128fad5187e351b01b60e8ba5a5122d8d519b043ee6d4a4085ee3ccea8",
+      "emitter_id": "SUR810_081",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_081/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__14271912",
+      "seed": 1323641118
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_082/r001.json",
+      "configuration_sha256": "c884afacae619897788def02868221adc48193396f7737913cf33b495563d68b",
+      "emitter_id": "SUR810_082",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_082/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c884afac",
+      "seed": 729688886
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_083/r001.json",
+      "configuration_sha256": "eccb7ad6bf295b79dd153ddea1ef3a3b5f11a4847847750d6f65d3db183220a2",
+      "emitter_id": "SUR810_083",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_083/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__eccb7ad6",
+      "seed": 161070639
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_084/r001.json",
+      "configuration_sha256": "ad8fe9a22bdb2a731911734a7c231f7a5362139c83e0753f133f2566659db8bf",
+      "emitter_id": "SUR810_084",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_084/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ad8fe9a2",
+      "seed": 304009640
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_085/r001.json",
+      "configuration_sha256": "e7532405004eacccabd3d0775be54fb9052d0f0d2096bc42de03205eb205b6c9",
+      "emitter_id": "SUR810_085",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_085/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__e7532405",
+      "seed": 1860657763
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_086/r001.json",
+      "configuration_sha256": "d07bb16aa640187dbe65b4bf944981aede05ad176590890dab9010d6910e5d65",
+      "emitter_id": "SUR810_086",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_086/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d07bb16a",
+      "seed": 161418659
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_087/r001.json",
+      "configuration_sha256": "5279e5325cc3d0968e9a61732d92054387b6c1f70f95efcdf257e833a07e5d90",
+      "emitter_id": "SUR810_087",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_087/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5279e532",
+      "seed": 1047154216
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_088/r001.json",
+      "configuration_sha256": "3321fb8005544efa81b160fccc1919bcb5e1fcf35e043594f77a1f6858925d0b",
+      "emitter_id": "SUR810_088",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_088/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__3321fb80",
+      "seed": 643291345
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_089/r001.json",
+      "configuration_sha256": "dcec03a81bee6fc91790c81af6f1bd7fd9b87d63ded45e2ecf28e35db4f4d61b",
+      "emitter_id": "SUR810_089",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_089/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__dcec03a8",
+      "seed": 1847496196
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_090/r001.json",
+      "configuration_sha256": "68b9960765c2a76a6a9341756e6eb43ba437384ab6588bfcb4a1eff011a7e020",
+      "emitter_id": "SUR810_090",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_090/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__68b99607",
+      "seed": 2065424898
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_091/r001.json",
+      "configuration_sha256": "f4f2c7d9de39d2e1a645ff43f59601556608b996bf36eaf015b7ffd724118563",
+      "emitter_id": "SUR810_091",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_091/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f4f2c7d9",
+      "seed": 777462149
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_092/r001.json",
+      "configuration_sha256": "30b7088b7356e8e537ba821b0d080012fcc87ecdce2d345059712c0fffd8ee46",
+      "emitter_id": "SUR810_092",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_092/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__30b7088b",
+      "seed": 1800592115
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_093/r001.json",
+      "configuration_sha256": "65a4a383abd6d6b8b70e1fe10e5157fe91ae8a9fe42797c8ae9298099b86315e",
+      "emitter_id": "SUR810_093",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_093/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__65a4a383",
+      "seed": 380816347
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_094/r001.json",
+      "configuration_sha256": "2bdb6e16cd1e977135ed9a027d2b426dea02d194ca2938db9c56bc7b1e52f972",
+      "emitter_id": "SUR810_094",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_094/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2bdb6e16",
+      "seed": 2119870051
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_095/r001.json",
+      "configuration_sha256": "80db1eced4c94372682b25de8701e749dcbbf8b7bec9b7ff62654f96d5f84039",
+      "emitter_id": "SUR810_095",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_095/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__80db1ece",
+      "seed": 891915977
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_096/r001.json",
+      "configuration_sha256": "891dd04fa3db4e9e2bd363b353c0069d7b65b42f536f1b32fc9d3ceab7f43c3c",
+      "emitter_id": "SUR810_096",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_096/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__891dd04f",
+      "seed": 2075747915
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_097/r001.json",
+      "configuration_sha256": "af79f57aa149a17ffe0d6b498c413f8d27c2e4348bfd53e605c550da466261fc",
+      "emitter_id": "SUR810_097",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_097/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__af79f57a",
+      "seed": 1119457647
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_098/r001.json",
+      "configuration_sha256": "13fd4bb6de062055fa59f5c44dfd227b70a979931c3b189353940b2037dc9e0c",
+      "emitter_id": "SUR810_098",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_098/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__13fd4bb6",
+      "seed": 1952402406
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_099/r001.json",
+      "configuration_sha256": "252e2fe4a7a3f36d0a1c12e2403721cb0ea4a359e909cc8062e1757765a90fc6",
+      "emitter_id": "SUR810_099",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_099/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__252e2fe4",
+      "seed": 2029671384
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_100/r001.json",
+      "configuration_sha256": "f42de45ec8766cb27bc1f1cad58de13cd2ef8717f73dc89d806773948fb7642e",
+      "emitter_id": "SUR810_100",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_100/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f42de45e",
+      "seed": 504661794
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_101/r001.json",
+      "configuration_sha256": "213c0f507518942e0e1bc143b3359a07f61592fe1651fbab813448c516a5e05d",
+      "emitter_id": "SUR810_101",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_101/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__213c0f50",
+      "seed": 766850560
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_102/r001.json",
+      "configuration_sha256": "84fa504b87e04b319639af0e43419adab9a3344328abc14e5c876c94f0052edd",
+      "emitter_id": "SUR810_102",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_102/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__84fa504b",
+      "seed": 2069429832
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_103/r001.json",
+      "configuration_sha256": "91cb50ed3d24e04e59101f9f6ef96bfbef2ed0ddda8d73076d8503223787735c",
+      "emitter_id": "SUR810_103",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_103/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__91cb50ed",
+      "seed": 1432164972
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_104/r001.json",
+      "configuration_sha256": "a454f4eb00a6f7e810f337162e6ab2541247436981028d0fede7dfebde7fc672",
+      "emitter_id": "SUR810_104",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_104/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__a454f4eb",
+      "seed": 504782410
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_105/r001.json",
+      "configuration_sha256": "6cfc4e36e18b5d0b759f061bd81cae97dbddd4818df8a9c26aec99601220c14e",
+      "emitter_id": "SUR810_105",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_105/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6cfc4e36",
+      "seed": 1962267987
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_106/r001.json",
+      "configuration_sha256": "24ebaf59312b8032aee338ed4bd694d239d56f095cb2704b017f2f1c9b7bc20f",
+      "emitter_id": "SUR810_106",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_106/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__24ebaf59",
+      "seed": 239347276
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_107/r001.json",
+      "configuration_sha256": "c1028e39e0f36ea3677b29f549ddfb9efaa1f16846ff0a8a0297c828472662e7",
+      "emitter_id": "SUR810_107",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_107/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c1028e39",
+      "seed": 2132941516
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_108/r001.json",
+      "configuration_sha256": "629227d7fd920d724e670f7048b16f3c0821bf9b7331dee7b1f5163ee2aca913",
+      "emitter_id": "SUR810_108",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_108/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__629227d7",
+      "seed": 1234710214
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_109/r001.json",
+      "configuration_sha256": "540df81cd121008d3cc71ee5c5cd9b190ff19c68623da664fc72be516f907bb2",
+      "emitter_id": "SUR810_109",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_109/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__540df81c",
+      "seed": 1071623098
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_110/r001.json",
+      "configuration_sha256": "b0766a22fe0149a00c2338e4b5cd287931e8dc7f31df6d1d44d0b15bf5ec765f",
+      "emitter_id": "SUR810_110",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_110/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b0766a22",
+      "seed": 1388397573
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_111/r001.json",
+      "configuration_sha256": "52f03eed099035cbb205675f4693b57e8fc4af9ae0491eb695f323e2cc7af24a",
+      "emitter_id": "SUR810_111",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_111/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__52f03eed",
+      "seed": 1597218006
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_112/r001.json",
+      "configuration_sha256": "bc429a8561a8eee96cd241197d2168683f6c8cdb7d76bc824bffbec3a82a8d88",
+      "emitter_id": "SUR810_112",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_112/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__bc429a85",
+      "seed": 1423166128
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_113/r001.json",
+      "configuration_sha256": "ab193671325c5fc5c4e4c53bdd7522f7bcd9da9e3f735a30c0e5b872cb84d3d7",
+      "emitter_id": "SUR810_113",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_113/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ab193671",
+      "seed": 1817644708
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_114/r001.json",
+      "configuration_sha256": "599980edb601b919ac082496d399f414e70b7afb79bc2d58e6c9edd23c0fc8a8",
+      "emitter_id": "SUR810_114",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_114/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__599980ed",
+      "seed": 1945009470
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_115/r001.json",
+      "configuration_sha256": "325ab2e173a7e5dd6f137a4d1badcafa89b55c53121135f46159b0c70bc2d0ec",
+      "emitter_id": "SUR810_115",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_115/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__325ab2e1",
+      "seed": 124194529
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_116/r001.json",
+      "configuration_sha256": "4e7e508076d0f71ef7128b1af0df123d2d26c698f33849a5e40c5de9cdc27cb9",
+      "emitter_id": "SUR810_116",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_116/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4e7e5080",
+      "seed": 1760240347
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_117/r001.json",
+      "configuration_sha256": "eef554c5db99c9850ae8a450bc1c8e385bab741b4b4650518cebcb1ec8d183c3",
+      "emitter_id": "SUR810_117",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_117/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__eef554c5",
+      "seed": 163718012
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_118/r001.json",
+      "configuration_sha256": "ad8ab1b2e2400b81677082520e36dcbfd9afd7fcfb79205f438abf50b8a00ba3",
+      "emitter_id": "SUR810_118",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_118/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ad8ab1b2",
+      "seed": 597538363
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_119/r001.json",
+      "configuration_sha256": "7a77f67425efbe7805aab9746356a9f14ead8d24bbf053a83b760bf6a46ac221",
+      "emitter_id": "SUR810_119",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_119/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__7a77f674",
+      "seed": 220430049
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_120/r001.json",
+      "configuration_sha256": "831e9f471920300961e3c523a5e02f3011541f0d30291015dbd206fa19f7f124",
+      "emitter_id": "SUR810_120",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_120/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__831e9f47",
+      "seed": 1601498122
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_121/r001.json",
+      "configuration_sha256": "0858db76f099adfe742587dc0408942a040f8a01110d8230ffc1d08475b46f22",
+      "emitter_id": "SUR810_121",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_121/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__0858db76",
+      "seed": 717054751
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_122/r001.json",
+      "configuration_sha256": "04e2d7e3dd581a15de41d173161d6a27e98a10ab1cd39385fcbb7327c78996cf",
+      "emitter_id": "SUR810_122",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_122/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__04e2d7e3",
+      "seed": 550827539
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_123/r001.json",
+      "configuration_sha256": "4f55fcc49f888cd177f83f60ea369d7b59176b2d41decb89ed1140c7388cbe86",
+      "emitter_id": "SUR810_123",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_123/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4f55fcc4",
+      "seed": 1824950238
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_124/r001.json",
+      "configuration_sha256": "2b641d2b3683eab50dba7039554603dde82006e6eeea8a93e9ce93b052517927",
+      "emitter_id": "SUR810_124",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_124/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2b641d2b",
+      "seed": 1848181097
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_125/r001.json",
+      "configuration_sha256": "fd2f3ad9f997093147df2c9c5b8e8651e7beb02fe530f2bccde794bbe5f486ba",
+      "emitter_id": "SUR810_125",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_125/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__fd2f3ad9",
+      "seed": 122527089
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_126/r001.json",
+      "configuration_sha256": "c0a3e13ee8f2a9bcdc0ca17991dd8ab459ac3fb00a403cf8a31f064ebf314ec7",
+      "emitter_id": "SUR810_126",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_126/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c0a3e13e",
+      "seed": 1556513983
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_127/r001.json",
+      "configuration_sha256": "326f3d15ebfb201aa75dc7c3383ad581ba17b85fced0e697467791205c4b83bf",
+      "emitter_id": "SUR810_127",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_127/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__326f3d15",
+      "seed": 2105578813
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_128/r001.json",
+      "configuration_sha256": "5c0eeccc1185a244a22ad1e6cce53b1a0faf8a5dfe610a39846e056bb036dcd5",
+      "emitter_id": "SUR810_128",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_128/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5c0eeccc",
+      "seed": 813892968
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_129/r001.json",
+      "configuration_sha256": "cf57672946e3aec37a4264484eea0f2c9029a8117ad1fbf272801998b0dc8f6d",
+      "emitter_id": "SUR810_129",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_129/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__cf576729",
+      "seed": 672060616
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_130/r001.json",
+      "configuration_sha256": "39c47a432aa039bb97784ed28a025a3a2182869fcc0794668f504fd982faa221",
+      "emitter_id": "SUR810_130",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_130/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__39c47a43",
+      "seed": 1160827431
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_131/r001.json",
+      "configuration_sha256": "b1223d6823cad569c14b6e9dbf679f604e76d2e7e0cd137894f4dc91773e861e",
+      "emitter_id": "SUR810_131",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_131/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b1223d68",
+      "seed": 670464575
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_132/r001.json",
+      "configuration_sha256": "2f82c485bcaa8cb96715d2ad129ccee38414cb4dd7ee2e051f9befc162f9b198",
+      "emitter_id": "SUR810_132",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_132/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2f82c485",
+      "seed": 756592089
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_133/r001.json",
+      "configuration_sha256": "21c18b8227dd9a9143fff8a6760fbb8363e47fc44a517667ae2deb88f390be98",
+      "emitter_id": "SUR810_133",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_133/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__21c18b82",
+      "seed": 756260310
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_134/r001.json",
+      "configuration_sha256": "1979d70743955d45c99123ed9740244e490da744ba2446cf4f7153e7b5911055",
+      "emitter_id": "SUR810_134",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_134/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__1979d707",
+      "seed": 627087336
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_135/r001.json",
+      "configuration_sha256": "019d744a310a2cfadc5c305e5b90ca1b5787ae28a13190a11af26e22a2a13809",
+      "emitter_id": "SUR810_135",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_135/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__019d744a",
+      "seed": 1211233060
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_136/r001.json",
+      "configuration_sha256": "c6c2bec59f68c2da4077568c989d350cf4e3dbef4a22a3d7f006dc66ff9bf128",
+      "emitter_id": "SUR810_136",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_136/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c6c2bec5",
+      "seed": 1851536957
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_137/r001.json",
+      "configuration_sha256": "2727b8b49742a4dab8f9ced67a8979d9c24a4abe772ca05837232bfdeb27d2d6",
+      "emitter_id": "SUR810_137",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_137/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2727b8b4",
+      "seed": 326476609
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_138/r001.json",
+      "configuration_sha256": "7999da0bfd1bd28a6526ac7db589052d76b27f37c2524df3607241d97be60163",
+      "emitter_id": "SUR810_138",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_138/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__7999da0b",
+      "seed": 50937754
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_139/r001.json",
+      "configuration_sha256": "648485101a0b36a3136fe989b73c927d71807be5bf1967a6a63362b5bdc50bdc",
+      "emitter_id": "SUR810_139",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_139/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__64848510",
+      "seed": 1330255890
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_140/r001.json",
+      "configuration_sha256": "c2b65a634fb30be6ce5df44fd399e0e17d49bad42e2eb19d621628d4bb55c8d7",
+      "emitter_id": "SUR810_140",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_140/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c2b65a63",
+      "seed": 1201906106
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_141/r001.json",
+      "configuration_sha256": "aff651aae32327115f0adc8545a63928f8be733331a231cf94d2eb869e5060e5",
+      "emitter_id": "SUR810_141",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_141/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__aff651aa",
+      "seed": 463687826
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_142/r001.json",
+      "configuration_sha256": "4f0543126caae5aaff07f80f344369c16f9f28dac9a069fa68af079c78301674",
+      "emitter_id": "SUR810_142",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_142/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4f054312",
+      "seed": 1502532945
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_143/r001.json",
+      "configuration_sha256": "c04abbd39af8d774db2cecddde9a63f78a38e4e5c335f85bfaa26ef945be1c6e",
+      "emitter_id": "SUR810_143",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_143/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c04abbd3",
+      "seed": 705894416
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_144/r001.json",
+      "configuration_sha256": "ad9b442f906a7a0c9db227b118e77b9dec71db483c3dc5aa276ec1cee0206570",
+      "emitter_id": "SUR810_144",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_144/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ad9b442f",
+      "seed": 1765593152
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_145/r001.json",
+      "configuration_sha256": "cfdea7c7d74477495eadcf76b876452b7fb8a040789061d1d2254d43c14c1c35",
+      "emitter_id": "SUR810_145",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_145/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__cfdea7c7",
+      "seed": 2024253464
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_146/r001.json",
+      "configuration_sha256": "b3c93992c425d7f04831bab0e78f102ff8a12ad20a173a60d8f7b1e662bd0409",
+      "emitter_id": "SUR810_146",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_146/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b3c93992",
+      "seed": 1328015974
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_147/r001.json",
+      "configuration_sha256": "670ad1e54e7ebe6110429362358756ebe2f33f0b65f4b40b3111dfb548c47b5e",
+      "emitter_id": "SUR810_147",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_147/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__670ad1e5",
+      "seed": 1878992308
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_148/r001.json",
+      "configuration_sha256": "1baa005f29f3c5d8af6970f9a7aa670a474384f2ded05e6bc302977fd23b206a",
+      "emitter_id": "SUR810_148",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_148/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__1baa005f",
+      "seed": 1517328041
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_149/r001.json",
+      "configuration_sha256": "b7fee972550bc89135f33bdca8d2a57ae5af2d1bd602ed305bfcf30a6b466bed",
+      "emitter_id": "SUR810_149",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_149/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b7fee972",
+      "seed": 421201565
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_150/r001.json",
+      "configuration_sha256": "997dcd1213a1f07755e912e4e8b949f46b91787d24ff4ac558f56dcca340fdda",
+      "emitter_id": "SUR810_150",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_150/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__997dcd12",
+      "seed": 928099126
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_151/r001.json",
+      "configuration_sha256": "bdc7986050be6a2cf539166907f4149108810ba7bcb00ed197cb994c6ad4e3f7",
+      "emitter_id": "SUR810_151",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_151/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__bdc79860",
+      "seed": 1184664219
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_152/r001.json",
+      "configuration_sha256": "a22f4f1628797844ed1b08baf7356258d56674224f1bdd422e4916e9c8accbc8",
+      "emitter_id": "SUR810_152",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_152/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__a22f4f16",
+      "seed": 1454836491
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_153/r001.json",
+      "configuration_sha256": "39566582245f8e1786003790beda1280ee1590cc0b2cd6a80f29a50bda4dafad",
+      "emitter_id": "SUR810_153",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_153/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__39566582",
+      "seed": 1630156525
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_154/r001.json",
+      "configuration_sha256": "54d16ef17d09524ce239342dc1aa5c9b985ce03ff82050b03a6fa11dd9c2fee1",
+      "emitter_id": "SUR810_154",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_154/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__54d16ef1",
+      "seed": 617531069
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_155/r001.json",
+      "configuration_sha256": "ae438682c3bf5ed3c603b41f76553058e31f4f2bdaeff337dea1715a660ab726",
+      "emitter_id": "SUR810_155",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_155/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ae438682",
+      "seed": 1713954626
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_156/r001.json",
+      "configuration_sha256": "f0807a0d5c667bd8e7bde5689928ee43b1718b3b286e2504150d5c6b340b3630",
+      "emitter_id": "SUR810_156",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_156/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f0807a0d",
+      "seed": 427485515
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_157/r001.json",
+      "configuration_sha256": "aa114242ef2ddd308ed206b912019bf045905cd2b8104bcc9bccd5ba19039c3d",
+      "emitter_id": "SUR810_157",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_157/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__aa114242",
+      "seed": 1077445282
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_158/r001.json",
+      "configuration_sha256": "51a68a0ccb38ebe7394366b5575f8a112b5b83ed6e615c6d917bf34011b66853",
+      "emitter_id": "SUR810_158",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_158/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__51a68a0c",
+      "seed": 1857892007
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_159/r001.json",
+      "configuration_sha256": "54df91cc5d500e6190a1bea4c713ad3e7d2c03cc0245eaaf5029bdb2c09ddf9f",
+      "emitter_id": "SUR810_159",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_159/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__54df91cc",
+      "seed": 1863464972
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_160/r001.json",
+      "configuration_sha256": "7dd3b7434d2cd5eca6571fd435b5ac5841177b1b5e87e0f35f0632477be67e6b",
+      "emitter_id": "SUR810_160",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_160/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__7dd3b743",
+      "seed": 681559232
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_161/r001.json",
+      "configuration_sha256": "01d8c005971cd5d99fa5e5df6bdd1fe081b801d607ea9f37a3377d1db525192f",
+      "emitter_id": "SUR810_161",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_161/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__01d8c005",
+      "seed": 1477439404
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_162/r001.json",
+      "configuration_sha256": "c130e7b6e7a15c4ea4282a7273460e341083374f84c55fa810391b6fd8492e54",
+      "emitter_id": "SUR810_162",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_162/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c130e7b6",
+      "seed": 2002534372
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_163/r001.json",
+      "configuration_sha256": "5c69e43c644c6439c4f22c36b8dec7c452ce96b1d08963adf6722924047500f6",
+      "emitter_id": "SUR810_163",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_163/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5c69e43c",
+      "seed": 907836726
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_164/r001.json",
+      "configuration_sha256": "e99d85ff5964096c288c50fd3b9ee1eabea872b605dec7db0677ed3059cd583d",
+      "emitter_id": "SUR810_164",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_164/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__e99d85ff",
+      "seed": 2034512637
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_165/r001.json",
+      "configuration_sha256": "6d233e381ce1580b3bfdbc029cd57ab969a6a569b9a2521e33dd521dba3d493b",
+      "emitter_id": "SUR810_165",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_165/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6d233e38",
+      "seed": 764321764
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_166/r001.json",
+      "configuration_sha256": "7c17634d672d304c7b47fdd4d9fb52bfa604a2e2e50bc3521eaf1eba6fcaf8b0",
+      "emitter_id": "SUR810_166",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_166/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__7c17634d",
+      "seed": 1858820472
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_167/r001.json",
+      "configuration_sha256": "314777902f1373ebd3ebd57d25ee1aea480d6a0c6fe57214944437b40d43e794",
+      "emitter_id": "SUR810_167",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_167/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__31477790",
+      "seed": 725611859
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_168/r001.json",
+      "configuration_sha256": "e1ab492c0fd000e5d94c35247ea49dbec59401ed0b5dbab75fe32865d10b6fde",
+      "emitter_id": "SUR810_168",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_168/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__e1ab492c",
+      "seed": 1759387146
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_169/r001.json",
+      "configuration_sha256": "3d0c06ffd606f0f9e53e60b141582661ca58c70700d7f631c6e012a5cd98eef0",
+      "emitter_id": "SUR810_169",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_169/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__3d0c06ff",
+      "seed": 1216961714
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_170/r001.json",
+      "configuration_sha256": "5e55d06b93cea83ee4cc0916a012b40f6c80aede750826e2677ad9af00af309a",
+      "emitter_id": "SUR810_170",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_170/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5e55d06b",
+      "seed": 1600119657
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_171/r001.json",
+      "configuration_sha256": "43e0421733d994443e7c3ab350b8f202b268a701f54fae4df6bd0c43fbc0a85a",
+      "emitter_id": "SUR810_171",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_171/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__43e04217",
+      "seed": 1451068728
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_172/r001.json",
+      "configuration_sha256": "5e183bfe49236fcedd57435c60899cd9b50fe4cfc1ab8f4b6a8fce010b335e87",
+      "emitter_id": "SUR810_172",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_172/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5e183bfe",
+      "seed": 2007063992
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_173/r001.json",
+      "configuration_sha256": "ab826c3ee0f45f7e6d18d82301dd1db6363efbc3bdbb6f7dcaddc44936742fce",
+      "emitter_id": "SUR810_173",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_173/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ab826c3e",
+      "seed": 1433806527
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_174/r001.json",
+      "configuration_sha256": "52c846d840671501a665c72b87a2c0674b2a6c7d819a14a9a01d1ada10034f68",
+      "emitter_id": "SUR810_174",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_174/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__52c846d8",
+      "seed": 965539403
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_175/r001.json",
+      "configuration_sha256": "ab6b7fc16067900d07cf577539fb2d2da8828004eb986950127e2b0ebf4daba2",
+      "emitter_id": "SUR810_175",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_175/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ab6b7fc1",
+      "seed": 8318627
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_176/r001.json",
+      "configuration_sha256": "992ad42a96bcec5352eaea64d5ef43a4e037dca33bad85ae5bff91c8483152a4",
+      "emitter_id": "SUR810_176",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_176/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__992ad42a",
+      "seed": 1204463423
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_177/r001.json",
+      "configuration_sha256": "b3f495d6a5ebad15eb38050924e4651798f7d2510b99238b48a28c5a8ad53849",
+      "emitter_id": "SUR810_177",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_177/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b3f495d6",
+      "seed": 184580006
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_178/r001.json",
+      "configuration_sha256": "716dea3da6349fd0b807b00297719687e5e73690a52c01b95bc9c9da81d3e3f5",
+      "emitter_id": "SUR810_178",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_178/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__716dea3d",
+      "seed": 1184712196
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_179/r001.json",
+      "configuration_sha256": "555caa896f58341f1148604cf3feb01cfe3c76576f41e69395135f377c3e34a8",
+      "emitter_id": "SUR810_179",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_179/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__555caa89",
+      "seed": 1542505095
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_180/r001.json",
+      "configuration_sha256": "f8a8e3ec23fb51a82380da5a24cbd486f6f51d015e5d22460b33c950c993fddd",
+      "emitter_id": "SUR810_180",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_180/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f8a8e3ec",
+      "seed": 489960153
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_181/r001.json",
+      "configuration_sha256": "b55e6ffde801846a5cae239d02e72fccc967f838c6e0c91ef0cf288365418802",
+      "emitter_id": "SUR810_181",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_181/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b55e6ffd",
+      "seed": 1456476787
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_182/r001.json",
+      "configuration_sha256": "20ab411872a1c79c39fa44a34916592d65a50566b6ef0e3dc95eaa87f2a9e10f",
+      "emitter_id": "SUR810_182",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_182/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__20ab4118",
+      "seed": 431141518
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_183/r001.json",
+      "configuration_sha256": "2cef413e84f05ef12c0b4060ee41d2a7b33b708bb0f76696f6b59f691b220811",
+      "emitter_id": "SUR810_183",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_183/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2cef413e",
+      "seed": 1903010371
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_184/r001.json",
+      "configuration_sha256": "128cae5b9be3cbb7d92bebb1076503a83f42873932910b9c764c7bce5fbc9442",
+      "emitter_id": "SUR810_184",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_184/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__128cae5b",
+      "seed": 761461201
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_185/r001.json",
+      "configuration_sha256": "69bb10dd6696af5a50b484479a86f5335f744c6c3a4723bca5b39465d63f0ea7",
+      "emitter_id": "SUR810_185",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_185/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__69bb10dd",
+      "seed": 1044240131
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_186/r001.json",
+      "configuration_sha256": "8f6b5e242ed1876164a98ce0a319b54f21e25f747182ce9eb4bed5d5a46ca5d6",
+      "emitter_id": "SUR810_186",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_186/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__8f6b5e24",
+      "seed": 1375390384
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_187/r001.json",
+      "configuration_sha256": "42408b611147615645829e79f01ed57feede37a2a8b4d4562e8d1782e8fff364",
+      "emitter_id": "SUR810_187",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_187/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__42408b61",
+      "seed": 1244357305
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_188/r001.json",
+      "configuration_sha256": "64614b65b581e5f9b71319e9a0e9fc73198731d2b3223480c753bdf1ebbe2e00",
+      "emitter_id": "SUR810_188",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_188/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__64614b65",
+      "seed": 1174793700
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_189/r001.json",
+      "configuration_sha256": "70c829135c831ad7fd9b8b66cda2e847049ce228df8f8bbae50ababe6f4816a8",
+      "emitter_id": "SUR810_189",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_189/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__70c82913",
+      "seed": 1322845198
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_190/r001.json",
+      "configuration_sha256": "dce4b4ad882ba4e4c696af2f0418b660dac59c0313420fb747cc644620e6e938",
+      "emitter_id": "SUR810_190",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_190/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__dce4b4ad",
+      "seed": 1209330308
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_191/r001.json",
+      "configuration_sha256": "baad081c4cf5a25b98da4399e98f1f51dc64b394267af99e21547d7f9a9e6f77",
+      "emitter_id": "SUR810_191",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_191/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__baad081c",
+      "seed": 1306124835
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_192/r001.json",
+      "configuration_sha256": "fa115c9d69026379b6f4c214165635343426458fd3f7b7095c7a354bbec06d3e",
+      "emitter_id": "SUR810_192",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_192/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__fa115c9d",
+      "seed": 1689748492
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_193/r001.json",
+      "configuration_sha256": "3ddaf9dc5dbd7db2b4b0a9d8c6eeff043dfde85dc4d22dfd616bddb2802a05df",
+      "emitter_id": "SUR810_193",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_193/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__3ddaf9dc",
+      "seed": 1746633051
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_194/r001.json",
+      "configuration_sha256": "8101090c595d77cc1fb9bfbeeca9554dd293652931669d7801204b10e60c6d22",
+      "emitter_id": "SUR810_194",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_194/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__8101090c",
+      "seed": 2059970109
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_195/r001.json",
+      "configuration_sha256": "571c595518cbe78bb35df0cb35784f1be98582ceeb242be920f3fae097de6b02",
+      "emitter_id": "SUR810_195",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_195/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__571c5955",
+      "seed": 695155340
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_196/r001.json",
+      "configuration_sha256": "e653118e8ee673e010c6974e383df0f2a3461232b1d14104266b7135c8da1641",
+      "emitter_id": "SUR810_196",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_196/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__e653118e",
+      "seed": 707174702
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_197/r001.json",
+      "configuration_sha256": "05ba122b681408866bd88b485b293d89479a53b99986f0765ef7d6cf3b8271d7",
+      "emitter_id": "SUR810_197",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_197/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__05ba122b",
+      "seed": 842894494
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_198/r001.json",
+      "configuration_sha256": "7c83a533822ca76452a77e68cf68dc51b4e8c37ae357f0b0c850e7f47e2dd60c",
+      "emitter_id": "SUR810_198",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_198/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__7c83a533",
+      "seed": 2124127902
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_199/r001.json",
+      "configuration_sha256": "b185e8fea4218b491a21a5818304744acaff89452c0819b043c0e0bc10647bb2",
+      "emitter_id": "SUR810_199",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_199/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b185e8fe",
+      "seed": 890990648
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_200/r001.json",
+      "configuration_sha256": "0ea457a6b49d16b9d36589369f507e5b324220e14ca7b496fe1ed56d803bcb02",
+      "emitter_id": "SUR810_200",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_200/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__0ea457a6",
+      "seed": 1368177179
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_201/r001.json",
+      "configuration_sha256": "5db007ebb70b3558dc6d44dc94b7398e4897ea1f05437bc18287abb5c9d08551",
+      "emitter_id": "SUR810_201",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_201/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5db007eb",
+      "seed": 1686574534
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_202/r001.json",
+      "configuration_sha256": "b2442934cb5fe189bdd1fc76f8ff1338df602c280613a830703f99377ab77f44",
+      "emitter_id": "SUR810_202",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_202/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b2442934",
+      "seed": 460878717
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_203/r001.json",
+      "configuration_sha256": "a4bba3573cbfd0f1f2f2bc2ea5df0386bf9ff58d125cb7f0f55ac995ccc1fae1",
+      "emitter_id": "SUR810_203",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_203/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__a4bba357",
+      "seed": 718922755
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_204/r001.json",
+      "configuration_sha256": "424dc75150eb13dccaf0b571ee50bb1f08c64f8276a38f00519c2dd40208454d",
+      "emitter_id": "SUR810_204",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_204/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__424dc751",
+      "seed": 2095193241
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_205/r001.json",
+      "configuration_sha256": "2f75ed32fdd4a1fbaf75aec810def3b6fd743da5b6e7d449173fd9859fcd9201",
+      "emitter_id": "SUR810_205",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_205/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__2f75ed32",
+      "seed": 726236753
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_206/r001.json",
+      "configuration_sha256": "63c842dfc02497026c0ba62ce8cce5c13b5e57969358c4abbd8cd0ac91d27214",
+      "emitter_id": "SUR810_206",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_206/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__63c842df",
+      "seed": 118053281
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_207/r001.json",
+      "configuration_sha256": "79e542ba2fa6d1ebb074127b864607cfd62b9e49be019eafd2c67204ebf5a757",
+      "emitter_id": "SUR810_207",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_207/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__79e542ba",
+      "seed": 1884991326
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_208/r001.json",
+      "configuration_sha256": "81920b011ed6cb04180c4ea1eeb633f1844dc339cd8d893efab9dc7eca64ea56",
+      "emitter_id": "SUR810_208",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_208/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__81920b01",
+      "seed": 314604028
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_209/r001.json",
+      "configuration_sha256": "00c6ead9ce2cb1922c2e4fa0b06b277ccae06de5fe82fabafccc524e3f089279",
+      "emitter_id": "SUR810_209",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_209/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__00c6ead9",
+      "seed": 276739267
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_210/r001.json",
+      "configuration_sha256": "1c62b1c553358eb774122cc9ae3d656802b5f186b7f061e7b2602471e0b2a865",
+      "emitter_id": "SUR810_210",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_210/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__1c62b1c5",
+      "seed": 1202319303
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_211/r001.json",
+      "configuration_sha256": "c06986c4d1fb868c5a7689a4fb285114b7d92962c65cbfea6410b724f4c9c9da",
+      "emitter_id": "SUR810_211",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_211/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c06986c4",
+      "seed": 1409972361
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_212/r001.json",
+      "configuration_sha256": "625e2d70f7d4ede3c520166947d5f408d236bc43f0eba0a1d92d919283222eda",
+      "emitter_id": "SUR810_212",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_212/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__625e2d70",
+      "seed": 575862930
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_213/r001.json",
+      "configuration_sha256": "436a42519a48b0854d2f8bbbb0a82d9c2027abad7e0c5ffd91f252b8b488001c",
+      "emitter_id": "SUR810_213",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_213/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__436a4251",
+      "seed": 719717006
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_214/r001.json",
+      "configuration_sha256": "fcd426b5b4f3831b8d4ad605dfccf14b1103edb9b214c723b25dcecffcd5f652",
+      "emitter_id": "SUR810_214",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_214/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__fcd426b5",
+      "seed": 405048686
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_215/r001.json",
+      "configuration_sha256": "cc02ce01252b773e1ead5de102ef5f7b8c43e947cddc2a2ea20ad92b18a8acde",
+      "emitter_id": "SUR810_215",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_215/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__cc02ce01",
+      "seed": 845234758
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_216/r001.json",
+      "configuration_sha256": "000d4f04f13db5467b8d03e93a31fe8db3494830424997064f5b1fa644c90614",
+      "emitter_id": "SUR810_216",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_216/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__000d4f04",
+      "seed": 509697227
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_217/r001.json",
+      "configuration_sha256": "0342cff78fe7b01607bcf022be283051ec0de8e06477f7ccb191f69b0dac13a4",
+      "emitter_id": "SUR810_217",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_217/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__0342cff7",
+      "seed": 1338766896
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_218/r001.json",
+      "configuration_sha256": "563636b5485e0c738d33c78c976a7dbd1a89d72b383c25d561108f9bad43c88c",
+      "emitter_id": "SUR810_218",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_218/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__563636b5",
+      "seed": 1225722352
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_219/r001.json",
+      "configuration_sha256": "ce40461179888883af5ec5834014f3e4c472ebb0212d6d489824a9ce0a8fc528",
+      "emitter_id": "SUR810_219",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_219/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ce404611",
+      "seed": 879010915
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_220/r001.json",
+      "configuration_sha256": "9e5639edb4960e9423810c3ca8d009f8f0b4ab032afe348933d147cfa89617fe",
+      "emitter_id": "SUR810_220",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_220/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__9e5639ed",
+      "seed": 1061923181
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_221/r001.json",
+      "configuration_sha256": "a40a90a0a780e0c953bed6c38e91aa93033cbe214dcdcd77009d1d66397875d1",
+      "emitter_id": "SUR810_221",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_221/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__a40a90a0",
+      "seed": 1568854867
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_222/r001.json",
+      "configuration_sha256": "5b6e26c67091223e67612edf2819a52bef15c9aa90528950ad72509a8766ed83",
+      "emitter_id": "SUR810_222",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_222/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__5b6e26c6",
+      "seed": 1942765312
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_223/r001.json",
+      "configuration_sha256": "10004a4b19a88cdf56d23549630f1fe4301d354a55501abf56cfa0a6346cbb12",
+      "emitter_id": "SUR810_223",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_223/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__10004a4b",
+      "seed": 643388526
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_224/r001.json",
+      "configuration_sha256": "118a48be5887d4b4e7ba86f37639930e64ff8e7e25f28199585ec88258fdfd60",
+      "emitter_id": "SUR810_224",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_224/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__118a48be",
+      "seed": 228196965
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_225/r001.json",
+      "configuration_sha256": "45e98fa69e29449a321945fec35bc5dc4357c6b295ef47b504fd944025138660",
+      "emitter_id": "SUR810_225",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_225/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__45e98fa6",
+      "seed": 1503506300
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_226/r001.json",
+      "configuration_sha256": "dae33aae3cd2962b3286275a14a29a976fdef29a81f8c48575987c30f4eeddc5",
+      "emitter_id": "SUR810_226",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_226/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__dae33aae",
+      "seed": 594454012
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_227/r001.json",
+      "configuration_sha256": "f350b3777f0e05299cadfe9d71f6209bad73eeb17d98dd22fad9b3e08e036a49",
+      "emitter_id": "SUR810_227",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_227/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f350b377",
+      "seed": 2010694723
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_228/r001.json",
+      "configuration_sha256": "d3b42571b8ea54b43363a611cc96c3c5fb36f5bf112a8911e2e848dbc1c3e602",
+      "emitter_id": "SUR810_228",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_228/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d3b42571",
+      "seed": 1117892148
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_229/r001.json",
+      "configuration_sha256": "710243ad0590a372f56507a05dada3abd723c0a07fb1b90658af016002c0bcdd",
+      "emitter_id": "SUR810_229",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_229/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__710243ad",
+      "seed": 1955496069
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_230/r001.json",
+      "configuration_sha256": "a1b4de4a34a207483d9e37dbbb10e2e9deb329ad895837c9a0c4107ebd92e6e1",
+      "emitter_id": "SUR810_230",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_230/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__a1b4de4a",
+      "seed": 864274080
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_231/r001.json",
+      "configuration_sha256": "f4a0120bcaa05ecd99cf200aa277ec6a64f80d1ab3a3ae902e7896e71db6b2a4",
+      "emitter_id": "SUR810_231",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_231/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f4a0120b",
+      "seed": 685055832
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_232/r001.json",
+      "configuration_sha256": "6ef4a5ff9522345bccf977397bc9ba9632da104437e56756b7d6b4c9d81af69e",
+      "emitter_id": "SUR810_232",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_232/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6ef4a5ff",
+      "seed": 856995863
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_233/r001.json",
+      "configuration_sha256": "c575206633543e0a75af7851a3ab44b564805f91ded6dd3e8e9741b26193de8e",
+      "emitter_id": "SUR810_233",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_233/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__c5752066",
+      "seed": 114152559
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_234/r001.json",
+      "configuration_sha256": "12d748f1230cd999e9cc8a7bf87198e68d90b9e7201a9cf1252820c9803b1bef",
+      "emitter_id": "SUR810_234",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_234/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__12d748f1",
+      "seed": 141309527
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_235/r001.json",
+      "configuration_sha256": "56bdd09fb903312a108fbd65a1b73d75390061abbcbca15bb2ae654acfb78141",
+      "emitter_id": "SUR810_235",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_235/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__56bdd09f",
+      "seed": 1521710307
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_236/r001.json",
+      "configuration_sha256": "7c1c4be65695415839deace5ada720145cf773699fde0ba6c8855974f5fac5f8",
+      "emitter_id": "SUR810_236",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_236/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__7c1c4be6",
+      "seed": 62368840
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_237/r001.json",
+      "configuration_sha256": "0d05ac39a5e820aa1a2c779571519ae4fe866a2ac51567dc8b77b0a3a638a73b",
+      "emitter_id": "SUR810_237",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_237/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__0d05ac39",
+      "seed": 1021797987
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_238/r001.json",
+      "configuration_sha256": "990c1639d012def08d465af216820b3776a102009ed3a0ba66870b7b171c081f",
+      "emitter_id": "SUR810_238",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_238/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__990c1639",
+      "seed": 416882418
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_239/r001.json",
+      "configuration_sha256": "f77ebef32ce68ee48728c4272144a791035f30a260612ae9e31a07eb5f55f0f2",
+      "emitter_id": "SUR810_239",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_239/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f77ebef3",
+      "seed": 1243878072
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_240/r001.json",
+      "configuration_sha256": "303b1d2462b6c80f9757d43495de8fe4e876660a50b52bd9f0abfb765000c9e4",
+      "emitter_id": "SUR810_240",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_240/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__303b1d24",
+      "seed": 749906189
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_241/r001.json",
+      "configuration_sha256": "14cab879d645656f7babd34d3f3db3d0199c23457208309c45ad0612b1035ce2",
+      "emitter_id": "SUR810_241",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_241/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__14cab879",
+      "seed": 1469626409
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_242/r001.json",
+      "configuration_sha256": "ee911e3012bd9266ea4a0384eb2993564736e03f0ab9b730e45eb75caae45642",
+      "emitter_id": "SUR810_242",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_242/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ee911e30",
+      "seed": 369254326
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_243/r001.json",
+      "configuration_sha256": "1efc2ccc775e01b82cff3e6271a2b1b1c433e5a96c836b7fa7b9366e57a8efa1",
+      "emitter_id": "SUR810_243",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_243/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__1efc2ccc",
+      "seed": 357305072
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_244/r001.json",
+      "configuration_sha256": "b25a1e63d59216d4c9904efddd636b4af9d29834a13a2a66725221fad00be0f8",
+      "emitter_id": "SUR810_244",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_244/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b25a1e63",
+      "seed": 396325338
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_245/r001.json",
+      "configuration_sha256": "77f3c7e7af4443f55357f4e10c09fccb09d59fe22ef9a23f7725851e5bb05b13",
+      "emitter_id": "SUR810_245",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_245/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__77f3c7e7",
+      "seed": 82300354
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_246/r001.json",
+      "configuration_sha256": "d89b53061691177c83399fb515376c509982590584091be520c4f8eeea5b29a8",
+      "emitter_id": "SUR810_246",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_246/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d89b5306",
+      "seed": 83739816
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_247/r001.json",
+      "configuration_sha256": "daecccbb4b2e4666cd0b9a73b6ac09c01dd57445b7a0b6493064012c3575309d",
+      "emitter_id": "SUR810_247",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_247/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__daecccbb",
+      "seed": 159135486
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_248/r001.json",
+      "configuration_sha256": "e1bf26cbbcfb4e25035ea27e51e9597463a0ca1af94763ab2df0330694ec2c43",
+      "emitter_id": "SUR810_248",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_248/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__e1bf26cb",
+      "seed": 1434980212
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_249/r001.json",
+      "configuration_sha256": "6a62e2f84e679e7a544bc4de09a60c55730a07dbb5a89b08dcef2bcb706413f2",
+      "emitter_id": "SUR810_249",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_249/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6a62e2f8",
+      "seed": 1973697614
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_250/r001.json",
+      "configuration_sha256": "fdfbd23287e647bae206f31b24c9238a29f231e5a964914e3d5b211295364d32",
+      "emitter_id": "SUR810_250",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_250/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__fdfbd232",
+      "seed": 1573990378
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_251/r001.json",
+      "configuration_sha256": "a8671bebcfa8922cfb273f1bd39b6e6385abe601002bff8f5c8b5903d26a5b32",
+      "emitter_id": "SUR810_251",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_251/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__a8671beb",
+      "seed": 1572381061
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_252/r001.json",
+      "configuration_sha256": "9810212f6fda1426d4bf8517540969e6432adbaf0a0d77332ec0bc4803080c27",
+      "emitter_id": "SUR810_252",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_252/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__9810212f",
+      "seed": 1928601216
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_253/r001.json",
+      "configuration_sha256": "4ac207df18191091380bf9d1b6412f9dc438d58e55ec5de77646dc611d36702b",
+      "emitter_id": "SUR810_253",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_253/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__4ac207df",
+      "seed": 2137955113
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_254/r001.json",
+      "configuration_sha256": "802603ee9ba27f7f109a375caa5ac212475d3698f03ba207d32148e7630670d5",
+      "emitter_id": "SUR810_254",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_254/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__802603ee",
+      "seed": 1785964867
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_255/r001.json",
+      "configuration_sha256": "f7057f056ea58f8855e3662a7941b447e92d5d3d04645028baaf990a9bb72377",
+      "emitter_id": "SUR810_255",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_255/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__f7057f05",
+      "seed": 841757835
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_256/r001.json",
+      "configuration_sha256": "0d558e0d25733d055834fb9716e576f7e0e55630b12431959d6b38d4865f4ca7",
+      "emitter_id": "SUR810_256",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_256/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__0d558e0d",
+      "seed": 219858398
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_257/r001.json",
+      "configuration_sha256": "aa385c39d635bb606042a1a878b67d83607f25d52132431e4f70eff5bade6345",
+      "emitter_id": "SUR810_257",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_257/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__aa385c39",
+      "seed": 1487895301
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_258/r001.json",
+      "configuration_sha256": "224b0183aaba97407c7d28f295862854e13d370f8e27812df70acf5076a3f0f6",
+      "emitter_id": "SUR810_258",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_258/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__224b0183",
+      "seed": 1752793144
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_259/r001.json",
+      "configuration_sha256": "52fc89d20d558770f6e9bfdd698f83ae7d83312baeb7511ef6773964e9f09600",
+      "emitter_id": "SUR810_259",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_259/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__52fc89d2",
+      "seed": 1629499310
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_260/r001.json",
+      "configuration_sha256": "096bde04b92584b0d81c69699e2f39df32b0b3dc0013ef1fa8e697d1f697d68b",
+      "emitter_id": "SUR810_260",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_260/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__096bde04",
+      "seed": 322917980
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_261/r001.json",
+      "configuration_sha256": "388825f67ce00346e591aeef7069bfda69e9afc79d97714f99b27b862a7d4549",
+      "emitter_id": "SUR810_261",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_261/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__388825f6",
+      "seed": 1976481570
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_262/r001.json",
+      "configuration_sha256": "79c56fc970613614f80c3084cc7c155decfdc83fb3e3a7dc20feb088ffeca503",
+      "emitter_id": "SUR810_262",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_262/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__79c56fc9",
+      "seed": 2042605183
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_263/r001.json",
+      "configuration_sha256": "6538a1d4d06080ae1ff1be6ba56cd7604db2ecebb5786697b798a0eda2c03751",
+      "emitter_id": "SUR810_263",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_263/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__6538a1d4",
+      "seed": 1072075275
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_264/r001.json",
+      "configuration_sha256": "0e4dd01ae76c113b844ae9f7753e8ae3d80fae2121ba03dacb082c7ccda779e5",
+      "emitter_id": "SUR810_264",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_264/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__0e4dd01a",
+      "seed": 687215464
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_265/r001.json",
+      "configuration_sha256": "55e7cefd229595e5a54cf7855fe9dd589164dc6d6f169b67ebf66c12a8cba1a4",
+      "emitter_id": "SUR810_265",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_265/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__55e7cefd",
+      "seed": 1256984340
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_266/r001.json",
+      "configuration_sha256": "cd086a091811388c03b4e87dda2940fd21d02749b01488dc864e22154b81ae91",
+      "emitter_id": "SUR810_266",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_266/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__cd086a09",
+      "seed": 431410785
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_267/r001.json",
+      "configuration_sha256": "220a29de568e8687b63777b661dc86902dbc21fafad2bf516dbbd6a45f9f5dac",
+      "emitter_id": "SUR810_267",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_267/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__220a29de",
+      "seed": 1210127784
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_268/r001.json",
+      "configuration_sha256": "d3f74704f2faf378ba4fd78b51be79d0d7aea9dc05cae77afdcd3cbcb962087d",
+      "emitter_id": "SUR810_268",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_268/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__d3f74704",
+      "seed": 1115700621
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_269/r001.json",
+      "configuration_sha256": "1709cff2013c052f1342fa6a63211594cf6abcc8284af2de50eea76183f7d9fe",
+      "emitter_id": "SUR810_269",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_269/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__1709cff2",
+      "seed": 851097638
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_270/r001.json",
+      "configuration_sha256": "b8dbd0e43e7236fb9d3d0738ab7b67908ee0283f059868ce2d2e9af28763fb5b",
+      "emitter_id": "SUR810_270",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_270/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b8dbd0e4",
+      "seed": 1491149097
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_271/r001.json",
+      "configuration_sha256": "01b2cc8ed2f9fb18eb2f375f54f018daaa7b6ec52e87e96bf8c353b7da8153d8",
+      "emitter_id": "SUR810_271",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_271/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__01b2cc8e",
+      "seed": 779735160
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_272/r001.json",
+      "configuration_sha256": "df64431ad49d0f12f5eb16f45104e73cd35f4907d86e3040c5b7350c3b7e05d6",
+      "emitter_id": "SUR810_272",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_272/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__df64431a",
+      "seed": 1462303926
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_273/r001.json",
+      "configuration_sha256": "fe4a6591088da87d4c35b476d76c5e9fb99cb65cd07b4f9a4ee6dea3db748f6a",
+      "emitter_id": "SUR810_273",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_273/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__fe4a6591",
+      "seed": 935055257
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_274/r001.json",
+      "configuration_sha256": "8602e5a1e026ddf1eefe127e62f7824f18957e2b90dc617ae2824b11d9b51871",
+      "emitter_id": "SUR810_274",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_274/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__8602e5a1",
+      "seed": 1448016767
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_275/r001.json",
+      "configuration_sha256": "ffb20cebc0879e3c1838f90a25321540e18f0a571eb2b51a4757b33b0f4194cf",
+      "emitter_id": "SUR810_275",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_275/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__ffb20ceb",
+      "seed": 649685959
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_276/r001.json",
+      "configuration_sha256": "1e281e648bde0da9fd6dc3dc049910c8db115e58501b25dc454a59329125ec9a",
+      "emitter_id": "SUR810_276",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_276/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__1e281e64",
+      "seed": 55116409
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_277/r001.json",
+      "configuration_sha256": "b0701b8f8ed5c9422fdef20a7c92ba4c4bb4afd010dc69ed89a03a6777fd414e",
+      "emitter_id": "SUR810_277",
+      "manifest_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/sur810_277/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__b0701b8f",
+      "seed": 2130554794
+    }
+  ]
+}

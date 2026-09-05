@@ -1,0 +1,39 @@
+{
+  "accepted": true,
+  "landmark_residual_mm": 0.0,
+  "matrix_4x4": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "method": "Identity transform because the software-only donor coordinates were already generated directly in the accepted Colin27 frame.",
+  "provenance": "Accepted only for this numerical scaffold. It does not register, fit, or validate the target 1070-nm helmet and must not cross the hardware gate.",
+  "ray_hit_fraction": 1.0,
+  "registration_id": "provisional_1070_direct_colin27_v1",
+  "source_frame": "colin27_talairach_ras_mm",
+  "synthetic_test_only": false,
+  "target_frame": "colin27_talairach_ras_mm",
+  "transform_name": "T_colin27_talairach_ras_mm_from_colin27_talairach_ras_mm",
+  "units": "mm"
+}

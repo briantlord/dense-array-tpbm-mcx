@@ -1,0 +1,25 @@
+{
+  "manifest_id": "surrogate_yue277_810_windows_rtx3080ti_opencl_interpretation_v1",
+  "created_at": "2026-08-24T23:19:30Z",
+  "derivation": "Human-readable interpretation and wavelength comparison derived from the completed full-basis result, with the targeted marrow endpoints propagated only as an explicitly approximate relative band.",
+  "inputs": [
+    {
+      "path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/result_summary.json",
+      "sha256": "9995f86c0424b3da5fac58cfc007039cd4eee2aa68943f3a195d18836e62e40c"
+    },
+    {
+      "path": "results/surrogate_yue277_810_dura_marrow_sensitivity_analysis_v2/result.json",
+      "sha256": "4f4068fcfd126b5d54bfbdd945bf91ce8c062b90c49509042a655584e30559cc"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/report.md",
+      "sha256": "dd8217147e3f1315184de7b84bd122cfa8394492fd3adc69f684c796e1bafc14"
+    },
+    {
+      "path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/wavelength_comparison.csv",
+      "sha256": "22fa334f05760fea1c9ba7bb476915360130ea1854c2aa4b83c329bf21f1b169"
+    }
+  ]
+}

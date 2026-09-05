@@ -1,0 +1,44 @@
+{
+  "all_thresholds_pass": true,
+  "checks": {
+    "profile_median_change": true,
+    "tissue_integral_change": true
+  },
+  "current_integrals": [
+    0.07769829201240733,
+    0.0029536264235984736,
+    0.08065191843600578
+  ],
+  "emitter_id": "SUR1070_011",
+  "execution_status": "complete",
+  "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+  "index_sha256": "f1510d0e5f3240cb1bf5b0ff4d824b8a71d16e5ff8707ea3bcd92d9bb74c4107",
+  "integral_names": [
+    "gray_matter",
+    "white_matter",
+    "brain_total"
+  ],
+  "integral_symmetric_relative_change": [
+    0.0008526561165697631,
+    0.0003269677060290502,
+    0.0008333995345699949
+  ],
+  "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/sur1070_011/r001/manifest.json",
+  "manifest_sha256": "f1a4e9e2091302f3455697fb1b261c1b64933d1ef704abf37a4aaa9bca3e3764",
+  "profile_maximum_symmetric_relative_change": 0.10095096865316908,
+  "profile_median_symmetric_relative_change": 0.020443845100122558,
+  "profile_valid_depth_count": 29,
+  "reference": "M4 Pro MCX-CL v2025.10 three-replicate 100M anterior mean",
+  "reference_integrals": [
+    0.07763207032064119,
+    0.0029526608409994465,
+    0.08058473116164062
+  ],
+  "reference_result_path": "results/surrogate_yue277_1070_v1/regional_convergence_v2/results.json",
+  "reference_result_sha256": "637d3daaa4fbbf8fe6009dea23dec1b4bd57b424699eb48ad52973d3dfb55db4",
+  "scientific_status": "backend_equivalence_only_not_target_hardware_validation",
+  "thresholds": {
+    "profile_median_symmetric_relative_change_max": 0.1,
+    "tissue_integral_symmetric_relative_change_max": 0.05
+  }
+}

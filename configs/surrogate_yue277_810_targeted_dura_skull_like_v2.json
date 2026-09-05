@@ -1,0 +1,20 @@
+{
+  "absorber_mua_mm-1": 1000,
+  "anatomy_path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "binary_path": ".local/windows/mcxcl-v2025.10/mcxcl/bin/mcxcl.exe",
+  "environment_path": "environment/windows_rtx3080ti_opencl_v1.json",
+  "optical_properties_path": "inputs/optical_properties/provisional_810_v1/central_in_vivo_skull.json",
+  "optical_overlay_paths": [
+    "inputs/optical_properties/provisional_810_v2/refined_primary_overlay.json",
+    "inputs/optical_properties/provisional_810_v2/dura_skull_like_overlay.json"
+  ],
+  "photon_count_per_replicate": 277000000,
+  "protocol_id": "surrogate_yue277_810_targeted_dura_skull_like_v2",
+  "replicates": 3,
+  "scientific_status": "provisional_810_refined_dura_marrow_sensitivity_yue_spatial_surrogate_not_target_hardware",
+  "stages": [
+    {"name": "reached_brain_parenchyma", "description": "First entry into gray or white matter", "target_labels": [2, 3]},
+    {"name": "reached_white_matter", "description": "First entry into white matter", "target_labels": [3]}
+  ]
+}

@@ -1,0 +1,368 @@
+{
+  "review_date": "2026-09-04",
+  "scope": "Workspace inventory and focused code/analysis review; no GPU runs; raw field rehash covers three named bases, not every historical field.",
+  "git_revision_at_review": "00f714dfc3557d9803c94645e62c79b59f3f4e01",
+  "git_at_start": {
+    "tracked_files": 7911,
+    "modified_tracked_files": 3,
+    "untracked_files": 3598
+  },
+  "inventory_exclusions": [
+    ".git",
+    ".local",
+    ".venv",
+    ".venv-win",
+    "__pycache__",
+    ".pytest_cache",
+    "tmp"
+  ],
+  "inventory": {
+    "[root]": [
+      15,
+      132946
+    ],
+    "benchmarks": [
+      53,
+      136683648
+    ],
+    "configs": [
+      2554,
+      4760932
+    ],
+    "environment": [
+      1,
+      1304
+    ],
+    "handoff": [
+      2,
+      6177
+    ],
+    "inputs": [
+      109,
+      1225260188
+    ],
+    "literature": [
+      27,
+      221773
+    ],
+    "references": [
+      21,
+      35668123
+    ],
+    "results": [
+      639,
+      6224928317
+    ],
+    "runs": [
+      14303,
+      88569076820
+    ],
+    "schemas": [
+      12,
+      34677
+    ],
+    "scripts": [
+      35,
+      372521
+    ],
+    "src": [
+      19,
+      183784
+    ],
+    "tests": [
+      24,
+      70910
+    ]
+  },
+  "basis_indices": [
+    {
+      "path": "runs/provisional_1070_representative_pilot_v1/prepared/index.json",
+      "rows": 5,
+      "statuses": {
+        "failed": 1,
+        "planned": 4
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/provisional_1070_representative_pilot_v2/prepared/index.json",
+      "rows": 5,
+      "statuses": {
+        "complete": 5
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_basis_v1/index.json",
+      "rows": 277,
+      "statuses": {
+        "planned": 277
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/index.json",
+      "rows": 277,
+      "statuses": {
+        "complete": 277
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+      "rows": 277,
+      "statuses": {
+        "complete": 277
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1/index.json",
+      "rows": 277,
+      "statuses": {
+        "complete": 277
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+      "rows": 277,
+      "statuses": {
+        "complete": 277
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/index.json",
+      "rows": 277,
+      "statuses": {
+        "complete": 277
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v2/index.json",
+      "rows": 277,
+      "statuses": {
+        "failed": 1,
+        "planned": 276
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/index.json",
+      "rows": 277,
+      "statuses": {
+        "complete": 277
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/synthetic_two_emitter_basis_v1/index.json",
+      "rows": 4,
+      "statuses": {
+        "planned": 4
+      },
+      "missing": []
+    },
+    {
+      "path": "runs/yue2015_850_277_pencil_basis_v2/index.json",
+      "rows": 277,
+      "statuses": {
+        "complete": 277
+      },
+      "missing": []
+    }
+  ],
+  "tests": {
+    "command": ".\\.venv-win\\Scripts\\python.exe -m pytest -q",
+    "passed": 108,
+    "failed": 1,
+    "duration_seconds": 18.35,
+    "failing_test": "tests/test_surrogate_analysis_result.py::test_result_manifest_matches_tracked_outputs_and_analyzer"
+  },
+  "optical_checks": {
+    "source_ledger_status": "valid_but_blocked",
+    "labels": 12,
+    "evidence_records": 59,
+    "unresolved_production_cells": 60,
+    "production_launch_allowed": false,
+    "freshness": "pass",
+    "independent_quantity_unit_wavelength_audit": "pass"
+  },
+  "result_manifest_audits": [
+    {
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/manifest.json",
+      "checked": 11,
+      "code_recorded": false,
+      "issues": []
+    },
+    {
+      "path": "results/surrogate_yue277_1070_water_counterfactual_v1/manifest.json",
+      "checked": 11,
+      "code_recorded": false,
+      "issues": []
+    },
+    {
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/result_manifest.json",
+      "checked": 28,
+      "code_recorded": true,
+      "issues": [
+        {
+          "kind": "code",
+          "path": "scripts/analyze_surrogate_1070_windows_basis.py",
+          "error": "checksum mismatch",
+          "expected": "646e5c5b9a7ee9c404a882ea6cc35545cd297181b999a9b3505d9e74e3c711c5",
+          "actual": "efa6c64cd9c7cb624cd950d984d130b5a869cd5340b65cf56ec86351043da0e3"
+        }
+      ]
+    },
+    {
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/manifest.json",
+      "checked": 15,
+      "code_recorded": false,
+      "issues": []
+    },
+    {
+      "path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/result_manifest.json",
+      "checked": 29,
+      "code_recorded": true,
+      "issues": []
+    }
+  ],
+  "basis_integrity": {
+    "bases": [
+      {
+        "index": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+        "sources": 277,
+        "unique_seeds": 277,
+        "scenarios": [
+          "provisional_1070_fat_abs_010_v1"
+        ],
+        "observed_engine_hashes": [
+          "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee"
+        ],
+        "references_checked": 3878,
+        "issues": [],
+        "mean_logged_absorbed_percent": 56.819912310469306
+      },
+      {
+        "index": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/index.json",
+        "sources": 277,
+        "unique_seeds": 277,
+        "scenarios": [
+          "provisional_810_in_vivo_skull_refined_dura_marrow_v2"
+        ],
+        "observed_engine_hashes": [
+          "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee"
+        ],
+        "references_checked": 3878,
+        "issues": [],
+        "mean_logged_absorbed_percent": 64.34446812274368
+      },
+      {
+        "index": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/index.json",
+        "sources": 277,
+        "unique_seeds": 277,
+        "scenarios": [
+          "provisional_1070_whole_head_water_term_at_810_v1"
+        ],
+        "observed_engine_hashes": [
+          "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee"
+        ],
+        "references_checked": 3878,
+        "issues": [],
+        "mean_logged_absorbed_percent": 49.897257111913355
+      }
+    ],
+    "numerical": [
+      {
+        "case": "corrected1070",
+        "finite": true,
+        "nonnegative": true,
+        "brain_fluence": 0.14150773171477074,
+        "gray_absorbed_percent": 1.1775797514082886,
+        "white_absorbed_percent": 0.036668497071276354,
+        "brain_absorbed_percent": 1.214248248479565,
+        "all_tissue_absorbed_percent": 56.81978816689194,
+        "difference_from_mean_engine_absorbed_percentage_points": -0.00012414357736645343
+      },
+      {
+        "case": "810",
+        "finite": true,
+        "nonnegative": true,
+        "brain_fluence": 0.32867138145090863,
+        "gray_absorbed_percent": 0.8269750669895095,
+        "white_absorbed_percent": 0.3065729178113993,
+        "brain_absorbed_percent": 1.133547984800909,
+        "all_tissue_absorbed_percent": 64.34432531434817,
+        "difference_from_mean_engine_absorbed_percentage_points": -0.0001428083955090642
+      },
+      {
+        "case": "water",
+        "finite": true,
+        "nonnegative": true,
+        "brain_fluence": 0.24943248136583177,
+        "gray_absorbed_percent": 1.8524173714937884,
+        "white_absorbed_percent": 0.06039130121980473,
+        "brain_absorbed_percent": 1.9128086727135931,
+        "all_tissue_absorbed_percent": 49.89714119576426,
+        "difference_from_mean_engine_absorbed_percentage_points": -0.00011591614909178816
+      }
+    ]
+  },
+  "isolated_probes": [
+    {
+      "case": "executor reports WRONG_ENGINE and zero SHA-256",
+      "result": "execute_basis_run returned complete; preflight passed",
+      "note": "Synthetic mock executor; no GPU launch"
+    },
+    {
+      "case": "engine source position [-10000,-10000,-10000] and direction [0,0,0] with updated configuration hashes",
+      "result": "preflight passed",
+      "note": "Synthetic copied fixture; no GPU launch"
+    },
+    {
+      "case": "targeted optical override absorption -1.0",
+      "result": "accepted"
+    },
+    {
+      "case": "targeted optical override absorption NaN",
+      "result": "accepted"
+    },
+    {
+      "case": "90-degree rotated affine with identity registration, position and normal [1,0,0]",
+      "actual": {
+        "position_voxels": [
+          0,
+          -1,
+          0
+        ],
+        "direction": [
+          1,
+          0,
+          0
+        ]
+      },
+      "expected_direction": [
+        0,
+        -1,
+        0
+      ]
+    },
+    {
+      "case": "Gaussian source rendering",
+      "result": "Type, Pos and Dir only; no source shape parameters"
+    }
+  ],
+  "historical_analyzer": {
+    "recorded_sha256": "646e5c5b9a7ee9c404a882ea6cc35545cd297181b999a9b3505d9e74e3c711c5",
+    "head_git_blob_matches_recorded_hash": true,
+    "working_sha256": "efa6c64cd9c7cb624cd950d984d130b5a869cd5340b65cf56ec86351043da0e3"
+  },
+  "verification_script_sha256": {
+    "workspace_review_audit.py": "6b6688ebc00f10a427b9869fc12ee97fe7d860bc6dbc87c105cca74e30678ae0",
+    "review_basis_integrity.py": "ae541c0ade7a1cdbda20b27c408129612b2c448426f771663fc5ed6ca4bb8c44"
+  },
+  "publication_note": "Device-specific inventory entry omitted; original local record retained."
+}

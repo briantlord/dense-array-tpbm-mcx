@@ -1,0 +1,21 @@
+{
+  "absorber_label_map": {
+    "3": 13
+  },
+  "completed_at": "2026-08-18T01:19:10.214405Z",
+  "elapsed_seconds": 43.1350840999512,
+  "energy_field_sha256": "cb7a8c168387e4163fb02e3cf10423b200d1482b79c6ae92f8ec0da1729bf863",
+  "energy_output_total_percent": 56.81615681176919,
+  "escaped_or_unabsorbed_percent": 43.18384318823081,
+  "input_sha256": "b2ec0b2096d59d36aa2aaa44657364a722cdd05465b68e8c38d6b20cdf3ac833",
+  "log_absorbed_energy_percent": 56.81657,
+  "log_sha256": "fb7c37680e26756f4826ca208ac90f91bea14de93d28a11a1258199ad9352578",
+  "photon_count": 277000000,
+  "replicate": 1,
+  "seed": 9152328,
+  "stage": "reached_white_matter",
+  "started_at": "2026-08-18T01:18:26.836995Z",
+  "target_capture_percent": 0.1764970047482589,
+  "upstream_native_tissue_absorption_percent": 56.639659807020934,
+  "volume_sha256": "254d6e8716d3bd76a8ba3f85af12a65f0f367250880207cb48a681d8949c79c3"
+}

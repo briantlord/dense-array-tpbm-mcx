@@ -1,0 +1,61 @@
+{
+  "created_at": "2026-08-17T23:57:48.497935Z",
+  "inputs": [
+    {
+      "path": "inputs/fat_absorption_bracket_v1/protocol.json",
+      "sha256": "caa1971afbffc38b5088e0941912f79f9692e9db304ec89cb1c7fdaedd6505c0"
+    },
+    {
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/total_fluence_constant_total.npy",
+      "sha256": "6446bce6350a11d791e6eba41cd2d95a3243c24b881d9a2fd0de3d65f2105f01"
+    }
+  ],
+  "outputs": [
+    {
+      "bytes": 924,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/comparison.csv",
+      "sha256": "de8430478ae6b7500aeba6f2f3ac4f8c6256a4050ab3ec909f804d9168d08315"
+    },
+    {
+      "bytes": 5356,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_005065/summary.json",
+      "sha256": "21aa1ecd31d5eab4fb700d118c96853fb27a2a4c4b4d9fe9bda8e11dfbe26051"
+    },
+    {
+      "bytes": 56873224,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_005065/total_fluence_constant_total.npy",
+      "sha256": "3c716eb18c217bea8e296a8dd85683cf6bbd0011cf5e09e2944d20bdc2cd991b"
+    },
+    {
+      "bytes": 5354,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_010/summary.json",
+      "sha256": "0f18fb3597625acea7e0a6f57710b1ac2c4f0f00575888680a47cf6208e2ee99"
+    },
+    {
+      "bytes": 56873224,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_010/total_fluence_constant_total.npy",
+      "sha256": "ca216e69d30475ad81307f19f77ca25972d5e0056a1d7c17938d07050681fc85"
+    },
+    {
+      "bytes": 5334,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_030/summary.json",
+      "sha256": "673c1ee96ee239023f38f9adafa9b6f5344c2c0387f25a0f14c8229248e58788"
+    },
+    {
+      "bytes": 56873224,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_030/total_fluence_constant_total.npy",
+      "sha256": "4d50b6ddac5e8fcf7e297419afd5e9ed4b602149a28de488b7c1915abcd26076"
+    },
+    {
+      "bytes": 24690,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/result.json",
+      "sha256": "de424187ea3d97d74d3e2cd4b1251bef28f2ee1165f560fb21388b16841d037e"
+    },
+    {
+      "bytes": 5916,
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/tissue_absorption_by_case.csv",
+      "sha256": "045a0bb7a38da85e7a6dfcbc9b3313fbc450a36343af7f117a542929d69f9e98"
+    }
+  ],
+  "result_id": "surrogate_yue277_1070_fat_absorption_bracket_v1"
+}

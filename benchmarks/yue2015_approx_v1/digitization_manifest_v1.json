@@ -1,0 +1,293 @@
+{
+  "calibrations": {
+    "fig2b": {
+      "image_object": {
+        "height_px": 629,
+        "pdf_page": 5,
+        "width_px": 1339
+      },
+      "x_axis": {
+        "pass_1": [
+          [
+            846.0,
+            0.0
+          ],
+          [
+            1315.0,
+            120.0
+          ]
+        ],
+        "pass_2": [
+          [
+            845.0,
+            0.0
+          ],
+          [
+            1314.0,
+            120.0
+          ]
+        ],
+        "quantity": "penetration_depth_mm"
+      },
+      "y_axis": {
+        "pass_1": [
+          [
+            5.0,
+            0.0
+          ],
+          [
+            545.0,
+            -12.0
+          ]
+        ],
+        "pass_2": [
+          [
+            4.0,
+            0.0
+          ],
+          [
+            546.0,
+            -12.0
+          ]
+        ],
+        "quantity": "log10_normalized_photon_flux",
+        "scale": "log10"
+      }
+    },
+    "fig4": {
+      "image_object": {
+        "height_px": 725,
+        "pdf_page": 7,
+        "width_px": 846
+      },
+      "x_axis": {
+        "pass_1": [
+          [
+            163.0,
+            0.0
+          ],
+          [
+            734.0,
+            100.0
+          ]
+        ],
+        "pass_2": [
+          [
+            164.0,
+            0.0
+          ],
+          [
+            733.0,
+            100.0
+          ]
+        ],
+        "quantity": "penetration_depth_mm"
+      },
+      "y_axis": {
+        "pass_1": [
+          [
+            621.0,
+            0.0
+          ],
+          [
+            67.0,
+            100.0
+          ]
+        ],
+        "pass_2": [
+          [
+            620.0,
+            0.0
+          ],
+          [
+            68.0,
+            100.0
+          ]
+        ],
+        "quantity": "gain",
+        "scale": "linear"
+      }
+    },
+    "fig5a": {
+      "image_object": {
+        "height_px": 655,
+        "pdf_page": 7,
+        "width_px": 1455
+      },
+      "x_axis": {
+        "pass_1": [
+          [
+            119.0,
+            0.0
+          ],
+          [
+            521.0,
+            80.0
+          ]
+        ],
+        "pass_2": [
+          [
+            118.0,
+            0.0
+          ],
+          [
+            522.0,
+            80.0
+          ]
+        ],
+        "quantity": "penetration_depth_mm"
+      },
+      "y_axis": {
+        "pass_1": [
+          [
+            512.0,
+            0.0
+          ],
+          [
+            85.0,
+            45.0
+          ]
+        ],
+        "pass_2": [
+          [
+            513.0,
+            0.0
+          ],
+          [
+            84.0,
+            45.0
+          ]
+        ],
+        "quantity": "gain",
+        "scale": "linear"
+      }
+    },
+    "fig5b": {
+      "image_object": {
+        "height_px": 655,
+        "pdf_page": 7,
+        "width_px": 1455
+      },
+      "x_axis": {
+        "pass_1": [
+          [
+            853.0,
+            1.0
+          ],
+          [
+            1405.0,
+            277.0
+          ]
+        ],
+        "pass_2": [
+          [
+            852.0,
+            1.0
+          ],
+          [
+            1406.0,
+            277.0
+          ]
+        ],
+        "quantity": "number_of_sources"
+      },
+      "y_axis": {
+        "pass_1": [
+          [
+            554.0,
+            0.0
+          ],
+          [
+            44.0,
+            50.0
+          ]
+        ],
+        "pass_2": [
+          [
+            553.0,
+            0.0
+          ],
+          [
+            45.0,
+            50.0
+          ]
+        ],
+        "quantity": "flux_uniformity_sd_over_mean",
+        "scale": "linear"
+      }
+    },
+    "fig6c": {
+      "image_object": {
+        "height_px": 823,
+        "pdf_page": 7,
+        "width_px": 1000
+      },
+      "x_axis": {
+        "pass_1": [
+          [
+            204.0,
+            0.0
+          ],
+          [
+            831.0,
+            100.0
+          ]
+        ],
+        "pass_2": [
+          [
+            203.0,
+            0.0
+          ],
+          [
+            832.0,
+            100.0
+          ]
+        ],
+        "quantity": "penetration_depth_mm"
+      },
+      "y_axis": {
+        "pass_1": [
+          [
+            763.0,
+            0.0
+          ],
+          [
+            497.0,
+            120.0
+          ]
+        ],
+        "pass_2": [
+          [
+            762.0,
+            0.0
+          ],
+          [
+            496.0,
+            120.0
+          ]
+        ],
+        "quantity": "gain",
+        "scale": "linear"
+      }
+    }
+  },
+  "digitization_id": "yue2015_figures_2b_4_5a_5b_6c_v1",
+  "digitization_rule": "Two separate pixel-center and two-point axis calibrations on the publisher's embedded 300-ppi figure objects. Point uncertainty combines half the between-pass axis-value difference and one-pixel axis resolution in quadrature.",
+  "figures": [
+    "2b",
+    "4",
+    "5a",
+    "5b",
+    "6c"
+  ],
+  "generation_script": "scripts/digitize_yue_figures.py",
+  "output_csv": "literature/yue2015_figure_digitization_v1.csv",
+  "output_csv_sha256": "2156714790a4261b3eaa06e63002b244c4ed79e1b7c83ba7f95cd42bce2cdb34",
+  "pdf_path": "references/papers/Yue_Humayun_2015_distributed_NIR_emitter_array.pdf",
+  "pdf_sha256": "b75300275301a060a234288b3ca780a64242f29d05e5861776b707c5d49306fd",
+  "point_count": 39,
+  "review_status": "single_operator_two_pass_complete",
+  "scientific_status": "benchmark_digitization",
+  "source_extraction": "Poppler pdfimages extraction of embedded page-5/page-7 figure objects; temporary PNGs are not project evidence and are not committed.",
+  "status_note": "Digitized points are paper-comparison targets with image-resolution uncertainty, not source numerical data supplied by the authors."
+}

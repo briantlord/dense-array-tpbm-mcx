@@ -1,0 +1,18 @@
+{
+  "scenario_id": "provisional_1070_whole_head_water_term_at_810_v1",
+  "scientific_status": "provisional_counterfactual_component_isolation",
+  "base_path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+  "overrides": [
+    {"tissue_id": 1, "mua_mm-1": 0.0019858, "citation": "Hale and Querry 1973; CSF water fraction 1.0", "conversion": "baseline minus 1.0 * 0.0105142 mm^-1", "notes": "Water term only."},
+    {"tissue_id": 2, "mua_mm-1": 0.0801196146, "citation": "Hale and Querry 1973; Oros-Peusquens et al. 2019", "conversion": "baseline minus 0.837 * 0.0105142 mm^-1", "notes": "Water term only."},
+    {"tissue_id": 3, "mua_mm-1": 0.0331346878, "citation": "Hale and Querry 1973; Oros-Peusquens et al. 2019", "conversion": "baseline minus 0.691 * 0.0105142 mm^-1", "notes": "Water term only."},
+    {"tissue_id": 4, "mua_mm-1": 0.00838817314, "citation": "Hale and Querry 1973; Wang et al. 1999", "conversion": "baseline minus 0.1533 * 0.0105142 mm^-1", "notes": "Systemic adipose proxy."},
+    {"tissue_id": 5, "mua_mm-1": 0.0216073263933, "citation": "Hale and Querry 1973; Wang et al. 1999", "conversion": "baseline minus 0.7857 * 0.0105142 mm^-1", "notes": "Systemic skeletal-muscle proxy."},
+    {"tissue_id": 6, "mua_mm-1": 0.01031506, "citation": "Hale and Querry 1973; midpoint of Wang et al. 1999 skin and muscle fractions", "conversion": "baseline minus assumed 0.700 * 0.0105142 mm^-1", "notes": "Low-confidence composite-label assumption."},
+    {"tissue_id": 7, "mua_mm-1": 0.014912586, "citation": "Hale and Querry 1973; Wang et al. 1999", "conversion": "baseline minus 0.170 * 0.0105142 mm^-1", "notes": "Systemic bone proxy."},
+    {"tissue_id": 9, "mua_mm-1": 0.00838817314, "citation": "Hale and Querry 1973; Wang et al. 1999", "conversion": "baseline minus 0.1533 * 0.0105142 mm^-1", "notes": "Shared adipose proxy."},
+    {"tissue_id": 10, "mua_mm-1": 0.06285006, "citation": "Hale and Querry 1973; project assumption", "conversion": "baseline minus assumed 0.700 * 0.0105142 mm^-1", "notes": "Low-confidence dura water-fraction assumption."},
+    {"tissue_id": 11, "mua_mm-1": 0.00505483984, "citation": "Hale and Querry 1973; project fatty-marrow assumption", "conversion": "baseline minus assumed 0.1533 * 0.0105142 mm^-1", "notes": "Low-confidence cranial-marrow composition assumption."},
+    {"tissue_id": 12, "mua_mm-1": 0.4182550912, "citation": "Hale and Querry 1973; Wang et al. 1999", "conversion": "baseline minus 0.800 * 0.0105142 mm^-1", "notes": "Whole-blood proxy."}
+  ]
+}

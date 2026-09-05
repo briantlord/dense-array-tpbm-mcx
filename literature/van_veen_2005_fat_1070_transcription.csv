@@ -1,0 +1,2 @@
+record_id,quantity,wavelength_nm,original_value,original_unit,target_value_mm-1,source_doi,data_url,data_processing,tissue_interpretation,scenario_role
+van_veen_2005_fat_mua_exact_1070,mua,1070,5.065,m^-1,0.005065,10.1117/1.2085149,https://omlc.org/spectra/fat/fat.txt,"Scott Prahl whole-nanometer, three-significant-digit processing of the Van Veen spectrum",purified mammalian lipid rather than vascularized human adipose tissue,sensitivity_only

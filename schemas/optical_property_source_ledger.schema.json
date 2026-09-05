@@ -1,0 +1,179 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mcx-project/optical_property_source_ledger.schema.json",
+  "title": "1070-nm optical-property source ledger",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "ledger_id",
+    "target_wavelength_nm",
+    "target_coefficient_unit",
+    "anatomy_id",
+    "compilation_date",
+    "status",
+    "decision_rules",
+    "coverage",
+    "evidence_records"
+  ],
+  "properties": {
+    "ledger_id": {"type": "string", "minLength": 1},
+    "target_wavelength_nm": {"const": 1070.0},
+    "target_coefficient_unit": {"const": "mm^-1"},
+    "anatomy_id": {"type": "string", "minLength": 1},
+    "compilation_date": {"type": "string", "format": "date"},
+    "status": {"enum": ["blocked", "review_ready", "frozen"]},
+    "decision_rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "coverage": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/coverageEntry"}
+    },
+    "evidence_records": {
+      "type": "array",
+      "minItems": 1,
+      "items": {"$ref": "#/$defs/evidenceRecord"}
+    }
+  },
+  "$defs": {
+    "valueOrTBD": {
+      "oneOf": [
+        {"type": "number"},
+        {"const": "TBD"}
+      ]
+    },
+    "quantityStatus": {
+      "enum": [
+        "candidate_exact_1070",
+        "candidate_spectral_model_1070",
+        "identified_not_acquired",
+        "neighboring_wavelength_only",
+        "conflicted",
+        "not_found",
+        "not_applicable"
+      ]
+    },
+    "coverageEntry": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "tissue_id",
+        "tissue_name",
+        "mua_status",
+        "mus_or_musp_status",
+        "g_status",
+        "n_status",
+        "production_status",
+        "candidate_record_ids",
+        "blocking_reason"
+      ],
+      "properties": {
+        "tissue_id": {"type": "integer", "minimum": 0},
+        "tissue_name": {"type": "string", "minLength": 1},
+        "mua_status": {"$ref": "#/$defs/quantityStatus"},
+        "mus_or_musp_status": {"$ref": "#/$defs/quantityStatus"},
+        "g_status": {"$ref": "#/$defs/quantityStatus"},
+        "n_status": {"$ref": "#/$defs/quantityStatus"},
+        "production_status": {"enum": ["TBD", "candidate", "frozen"]},
+        "candidate_record_ids": {
+          "type": "array",
+          "items": {"type": "string", "minLength": 1}
+        },
+        "blocking_reason": {"type": "string", "minLength": 1}
+      }
+    },
+    "evidenceRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "record_id",
+        "tissue_ids",
+        "tissue_names",
+        "quantity",
+        "evidence_status",
+        "source_kind",
+        "source",
+        "measurement_context",
+        "original",
+        "target_value_1070",
+        "target_unit",
+        "transformation",
+        "scenario_role",
+        "conflict_group",
+        "review_status",
+        "notes"
+      ],
+      "properties": {
+        "record_id": {"type": "string", "minLength": 1},
+        "tissue_ids": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "integer", "minimum": 0}
+        },
+        "tissue_names": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "minLength": 1}
+        },
+        "quantity": {"enum": ["mua", "mus", "musp", "g", "n", "multi_quantity_table", "composite_mapping"]},
+        "evidence_status": {"$ref": "#/$defs/quantityStatus"},
+        "source_kind": {
+          "enum": [
+            "direct_measurement",
+            "reported_table",
+            "spectral_model",
+            "secondary_transcription",
+            "simulation_assumption",
+            "gap_record"
+          ]
+        },
+        "source": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["title", "citation", "locator", "primary_source", "data_location"],
+          "properties": {
+            "title": {"type": "string", "minLength": 1},
+            "citation": {"type": "string", "minLength": 1},
+            "locator": {"type": "string", "minLength": 1},
+            "primary_source": {"type": "boolean"},
+            "data_location": {"type": "string", "minLength": 1}
+          }
+        },
+        "measurement_context": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["species", "state", "temperature", "sample_count", "tissue_definition", "method"],
+          "properties": {
+            "species": {"type": "string", "minLength": 1},
+            "state": {"type": "string", "minLength": 1},
+            "temperature": {"type": "string", "minLength": 1},
+            "sample_count": {"type": "string", "minLength": 1},
+            "tissue_definition": {"type": "string", "minLength": 1},
+            "method": {"type": "string", "minLength": 1}
+          }
+        },
+        "original": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["value", "uncertainty", "unit", "wavelength_or_range_nm"],
+          "properties": {
+            "value": {"$ref": "#/$defs/valueOrTBD"},
+            "uncertainty": {"type": "string", "minLength": 1},
+            "unit": {"type": "string", "minLength": 1},
+            "wavelength_or_range_nm": {"type": "string", "minLength": 1}
+          }
+        },
+        "target_value_1070": {"$ref": "#/$defs/valueOrTBD"},
+        "target_unit": {"enum": ["mm^-1", "dimensionless", "not_applicable"]},
+        "transformation": {"type": "string", "minLength": 1},
+        "scenario_role": {"enum": ["nominal_candidate", "sensitivity_candidate", "context_only", "excluded"]},
+        "conflict_group": {"type": "string"},
+        "review_status": {"enum": ["single_reviewed", "needs_primary_data", "needs_independent_audit"]},
+        "notes": {"type": "string"}
+      }
+    }
+  }
+}

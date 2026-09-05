@@ -1,0 +1,17 @@
+{
+  "scenario_id": "provisional_810_dura_skull_like_marrow_primary_v2",
+  "scientific_status": "provisional",
+  "overrides": [
+    {
+      "tissue_id": 10,
+      "mua_mm-1": 0.011,
+      "source_musp_mm-1": 1.92,
+      "mus_mm-1": 17.454545454545457,
+      "g": 0.89,
+      "n": 1.37,
+      "citation": "Cassano et al. 2019 Table 1, 810-nm skull row",
+      "conversion": "Skull musp converted with mus=musp/(1-g) and assigned to dura as the previous project proxy.",
+      "notes": "One-at-a-time comparison against the exact-810 Shapey dura row."
+    }
+  ]
+}

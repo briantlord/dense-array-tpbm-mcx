@@ -1,0 +1,19 @@
+{
+  "depth_mm": 60.0,
+  "digitized_yue_value": 1.2110702385598619e-06,
+  "energy_vs_mua_times_fluence": {
+    "median_relative_error_after_scaling": 7.98881722954279e-07,
+    "p95_relative_error_after_scaling": 6.537419946158748e-06,
+    "scale_factor": 0.9999999443654981
+  },
+  "existing_baseline": {
+    "absorbed_proxy_normalized_depth0": 2.2544112888732906e-07,
+    "absorbed_proxy_normalized_depth0_over_yue": 0.18615033357223876,
+    "absorbed_proxy_normalized_peak_0_20": 1.2591451496885752e-07,
+    "absorbed_proxy_normalized_peak_0_20_over_yue": 0.1039696220415656,
+    "fluence_normalized_depth0": 7.514704296244302e-08,
+    "fluence_normalized_depth0_over_yue": 0.06205011119074626,
+    "fluence_normalized_peak_0_20": 4.197150498961918e-08,
+    "fluence_normalized_peak_0_20_over_yue": 0.03465654068052187
+  }
+}

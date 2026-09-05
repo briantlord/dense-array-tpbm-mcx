@@ -1,0 +1,73 @@
+{
+  "analysis_id": "yue2015_850_multisource_1e8_v2",
+  "basis_index": "runs/yue2015_850_277_pencil_basis_v2/index.json",
+  "basis_index_sha256": "260fa1b04cfffca99843b416d29706884e54920ca1592a0162dfdf7c6778a4a7",
+  "density_tiers": [
+    13,
+    53,
+    105,
+    181,
+    229,
+    277
+  ],
+  "depth_grid_mm": {
+    "start": 0,
+    "step": 1,
+    "stop": 100
+  },
+  "fig4_direct_comparison": {
+    "inside_digitization_interval_count": 1,
+    "maximum_headline_relative_error_depth40_60": 1.9718429552056227,
+    "median_absolute_relative_error": 1.3240020561371617,
+    "point_count": 11,
+    "spearman_r": 0.9636363636363637
+  },
+  "frozen_acceptance_evaluation": {
+    "density_order_pass": true,
+    "density_order_required": true,
+    "headline_relative_error_max": 0.25,
+    "headline_relative_error_pass": false,
+    "profile_spearman_min": 0.95,
+    "profile_spearman_pass": true,
+    "uniformity_exact_scalar_gate_applicable": false,
+    "uniformity_exact_scalar_gate_reason": "paper_spatial_mask_not_reported",
+    "uniformity_order_by_declared_metric": {
+      "depth40_shell_sd_over_mean": false,
+      "intracranial_raw_field_sd_over_mean": true,
+      "median_five_axis_sd_over_mean_depth20_60": false,
+      "whole_head_raw_field_sd_over_mean": true
+    },
+    "uniformity_order_required": true
+  },
+  "generation_script": "scripts/analyze_yue_basis.py",
+  "generation_script_sha256": "1d264af435f83a1d79a6af794aa8891c7dea5cb7105198eff9ec4e6843236a48",
+  "input_sha256": {
+    "inputs/anatomy/colin27_2008/derived/yue5_1mm_v1/colin27_labels_yue5_1mm_v1.nii": "e213a2cc47d64e76f19bfe5fad809949b42573f2410400738d0cd4154444fbff",
+    "inputs/emitters/yue2015_approx_v1/density_tiers.json": "abbd7e820e430476a8b160f4ed75eabf36d02a11ab1b7dfce1f065e5c8c6eeb1",
+    "inputs/emitters/yue2015_approx_v1/emitter_geometry.json": "021b851c1b6e706746b439b8de8bd1b26f4e3a6feb37c0fcb2ec5d2ba6d3d06f",
+    "literature/yue2015_figure_digitization_v1.csv": "2156714790a4261b3eaa06e63002b244c4ed79e1b7c83ba7f95cd42bce2cdb34"
+  },
+  "outputs": {
+    "discrepancy_report.md": "a170b89b4c291d686c45b0e8100e08ba01c541939a746f96d2c2aa100dcae99d",
+    "north_reference_source_enhancement.png": "ab2be78c1ef45f3f983b664e47ca0879bca2be43a3ff3b69126603fb588db441",
+    "north_single_vs_total_depth_curves.png": "c1acfce753d055efe69cff81971c58e11e2e27f82ea72e4cbe07e56f90a81f1a",
+    "north_total_field_depth_curves.png": "1db8bc2ba63f9279c16bc307a330db9370421348c8c2102f22e2195a94022eae",
+    "paper_comparison.csv": "3232014b7721e940fd0edc25dc421ed5ad6243b41f4e06fb60acd5f51f4753ce",
+    "regional_total_field_depth_curves.png": "4412db8cdaa20e3c57b114e8d71c5018a6b2c24ab479d44709901a9f5eca5e77",
+    "single_source_depth_curves.csv": "a8c0bbf1e0887841d02c52c2353951bc706664e2ecdf89bed17c16c2e745ca52",
+    "single_source_depth_curves.png": "1a3931f880024f997a129c3eddbba0772d706f717259ed11ea1c0db3a5037b65",
+    "total_field_depth_curves.csv": "eaf78575cef17e257ddf80f0ee7c634bdb49a3465247040cacf64f2403a607db",
+    "uniformity_metrics.csv": "b66fce2f642c40223d1ba1849853cd12ce9bc7d366abf204ab80b08fe08186e7"
+  },
+  "photon_count_per_source": 100000000,
+  "reference_source": "YUE277",
+  "regional_coordinate_status": "deterministic_directional_surrogates_paper_coordinates_unreported",
+  "regional_sources": {
+    "frontal": "YUE011",
+    "north_pole": "YUE277",
+    "occipital": "YUE031",
+    "parietal": "YUE206",
+    "temporal": "YUE041"
+  },
+  "uniformity_status": "trend_only_paper_spatial_mask_unreported"
+}

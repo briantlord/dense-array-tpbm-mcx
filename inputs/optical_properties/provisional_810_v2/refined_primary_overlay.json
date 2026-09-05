@@ -1,0 +1,29 @@
+{
+  "scenario_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2",
+  "scientific_status": "provisional",
+  "base_path": "inputs/optical_properties/provisional_810_v1/central_in_vivo_skull.json",
+  "overrides": [
+    {
+      "tissue_id": 10,
+      "mua_mm-1": 0.05682,
+      "source_musp_mm-1": 3.5592848440517302,
+      "mus_mm-1": 23.728565627011536,
+      "g": 0.85,
+      "n": 1.4,
+      "citation": "Shapey et al. 2022 Table S1, Dura!D43 and E43",
+      "conversion": "Exact 810-nm revised mua and model-fitted musp; mus=musp/(1-0.85).",
+      "notes": "Ex vivo post-mortem human dura from one donor; g and n were fixed IAD inputs."
+    },
+    {
+      "tissue_id": 11,
+      "mua_mm-1": 0.01,
+      "source_musp_mm-1": 1.1843333333,
+      "mus_mm-1": 10.766666666363637,
+      "g": 0.89,
+      "n": 1.37,
+      "citation": "Kothuri et al. 2025 Zenodo record 14170681, Bone Constituents, 810-nm frozen bone marrow row",
+      "conversion": "Arithmetic mean of three exact 810-nm cm^-1 replicates divided by 10; mus=musp/(1-0.89).",
+      "notes": "Human frozen tibial marrow from one 89-year-old donor; provisional cranial proxy with notable boundary effects."
+    }
+  ]
+}

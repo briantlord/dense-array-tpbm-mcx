@@ -1,0 +1,250 @@
+{
+  "all_checks_passed": true,
+  "basis_set_id": "provisional_1070_representative_pilot_v2",
+  "completed_runs": 5,
+  "index_path": "runs/provisional_1070_representative_pilot_v2/prepared/index.json",
+  "latest_completed_at": "2026-08-14T17:36:18Z",
+  "note": "Software and placement QC for 100,000-photon provisional runs. Values are not convergence-qualified, calibrated device dose, or efficacy.",
+  "predecessor_attempt": {
+    "basis_set_id": "provisional_1070_representative_pilot_v1",
+    "disposition": "Superior run failed when the restricted process exposed no OpenCL device; preserved as immutable failure evidence. Remaining v1 runs were not launched."
+  },
+  "records": [
+    {
+      "absorbed_energy_percent": 64.83802,
+      "checks": {
+        "finite": true,
+        "gray_matter_reached": true,
+        "nonnegative": true,
+        "nonuniform": true,
+        "source_inside_labeled_tissue": true,
+        "white_matter_reached": true
+      },
+      "emitter_id": "P1070_SUPERIOR",
+      "field_maximum": 0.8364788889884949,
+      "field_sum": 20.6049547145343,
+      "gray_matter_positive_fraction": 0.1443481005199376,
+      "gray_matter_sum": 0.013505411501564023,
+      "maximum_distance_from_source_mm": 0.9743259206069342,
+      "maximum_voxel": [
+        99,
+        90,
+        173
+      ],
+      "positive_voxels": 592879,
+      "run_id": "provisional_1070_v1__20260814t173600z__23f19b02",
+      "source_tissue_id": 6,
+      "source_tissue_name": "skin_and_muscles",
+      "source_voxel": [
+        99.3513491258251,
+        90.62426379717326,
+        173.6604237298033
+      ],
+      "tissue_sums": {
+        "background_air": 0.0,
+        "cerebrospinal_fluid": 0.055945324977520576,
+        "dura": 0.00779424171114366,
+        "fat": 0.2620719912045521,
+        "fat_2": 1.286311029780917,
+        "gray_matter": 0.013505411501564023,
+        "marrow": 0.013241326717534412,
+        "muscles": 12.098299965822369,
+        "skin_and_muscles": 6.550524958981597,
+        "skull": 0.3045106731739566,
+        "vessels": 0.009381876027489947,
+        "white_matter": 0.003367914635658835
+      },
+      "white_matter_positive_fraction": 0.13768671336094196,
+      "white_matter_sum": 0.003367914635658835
+    },
+    {
+      "absorbed_energy_percent": 68.71448,
+      "checks": {
+        "finite": true,
+        "gray_matter_reached": true,
+        "nonnegative": true,
+        "nonuniform": true,
+        "source_inside_labeled_tissue": true,
+        "white_matter_reached": true
+      },
+      "emitter_id": "P1070_ANTERIOR",
+      "field_maximum": 0.6732124090194702,
+      "field_sum": 18.96995430130707,
+      "gray_matter_positive_fraction": 0.11538400078300245,
+      "gray_matter_sum": 0.07782471331805174,
+      "maximum_distance_from_source_mm": 1.3453425665134087,
+      "maximum_voxel": [
+        90,
+        213,
+        80
+      ],
+      "positive_voxels": 433513,
+      "run_id": "provisional_1070_v1__20260814t173600z__a46166d7",
+      "source_tissue_id": 6,
+      "source_tissue_name": "skin_and_muscles",
+      "source_voxel": [
+        90.96201950157774,
+        213.63087735721953,
+        80.69746602784988
+      ],
+      "tissue_sums": {
+        "background_air": 0.0,
+        "cerebrospinal_fluid": 0.1940237741365811,
+        "dura": 0.0022596619669923356,
+        "fat": 1.2441451733711262,
+        "fat_2": 1.3202009714748175,
+        "gray_matter": 0.07782471331805174,
+        "marrow": 0.9095799559596383,
+        "muscles": 10.944624609828148,
+        "skin_and_muscles": 2.293161979373149,
+        "skull": 1.964508041373391,
+        "vessels": 0.0166196566320534,
+        "white_matter": 0.003005763873119358
+      },
+      "white_matter_positive_fraction": 0.10115497306519768,
+      "white_matter_sum": 0.003005763873119358
+    },
+    {
+      "absorbed_energy_percent": 55.41327,
+      "checks": {
+        "finite": true,
+        "gray_matter_reached": true,
+        "nonnegative": true,
+        "nonuniform": true,
+        "source_inside_labeled_tissue": true,
+        "white_matter_reached": true
+      },
+      "emitter_id": "P1070_POSTERIOR",
+      "field_maximum": 0.6924655437469482,
+      "field_sum": 21.888313757246376,
+      "gray_matter_positive_fraction": 0.14813227947594765,
+      "gray_matter_sum": 0.12679258145592734,
+      "maximum_distance_from_source_mm": 1.2478012432527434,
+      "maximum_voxel": [
+        90,
+        9,
+        80
+      ],
+      "positive_voxels": 417769,
+      "run_id": "provisional_1070_v1__20260814t173600z__fe890e83",
+      "source_tissue_id": 6,
+      "source_tissue_name": "skin_and_muscles",
+      "source_voxel": [
+        90.96201950157773,
+        9.380877357219532,
+        80.69746602784988
+      ],
+      "tissue_sums": {
+        "background_air": 0.0,
+        "cerebrospinal_fluid": 0.11405662762901456,
+        "dura": 0.0481166603816574,
+        "fat": 0.00015317975538290253,
+        "fat_2": 0.8320137027351645,
+        "gray_matter": 0.12679258145592734,
+        "marrow": 0.6421328859476976,
+        "muscles": 7.458380325141586,
+        "skin_and_muscles": 10.709236574016538,
+        "skull": 1.9378768066106289,
+        "vessels": 0.007384872541798188,
+        "white_matter": 0.012169541030977244
+      },
+      "white_matter_positive_fraction": 0.08073728460353313,
+      "white_matter_sum": 0.012169541030977244
+    },
+    {
+      "absorbed_energy_percent": 48.97187,
+      "checks": {
+        "finite": true,
+        "gray_matter_reached": true,
+        "nonnegative": true,
+        "nonuniform": true,
+        "source_inside_labeled_tissue": true,
+        "white_matter_reached": true
+      },
+      "emitter_id": "P1070_LEFT_TEMPORAL",
+      "field_maximum": 0.8088104724884033,
+      "field_sum": 15.761148336255527,
+      "gray_matter_positive_fraction": 0.12147623927116853,
+      "gray_matter_sum": 0.02993165882145296,
+      "maximum_distance_from_source_mm": 0.9573845255052083,
+      "maximum_voxel": [
+        5,
+        91,
+        88
+      ],
+      "positive_voxels": 393898,
+      "run_id": "provisional_1070_v1__20260814t173600z__dd79a064",
+      "source_tissue_id": 6,
+      "source_tissue_name": "skin_and_muscles",
+      "source_voxel": [
+        5.380911011934373,
+        91.77107889871945,
+        88.42062960263581
+      ],
+      "tissue_sums": {
+        "background_air": 0.0,
+        "cerebrospinal_fluid": 0.025861938963895128,
+        "dura": 0.00026148540646938364,
+        "fat": 0.01429299612192792,
+        "fat_2": 1.870319879658676,
+        "gray_matter": 0.02993165882145296,
+        "marrow": 1.71669169202418e-05,
+        "muscles": 3.971978423746885,
+        "skin_and_muscles": 9.661459063652472,
+        "skull": 0.18633630856205713,
+        "vessels": 0.00014991596677019762,
+        "white_matter": 0.0005394984379989867
+      },
+      "white_matter_positive_fraction": 0.09312526439189474,
+      "white_matter_sum": 0.0005394984379989867
+    },
+    {
+      "absorbed_energy_percent": 69.10593,
+      "checks": {
+        "finite": true,
+        "gray_matter_reached": true,
+        "nonnegative": true,
+        "nonuniform": true,
+        "source_inside_labeled_tissue": true,
+        "white_matter_reached": true
+      },
+      "emitter_id": "P1070_RIGHT_TEMPORAL",
+      "field_maximum": 0.49198898673057556,
+      "field_sum": 23.05327960082123,
+      "gray_matter_positive_fraction": 0.1533396452918981,
+      "gray_matter_sum": 0.13388191582548398,
+      "maximum_distance_from_source_mm": 1.3560294808538262,
+      "maximum_voxel": [
+        176,
+        91,
+        72
+      ],
+      "positive_voxels": 492383,
+      "run_id": "provisional_1070_v1__20260814t173600z__2a2c1ec8",
+      "source_tissue_id": 6,
+      "source_tissue_name": "skin_and_muscles",
+      "source_voxel": [
+        176.54312799122113,
+        91.77107889871942,
+        72.97430245306396
+      ],
+      "tissue_sums": {
+        "background_air": 0.0,
+        "cerebrospinal_fluid": 0.13904234344322877,
+        "dura": 0.0008627627459663734,
+        "fat": 0.010462089329701272,
+        "fat_2": 1.381593936593586,
+        "gray_matter": 0.13388191582548398,
+        "marrow": 8.287076594615704e-06,
+        "muscles": 12.798979252897286,
+        "skin_and_muscles": 8.041197679680277,
+        "skull": 0.544599817290645,
+        "vessels": 0.000931239348859139,
+        "white_matter": 0.0017202765895979859
+      },
+      "white_matter_positive_fraction": 0.09644860221566262,
+      "white_matter_sum": 0.0017202765895979859
+    }
+  ],
+  "scientific_status": "provisional"
+}

@@ -1,0 +1,144 @@
+{
+  "code": {
+    "dirty": true,
+    "repository": "MCX Project",
+    "revision": "00f714dfc3557d9803c94645e62c79b59f3f4e01"
+  },
+  "created_at": "2026-08-25T00:18:04Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "binding_version": "MCXCL Revision 12544350; v2025.10",
+    "build": "official Windows MCX-CL v2025.10 binary; executable_sha256=15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "configuration_sha256": "93c9cd4bfe89fe67d5ed61df7d14f98b485358f5e47fcafb2f6a09b2467b2d22",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "family": "MCX",
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "runtime": "Windows-10-10.0.19045-SP0"
+  },
+  "error": null,
+  "execution": {
+    "photon_count": 100000000,
+    "replicate": 1,
+    "seed": 1634930110,
+    "time_gates_s": {
+      "end": 5e-09,
+      "start": 0.0,
+      "step": 5e-09
+    }
+  },
+  "grid": {
+    "coordinate_frame": "colin27_talairach_ras_mm",
+    "shape_voxels": [
+      181,
+      217,
+      181
+    ],
+    "voxel_size_mm": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "inputs": {
+    "analysis_configuration": {
+      "artifact_id": "surrogate_yue277_1070_v1_analysis_v2",
+      "id_field": "analysis_id",
+      "path": "inputs/fat_absorption_bracket_v1/analysis.json",
+      "schema_path": "schemas/analysis_configuration.schema.json",
+      "sha256": "ff8708b86bc5d5e28bd9c2473ee9685fff47a89d21a2aee392d0b3c92a152b4c"
+    },
+    "anatomy": {
+      "artifact_id": "colin27_2008_native12_1mm_v3",
+      "id_field": "anatomy_id",
+      "path": "inputs/fat_absorption_bracket_v1/anatomy_metadata.json",
+      "schema_path": "schemas/anatomy_metadata.schema.json",
+      "sha256": "b7c2e3b0a7519bb2c8328fadc5563b3da67ca35c414c47dff5de5264403aa6e3"
+    },
+    "calibration": {
+      "artifact_id": "surrogate_yue277_1070_unit_source_v1",
+      "id_field": "calibration_id",
+      "path": "inputs/fat_absorption_bracket_v1/calibration.json",
+      "schema_path": "schemas/calibration.schema.json",
+      "sha256": "c87b668673d52bfac053eb9c23ef22cdef5ea20c0573e597e2e0922280692afe"
+    },
+    "emitter_geometry": {
+      "artifact_id": "surrogate_yue277_1070_v1",
+      "id_field": "geometry_id",
+      "path": "inputs/fat_absorption_bracket_v1/emitter_geometry.json",
+      "schema_path": "schemas/emitter_geometry.schema.json",
+      "sha256": "e36fb1e6111c02c343020350719e4b39de34830d9b42b0b352e87a09b8aad9b6"
+    },
+    "engine_configuration": {
+      "artifact_id": "surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1__sur1070_145__r001",
+      "id_field": "configuration_id",
+      "path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/sur1070_145/r001.json",
+      "schema_path": "schemas/engine_configuration.schema.json",
+      "sha256": "93c9cd4bfe89fe67d5ed61df7d14f98b485358f5e47fcafb2f6a09b2467b2d22"
+    },
+    "optical_properties": {
+      "artifact_id": "provisional_1070_whole_head_water_term_at_810_v1",
+      "id_field": "scenario_id",
+      "path": "inputs/optical_properties/provisional_1070_water_sensitivity_v1/whole_head_water_to_810_effective.json",
+      "schema_path": "schemas/optical_properties.schema.json",
+      "sha256": "f57527f91b0a8de614f568cc2b4884d84227b618b79367928cd80ff10dcf9cee"
+    },
+    "registration": {
+      "artifact_id": "surrogate_yue277_1070_v1_direct_colin27_v1",
+      "id_field": "registration_id",
+      "path": "inputs/fat_absorption_bracket_v1/registration.json",
+      "schema_path": "schemas/registration.schema.json",
+      "sha256": "78066167fbd2e3d7fb824f4bfd25f161816058639a751b68a7e1b27c440151b3"
+    }
+  },
+  "manifest_version": "1.0.0",
+  "output_contract": {
+    "derivation": "standalone MCX-CL JNIfTI normalized field; Python validates and records the raw engine output without altering it",
+    "normalization": "normalized per launched energy through MCX isnormalize=1",
+    "quantity": "fluence",
+    "unit": "MCX normalized fluence units"
+  },
+  "outputs": [
+    {
+      "kind": "summary",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/sur1070_145/r001/summary.json",
+      "sha256": "666017f564fbd1bb52816cf47c6e979ebbab46e8c3a6199a77fcf829f35bade3"
+    },
+    {
+      "kind": "log",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/sur1070_145/r001/execution.json",
+      "sha256": "24efe3006af01dbeb6ba1504f790a8c7d19f2e491a43e1d848b69e2a71ef0869"
+    },
+    {
+      "kind": "qc",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/sur1070_145/r001/volume.uint8.bin",
+      "sha256": "3cf65394bd546a8bd69c6758c5aae59018c12685ce46a27b05b07b247bccadeb"
+    },
+    {
+      "kind": "qc",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/sur1070_145/r001/mcx_input.json",
+      "sha256": "72a8ee5cc1b6ff6a8085e885038280dff6f3c7c5575e85213b650b909f8a2ac5"
+    },
+    {
+      "kind": "log",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/sur1070_145/r001/mcxcl.log",
+      "sha256": "949330f9ebda42905e4a150bda6511f2536969193775dd76e22fe50b1a9ad491"
+    },
+    {
+      "kind": "fluence",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/sur1070_145/r001/mcx_field.jnii",
+      "sha256": "32a97dcd024dd8fb1a907b8b63f91028240b88125e83264a40ddfcbd231e0464"
+    }
+  ],
+  "run_id": "provisional_1070_whole_head_water_term_at_810_v1__20260825t001804z__93c9cd4b",
+  "scenario_id": "provisional_1070_whole_head_water_term_at_810_v1",
+  "scientific_status": "provisional",
+  "source": {
+    "emitter_id": "SUR1070_145",
+    "normalization": "unit launched-energy normalized basis field (MCX DoNormalize=true)",
+    "source_model": "pencil"
+  },
+  "stage": "pilot",
+  "status": "complete",
+  "wavelength_nm": 1070.0
+}

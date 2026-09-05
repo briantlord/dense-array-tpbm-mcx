@@ -1,0 +1,347 @@
+{
+  "code": {
+    "path": "scripts/analyze_surrogate_1070_windows_basis.py",
+    "sha256": "0ebd22ef27179c1850742f6c1b7ae98c555e75ee17c4741ee9c27310a11165de"
+  },
+  "created_at": "2026-09-04T23:11:53.330606Z",
+  "inputs": [
+    {
+      "kind": "basis_index",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+      "sha256": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b"
+    },
+    {
+      "kind": "post_run_inventory",
+      "path": "results/corrected_1070_overlap_20260904_v1_inventory.json",
+      "sha256": "69b1ad8aff9dcb562d2cf59752fde2ada705cedb6fe13353fa25d04189bd3a42"
+    },
+    {
+      "kind": "analysis_configuration",
+      "path": "configs/surrogate_yue277_1070_v1_analysis_v2.json",
+      "sha256": "ff8708b86bc5d5e28bd9c2473ee9685fff47a89d21a2aee392d0b3c92a152b4c"
+    },
+    {
+      "kind": "anatomy_metadata",
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/anatomy_metadata.json",
+      "sha256": "a445e71bc7a18648e1e7b0f90f6a192d6e7c771619c51c32020a3340a069de4c"
+    },
+    {
+      "kind": "anatomy_volume",
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/colin27_labels_native12_1mm_v3.nii",
+      "sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f"
+    },
+    {
+      "kind": "optical_properties",
+      "path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+      "sha256": "35fb2b89576e60df421f431632dad8dc80c1fba8bc0ec4ad2b76c1660adfbb8f"
+    },
+    {
+      "kind": "emitter_geometry",
+      "path": "inputs/emitters/surrogate_yue277_1070_v1/emitter_geometry.json",
+      "sha256": "e36fb1e6111c02c343020350719e4b39de34830d9b42b0b352e87a09b8aad9b6"
+    },
+    {
+      "kind": "convergence_protocol",
+      "path": "configs/surrogate_yue277_1070_v1_regional_convergence_extension_v2.json",
+      "sha256": "cbc2178c6f2131da7e96d9efcae5545551e5976d89c6f2e45bd2fefc91b2b885"
+    }
+  ],
+  "manifest_id": "corrected_1070_overlap_20260904_v1_manifest",
+  "outputs": [
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/total_fluence_constant_per_emitter.npy",
+      "sha256": "cfa93a14f7d9d439464999d42aa7c008fea1ca1e761c986e66be14f5fb5a42df"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/total_fluence_constant_total.npy",
+      "sha256": "ca216e69d30475ad81307f19f77ca25972d5e0056a1d7c17938d07050681fc85"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/absorbed_energy_density_constant_per_emitter.npy",
+      "sha256": "042eadf19196f536df41220241976b6a736cd4fb5c5f535a3e49c9cea9ba1141"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/absorbed_energy_density_constant_total.npy",
+      "sha256": "779f02ec55f45d8efc195eefe5b0e81c0a89716852075aeef6f64a4291fd3db3"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/dominant_contribution.npy",
+      "sha256": "07b402cd32796195abed62d5f9bc74c1e8f11056b5da55b3843e0c6757eb2964"
+    },
+    {
+      "bytes": 28436676,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/dominant_source_index.npy",
+      "sha256": "425ef74f77eab8cc6bfa8b3829c58b2f6b5ee32d37ab4c18e4d78812c7b955d0"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/ef_dom.npy",
+      "sha256": "f6e089d20a90762e6d3a40158bf19eb53285552cf97b2435e492dd1c9dc15fd9"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/ef_ref_sur1070_275.npy",
+      "sha256": "de32615b294d320b4a8c092e970a365723e2e194fc30676cf616dcfeac6aa85c"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/ncf.npy",
+      "sha256": "d8f53e824f50e278707b7183d25ac05b4715921bf01aa79b544cc9d947866648"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/corrected_1070_overlap_20260904_v1/n_eff.npy",
+      "sha256": "e52f6cfdff54633dfa3b89a75e8244be6dd4fa4af7e87b9dc52813a39d5b1a11"
+    },
+    {
+      "bytes": 724601,
+      "kind": "figure",
+      "path": "results/corrected_1070_overlap_20260904_v1/representative_five_region_field_qc.png",
+      "sha256": "103369a143f129e89baff122e8a335f979e9e1eaf8abd35e9aea27051af6822a"
+    },
+    {
+      "bytes": 512622,
+      "kind": "figure",
+      "path": "results/corrected_1070_overlap_20260904_v1/total_fluence_absorbed_energy_slices.png",
+      "sha256": "06586a6cd9ab6978279d5022a5e067aad093740f155d39a47652eb66a8d46d73"
+    },
+    {
+      "bytes": 971688,
+      "kind": "figure",
+      "path": "results/corrected_1070_overlap_20260904_v1/gray_white_matter_overlap_slices.png",
+      "sha256": "cd9a4b136a246fd8b993c63b8b4aab633932c6022b8c50345a6960a30970c7b7"
+    },
+    {
+      "bytes": 25331,
+      "kind": "figure",
+      "path": "results/corrected_1070_overlap_20260904_v1/gray_white_matter_metric_distributions.png",
+      "sha256": "e9f93aa895bad52eb467a7b8cce68aad2a408e714ec6d4e1b6f5be16bc387f3e"
+    },
+    {
+      "bytes": 47257,
+      "kind": "figure",
+      "path": "results/corrected_1070_overlap_20260904_v1/roi_top_contributors.png",
+      "sha256": "6887dd6c79f46c3cd9ff1254d02ab82c4c69a8ee33ede4467baeb30b9c11c8d9"
+    },
+    {
+      "bytes": 38313,
+      "kind": "table",
+      "path": "results/corrected_1070_overlap_20260904_v1/source_roi_contributions.csv",
+      "sha256": "53e945d57f7c63d5c3569f6b9569e11d766609e695c90d6056ac7aceb21ea6d7"
+    },
+    {
+      "bytes": 1150,
+      "kind": "table",
+      "path": "results/corrected_1070_overlap_20260904_v1/tissue_absorption.csv",
+      "sha256": "014f58c2493ff542c77d81843834776e526c6f450268ac1ef5ccc948a45ebe9b"
+    },
+    {
+      "bytes": 2256,
+      "kind": "table",
+      "path": "results/corrected_1070_overlap_20260904_v1/roi_metric_summary.csv",
+      "sha256": "839ace287088bba2de575c67baf31f7f6c433121be672d2dfb511ed8e49a9657"
+    },
+    {
+      "bytes": 22316,
+      "kind": "summary",
+      "path": "results/corrected_1070_overlap_20260904_v1/result_summary.json",
+      "sha256": "04c883a7833f930699a433f50edea186ebf84d710d7fa611226fd80719c1085e"
+    },
+    {
+      "bytes": 686,
+      "kind": "report",
+      "path": "results/corrected_1070_overlap_20260904_v1/analysis_qc.md",
+      "sha256": "c83984750b53a536bbfba5371d3ebcedd204bffaebcbd1b4835f196acad0db89"
+    }
+  ],
+  "provenance": {
+    "analysis_settings": {
+      "analysis_path": "configs/surrogate_yue277_1070_v1_analysis_v2.json",
+      "anatomy_metadata_path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/anatomy_metadata.json",
+      "convergence_protocol_path": "configs/surrogate_yue277_1070_v1_regional_convergence_extension_v2.json",
+      "geometry_path": "inputs/emitters/surrogate_yue277_1070_v1/emitter_geometry.json",
+      "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+      "inventory_path": "results/corrected_1070_overlap_20260904_v1_inventory.json",
+      "manifest_id": "corrected_1070_overlap_20260904_v1_manifest",
+      "optical_path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+      "output_dir": "results/corrected_1070_overlap_20260904_v1",
+      "regional_emitters": {
+        "anterior": "SUR1070_011",
+        "left temporal": "SUR1070_022",
+        "posterior": "SUR1070_031",
+        "right temporal": "SUR1070_040",
+        "superior": "SUR1070_275"
+      },
+      "result_id": "corrected_1070_overlap_20260904_v1",
+      "source_prefix": "SUR1070",
+      "wavelength_nm": 1070
+    },
+    "arguments": [
+      "--spec",
+      "configs/corrected_1070_overlap_20260904_v1.json"
+    ],
+    "contract_version": 1,
+    "entrypoint": "scripts/analyze_surrogate_1070_windows_basis.py",
+    "environment_lock": {
+      "path": "uv.lock",
+      "sha256": "f8f73fcc702c9353db049f3de51b34a4b92768c4c3d3dc4a788c7de48e02cec8"
+    },
+    "git_dirty": true,
+    "git_revision": "e183ac4fb7597231aab7f863d628d9ba2a460020",
+    "installed_versions": {
+      "jsonschema": "4.26.0",
+      "nibabel": "5.4.2",
+      "numpy": "2.5.2",
+      "pillow": "12.3.0",
+      "scipy": "1.18.0"
+    },
+    "sources": [
+      {
+        "path": "scripts/analyze_surrogate_1070_windows_basis.py",
+        "sha256": "0ebd22ef27179c1850742f6c1b7ae98c555e75ee17c4741ee9c27310a11165de",
+        "snapshot": "provenance/source_snapshots/0ebd22ef27179c1850742f6c1b7ae98c555e75ee17c4741ee9c27310a11165de/analyze_surrogate_1070_windows_basis.py"
+      },
+      {
+        "path": "src/mcx_project/__init__.py",
+        "sha256": "82c9a0fe292fa354bfc90ba1c0be019f578d00490c4eecb64488d99218bc05fb",
+        "snapshot": "provenance/source_snapshots/82c9a0fe292fa354bfc90ba1c0be019f578d00490c4eecb64488d99218bc05fb/__init__.py"
+      },
+      {
+        "path": "src/mcx_project/aggregate_inputs.py",
+        "sha256": "d2d7f17e3dff0408efda41e4694deb4763d3f89c7146c65365b49a10e6c2ebb4",
+        "snapshot": "provenance/source_snapshots/d2d7f17e3dff0408efda41e4694deb4763d3f89c7146c65365b49a10e6c2ebb4/aggregate_inputs.py"
+      },
+      {
+        "path": "src/mcx_project/aggregation.py",
+        "sha256": "a637647761e138ea517dd42590a047a8b9412f2031a420dea8c847550bcea852",
+        "snapshot": "provenance/source_snapshots/a637647761e138ea517dd42590a047a8b9412f2031a420dea8c847550bcea852/aggregation.py"
+      },
+      {
+        "path": "src/mcx_project/anatomy.py",
+        "sha256": "51d1081f11e1252bb67edaf085c0eea77f52de9eb5f77e9774478fd2c7d64260",
+        "snapshot": "provenance/source_snapshots/51d1081f11e1252bb67edaf085c0eea77f52de9eb5f77e9774478fd2c7d64260/anatomy.py"
+      },
+      {
+        "path": "src/mcx_project/artifact_restore.py",
+        "sha256": "a3699cb9094be39b1828ff5aa554e8496361bf9cf5cf5a2edfb31cdb1514f407",
+        "snapshot": "provenance/source_snapshots/a3699cb9094be39b1828ff5aa554e8496361bf9cf5cf5a2edfb31cdb1514f407/artifact_restore.py"
+      },
+      {
+        "path": "src/mcx_project/basis.py",
+        "sha256": "456f9e976278954f9e2df8920a8c67da205da9c18c8e34f0d012ef4bd2220eb9",
+        "snapshot": "provenance/source_snapshots/456f9e976278954f9e2df8920a8c67da205da9c18c8e34f0d012ef4bd2220eb9/basis.py"
+      },
+      {
+        "path": "src/mcx_project/benchmark.py",
+        "sha256": "85a769cb475bf4023de2b4d2ffed52dd04b6f521d2b2efd9ad21a4ef4279e115",
+        "snapshot": "provenance/source_snapshots/85a769cb475bf4023de2b4d2ffed52dd04b6f521d2b2efd9ad21a4ef4279e115/benchmark.py"
+      },
+      {
+        "path": "src/mcx_project/cli.py",
+        "sha256": "e599a2397ff30391c1fdeb780406e839a28904865745b7df11debf00cbf4c4f8",
+        "snapshot": "provenance/source_snapshots/e599a2397ff30391c1fdeb780406e839a28904865745b7df11debf00cbf4c4f8/cli.py"
+      },
+      {
+        "path": "src/mcx_project/engine_identity.py",
+        "sha256": "e13260a32437fc98b06e4923220fa7488f87f1ed2314207282170d424b42ea64",
+        "snapshot": "provenance/source_snapshots/e13260a32437fc98b06e4923220fa7488f87f1ed2314207282170d424b42ea64/engine_identity.py"
+      },
+      {
+        "path": "src/mcx_project/geometry.py",
+        "sha256": "18c066f08b48bca6dda6e41049622809cf8b5ee9ad174e679298ab6adc784c16",
+        "snapshot": "provenance/source_snapshots/18c066f08b48bca6dda6e41049622809cf8b5ee9ad174e679298ab6adc784c16/geometry.py"
+      },
+      {
+        "path": "src/mcx_project/hashing.py",
+        "sha256": "741939788131f5fd6d339acb9ac135edf1b156f5c69614420f2a5d3ff8532de1",
+        "snapshot": "provenance/source_snapshots/741939788131f5fd6d339acb9ac135edf1b156f5c69614420f2a5d3ff8532de1/hashing.py"
+      },
+      {
+        "path": "src/mcx_project/metrics.py",
+        "sha256": "50038d723bb047993ab1794d722da5bf4883637a43ae0151dbac327f6939d44f",
+        "snapshot": "provenance/source_snapshots/50038d723bb047993ab1794d722da5bf4883637a43ae0151dbac327f6939d44f/metrics.py"
+      },
+      {
+        "path": "src/mcx_project/optical_independent_audit.py",
+        "sha256": "19721cbd2e4ad96a25ecd8003e83429e28be2684e29de0e90b535f730dc0e4aa",
+        "snapshot": "provenance/source_snapshots/19721cbd2e4ad96a25ecd8003e83429e28be2684e29de0e90b535f730dc0e4aa/optical_independent_audit.py"
+      },
+      {
+        "path": "src/mcx_project/optical_ledger.py",
+        "sha256": "f5a17137ca25a416932f6063630b95058e84b0f2fb7a9a73cf223e87c90ca4c4",
+        "snapshot": "provenance/source_snapshots/f5a17137ca25a416932f6063630b95058e84b0f2fb7a9a73cf223e87c90ca4c4/optical_ledger.py"
+      },
+      {
+        "path": "src/mcx_project/optics.py",
+        "sha256": "95e17c1ef8926bfc0c8c2ca1a0e5ade0f95e4d9bc37f32e8d77e5699394da3e9",
+        "snapshot": "provenance/source_snapshots/95e17c1ef8926bfc0c8c2ca1a0e5ade0f95e4d9bc37f32e8d77e5699394da3e9/optics.py"
+      },
+      {
+        "path": "src/mcx_project/preflight.py",
+        "sha256": "cab2bf569ba9f4e772be62f4cbedb408dea2b13054c11d0fee14d56f73bf2e86",
+        "snapshot": "provenance/source_snapshots/cab2bf569ba9f4e772be62f4cbedb408dea2b13054c11d0fee14d56f73bf2e86/preflight.py"
+      },
+      {
+        "path": "src/mcx_project/provenance.py",
+        "sha256": "48b64a14a60feffaccd1c69cdc118ad0b0593e1da0cfa1ecec2fb57ab672413b",
+        "snapshot": "provenance/source_snapshots/48b64a14a60feffaccd1c69cdc118ad0b0593e1da0cfa1ecec2fb57ab672413b/provenance.py"
+      },
+      {
+        "path": "src/mcx_project/provisional_optics.py",
+        "sha256": "ab2e2932c50b2d7451438c4704be930246f79435f905022dd8117575b62231ee",
+        "snapshot": "provenance/source_snapshots/ab2e2932c50b2d7451438c4704be930246f79435f905022dd8117575b62231ee/provisional_optics.py"
+      },
+      {
+        "path": "src/mcx_project/provisional_pilot.py",
+        "sha256": "f2d66e9d8860b6b2f4150979d20ecbe8312144bfb8dff68db8d51ddb16598832",
+        "snapshot": "provenance/source_snapshots/f2d66e9d8860b6b2f4150979d20ecbe8312144bfb8dff68db8d51ddb16598832/provisional_pilot.py"
+      },
+      {
+        "path": "src/mcx_project/standalone.py",
+        "sha256": "67e5def5cf646517d4595f1570c31b3e015ad24af992bcef5deee993f0c57d79",
+        "snapshot": "provenance/source_snapshots/67e5def5cf646517d4595f1570c31b3e015ad24af992bcef5deee993f0c57d79/standalone.py"
+      },
+      {
+        "path": "src/mcx_project/surrogate_1070.py",
+        "sha256": "084ea9cc9bbc39b9cb78278643a1df45f74613cdeb05c464b7dff42e9c687300",
+        "snapshot": "provenance/source_snapshots/084ea9cc9bbc39b9cb78278643a1df45f74613cdeb05c464b7dff42e9c687300/surrogate_1070.py"
+      },
+      {
+        "path": "src/mcx_project/uncertainty.py",
+        "sha256": "739c3bf53aa0e08dff83efb647ef72837adc7323f4457e3cd623524c9ceaad7e",
+        "snapshot": "provenance/source_snapshots/739c3bf53aa0e08dff83efb647ef72837adc7323f4457e3cd623524c9ceaad7e/uncertainty.py"
+      },
+      {
+        "path": "src/mcx_project/validation.py",
+        "sha256": "43da1e05ece8cae09ba7db9ee182c5370ffe7f10b621d7323d9ab4923ebf19d2",
+        "snapshot": "provenance/source_snapshots/43da1e05ece8cae09ba7db9ee182c5370ffe7f10b621d7323d9ab4923ebf19d2/validation.py"
+      },
+      {
+        "path": "src/mcx_project/windows_handoff.py",
+        "sha256": "128fce710c7a968dbc0e5ea5b0333329be71b0e5be03b44ba094d693578d5a1c",
+        "snapshot": "provenance/source_snapshots/128fce710c7a968dbc0e5ea5b0333329be71b0e5be03b44ba094d693578d5a1c/windows_handoff.py"
+      },
+      {
+        "path": "src/mcx_project/yue.py",
+        "sha256": "5a134766091f5f4ed24f6097d977fff6c9e0d01b75588571efb01986c9e444a4",
+        "snapshot": "provenance/source_snapshots/5a134766091f5f4ed24f6097d977fff6c9e0d01b75588571efb01986c9e444a4/yue.py"
+      }
+    ]
+  },
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy"
+}

@@ -1,0 +1,19 @@
+{
+  "absorber_mua_mm-1": 1000.0,
+  "anatomy_path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "binary_path": ".local/windows/mcxcl-v2025.10/mcxcl/bin/mcxcl.exe",
+  "environment_path": "environment/windows_rtx3080ti_opencl_v1.json",
+  "photon_count_per_replicate": 277000000,
+  "protocol_id": "surrogate_yue277_1070_intracranial_bypass_audit_v1",
+  "replicates": 3,
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy",
+  "stages": [
+    {
+      "blocker_labels": [7, 11],
+      "description": "First entry into the intracranial compartment while skull and marrow are absorbing blockers; target capture estimates paths that bypass skull-complex labels",
+      "name": "intracranial_before_skull_complex",
+      "target_labels": [1, 2, 3, 10, 12]
+    }
+  ]
+}

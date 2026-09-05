@@ -1,0 +1,6 @@
+{
+  "error_type": "RuntimeError",
+  "failed_at": "2026-08-14T17:33:18Z",
+  "message": "MCX-CL exited with status 157",
+  "run_id": "provisional_1070_v1__20260814t000000z__17a4d342"
+}

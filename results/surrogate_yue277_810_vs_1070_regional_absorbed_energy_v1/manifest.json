@@ -1,0 +1,77 @@
+{
+  "created_at": "2026-08-30T18:33:22.561807Z",
+  "inputs": [
+    {
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/colin27_labels_native12_1mm_v3.nii",
+      "sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f"
+    },
+    {
+      "path": "inputs/optical_properties/provisional_810_v2/central_refined_primary.json",
+      "sha256": "48d9cf31c5769e31519eab9261562ad0d4cfd8a81ef02c5ec894d407816148d1"
+    },
+    {
+      "path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+      "sha256": "35fb2b89576e60df421f431632dad8dc80c1fba8bc0ec4ad2b76c1660adfbb8f"
+    },
+    {
+      "path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/total_fluence_constant_total.npy",
+      "sha256": "9624b5b48ac9794f722fcb908e555b6249c3e4c1639d3ae43a2d357cd8e48b5c"
+    },
+    {
+      "path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/absorbed_energy_density_constant_total.npy",
+      "sha256": "b082b8345fedc168fde86e53b820ade73b73c1333fd559cf8e704811a556cf9f"
+    },
+    {
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_010/total_fluence_constant_total.npy",
+      "sha256": "ca216e69d30475ad81307f19f77ca25972d5e0056a1d7c17938d07050681fc85"
+    }
+  ],
+  "outputs": [
+    {
+      "bytes": 56873224,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/absorbed_energy_density_1070_constant_total.npy",
+      "sha256": "be062654d3055bd67a244e8311b40a47692cf563c55818730e89f6230aa4ed6b"
+    },
+    {
+      "bytes": 56097,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/absorbed_energy_density_ratio_slices.png",
+      "sha256": "ddb51c4861e2112e42e35b6b7182c386502ad367cec843b058341b8c8431c4f4"
+    },
+    {
+      "bytes": 258932,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/absorbed_energy_density_slices.png",
+      "sha256": "1d33dbeb7a6575f9b17ebf08e33c6c4b3c3b785b1212ec544ac7cbe0efa2a310"
+    },
+    {
+      "bytes": 28436676,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/depth_below_external_head_surface_mm.npy",
+      "sha256": "caf8d677fdee26166a03addfb46c0835f0da1eb4a487135de701daf2c19f3779"
+    },
+    {
+      "bytes": 29204,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/depth_profiles.png",
+      "sha256": "2ec49d8f105c9d9a2a07ca29c862354ca07d6abf8eae3649c2af2e855b203115"
+    },
+    {
+      "bytes": 3960,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/regional_absorption_comparison.csv",
+      "sha256": "497f7f48ecf102c1ba8e268100f534b884f48cd4e38618e93b19408898939168"
+    },
+    {
+      "bytes": 8528,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/regional_absorption_long.csv",
+      "sha256": "f9f233590195da79c1c613aae9d1391b4866ce2f070f12dbac63a3a765ccd262"
+    },
+    {
+      "bytes": 2800,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/report.md",
+      "sha256": "3a8d3af8afbcc6b1bab4b678389193ac6bc6b14025ffda06fa8227332e12b588"
+    },
+    {
+      "bytes": 41133,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1/result.json",
+      "sha256": "a8a59b5d7656a031fb8d3fb45b210259d3b9c0b0457e4ed01a858b5d8527350d"
+    }
+  ],
+  "result_id": "surrogate_yue277_810_vs_1070_regional_absorbed_energy_v1"
+}

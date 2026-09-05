@@ -1,0 +1,97 @@
+{
+  "date": "2026-09-04",
+  "basis_sets": [
+    {
+      "index_path": "runs/surrogate_yue277_1070_basis_v1/index.json",
+      "basis_set_id": "surrogate_yue277_1070_basis_v1",
+      "run_count": 277,
+      "status_counts": {
+        "planned": 277
+      },
+      "role": "historical_pilot_or_superseded_comparator"
+    },
+    {
+      "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/index.json",
+      "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1",
+      "run_count": 277,
+      "status_counts": {
+        "complete": 277
+      },
+      "role": "sensitivity_alternative"
+    },
+    {
+      "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+      "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1",
+      "run_count": 277,
+      "status_counts": {
+        "complete": 277
+      },
+      "role": "current_provisional_1070_comparator"
+    },
+    {
+      "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1/index.json",
+      "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1",
+      "run_count": 277,
+      "status_counts": {
+        "complete": 277
+      },
+      "role": "sensitivity_alternative"
+    },
+    {
+      "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+      "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1",
+      "run_count": 277,
+      "status_counts": {
+        "complete": 277
+      },
+      "role": "historical_pilot_or_superseded_comparator"
+    },
+    {
+      "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/index.json",
+      "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1",
+      "run_count": 277,
+      "status_counts": {
+        "complete": 277
+      },
+      "role": "counterfactual_not_physical_810"
+    },
+    {
+      "index_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v2/index.json",
+      "basis_set_id": "surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v2",
+      "run_count": 277,
+      "status_counts": {
+        "failed": 1,
+        "planned": 276
+      },
+      "role": "historical_pilot_or_superseded_comparator"
+    },
+    {
+      "index_path": "runs/surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3/index.json",
+      "basis_set_id": "surrogate_yue277_810_windows_rtx3080ti_opencl_basis_v3",
+      "run_count": 277,
+      "status_counts": {
+        "complete": 277
+      },
+      "role": "current_provisional_810_comparator"
+    },
+    {
+      "index_path": "runs/synthetic_two_emitter_basis_v1/index.json",
+      "basis_set_id": "synthetic_two_emitter_basis_v1",
+      "run_count": 4,
+      "status_counts": {
+        "planned": 4
+      },
+      "role": "historical_pilot_or_superseded_comparator"
+    },
+    {
+      "index_path": "runs/yue2015_850_277_pencil_basis_v2/index.json",
+      "basis_set_id": "yue2015_850_277_pencil_basis_v2",
+      "run_count": 277,
+      "status_counts": {
+        "complete": 277
+      },
+      "role": "historical_pilot_or_superseded_comparator"
+    }
+  ],
+  "publication_note": "Device-specific information omitted; original local record retained."
+}

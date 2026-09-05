@@ -1,0 +1,63 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/mcx-project/optical_scenario_set.schema.json",
+  "title": "Assumption-explicit optical scenario set",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "scenario_set_id", "scientific_status", "production_eligible", "status_note",
+    "wavelength_nm", "central_path", "production_template", "binding_policy",
+    "generation_script", "field_provenance", "variant_count", "variants"
+  ],
+  "properties": {
+    "scenario_set_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
+    "scientific_status": {"const": "provisional"},
+    "production_eligible": {"const": false},
+    "status_note": {"type": "string", "minLength": 1},
+    "wavelength_nm": {"const": 1070.0},
+    "central_path": {"$ref": "#/$defs/relativePath"},
+    "production_template": {"$ref": "#/$defs/relativePath"},
+    "binding_policy": {"$ref": "#/$defs/relativePath"},
+    "generation_script": {"$ref": "#/$defs/relativePath"},
+    "variant_count": {"type": "integer", "minimum": 1},
+    "field_provenance": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["tissue_id", "mua", "musp", "g", "n", "assumptions"],
+        "properties": {
+          "tissue_id": {"type": "integer", "minimum": 0},
+          "mua": {"$ref": "#/$defs/recordIds"},
+          "musp": {"$ref": "#/$defs/recordIds"},
+          "g": {"$ref": "#/$defs/recordIds"},
+          "n": {"$ref": "#/$defs/recordIds"},
+          "assumptions": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+        }
+      }
+    },
+    "variants": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["scenario_id", "axis", "case", "path", "rationale", "changed_tissue_ids", "changed_fields"],
+        "properties": {
+          "scenario_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
+          "axis": {"type": "string", "minLength": 1},
+          "case": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*$"},
+          "path": {"$ref": "#/$defs/relativePath"},
+          "rationale": {"type": "string", "minLength": 1},
+          "changed_tissue_ids": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "integer", "minimum": 0}},
+          "changed_fields": {"type": "array", "minItems": 1, "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+        }
+      }
+    }
+  },
+  "$defs": {
+    "relativePath": {"type": "string", "minLength": 1, "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.(?:/|$)).+$"},
+    "recordIds": {"type": "array", "uniqueItems": true, "items": {"type": "string", "minLength": 1}}
+  }
+}

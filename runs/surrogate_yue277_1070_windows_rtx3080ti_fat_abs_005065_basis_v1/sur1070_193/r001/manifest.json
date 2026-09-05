@@ -1,0 +1,144 @@
+{
+  "code": {
+    "dirty": false,
+    "repository": "MCX Project",
+    "revision": "37ee2e042612a0d2ad919f4906467e8300e86195"
+  },
+  "created_at": "2026-08-17T20:14:53Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "binding_version": "MCXCL Revision 12544350; v2025.10",
+    "build": "official Windows MCX-CL v2025.10 binary; executable_sha256=15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "configuration_sha256": "772a4f0bff26377d6ab9cda45db9bb6170e66e88adde91dfb21573403e34a152",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "family": "MCX",
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "runtime": "Windows-10-10.0.19045-SP0"
+  },
+  "error": null,
+  "execution": {
+    "photon_count": 100000000,
+    "replicate": 1,
+    "seed": 573724716,
+    "time_gates_s": {
+      "end": 5e-09,
+      "start": 0.0,
+      "step": 5e-09
+    }
+  },
+  "grid": {
+    "coordinate_frame": "colin27_talairach_ras_mm",
+    "shape_voxels": [
+      181,
+      217,
+      181
+    ],
+    "voxel_size_mm": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "inputs": {
+    "analysis_configuration": {
+      "artifact_id": "surrogate_yue277_1070_v1_analysis_v2",
+      "id_field": "analysis_id",
+      "path": "inputs/fat_absorption_bracket_v1/analysis.json",
+      "schema_path": "schemas/analysis_configuration.schema.json",
+      "sha256": "ff8708b86bc5d5e28bd9c2473ee9685fff47a89d21a2aee392d0b3c92a152b4c"
+    },
+    "anatomy": {
+      "artifact_id": "colin27_2008_native12_1mm_v3",
+      "id_field": "anatomy_id",
+      "path": "inputs/fat_absorption_bracket_v1/anatomy_metadata.json",
+      "schema_path": "schemas/anatomy_metadata.schema.json",
+      "sha256": "b7c2e3b0a7519bb2c8328fadc5563b3da67ca35c414c47dff5de5264403aa6e3"
+    },
+    "calibration": {
+      "artifact_id": "surrogate_yue277_1070_unit_source_v1",
+      "id_field": "calibration_id",
+      "path": "inputs/fat_absorption_bracket_v1/calibration.json",
+      "schema_path": "schemas/calibration.schema.json",
+      "sha256": "c87b668673d52bfac053eb9c23ef22cdef5ea20c0573e597e2e0922280692afe"
+    },
+    "emitter_geometry": {
+      "artifact_id": "surrogate_yue277_1070_v1",
+      "id_field": "geometry_id",
+      "path": "inputs/fat_absorption_bracket_v1/emitter_geometry.json",
+      "schema_path": "schemas/emitter_geometry.schema.json",
+      "sha256": "e36fb1e6111c02c343020350719e4b39de34830d9b42b0b352e87a09b8aad9b6"
+    },
+    "engine_configuration": {
+      "artifact_id": "surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1__sur1070_193__r001",
+      "id_field": "configuration_id",
+      "path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/sur1070_193/r001.json",
+      "schema_path": "schemas/engine_configuration.schema.json",
+      "sha256": "772a4f0bff26377d6ab9cda45db9bb6170e66e88adde91dfb21573403e34a152"
+    },
+    "optical_properties": {
+      "artifact_id": "provisional_1070_fat_abs_005065_v1",
+      "id_field": "scenario_id",
+      "path": "inputs/fat_absorption_bracket_v1/fat_abs_005065.json",
+      "schema_path": "schemas/optical_properties.schema.json",
+      "sha256": "2d7a95d8e1c596ad6594e802087fd536797ae9eebe51dd343a662e631db063bd"
+    },
+    "registration": {
+      "artifact_id": "surrogate_yue277_1070_v1_direct_colin27_v1",
+      "id_field": "registration_id",
+      "path": "inputs/fat_absorption_bracket_v1/registration.json",
+      "schema_path": "schemas/registration.schema.json",
+      "sha256": "78066167fbd2e3d7fb824f4bfd25f161816058639a751b68a7e1b27c440151b3"
+    }
+  },
+  "manifest_version": "1.0.0",
+  "output_contract": {
+    "derivation": "standalone MCX-CL JNIfTI normalized field; Python validates and records the raw engine output without altering it",
+    "normalization": "normalized per launched energy through MCX isnormalize=1",
+    "quantity": "fluence",
+    "unit": "MCX normalized fluence units"
+  },
+  "outputs": [
+    {
+      "kind": "summary",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/sur1070_193/r001/summary.json",
+      "sha256": "c681d4e3018dad6c8f2983aa5246ca0f9a6125d6c63398948b024fcc82308b7b"
+    },
+    {
+      "kind": "log",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/sur1070_193/r001/execution.json",
+      "sha256": "dcf45581d2f3366d0c73860a5fc054b542a113cda1a0f29149482f77b3c2e93b"
+    },
+    {
+      "kind": "qc",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/sur1070_193/r001/volume.uint8.bin",
+      "sha256": "3cf65394bd546a8bd69c6758c5aae59018c12685ce46a27b05b07b247bccadeb"
+    },
+    {
+      "kind": "qc",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/sur1070_193/r001/mcx_input.json",
+      "sha256": "70a68b2d72cf6ce6d94e272f32502e0fac6da1897543ff70d1cabfae8b648e11"
+    },
+    {
+      "kind": "log",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/sur1070_193/r001/mcxcl.log",
+      "sha256": "bcf47a41dd4c1e2158c642af68a79396d6f545a444ebf91ddd644b678eb2e551"
+    },
+    {
+      "kind": "fluence",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/sur1070_193/r001/mcx_field.jnii",
+      "sha256": "63fd2de342b62c240095dd8f2792325d0e0bda5b9278d24ebaa4c4607900f01e"
+    }
+  ],
+  "run_id": "provisional_1070_fat_abs_005065_v1__20260817t201453z__772a4f0b",
+  "scenario_id": "provisional_1070_fat_abs_005065_v1",
+  "scientific_status": "provisional",
+  "source": {
+    "emitter_id": "SUR1070_193",
+    "normalization": "unit launched-energy normalized basis field (MCX DoNormalize=true)",
+    "source_model": "pencil"
+  },
+  "stage": "pilot",
+  "status": "complete",
+  "wavelength_nm": 1070.0
+}
