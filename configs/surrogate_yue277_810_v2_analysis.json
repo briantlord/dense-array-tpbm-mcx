@@ -1,0 +1,36 @@
+{
+  "analysis_id": "surrogate_yue277_810_v2_analysis_v1",
+  "metrics": [
+    "ef_dom",
+    "ef_ref",
+    "ncf",
+    "n_eff"
+  ],
+  "ratio_absolute_threshold": 1e-12,
+  "reference_protocol": {
+    "interpretation": "Superior-region single-source reference inherited from the frozen Yue-derived spatial surrogate. EF_ref is a conditional comparison, not a target-device baseline or biological reference.",
+    "reference_emitter_id": "SUR810_275"
+  },
+  "roi_methods": [
+    "field_first",
+    "metric_first"
+  ],
+  "source_weighting": [
+    {
+      "interpretation": "Unit relative output per emitter; total relative launched energy increases with enabled-source count.",
+      "per_emitter_weight": 1.0,
+      "policy": "constant_per_emitter",
+      "total_weight": 277.0,
+      "weighting_id": "constant_per_emitter_unit_v1"
+    },
+    {
+      "interpretation": "Unit total relative launched energy divided equally across all 277 emitters; not a measured device-power condition.",
+      "per_emitter_weight": 0.0036101083032490976,
+      "policy": "constant_total",
+      "total_weight": 1.0,
+      "weighting_id": "constant_total_unit_v1"
+    }
+  ],
+  "sum_dtype": "float64",
+  "synthetic_test_only": false
+}

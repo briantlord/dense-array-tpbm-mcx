@@ -1,0 +1,24 @@
+{
+  "absorber_label_map": {
+    "11": 13,
+    "7": 13
+  },
+  "blocker_absorber_label_map": {},
+  "blocker_capture_percent": 0.0,
+  "completed_at": "2026-08-25T00:11:55.249047Z",
+  "elapsed_seconds": 29.42739560001064,
+  "energy_field_sha256": "db66ed2ce052eed3952ceac6fe6289181ffb9e1be5c2c04d8e8bc42f10e66426",
+  "energy_output_total_percent": 52.114683169662044,
+  "escaped_or_unabsorbed_percent": 47.885316830337956,
+  "input_sha256": "f6701b6e549aa9b5e37962d9f69e9b6a415a77a7e2437b7e190dd771bbbfba95",
+  "log_absorbed_energy_percent": 52.11472,
+  "log_sha256": "c2246e1f824153de2a4614e1baff645322895737ba3f34c182cba86ce376f67b",
+  "photon_count": 277000000,
+  "replicate": 3,
+  "seed": 1028430479,
+  "stage": "reached_skull_complex",
+  "started_at": "2026-08-25T00:11:25.599209Z",
+  "target_capture_percent": 14.918698870551944,
+  "upstream_native_tissue_absorption_percent": 37.1959842991101,
+  "volume_sha256": "6abefb227b44999bbd4f697f04bfc539390a1f65466d86cea25b13e5371c0f6f"
+}

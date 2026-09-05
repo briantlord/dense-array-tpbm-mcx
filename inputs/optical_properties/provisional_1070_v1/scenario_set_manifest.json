@@ -1,0 +1,456 @@
+{
+  "binding_policy": "inputs/anatomy/colin27_2008/optical_binding_policy_1070.md",
+  "central_path": "inputs/optical_properties/provisional_1070_v1/central.json",
+  "field_provenance": [
+    {
+      "assumptions": [
+        "ideal boundary medium"
+      ],
+      "g": [
+        "air_boundary_convention"
+      ],
+      "mua": [
+        "air_boundary_convention"
+      ],
+      "musp": [],
+      "n": [
+        "air_boundary_convention"
+      ],
+      "tissue_id": 0
+    },
+    {
+      "assumptions": [
+        "water proxy",
+        "unchanged neighboring-1064 scattering precedent"
+      ],
+      "g": [
+        "cassano_1064_compiled_table"
+      ],
+      "mua": [
+        "hale_querry_1973_water_mua_interp"
+      ],
+      "musp": [
+        "cassano_1064_compiled_table"
+      ],
+      "n": [
+        "daimon_masumura_2007_water_n"
+      ],
+      "tissue_id": 1
+    },
+    {
+      "assumptions": [
+        "ex vivo to atlas binding",
+        "fixed inversion g/n"
+      ],
+      "g": [
+        "shapey_2022_fixed_g_085"
+      ],
+      "mua": [
+        "shapey_2022_gm_mua"
+      ],
+      "musp": [
+        "shapey_2022_gm_musp"
+      ],
+      "n": [
+        "shapey_2022_fixed_n_140"
+      ],
+      "tissue_id": 2
+    },
+    {
+      "assumptions": [
+        "ex vivo to atlas binding",
+        "fixed inversion g/n"
+      ],
+      "g": [
+        "shapey_2022_fixed_g_085"
+      ],
+      "mua": [
+        "shapey_2022_wm_mua"
+      ],
+      "musp": [
+        "shapey_2022_wm_musp"
+      ],
+      "n": [
+        "shapey_2022_fixed_n_140"
+      ],
+      "tissue_id": 3
+    },
+    {
+      "assumptions": [
+        "adipose to atlas binding",
+        "uniform n=1.4"
+      ],
+      "g": [
+        "bashkatov_2005_fixed_g"
+      ],
+      "mua": [
+        "bashkatov_2005_fat_mua_digitized"
+      ],
+      "musp": [
+        "bashkatov_2005_fat_musp"
+      ],
+      "n": [
+        "brain_n_assumption"
+      ],
+      "tissue_id": 4
+    },
+    {
+      "assumptions": [
+        "bulk upper arm to muscle binding",
+        "g=0.9",
+        "uniform n=1.4"
+      ],
+      "g": [],
+      "mua": [
+        "damagatla_2026_upper_arm_mua"
+      ],
+      "musp": [
+        "damagatla_2026_upper_arm_musp"
+      ],
+      "n": [
+        "brain_n_assumption"
+      ],
+      "tissue_id": 5
+    },
+    {
+      "assumptions": [
+        "bulk forehead to composite binding",
+        "g=0.9",
+        "uniform n=1.4"
+      ],
+      "g": [],
+      "mua": [
+        "damagatla_2026_forehead_mua"
+      ],
+      "musp": [
+        "damagatla_2026_forehead_musp"
+      ],
+      "n": [
+        "brain_n_assumption"
+      ],
+      "tissue_id": 6
+    },
+    {
+      "assumptions": [
+        "intact cortical cranium to atlas skull",
+        "uniform n=1.4"
+      ],
+      "g": [
+        "bashkatov_2006_fixed_g"
+      ],
+      "mua": [
+        "bashkatov_2006_skull_mua_digitized"
+      ],
+      "musp": [
+        "bashkatov_2006_skull_musp"
+      ],
+      "n": [
+        "brain_n_assumption"
+      ],
+      "tissue_id": 7
+    },
+    {
+      "assumptions": [
+        "shared_adipose_proxy_assumption",
+        "uniform n=1.4"
+      ],
+      "g": [
+        "bashkatov_2005_fixed_g"
+      ],
+      "mua": [
+        "bashkatov_2005_fat_mua_digitized"
+      ],
+      "musp": [
+        "bashkatov_2005_fat_musp"
+      ],
+      "n": [
+        "brain_n_assumption"
+      ],
+      "tissue_id": 9
+    },
+    {
+      "assumptions": [
+        "ex vivo to atlas binding",
+        "fixed inversion g/n"
+      ],
+      "g": [
+        "shapey_2022_fixed_g_085"
+      ],
+      "mua": [
+        "shapey_2022_dura_mua"
+      ],
+      "musp": [
+        "shapey_2022_dura_musp"
+      ],
+      "n": [
+        "shapey_2022_fixed_n_140"
+      ],
+      "tissue_id": 10
+    },
+    {
+      "assumptions": [
+        "tibial frozen marrow to cranial label",
+        "g=0.9",
+        "uniform n=1.4"
+      ],
+      "g": [],
+      "mua": [
+        "kothuri_2025_bone_table"
+      ],
+      "musp": [
+        "kothuri_2025_bone_table"
+      ],
+      "n": [
+        "brain_n_assumption"
+      ],
+      "tissue_id": 11
+    },
+    {
+      "assumptions": [
+        "effective intravascular blood binding",
+        "uniform n=1.4"
+      ],
+      "g": [
+        "friebel_2006_blood_g_oxy_hct42"
+      ],
+      "mua": [
+        "friebel_2006_blood_mua_oxy_hct42"
+      ],
+      "musp": [
+        "friebel_2006_blood_musp_oxy_hct42"
+      ],
+      "n": [
+        "brain_n_assumption"
+      ],
+      "tissue_id": 12
+    }
+  ],
+  "generation_script": "src/mcx_project/provisional_optics.py",
+  "production_eligible": false,
+  "production_template": "inputs/optical_properties/production_1070_tbd.json",
+  "scenario_set_id": "provisional_1070_v1",
+  "scientific_status": "provisional",
+  "status_note": "Runnable assumption-explicit research scenarios; not measured or production-nominal tissue tables.",
+  "variant_count": 14,
+  "variants": [
+    {
+      "axis": "refractive_index",
+      "case": "n_tissue_137",
+      "changed_fields": [
+        "n"
+      ],
+      "changed_tissue_ids": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/n_tissue_137.json",
+      "rationale": "Set every non-air, non-CSF tissue to the alternative uniform n=1.37 assumption.",
+      "scenario_id": "provisional_1070_n_tissue_137_v1"
+    },
+    {
+      "axis": "csf_scattering",
+      "case": "csf_transparent",
+      "changed_fields": [
+        "mus_mm-1",
+        "source_musp_mm-1",
+        "g"
+      ],
+      "changed_tissue_ids": [
+        1
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/csf_transparent.json",
+      "rationale": "Set the CSF scattering coefficient to zero while retaining water absorption and refractive index.",
+      "scenario_id": "provisional_1070_csf_transparent_v1"
+    },
+    {
+      "axis": "fat_absorption",
+      "case": "fat_low_abs_1064",
+      "changed_fields": [
+        "mua_mm-1"
+      ],
+      "changed_tissue_ids": [
+        4,
+        9
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/fat_low_abs_1064.json",
+      "rationale": "Use Cassano's much lower neighboring-1064 fat absorption only as a declared sensitivity assumption.",
+      "scenario_id": "provisional_1070_fat_low_abs_1064_v1"
+    },
+    {
+      "axis": "muscle_proxy",
+      "case": "muscle_cortese_scm",
+      "changed_fields": [
+        "mus_mm-1",
+        "source_musp_mm-1"
+      ],
+      "changed_tissue_ids": [
+        5
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/muscle_cortese_scm.json",
+      "rationale": "Replace upper-arm scattering with the Cortese human SCM 20-nm extrapolation while holding exact-1070 Damagatla absorption fixed.",
+      "scenario_id": "provisional_1070_muscle_cortese_scm_v1"
+    },
+    {
+      "axis": "muscle_proxy",
+      "case": "muscle_mosca_porcine",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1"
+      ],
+      "changed_tissue_ids": [
+        5
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/muscle_mosca_porcine.json",
+      "rationale": "Replace the human bulk proxy with exact-1070 ex vivo porcine muscle mua/musp.",
+      "scenario_id": "provisional_1070_muscle_mosca_porcine_v1"
+    },
+    {
+      "axis": "skin_muscle_composite",
+      "case": "composite_pure_skin",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1"
+      ],
+      "changed_tissue_ids": [
+        6
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/composite_pure_skin.json",
+      "rationale": "Bind pure human skin coefficients to the composite label as an explicit endpoint sensitivity.",
+      "scenario_id": "provisional_1070_composite_pure_skin_v1"
+    },
+    {
+      "axis": "skin_muscle_composite",
+      "case": "composite_pure_muscle",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1"
+      ],
+      "changed_tissue_ids": [
+        6
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/composite_pure_muscle.json",
+      "rationale": "Bind the bulk upper-arm muscle proxy to the composite label as the opposite endpoint sensitivity.",
+      "scenario_id": "provisional_1070_composite_pure_muscle_v1"
+    },
+    {
+      "axis": "marrow_proxy",
+      "case": "marrow_trabecular",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1"
+      ],
+      "changed_tissue_ids": [
+        11
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/marrow_trabecular.json",
+      "rationale": "Represent the cranial-marrow label using human tibial trabecular bone as a material endpoint sensitivity.",
+      "scenario_id": "provisional_1070_marrow_trabecular_v1"
+    },
+    {
+      "axis": "marrow_proxy",
+      "case": "marrow_skull_like",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1"
+      ],
+      "changed_tissue_ids": [
+        11
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/marrow_skull_like.json",
+      "rationale": "Represent the cranial-marrow label using human tibial cortical-bone powder as a material endpoint sensitivity.",
+      "scenario_id": "provisional_1070_marrow_skull_like_v1"
+    },
+    {
+      "axis": "blood_state",
+      "case": "blood_hct33_oxy",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1",
+        "g"
+      ],
+      "changed_tissue_ids": [
+        12
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/blood_hct33_oxy.json",
+      "rationale": "Use the Friebel 2009 hct-33.2 oxygenated state as a paired blood sensitivity.",
+      "scenario_id": "provisional_1070_blood_hct33_oxy_v1"
+    },
+    {
+      "axis": "blood_state",
+      "case": "blood_hct33_deoxy",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1",
+        "g"
+      ],
+      "changed_tissue_ids": [
+        12
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/blood_hct33_deoxy.json",
+      "rationale": "Use the Friebel 2009 hct-33.2 deoxygenated state as a paired blood sensitivity.",
+      "scenario_id": "provisional_1070_blood_hct33_deoxy_v1"
+    },
+    {
+      "axis": "brain_dataset",
+      "case": "brain_yaroslavsky_gray",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1",
+        "g"
+      ],
+      "changed_tissue_ids": [
+        2
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/brain_yaroslavsky_gray.json",
+      "rationale": "Replace gray matter only with the secondary Yaroslavsky interpolation; white matter remains Shapey because its transcription is conflicted.",
+      "scenario_id": "provisional_1070_brain_yaroslavsky_gray_v1"
+    },
+    {
+      "axis": "skull_material",
+      "case": "skull_trabecular",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1"
+      ],
+      "changed_tissue_ids": [
+        7
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/skull_trabecular.json",
+      "rationale": "Replace intact cortical cranium with human tibial trabecular bone as a bone-compartment sensitivity.",
+      "scenario_id": "provisional_1070_skull_trabecular_v1"
+    },
+    {
+      "axis": "skull_material",
+      "case": "skull_cortical_powder",
+      "changed_fields": [
+        "mua_mm-1",
+        "mus_mm-1",
+        "source_musp_mm-1"
+      ],
+      "changed_tissue_ids": [
+        7
+      ],
+      "path": "inputs/optical_properties/provisional_1070_v1/sensitivities/skull_cortical_powder.json",
+      "rationale": "Replace intact cortical cranium with human tibial cortical-bone powder as a bone-compartment sensitivity.",
+      "scenario_id": "provisional_1070_skull_cortical_powder_v1"
+    }
+  ],
+  "wavelength_nm": 1070.0
+}

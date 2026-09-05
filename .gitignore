@@ -1,5 +1,6 @@
 .DS_Store
 .venv/
+.venv-win/
 .local/
 .pytest_cache/
 .ruff_cache/
@@ -10,8 +11,12 @@ __pycache__/
 dist/
 build/
 
-# Reproducibly acquired anatomy binaries; retain manifests, checksums, and licenses.
+# Local paper library; retain citation metadata and transcriptions, not publisher files.
 references/papers/*.pdf
+references/papers/*.docx
+references/papers/*.xlsx
+
+# Reproducibly acquired anatomy binaries; retain manifests, checksums, and licenses.
 inputs/anatomy/**/*.zip
 inputs/anatomy/**/*.nii
 inputs/anatomy/**/*.nii.gz
@@ -20,6 +25,7 @@ inputs/anatomy/colin27_2008/derived/native12_1mm_v1/
 inputs/anatomy/colin27_2008/derived/native12_1mm_v2/
 
 # Large simulation and analysis arrays; retain JSON manifests and summaries.
+runs/**/*.bin
 runs/**/*.jnii
 runs/**/*.bnii
 runs/**/*.nii
@@ -32,8 +38,18 @@ results/**/*.jnii
 results/**/*.bnii
 results/**/*.nii
 results/**/*.nii.gz
+results/**/*.bin
 results/**/*.npy
 results/**/*.npz
+benchmarks/**/*.bin
+benchmarks/**/*.jnii
+benchmarks/**/*.bnii
+benchmarks/**/*.nii
+benchmarks/**/*.nii.gz
+benchmarks/**/*.mc2
+benchmarks/**/*.mch
+benchmarks/**/*.npy
+benchmarks/**/*.npz
 
 # Local logs and machine-specific files.
 *.log

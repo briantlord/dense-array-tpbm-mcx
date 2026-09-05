@@ -1,0 +1,56 @@
+{
+  "handoff_id": "surrogate_yue277_1070_windows_rtx3080ti_handoff_v1",
+  "created_on": "2026-08-15",
+  "base_checkpoint_commit": "1fe4c1a3d55b707ddd4a8273a62dbda2f9cbbd9c",
+  "supersedes_for_this_host": "surrogate_yue277_1070_windows_rtx3080_handoff_v1",
+  "replacement_reason": "The actual host reports NVIDIA GeForce RTX 3080 Ti; the RTX 3080 plan would record false device provenance.",
+  "requested_host": {
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "operating_system": "Windows"
+  },
+  "compute_status": {
+    "full_277_source_execution_started": false,
+    "windows_manifests_prepared": false,
+    "backend_equivalence_executed": false,
+    "selected_photon_count_per_emitter": 100000000,
+    "replicates_per_emitter": 1
+  },
+  "frozen_inputs": {
+    "anatomy_metadata_path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/anatomy_metadata.json",
+    "anatomy_metadata_sha256": "a445e71bc7a18648e1e7b0f90f6a192d6e7c771619c51c32020a3340a069de4c",
+    "emitter_geometry_path": "inputs/emitters/surrogate_yue277_1070_v1/emitter_geometry.json",
+    "emitter_geometry_sha256": "e36fb1e6111c02c343020350719e4b39de34830d9b42b0b352e87a09b8aad9b6",
+    "optical_scenario_path": "inputs/optical_properties/provisional_1070_v1/central.json",
+    "optical_scenario_sha256": "4e225b1da983b24c7e2889704b420f8f0e0f9bd66ce495a2a438093f1030b061",
+    "source_basis_plan_path": "configs/surrogate_yue277_1070_basis_v1.json",
+    "source_basis_plan_sha256": "ef086c32356a51b5e55dc69a923239af90bc53bdef69daae8dbf855fb21289e7",
+    "regional_convergence_result_path": "results/surrogate_yue277_1070_v1/regional_convergence_v2/results.json",
+    "regional_convergence_result_sha256": "637d3daaa4fbbf8fe6009dea23dec1b4bd57b424699eb48ad52973d3dfb55db4"
+  },
+  "environment_boundary": {
+    "apple_index_path": "runs/surrogate_yue277_1070_basis_v1/index.json",
+    "apple_index_must_not_run_on_windows": true,
+    "original_rtx3080_plan_must_not_run_on_this_host": true,
+    "supported_windows_binding": "mcxcl_cli",
+    "supported_windows_backend": "opencl",
+    "required_engine_version": "v2025.10",
+    "required_device": "NVIDIA GeForce RTX 3080 Ti",
+    "cuda_backend_ready": false
+  },
+  "versioned_outputs": {
+    "environment_record": "environment/windows_rtx3080ti_opencl_v1.json",
+    "template_manifest": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_v1/template_manifest.json",
+    "basis_plan": "configs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1.json",
+    "basis_index": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+    "backend_equivalence_result": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_v1/backend_equivalence.json"
+  },
+  "backend_equivalence_gate": {
+    "emitter_id": "SUR1070_011",
+    "photon_count": 100000000,
+    "reference": "M4 Pro MCX-CL v2025.10 anterior three-replicate mean",
+    "tissue_integral_symmetric_relative_change_max": 0.05,
+    "profile_median_symmetric_relative_change_max": 0.1,
+    "profile_depth_range_mm": [20, 60]
+  },
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy"
+}

@@ -1,0 +1,12 @@
+tissue_id,tissue_name,water_fraction,provenance,confidence,role_in_test
+1,cerebrospinal_fluid,1.0000,"CSF calibration proxy; Oros-Peusquens et al. 2019 describes CSF as approximately 100% water",high,"physiologic proxy"
+2,gray_matter,0.8370,"Oros-Peusquens et al. 2019; in-vivo 3 T MRI, 21 healthy volunteers, mean 83.7%",high,"direct tissue-class estimate"
+3,white_matter,0.6910,"Oros-Peusquens et al. 2019; in-vivo 3 T MRI, 21 healthy volunteers, mean 69.1%",high,"direct tissue-class estimate"
+4,fat,0.1533,"Wang et al. 1999 tissue-organ hydration model, adipose-tissue water/mass fraction",moderate,"systemic adipose proxy"
+5,muscles,0.7857,"Wang et al. 1999 tissue-organ hydration model, skeletal-muscle water/mass fraction",moderate,"systemic skeletal-muscle proxy"
+6,skin_and_muscles,0.7000,"Project midpoint assumption between skin 0.6154 and skeletal muscle 0.7857 from Wang et al. 1999; atlas mixture unknown",low,"composite-label assumption"
+7,skull,0.1700,"Wang et al. 1999 tissue-organ hydration model, bone water/mass fraction",moderate,"systemic bone proxy"
+9,fat_2,0.1533,"Same explicit systemic adipose proxy as tissue 4; native atlas distinction is undocumented",low,"shared-label proxy"
+10,dura,0.7000,"Project assumption; no direct dura water fraction located in the deposited references",low,"explicit assumption"
+11,marrow,0.1533,"Project fatty-marrow proxy using adipose water fraction; atlas label and donor/site composition are unresolved",low,"explicit assumption"
+12,vessels,0.8000,"Wang et al. 1999 tissue-organ hydration model, blood water/mass fraction",moderate,"whole-blood proxy"

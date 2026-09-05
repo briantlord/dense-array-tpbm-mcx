@@ -1,0 +1,2501 @@
+{
+  "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1",
+  "created_at": "2026-08-17T20:14:53Z",
+  "plan_path": "configs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1.json",
+  "plan_sha256": "56ff2eddd59a1d34700e76bf19acf0c0bcccb580a3e9f16908b370b925819db5",
+  "runs": [
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_001/r001.json",
+      "configuration_sha256": "c1cc9ebc09e9dd70e34b741924802b167b0039c933d3a19a5d51e60058d592b2",
+      "emitter_id": "SUR1070_001",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_001/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c1cc9ebc",
+      "seed": 1173175792
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_002/r001.json",
+      "configuration_sha256": "2410ea6794406acdc733e67de66e7ef7537962756c2e5d418a93a09328b32476",
+      "emitter_id": "SUR1070_002",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_002/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2410ea67",
+      "seed": 1200488300
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_003/r001.json",
+      "configuration_sha256": "81ef7f6f8406a883e4baa155710f75197eee2a8b5e3766f7caf660a9972886c5",
+      "emitter_id": "SUR1070_003",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_003/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__81ef7f6f",
+      "seed": 888498996
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_004/r001.json",
+      "configuration_sha256": "79d4ceccbd4d7c7eac2c81daeec5a867226722b26e0264868eaad04e42882c06",
+      "emitter_id": "SUR1070_004",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_004/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__79d4cecc",
+      "seed": 2015427152
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_005/r001.json",
+      "configuration_sha256": "c52cb9e07a984f95744672e49d96803740d72d2aae7eafe9720154abb207c794",
+      "emitter_id": "SUR1070_005",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_005/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c52cb9e0",
+      "seed": 143390119
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_006/r001.json",
+      "configuration_sha256": "17bb8bdd05f7a6e51b164bec0a112330a55987ab94e404d6c3707c087736bbd0",
+      "emitter_id": "SUR1070_006",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_006/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__17bb8bdd",
+      "seed": 1569057143
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_007/r001.json",
+      "configuration_sha256": "e1dbd1529f21acc38e9258b40f921da6dde91c9410c032c8d602c27557f0fd38",
+      "emitter_id": "SUR1070_007",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_007/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e1dbd152",
+      "seed": 2032973219
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_008/r001.json",
+      "configuration_sha256": "1f398b0ef9e51cb90e5ce3be50f553b05fbb842db91b8aa05ad5f6c3d50380c4",
+      "emitter_id": "SUR1070_008",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_008/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__1f398b0e",
+      "seed": 1632481003
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_009/r001.json",
+      "configuration_sha256": "6a1df902d6e92c22ea5ad9195f48ee05138922341cbbdfb995900d531b11ce36",
+      "emitter_id": "SUR1070_009",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_009/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6a1df902",
+      "seed": 1435236513
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_010/r001.json",
+      "configuration_sha256": "304aea29f65d93b6778efeae6116de6b64ba1b4a3173243aa83034134c431775",
+      "emitter_id": "SUR1070_010",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_010/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__304aea29",
+      "seed": 481722208
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_011/r001.json",
+      "configuration_sha256": "4efdab581c27436dc701e1e08aa8159111d753e6369e392bd391136d30de2b5d",
+      "emitter_id": "SUR1070_011",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_011/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__4efdab58",
+      "seed": 846484098
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_012/r001.json",
+      "configuration_sha256": "80aa6d3d1ac8dfd964578f20f430ca2334298b5f2721cac6b4eee75fd72330ce",
+      "emitter_id": "SUR1070_012",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_012/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__80aa6d3d",
+      "seed": 1967258799
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_013/r001.json",
+      "configuration_sha256": "10e81204af6762792cb922a77623dae2d1009f76d08f9d54f806553da430f2d6",
+      "emitter_id": "SUR1070_013",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_013/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__10e81204",
+      "seed": 259546649
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_014/r001.json",
+      "configuration_sha256": "09d1b50758b2c917ea3cda2d55c057aaa9e408a1ab12fb0fdc3e108fad399d9e",
+      "emitter_id": "SUR1070_014",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_014/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__09d1b507",
+      "seed": 657876795
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_015/r001.json",
+      "configuration_sha256": "1f72571a84358538d62a7cbe54823c493074ed5a736844b134bab1ef60d1663b",
+      "emitter_id": "SUR1070_015",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_015/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__1f72571a",
+      "seed": 1622155690
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_016/r001.json",
+      "configuration_sha256": "901624d028e5fd41af9d95666d2a3aada8514cea13f6b3250d435758023ccfa6",
+      "emitter_id": "SUR1070_016",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_016/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__901624d0",
+      "seed": 1312195814
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_017/r001.json",
+      "configuration_sha256": "2b66ae34669664c7da0d1a1ddc9e2d6639f0b92e48dae7b982d5b86af2db8f2f",
+      "emitter_id": "SUR1070_017",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_017/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2b66ae34",
+      "seed": 133199069
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_018/r001.json",
+      "configuration_sha256": "a2b170c2c9e9f22c20d1a7928b5a7d661662665a40a6fb0e9ac8ec9eee43f5f3",
+      "emitter_id": "SUR1070_018",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_018/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a2b170c2",
+      "seed": 294791602
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_019/r001.json",
+      "configuration_sha256": "6e8f87d32b0ca99922f4042e42454907e9dd57fb3c5efb2e4ce314790b22289f",
+      "emitter_id": "SUR1070_019",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_019/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6e8f87d3",
+      "seed": 1074480439
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_020/r001.json",
+      "configuration_sha256": "265624365db3c56a40cd1d8319ce52d1cdb447fe0c6e9be31cefeb5347150082",
+      "emitter_id": "SUR1070_020",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_020/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__26562436",
+      "seed": 193648385
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_021/r001.json",
+      "configuration_sha256": "e04f5ce4f9a22f3db444c617e7feb832eb26105526019ec2029f96a4d68b33a1",
+      "emitter_id": "SUR1070_021",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_021/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e04f5ce4",
+      "seed": 732401145
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_022/r001.json",
+      "configuration_sha256": "db96ab2a2d12b22e5947c4d5f78edd54bc0639ecea5b9dfd178378b83b7d7d83",
+      "emitter_id": "SUR1070_022",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_022/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__db96ab2a",
+      "seed": 2001413876
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_023/r001.json",
+      "configuration_sha256": "62ec8f5690859d34beeb7f709b547f4914e916e0b4854198e1f2528a1105ae23",
+      "emitter_id": "SUR1070_023",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_023/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__62ec8f56",
+      "seed": 1187361112
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_024/r001.json",
+      "configuration_sha256": "bf25f988f9f55c2b58c0424cae4aa27f8508fd60b37b9cfca97b50d4d2d9194c",
+      "emitter_id": "SUR1070_024",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_024/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__bf25f988",
+      "seed": 1044659624
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_025/r001.json",
+      "configuration_sha256": "371f244f996d1b47850f08a6ca6014d1a43bcc05646f4679982f43749ea516a2",
+      "emitter_id": "SUR1070_025",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_025/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__371f244f",
+      "seed": 504236436
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_026/r001.json",
+      "configuration_sha256": "5c21d069cdba3308aab3c21951ea96ae92b6c893412b32eea818356e37a689db",
+      "emitter_id": "SUR1070_026",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_026/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5c21d069",
+      "seed": 1885234580
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_027/r001.json",
+      "configuration_sha256": "930131122cd3744678ca09b6360ea0791cf32a35afda1d437628b839faa95499",
+      "emitter_id": "SUR1070_027",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_027/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__93013112",
+      "seed": 1394177822
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_028/r001.json",
+      "configuration_sha256": "de9e8b02298ec575bb1740d986aa9b6875cfdb550b177d3e26ba613752b19d70",
+      "emitter_id": "SUR1070_028",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_028/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__de9e8b02",
+      "seed": 437949684
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_029/r001.json",
+      "configuration_sha256": "e845348750f5c66b969b71934c2ea7138d76082fa6ebeaee1135487b5abb56cb",
+      "emitter_id": "SUR1070_029",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_029/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e8453487",
+      "seed": 933284851
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_030/r001.json",
+      "configuration_sha256": "baf06e78cf490bcd5f4b9155123927e8aae41be1c3b1f0a7889cc78970f777b7",
+      "emitter_id": "SUR1070_030",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_030/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__baf06e78",
+      "seed": 74476037
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_031/r001.json",
+      "configuration_sha256": "9378b963878c34f2b7ee5ab7f40fcf715e2cc65f5b46fa7291f322e59b3bf0a4",
+      "emitter_id": "SUR1070_031",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_031/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__9378b963",
+      "seed": 731878692
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_032/r001.json",
+      "configuration_sha256": "39249a2257fbdf491c5b585eee2aa80cd36ed39114f9a47ca1a38dc1c96f9f25",
+      "emitter_id": "SUR1070_032",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_032/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__39249a22",
+      "seed": 1671233706
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_033/r001.json",
+      "configuration_sha256": "f55e90bf465fb2288884a3a3d306c2f19db04c483c85efc8a0d13c1240b2ea5b",
+      "emitter_id": "SUR1070_033",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_033/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f55e90bf",
+      "seed": 435612022
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_034/r001.json",
+      "configuration_sha256": "d72f52ec8cf8a6e5611e2766597d2a1560be4dd295c7ab42596a549328450cbe",
+      "emitter_id": "SUR1070_034",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_034/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d72f52ec",
+      "seed": 2070673850
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_035/r001.json",
+      "configuration_sha256": "f73e649ef0df87e0ccce0387dac64f7004051c7bbe7c7c09a87507499c1f4d1b",
+      "emitter_id": "SUR1070_035",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_035/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f73e649e",
+      "seed": 336090224
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_036/r001.json",
+      "configuration_sha256": "54250da9d5b7f58bd33312fd42f9cd9a045914524c7a4586ff83fa4022cc7530",
+      "emitter_id": "SUR1070_036",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_036/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__54250da9",
+      "seed": 62151380
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_037/r001.json",
+      "configuration_sha256": "41644d827273cfb6d236586e7719ad9293eda3a517a0dc623adec34dd613fb40",
+      "emitter_id": "SUR1070_037",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_037/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__41644d82",
+      "seed": 652979715
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_038/r001.json",
+      "configuration_sha256": "62c8c56d4b3f6a1be71512ac08c36dddf273fcd814d15ef412e3a5d6a0aa4802",
+      "emitter_id": "SUR1070_038",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_038/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__62c8c56d",
+      "seed": 1134986691
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_039/r001.json",
+      "configuration_sha256": "5adc10ee7cd48d780d47536a3057ac15b6963e5684158d303e4e2732cd5bcaca",
+      "emitter_id": "SUR1070_039",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_039/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5adc10ee",
+      "seed": 1290168230
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_040/r001.json",
+      "configuration_sha256": "184acb6517ce7107478704eba8f6bd1855ae682b031fe0aff9228ac0a3190afb",
+      "emitter_id": "SUR1070_040",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_040/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__184acb65",
+      "seed": 271177592
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_041/r001.json",
+      "configuration_sha256": "d0077d4d0953763cb3b2a2322a21dfc891c7bbcefc73589d688f6d85f978f29e",
+      "emitter_id": "SUR1070_041",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_041/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d0077d4d",
+      "seed": 440129791
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_042/r001.json",
+      "configuration_sha256": "d6b2de78c671427e24b1baf152142b01326a704a4dfa86fa6d71136bf5d92a40",
+      "emitter_id": "SUR1070_042",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_042/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d6b2de78",
+      "seed": 1689811725
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_043/r001.json",
+      "configuration_sha256": "df2cb33cc22d24ba8af5b51941316485270e1ed61e0fa16b40b135f4a985953e",
+      "emitter_id": "SUR1070_043",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_043/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__df2cb33c",
+      "seed": 267710258
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_044/r001.json",
+      "configuration_sha256": "c2c061871bda153a68246ab0bdbaf108742a1f4d75ff10028d32119ac6b8a995",
+      "emitter_id": "SUR1070_044",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_044/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c2c06187",
+      "seed": 527622043
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_045/r001.json",
+      "configuration_sha256": "e626fa813b1c16dc8fd09c29970b4d4dcc45632f3ef38355e4524a08b8e297a9",
+      "emitter_id": "SUR1070_045",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_045/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e626fa81",
+      "seed": 1449768410
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_046/r001.json",
+      "configuration_sha256": "95c1ec669e90edc4083dd5af3ef90f62212d989d859ec43f6fe8e1c9e30f7d83",
+      "emitter_id": "SUR1070_046",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_046/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__95c1ec66",
+      "seed": 403207392
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_047/r001.json",
+      "configuration_sha256": "85091e30afc9986e7614f182559ab1e7555d39a9ca3ae09654f32dbde692c18e",
+      "emitter_id": "SUR1070_047",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_047/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__85091e30",
+      "seed": 362965686
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_048/r001.json",
+      "configuration_sha256": "b1313ebe83aa337b6a6b3ad53d5f9f854e2edd85b9c814c1ecab670e5fccda28",
+      "emitter_id": "SUR1070_048",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_048/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b1313ebe",
+      "seed": 1380382554
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_049/r001.json",
+      "configuration_sha256": "39cc5f528805a62d2c0a3356af80f9d50de0f89b80f9262298a877ee112fe0ad",
+      "emitter_id": "SUR1070_049",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_049/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__39cc5f52",
+      "seed": 1592773019
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_050/r001.json",
+      "configuration_sha256": "0eaa57e048981b663dd2ae8085e8f9b1f26facc8fa24e865d51398069350094f",
+      "emitter_id": "SUR1070_050",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_050/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0eaa57e0",
+      "seed": 686588621
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_051/r001.json",
+      "configuration_sha256": "3c7623d802f56c85e00305a3bba3c0cb5a8af5eff3010ef1dcd3db9c1a2f8467",
+      "emitter_id": "SUR1070_051",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_051/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__3c7623d8",
+      "seed": 1332338518
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_052/r001.json",
+      "configuration_sha256": "0283db62d3f377d585994b2dd84a8cfe9ee6fbe21ff90cc22aa920e4bb605a24",
+      "emitter_id": "SUR1070_052",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_052/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0283db62",
+      "seed": 1452072923
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_053/r001.json",
+      "configuration_sha256": "e894a0768f0ac53549770e5a3c5dee1b1bc63f98559cc69aaea509b97339aa19",
+      "emitter_id": "SUR1070_053",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_053/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e894a076",
+      "seed": 1275985578
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_054/r001.json",
+      "configuration_sha256": "966176ee479d3efec98276f0cec346877e9536d3215ee64c935ceb685f32b58b",
+      "emitter_id": "SUR1070_054",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_054/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__966176ee",
+      "seed": 789610358
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_055/r001.json",
+      "configuration_sha256": "6a94a26d304b51ce68155d4a4104c2c9da95dc30c20608a5ddde954bdeddc381",
+      "emitter_id": "SUR1070_055",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_055/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6a94a26d",
+      "seed": 1120958714
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_056/r001.json",
+      "configuration_sha256": "2570c4c22007df21e8186bd87f95397661176f6b49de6f9238686944e6be769e",
+      "emitter_id": "SUR1070_056",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_056/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2570c4c2",
+      "seed": 1323835110
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_057/r001.json",
+      "configuration_sha256": "485222aa7131316e8ad6dfd0ef9dbc3dff69acec7503945b287270e09ffdd4bd",
+      "emitter_id": "SUR1070_057",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_057/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__485222aa",
+      "seed": 1357547823
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_058/r001.json",
+      "configuration_sha256": "9e0ebc652fa4c65c5064e01d082e19ed608858431a4bc89fa59bb57287c9d710",
+      "emitter_id": "SUR1070_058",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_058/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__9e0ebc65",
+      "seed": 1016232620
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_059/r001.json",
+      "configuration_sha256": "b0a23682fba22763ceb740bc86dbb57e814c9e2035b687694c3879e8effd9134",
+      "emitter_id": "SUR1070_059",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_059/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b0a23682",
+      "seed": 1756164718
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_060/r001.json",
+      "configuration_sha256": "328960fada11a34f1c5f1b3cb74f6ff4c4fdd17a91086d17f2b4caae94b833ef",
+      "emitter_id": "SUR1070_060",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_060/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__328960fa",
+      "seed": 891817206
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_061/r001.json",
+      "configuration_sha256": "7eb8bfb08d14033dc699141fdf112299977814b6bce879b30470254a84fec61d",
+      "emitter_id": "SUR1070_061",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_061/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__7eb8bfb0",
+      "seed": 568079881
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_062/r001.json",
+      "configuration_sha256": "6e8295d79a9d83d94a7ead885ecc7c2ed3a12cb72fb8141da639bc1d75d32be1",
+      "emitter_id": "SUR1070_062",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_062/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6e8295d7",
+      "seed": 190848238
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_063/r001.json",
+      "configuration_sha256": "4ff77d0177e1e8a871f62cd9640aad0ab25c9b1d1d1784aa283b50d5fe5f47a7",
+      "emitter_id": "SUR1070_063",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_063/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__4ff77d01",
+      "seed": 471619107
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_064/r001.json",
+      "configuration_sha256": "48e3d3dffe9002d9dad0685431ab159bc1cf3a6ae3ce884a13d930a21183fecb",
+      "emitter_id": "SUR1070_064",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_064/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__48e3d3df",
+      "seed": 940602358
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_065/r001.json",
+      "configuration_sha256": "727e22d0f845a4e7530c7596cbf39ccdcee64e7837072cbfecb9f03beb1237e9",
+      "emitter_id": "SUR1070_065",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_065/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__727e22d0",
+      "seed": 692976393
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_066/r001.json",
+      "configuration_sha256": "ea53e3e7559a2f2a81424509fdeba76ae0c4bacbae018087db30736d96111361",
+      "emitter_id": "SUR1070_066",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_066/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__ea53e3e7",
+      "seed": 1349594572
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_067/r001.json",
+      "configuration_sha256": "00d5ba179d6836d8784d96d13e660bcea3207b89ca7b0c9f8c298f2ceaf2c52a",
+      "emitter_id": "SUR1070_067",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_067/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__00d5ba17",
+      "seed": 906464640
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_068/r001.json",
+      "configuration_sha256": "bdb4635c60758ba73728ad85c2e047ca4d361f09b04c3e1a76157009ee1c8667",
+      "emitter_id": "SUR1070_068",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_068/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__bdb4635c",
+      "seed": 434451980
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_069/r001.json",
+      "configuration_sha256": "242de8b949e211f3a5c347ec6f7094969504b16d81ffa79eb44b89e07cee9e0b",
+      "emitter_id": "SUR1070_069",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_069/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__242de8b9",
+      "seed": 306528295
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_070/r001.json",
+      "configuration_sha256": "f6b8b627aa0ae400931f223c29a33d20a564d10b43e65d3a2064c2c7ceb51314",
+      "emitter_id": "SUR1070_070",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_070/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f6b8b627",
+      "seed": 2106716466
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_071/r001.json",
+      "configuration_sha256": "c93bd2da1d94b61c44c53cea7f494db6124fbd36bb1f6e7be76eaa6491b17843",
+      "emitter_id": "SUR1070_071",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_071/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c93bd2da",
+      "seed": 1576448501
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_072/r001.json",
+      "configuration_sha256": "9bb42783927baf7be1f86339950f7d89f0498b3370d72d1c3f2b746c4a9b347f",
+      "emitter_id": "SUR1070_072",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_072/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__9bb42783",
+      "seed": 465163251
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_073/r001.json",
+      "configuration_sha256": "e42bc135a934d10ee1e16e6a509282c8e2f9f098b0d0c6d584a65697ae05d342",
+      "emitter_id": "SUR1070_073",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_073/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e42bc135",
+      "seed": 199744869
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_074/r001.json",
+      "configuration_sha256": "525530d6708d6e8ea8a1c987347a3856016c43e9566058b69230b5f1b4611a48",
+      "emitter_id": "SUR1070_074",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_074/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__525530d6",
+      "seed": 1810365550
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_075/r001.json",
+      "configuration_sha256": "e21db2c9f6798ed0618b7f93d05ae9f2952825bd6b2fc3017e6cc2ff7ccb0c23",
+      "emitter_id": "SUR1070_075",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_075/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e21db2c9",
+      "seed": 1738080050
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_076/r001.json",
+      "configuration_sha256": "92566e46dead58524293d9cbdde241312f770ad6b1adea73766e2aafffbddd57",
+      "emitter_id": "SUR1070_076",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_076/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__92566e46",
+      "seed": 1816472458
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_077/r001.json",
+      "configuration_sha256": "a69cdfdbe17dbe1a606d42bbec2d89acbe71310390814436f99e37dab992f24f",
+      "emitter_id": "SUR1070_077",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_077/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a69cdfdb",
+      "seed": 592989310
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_078/r001.json",
+      "configuration_sha256": "350d0af332ef01da138c5362f03f1fd29b2db09045a80d28b0360d0d74fa2793",
+      "emitter_id": "SUR1070_078",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_078/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__350d0af3",
+      "seed": 1820382464
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_079/r001.json",
+      "configuration_sha256": "8a476054f31bb61e6f0ad38c226e97d07d9b5ccf651197930b9002852da7b757",
+      "emitter_id": "SUR1070_079",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_079/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8a476054",
+      "seed": 1956569586
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_080/r001.json",
+      "configuration_sha256": "bea16e5353704e6b6105c6ad909a93071086a3009d7fdbad7bf29e20394e36ff",
+      "emitter_id": "SUR1070_080",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_080/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__bea16e53",
+      "seed": 1831473086
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_081/r001.json",
+      "configuration_sha256": "adfa24c786adae55f092fa6c12f2b396994b31e96f81f030a54da1e3e5744c3e",
+      "emitter_id": "SUR1070_081",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_081/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__adfa24c7",
+      "seed": 1118697969
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_082/r001.json",
+      "configuration_sha256": "0914bb31c905a9222b0cba50daacf50c24cdcfc0046cf3814d0e70a61b8ecca9",
+      "emitter_id": "SUR1070_082",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_082/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0914bb31",
+      "seed": 223199693
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_083/r001.json",
+      "configuration_sha256": "21e53394bd336963e2f2ed0b5c7d1eb75c398b9d79c9a9489089389f4f527b00",
+      "emitter_id": "SUR1070_083",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_083/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__21e53394",
+      "seed": 957707037
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_084/r001.json",
+      "configuration_sha256": "3ca35fc678edd5f771938c6be6015beb92b7398efde4d7c30965b0f2f0f8b45b",
+      "emitter_id": "SUR1070_084",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_084/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__3ca35fc6",
+      "seed": 1307934922
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_085/r001.json",
+      "configuration_sha256": "e9ccc7eb5283824faee0b01f21b0e42d030dffdd139a822f0e23e72963fb4854",
+      "emitter_id": "SUR1070_085",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_085/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e9ccc7eb",
+      "seed": 1516739868
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_086/r001.json",
+      "configuration_sha256": "e5b7b7cfbae6af2961d5c5116ee22357953d84d5724bdb1a35fc1f35a25c30e4",
+      "emitter_id": "SUR1070_086",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_086/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e5b7b7cf",
+      "seed": 638827061
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_087/r001.json",
+      "configuration_sha256": "695911d3a46dd046632aa2ba657f233dcf5fd82b601e8fd61a7806280778e642",
+      "emitter_id": "SUR1070_087",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_087/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__695911d3",
+      "seed": 426847256
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_088/r001.json",
+      "configuration_sha256": "f69ee634a3bb9c02e72699a23bc57c13fc5b2f97a0e9eb46be6fdf5da87f293d",
+      "emitter_id": "SUR1070_088",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_088/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f69ee634",
+      "seed": 232598681
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_089/r001.json",
+      "configuration_sha256": "6fa73fbf390f318d951863955d2c476231bcab6da0beea882086e5b37e3dbf5a",
+      "emitter_id": "SUR1070_089",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_089/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6fa73fbf",
+      "seed": 1366304311
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_090/r001.json",
+      "configuration_sha256": "b4c76c5ddf412bbc7dbd1a02c7107911eefddf8659587d72b544c88693b8e760",
+      "emitter_id": "SUR1070_090",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_090/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b4c76c5d",
+      "seed": 800339944
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_091/r001.json",
+      "configuration_sha256": "2b967c5d9d8b2c9c338013b2a6ea71cdc23c026cf29109af21b67b0ebb0da2da",
+      "emitter_id": "SUR1070_091",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_091/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2b967c5d",
+      "seed": 1708020240
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_092/r001.json",
+      "configuration_sha256": "8ae6822ecd7b8c542e36ed6e391732130ae34bcbd257b882f0b1590166fc3cd8",
+      "emitter_id": "SUR1070_092",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_092/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8ae6822e",
+      "seed": 37426446
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_093/r001.json",
+      "configuration_sha256": "94d4df285fa2fc7b723bc610dac56c94f624d5a00822677460acfde144a6161c",
+      "emitter_id": "SUR1070_093",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_093/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__94d4df28",
+      "seed": 1245168660
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_094/r001.json",
+      "configuration_sha256": "b74d47e3f1276028701e50f14b9a725e1abd3aaa8b29a87a467c57aa2b3e3a62",
+      "emitter_id": "SUR1070_094",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_094/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b74d47e3",
+      "seed": 1194061865
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_095/r001.json",
+      "configuration_sha256": "7cbab334650ad0021ce19febf04e1d01decf3874cc897272e7d31d844c3c2d86",
+      "emitter_id": "SUR1070_095",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_095/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__7cbab334",
+      "seed": 15122046
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_096/r001.json",
+      "configuration_sha256": "24b9e7b73e97912766629b8e2b368c5dcc27c9d78235c27850d4b9cbcf5009a8",
+      "emitter_id": "SUR1070_096",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_096/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__24b9e7b7",
+      "seed": 1102746242
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_097/r001.json",
+      "configuration_sha256": "e966e232067593d3ee7366d3e42443877669eb6df415942a2fb1792e7b274ee4",
+      "emitter_id": "SUR1070_097",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_097/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e966e232",
+      "seed": 1043615986
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_098/r001.json",
+      "configuration_sha256": "2ca13b0017e668d9d5f385faaf2f2ad515fb15110201bf8ce4dddcaab1060358",
+      "emitter_id": "SUR1070_098",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_098/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2ca13b00",
+      "seed": 812990654
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_099/r001.json",
+      "configuration_sha256": "88e64b9a45626f620290227651cb4f97ccbe48110ca20028496abe00a3242084",
+      "emitter_id": "SUR1070_099",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_099/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__88e64b9a",
+      "seed": 1083163041
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_100/r001.json",
+      "configuration_sha256": "35bd1508f7d4af21f227efa189fdcf053a135ae075eb91ce879b50b9b26dd649",
+      "emitter_id": "SUR1070_100",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_100/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__35bd1508",
+      "seed": 1868376379
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_101/r001.json",
+      "configuration_sha256": "7904e4f9c6597e13cbde8966aafd640bc83a979272093711e9bc96ee47dc793f",
+      "emitter_id": "SUR1070_101",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_101/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__7904e4f9",
+      "seed": 985265970
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_102/r001.json",
+      "configuration_sha256": "bddfe23e3228ad0ad528aa4c2b17a5881d2a35c6a582adf622656d002920e9a4",
+      "emitter_id": "SUR1070_102",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_102/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__bddfe23e",
+      "seed": 34534936
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_103/r001.json",
+      "configuration_sha256": "511558c5770711883dfddc8eafb2cd7efa62b54fbeb1f4c76c133853db0fd588",
+      "emitter_id": "SUR1070_103",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_103/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__511558c5",
+      "seed": 1048592038
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_104/r001.json",
+      "configuration_sha256": "410a01f2b1011f24b1291762d331d52f2e252d005e71bb1b5eb6d3199dc18cc1",
+      "emitter_id": "SUR1070_104",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_104/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__410a01f2",
+      "seed": 946287525
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_105/r001.json",
+      "configuration_sha256": "51aad110a53e5347a1d32602034ce082443380289cf3633972f8026d60376fc2",
+      "emitter_id": "SUR1070_105",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_105/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__51aad110",
+      "seed": 655289093
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_106/r001.json",
+      "configuration_sha256": "36fd0290f81caf15af80c9a5fb20e977d37416c6118898c25c1b69bfb00551a8",
+      "emitter_id": "SUR1070_106",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_106/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__36fd0290",
+      "seed": 350707237
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_107/r001.json",
+      "configuration_sha256": "32c8af71bafd1a6f4f01edf32b053e9f15a2769a85fc98fc9c91005d4396da1c",
+      "emitter_id": "SUR1070_107",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_107/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__32c8af71",
+      "seed": 23007484
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_108/r001.json",
+      "configuration_sha256": "48b7234858af76b472650ba8673c9d8a2602201467d233b203289b93c12ee350",
+      "emitter_id": "SUR1070_108",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_108/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__48b72348",
+      "seed": 1372600574
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_109/r001.json",
+      "configuration_sha256": "e174ff8f2397d527bfdab2254e4e2f3de17c2aafdfcb8a72d6e7a10bd36d2c82",
+      "emitter_id": "SUR1070_109",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_109/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e174ff8f",
+      "seed": 2110152565
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_110/r001.json",
+      "configuration_sha256": "d2203891b23cc47bea2f3442c4980a71ba5a2bb1d39a99e04b179a6c8ae1b673",
+      "emitter_id": "SUR1070_110",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_110/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d2203891",
+      "seed": 226505867
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_111/r001.json",
+      "configuration_sha256": "68f608fc3252bf06dbd89c2d32cf96f93a25f89027bf5d6079460778b9584476",
+      "emitter_id": "SUR1070_111",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_111/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__68f608fc",
+      "seed": 1406024406
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_112/r001.json",
+      "configuration_sha256": "39a1b31d44b0de812b2bb6dae8e0d651332ad99aef484d31d4ace9927496844e",
+      "emitter_id": "SUR1070_112",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_112/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__39a1b31d",
+      "seed": 156245320
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_113/r001.json",
+      "configuration_sha256": "743e04878b070b317e395fef33df6971ccc8afafc34e5b3d3bf7e30ffd44ed1f",
+      "emitter_id": "SUR1070_113",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_113/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__743e0487",
+      "seed": 23710611
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_114/r001.json",
+      "configuration_sha256": "97919c47596bdffa96145af1de2f2a06b5173a3955b67721e570070dfb5c9a03",
+      "emitter_id": "SUR1070_114",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_114/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__97919c47",
+      "seed": 1539427850
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_115/r001.json",
+      "configuration_sha256": "2cfeb565b133d8d4e1edf738cfc1a75974aafd5dbc1e549e972196de4aa31c09",
+      "emitter_id": "SUR1070_115",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_115/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2cfeb565",
+      "seed": 78554307
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_116/r001.json",
+      "configuration_sha256": "3333818ee0c7b08cd7fe104d67df74a05f1869e9e8e74a0a3dc8e743c7e4ea7f",
+      "emitter_id": "SUR1070_116",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_116/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__3333818e",
+      "seed": 280128618
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_117/r001.json",
+      "configuration_sha256": "cee23d364d7b61984c09a3e1919902c9133dfa3eabddaa1276b41225d149ec4d",
+      "emitter_id": "SUR1070_117",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_117/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__cee23d36",
+      "seed": 2050492039
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_118/r001.json",
+      "configuration_sha256": "0cdb1df72c68a12faa3b67a86173481d3119297cff7643ade0d8ed723d504ed3",
+      "emitter_id": "SUR1070_118",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_118/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0cdb1df7",
+      "seed": 502412465
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_119/r001.json",
+      "configuration_sha256": "7fb8733cdea208eb5f959ab3a09e18541d81a619925c0480b39b7029169051b0",
+      "emitter_id": "SUR1070_119",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_119/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__7fb8733c",
+      "seed": 208384295
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_120/r001.json",
+      "configuration_sha256": "b0085441edbeb203273b0ecde7cc1030d0cba0d770e6f7893cd6f8a70fa05106",
+      "emitter_id": "SUR1070_120",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_120/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b0085441",
+      "seed": 1215215545
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_121/r001.json",
+      "configuration_sha256": "845d9951c6d1a55271f0cc775aeb04073d678dffdba172ee06ac9ae63ae80266",
+      "emitter_id": "SUR1070_121",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_121/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__845d9951",
+      "seed": 111329684
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_122/r001.json",
+      "configuration_sha256": "af27f1bea982a15960d0270c40f840c147a3a259b80de8f107f0c8a5729bcf43",
+      "emitter_id": "SUR1070_122",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_122/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__af27f1be",
+      "seed": 1026456974
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_123/r001.json",
+      "configuration_sha256": "11be434c6885485349060181136661c855098b26394aad388905dea6c65e6f1e",
+      "emitter_id": "SUR1070_123",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_123/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__11be434c",
+      "seed": 1187128444
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_124/r001.json",
+      "configuration_sha256": "6b509cd1718309dc050fa21fd84546436fcbab1b8f3836c73e95aabe68f9f761",
+      "emitter_id": "SUR1070_124",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_124/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6b509cd1",
+      "seed": 1067128333
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_125/r001.json",
+      "configuration_sha256": "65a3ded9b4986e643a50cf7d70a2eb4516d1fe3f851b0da1753883b251011e3d",
+      "emitter_id": "SUR1070_125",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_125/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__65a3ded9",
+      "seed": 1007409703
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_126/r001.json",
+      "configuration_sha256": "7561a609b522606373edc906b17ed2444bc81af8de1c3be664da2872fa896bad",
+      "emitter_id": "SUR1070_126",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_126/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__7561a609",
+      "seed": 251504567
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_127/r001.json",
+      "configuration_sha256": "98ba85db3fbed539ad4b02b2a63fb7e0cb1eb540dfd149ce560f4febcf0713c0",
+      "emitter_id": "SUR1070_127",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_127/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__98ba85db",
+      "seed": 450268181
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_128/r001.json",
+      "configuration_sha256": "a791616db479381a99b55be8af5340c05a83a9915a6d8ce734aecb20af8aa791",
+      "emitter_id": "SUR1070_128",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_128/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a791616d",
+      "seed": 1798261955
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_129/r001.json",
+      "configuration_sha256": "0f47ebe514e1181fa9b6734e68a83e85841df39c29b0dc6695b45ff2fb499197",
+      "emitter_id": "SUR1070_129",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_129/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0f47ebe5",
+      "seed": 955927194
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_130/r001.json",
+      "configuration_sha256": "2d2ff5f0574cb8be22f0666a9576cc3ccfa4437eca4d9560c48879e95e39d606",
+      "emitter_id": "SUR1070_130",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_130/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2d2ff5f0",
+      "seed": 255749241
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_131/r001.json",
+      "configuration_sha256": "16be4eca0b343421cd98fe94ef15d7f67f18c9d27444d6298e01ecebdf21835e",
+      "emitter_id": "SUR1070_131",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_131/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__16be4eca",
+      "seed": 878925405
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_132/r001.json",
+      "configuration_sha256": "c16cf19dbafa3720a8bedef7758998153fe05c4c47704d535d490916f127a487",
+      "emitter_id": "SUR1070_132",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_132/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c16cf19d",
+      "seed": 1051948816
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_133/r001.json",
+      "configuration_sha256": "7babea08177df52d2808aaa5bd0333cad677d67d8544520cf24c603d4776ede5",
+      "emitter_id": "SUR1070_133",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_133/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__7babea08",
+      "seed": 286427125
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_134/r001.json",
+      "configuration_sha256": "bdb547af2fc28e7215840ec8ca83960eb3c8c426bd9d86efd3e84672fd95078a",
+      "emitter_id": "SUR1070_134",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_134/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__bdb547af",
+      "seed": 1139755561
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_135/r001.json",
+      "configuration_sha256": "b67c623078a97f0108f68be9eaf99dfbdd98ecdc61649db4dd82269682a091b7",
+      "emitter_id": "SUR1070_135",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_135/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b67c6230",
+      "seed": 250111311
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_136/r001.json",
+      "configuration_sha256": "104bf79e9f0d71fcdc12ef1f6dbe64457535c5c6c63e70de0ffc871c23eed000",
+      "emitter_id": "SUR1070_136",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_136/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__104bf79e",
+      "seed": 1280092509
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_137/r001.json",
+      "configuration_sha256": "869fd83a7852b9f558866b1f5a0c06fb105d203567539463f63a3103117c4f2f",
+      "emitter_id": "SUR1070_137",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_137/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__869fd83a",
+      "seed": 472204009
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_138/r001.json",
+      "configuration_sha256": "a760def65b2f097bd826b9d98303e3d5ef5233cb6788a55df32d43792818a082",
+      "emitter_id": "SUR1070_138",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_138/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a760def6",
+      "seed": 681610994
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_139/r001.json",
+      "configuration_sha256": "6851c901e81dc8181e633136046e4b2ec8dd83610e130c9a37d9b40d35191960",
+      "emitter_id": "SUR1070_139",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_139/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6851c901",
+      "seed": 1962182454
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_140/r001.json",
+      "configuration_sha256": "b23618f8696f4badcc32bff63e76e1f707ef3ae2d79e0852e0b0ebfc49ceb323",
+      "emitter_id": "SUR1070_140",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_140/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b23618f8",
+      "seed": 652329902
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_141/r001.json",
+      "configuration_sha256": "a68a5f076f8b0e0365f2545ab60dc86b68f67e3f50a30ef7e0c20bda0ef72ae9",
+      "emitter_id": "SUR1070_141",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_141/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a68a5f07",
+      "seed": 205217789
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_142/r001.json",
+      "configuration_sha256": "cfe32bc1c9c98e9a5a8c0249a6d61f3404c4da68a7114c887e22ca18eea718a8",
+      "emitter_id": "SUR1070_142",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_142/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__cfe32bc1",
+      "seed": 79317039
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_143/r001.json",
+      "configuration_sha256": "af15a9db10691a1ed5a723df32317e9966a4bb85453793dc54ef056080056386",
+      "emitter_id": "SUR1070_143",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_143/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__af15a9db",
+      "seed": 515488358
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_144/r001.json",
+      "configuration_sha256": "817573b7ee55437bd5ee163bf0724ca2c81dc6518565d8d8b2475ed7e2b5af1e",
+      "emitter_id": "SUR1070_144",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_144/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__817573b7",
+      "seed": 350226115
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_145/r001.json",
+      "configuration_sha256": "8f5fd9908bd30f89d7eba628e142bbf37ce54dee95d175cedbc08ac312017265",
+      "emitter_id": "SUR1070_145",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_145/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8f5fd990",
+      "seed": 1501877728
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_146/r001.json",
+      "configuration_sha256": "b3baf395fc28f7bb601a8ff3f3519708a7856b36d769650cbbe6658e3bc46fd9",
+      "emitter_id": "SUR1070_146",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_146/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b3baf395",
+      "seed": 829089707
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_147/r001.json",
+      "configuration_sha256": "0b05c46e363e1f1b056fec3e8f702c4188591c3ce1f0c4aeab0c83591f4513df",
+      "emitter_id": "SUR1070_147",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_147/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0b05c46e",
+      "seed": 536710626
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_148/r001.json",
+      "configuration_sha256": "3a7d49675c0c767629354de929139bca69db710f141f821e8ddfb3894dd3fec9",
+      "emitter_id": "SUR1070_148",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_148/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__3a7d4967",
+      "seed": 1751682654
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_149/r001.json",
+      "configuration_sha256": "255690bff0908152df4cc6544a26c59c95c76fd69a78010fc5f5540c5a1d378a",
+      "emitter_id": "SUR1070_149",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_149/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__255690bf",
+      "seed": 1690394054
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_150/r001.json",
+      "configuration_sha256": "799e5420059f1ad673579d71c90f4655d165a42eed411ec641e9d7f85a8dcfd4",
+      "emitter_id": "SUR1070_150",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_150/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__799e5420",
+      "seed": 506097719
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_151/r001.json",
+      "configuration_sha256": "8f3eb60bb281e67b56c3acaa23cceb2d792bc3d220201ee22ef811cab53ddd78",
+      "emitter_id": "SUR1070_151",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_151/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8f3eb60b",
+      "seed": 400232961
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_152/r001.json",
+      "configuration_sha256": "002f364a056c9a326dd44c64b45e5b1e4a59eea93eac6e355d8b49d394b29817",
+      "emitter_id": "SUR1070_152",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_152/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__002f364a",
+      "seed": 2013882510
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_153/r001.json",
+      "configuration_sha256": "cd05576ee56108274f9b46965ad3d6fb066ce19089eda726e8638ce20f13ffaf",
+      "emitter_id": "SUR1070_153",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_153/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__cd05576e",
+      "seed": 5252882
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_154/r001.json",
+      "configuration_sha256": "d2a31f73ab6c0e6066a53c3726f48371a16e31cfbcdaac84488704c2beab4567",
+      "emitter_id": "SUR1070_154",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_154/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d2a31f73",
+      "seed": 1057182693
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_155/r001.json",
+      "configuration_sha256": "877139a982c3f9a02884fe923d73e317da0230ec2d8d857b00ea58be2572bd76",
+      "emitter_id": "SUR1070_155",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_155/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__877139a9",
+      "seed": 1279345574
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_156/r001.json",
+      "configuration_sha256": "f82c5a220011a88299919620b01a70552f2adc9529830e7bdc037e71eb1bf639",
+      "emitter_id": "SUR1070_156",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_156/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f82c5a22",
+      "seed": 1402165794
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_157/r001.json",
+      "configuration_sha256": "0ab3a3fd7e0db6057b37439c32f908113ad9281d169b61040120e9c84babc2e4",
+      "emitter_id": "SUR1070_157",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_157/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0ab3a3fd",
+      "seed": 119247894
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_158/r001.json",
+      "configuration_sha256": "4fdb397eea5c57a341c7bb067e29d396dfd9a9f0d078f8ad7e31a87696e88ca4",
+      "emitter_id": "SUR1070_158",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_158/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__4fdb397e",
+      "seed": 604563475
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_159/r001.json",
+      "configuration_sha256": "56a7fa886aeead8c9e144cd8d5c446eb004b8ea137282c4a9a2f66b37b8214c3",
+      "emitter_id": "SUR1070_159",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_159/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__56a7fa88",
+      "seed": 732519650
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_160/r001.json",
+      "configuration_sha256": "0d7521fb4ca4aff093827e4a5f644fb464ac03132e477e8513d5744ebbdaf614",
+      "emitter_id": "SUR1070_160",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_160/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0d7521fb",
+      "seed": 534858621
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_161/r001.json",
+      "configuration_sha256": "02d788ba788f37ede0f8d60aad6ef710aa5e32472fca7d8cc33a3b56f56e6cff",
+      "emitter_id": "SUR1070_161",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_161/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__02d788ba",
+      "seed": 1651118504
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_162/r001.json",
+      "configuration_sha256": "f537e050974eb5a4b8614386b148ae67066c5b049f2f3da64734dd2322fd0fca",
+      "emitter_id": "SUR1070_162",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_162/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f537e050",
+      "seed": 861390143
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_163/r001.json",
+      "configuration_sha256": "b9913946aeeb948ea9e4300e85658bf0e0c24d361edd092d0b7b879ff1816ad1",
+      "emitter_id": "SUR1070_163",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_163/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b9913946",
+      "seed": 1161212648
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_164/r001.json",
+      "configuration_sha256": "19674714f8f60f11756eec860ad7573c9f03755ea0867c7e60469d3a7659a35a",
+      "emitter_id": "SUR1070_164",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_164/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__19674714",
+      "seed": 182154104
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_165/r001.json",
+      "configuration_sha256": "5a78de7ea4dbc35bf97333adc0c2bb230e3fc81b864e98abb9b2d5bbc2e12d64",
+      "emitter_id": "SUR1070_165",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_165/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5a78de7e",
+      "seed": 1309622933
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_166/r001.json",
+      "configuration_sha256": "df818f50ffe959d880901e5b07c8e39559df538f18a46fdd2d192ff1cf5fe8bb",
+      "emitter_id": "SUR1070_166",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_166/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__df818f50",
+      "seed": 991298158
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_167/r001.json",
+      "configuration_sha256": "0e712c2a7bf59655315c61c5231df8f42e6222bedf56857367eda0e2cc902ba2",
+      "emitter_id": "SUR1070_167",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_167/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0e712c2a",
+      "seed": 1198285629
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_168/r001.json",
+      "configuration_sha256": "d28a7b04da9f5ded014762ee19688e476e4375c90e1186adda4d105f32373c28",
+      "emitter_id": "SUR1070_168",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_168/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d28a7b04",
+      "seed": 379852306
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_169/r001.json",
+      "configuration_sha256": "227121046ea75d7b89ab3490b82eb14b48af1544a22de5491ec306e9d0cf11e5",
+      "emitter_id": "SUR1070_169",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_169/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__22712104",
+      "seed": 1183533934
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_170/r001.json",
+      "configuration_sha256": "47a58687b1062dc505f82a9d57af489d06ed48db4a46d8f435383a98f4f3c2a1",
+      "emitter_id": "SUR1070_170",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_170/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__47a58687",
+      "seed": 1927289714
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_171/r001.json",
+      "configuration_sha256": "8e120541bff8084097756a6e60b0255550d4c0cee449b234f04be58437b819cb",
+      "emitter_id": "SUR1070_171",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_171/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8e120541",
+      "seed": 1273175608
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_172/r001.json",
+      "configuration_sha256": "f51f45cf8a0be82fdcb43567636bd83c7bc2111ea099eca334e22371c061e62b",
+      "emitter_id": "SUR1070_172",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_172/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f51f45cf",
+      "seed": 691454317
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_173/r001.json",
+      "configuration_sha256": "74e87eb8fbaedd107dca461e4d278b4cd48ff17fd6421ce9c78666669a12bdf7",
+      "emitter_id": "SUR1070_173",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_173/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__74e87eb8",
+      "seed": 1935601471
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_174/r001.json",
+      "configuration_sha256": "efb96976c2cd046222ad1e3689e87ddbd6e46e45c3baa44d15283a2adaea9f90",
+      "emitter_id": "SUR1070_174",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_174/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__efb96976",
+      "seed": 1298188116
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_175/r001.json",
+      "configuration_sha256": "6ef4b15676ada009ddcefed597eaf55d2b4ce2a6450a753bba7de3f97ad62fb0",
+      "emitter_id": "SUR1070_175",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_175/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6ef4b156",
+      "seed": 1342139424
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_176/r001.json",
+      "configuration_sha256": "88bea1a63a9da0056c13d602be0a9380744629cc5b068d284c524b5d317a6986",
+      "emitter_id": "SUR1070_176",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_176/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__88bea1a6",
+      "seed": 1391588030
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_177/r001.json",
+      "configuration_sha256": "f8a7b64b06002deae78f99af371c50f7a14c31bc8b39271aaf37d4e866e628db",
+      "emitter_id": "SUR1070_177",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_177/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f8a7b64b",
+      "seed": 1289969817
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_178/r001.json",
+      "configuration_sha256": "aff90196410b691773794854407a922609b82e061261e4166569a43a2a6a0c67",
+      "emitter_id": "SUR1070_178",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_178/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__aff90196",
+      "seed": 1227978192
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_179/r001.json",
+      "configuration_sha256": "f697dff92b22db1c21659291ae5506f344c6af24d6edb1d81157aff392225946",
+      "emitter_id": "SUR1070_179",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_179/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f697dff9",
+      "seed": 1406133098
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_180/r001.json",
+      "configuration_sha256": "c7e7e475131419a2841dc8db52c4c6321660f44adac7a261df996bc4797a2d2a",
+      "emitter_id": "SUR1070_180",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_180/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c7e7e475",
+      "seed": 1152028308
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_181/r001.json",
+      "configuration_sha256": "0a5c0ace16ef0ad77eb815b2fba7970d288c0cf20aba27e0841e618e315b3ea5",
+      "emitter_id": "SUR1070_181",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_181/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0a5c0ace",
+      "seed": 1377829462
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_182/r001.json",
+      "configuration_sha256": "69dddd6dc259f550157fa3a0d58aaba88519a0a75491d4ff9b665d42f2583d05",
+      "emitter_id": "SUR1070_182",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_182/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__69dddd6d",
+      "seed": 409573915
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_183/r001.json",
+      "configuration_sha256": "fef2c3b1b4fe3232663e1787ca2b539f407ef480f7c4daafa25d7a6e6aa943ae",
+      "emitter_id": "SUR1070_183",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_183/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__fef2c3b1",
+      "seed": 175947139
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_184/r001.json",
+      "configuration_sha256": "7acb9958b5ca14817bce1c675e0672697a590e5fa7f81a9b24533af56393bc55",
+      "emitter_id": "SUR1070_184",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_184/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__7acb9958",
+      "seed": 1449333646
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_185/r001.json",
+      "configuration_sha256": "1f9214e479d01d4fa71cc7f4543c6989e764e1ed9876ccb0dfcd09b3ffdd1de6",
+      "emitter_id": "SUR1070_185",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_185/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__1f9214e4",
+      "seed": 1776377556
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_186/r001.json",
+      "configuration_sha256": "07e03466004a24e5deaadbdb8bb75c3eb9b8b8a981eb2a8b3a7eba704519ee81",
+      "emitter_id": "SUR1070_186",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_186/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__07e03466",
+      "seed": 1435362796
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_187/r001.json",
+      "configuration_sha256": "5e2ac1fa9d74c06aff0d5728ac4b0c4782d42cede35ad97b43dab5bd68bab612",
+      "emitter_id": "SUR1070_187",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_187/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5e2ac1fa",
+      "seed": 545397623
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_188/r001.json",
+      "configuration_sha256": "a5de9852e5f99055274faf89247a80586e368b075d36c22b9264bbb9a49bdf5f",
+      "emitter_id": "SUR1070_188",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_188/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a5de9852",
+      "seed": 748302961
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_189/r001.json",
+      "configuration_sha256": "3c04858de49cfb35b36c9278dcf1f72070ccef7f19ea7f0d9aff306d7536aff2",
+      "emitter_id": "SUR1070_189",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_189/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__3c04858d",
+      "seed": 707981218
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_190/r001.json",
+      "configuration_sha256": "8bf91a6d1bf9fe2ca9f5dba147a3aba70796b2448972cfb332a11f0c8d1ddc40",
+      "emitter_id": "SUR1070_190",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_190/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8bf91a6d",
+      "seed": 1861060487
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_191/r001.json",
+      "configuration_sha256": "6822ed9aee5cb5be0220479ebe30590ae5e651911dcb8e6545ff601e0fc32118",
+      "emitter_id": "SUR1070_191",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_191/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6822ed9a",
+      "seed": 1367959525
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_192/r001.json",
+      "configuration_sha256": "2dfd8bd06e18e9379cc412828e7a2a4a2c2d45e4cb6fb8bc90f6b83a866ce41e",
+      "emitter_id": "SUR1070_192",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_192/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2dfd8bd0",
+      "seed": 1561597977
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_193/r001.json",
+      "configuration_sha256": "afcb0adc343f158461b9e08ead048519cd2a55faf5e5a814e973431384aa3681",
+      "emitter_id": "SUR1070_193",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_193/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__afcb0adc",
+      "seed": 733799707
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_194/r001.json",
+      "configuration_sha256": "039d0abd3d2bf5abad72c105255a36ef0e676cdb5f98f8151ffb3d4c8a787566",
+      "emitter_id": "SUR1070_194",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_194/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__039d0abd",
+      "seed": 1941624355
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_195/r001.json",
+      "configuration_sha256": "5260b53938d51c8bbff1394a4ce066138e3aac9af2d086a5643f4f6c61cae502",
+      "emitter_id": "SUR1070_195",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_195/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5260b539",
+      "seed": 321046801
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_196/r001.json",
+      "configuration_sha256": "508bdf8b3f2aef5220fd5eb28d533af52f0c1e005a4fd76eea4c0319b5635307",
+      "emitter_id": "SUR1070_196",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_196/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__508bdf8b",
+      "seed": 1836872709
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_197/r001.json",
+      "configuration_sha256": "d838f135247fefa78c4b518a8adfcc1920841a545d96f48cc3e4f80e5fbe6ded",
+      "emitter_id": "SUR1070_197",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_197/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d838f135",
+      "seed": 794402256
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_198/r001.json",
+      "configuration_sha256": "de7c503ce094c4316a9e2246132e207405453801650f138d91308ecd043b5491",
+      "emitter_id": "SUR1070_198",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_198/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__de7c503c",
+      "seed": 817295757
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_199/r001.json",
+      "configuration_sha256": "68e47024403c69cf2500fce28245639270f2885e380300453f3280661bdcfb1f",
+      "emitter_id": "SUR1070_199",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_199/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__68e47024",
+      "seed": 324632049
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_200/r001.json",
+      "configuration_sha256": "1f1c6d804e090d4faec183ac3d42fb5dd79d9f6d20cd5707de285ce03f496860",
+      "emitter_id": "SUR1070_200",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_200/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__1f1c6d80",
+      "seed": 1910434331
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_201/r001.json",
+      "configuration_sha256": "3f1655ecb4198715c27541a657a8ce8c3d2b4efb2e5768dceb2ae5b97c12ffa4",
+      "emitter_id": "SUR1070_201",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_201/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__3f1655ec",
+      "seed": 1293425932
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_202/r001.json",
+      "configuration_sha256": "5a9d6ad92b4faa409512809632cf9656fdfa98310bd1baaebbaf554082299ff2",
+      "emitter_id": "SUR1070_202",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_202/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5a9d6ad9",
+      "seed": 636984217
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_203/r001.json",
+      "configuration_sha256": "1d2bea0ad5f6a783f960666364a063c880c77a1804cc2852053e0552b8602299",
+      "emitter_id": "SUR1070_203",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_203/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__1d2bea0a",
+      "seed": 1467900919
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_204/r001.json",
+      "configuration_sha256": "2fdf604e6cfb559cffa85f07f415c7a8263475a720a1cf63a938fd287f2c7ae9",
+      "emitter_id": "SUR1070_204",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_204/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__2fdf604e",
+      "seed": 2073315816
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_205/r001.json",
+      "configuration_sha256": "f03d0fce1e24ef99de16c35c87fd265f08c80ad580d79d1338149ce7c1e1931e",
+      "emitter_id": "SUR1070_205",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_205/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f03d0fce",
+      "seed": 357851277
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_206/r001.json",
+      "configuration_sha256": "70e61536ee028aeb098353d4b28e157291f2e211f138b94e10717b614da6b99b",
+      "emitter_id": "SUR1070_206",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_206/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__70e61536",
+      "seed": 2024323527
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_207/r001.json",
+      "configuration_sha256": "f94480067eb271d0b79777830c925523e4b387fb61123f43199e95d12f7a8750",
+      "emitter_id": "SUR1070_207",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_207/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f9448006",
+      "seed": 2085576019
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_208/r001.json",
+      "configuration_sha256": "5f0a57776027b5ca4866c2c20a51c4e7b4f5c4483b7bf780f4154ef597ffec21",
+      "emitter_id": "SUR1070_208",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_208/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5f0a5777",
+      "seed": 698073625
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_209/r001.json",
+      "configuration_sha256": "57b1b96a26d125c79bd444f537ec43f0d1b2534dee99c1a4931720000d3f372d",
+      "emitter_id": "SUR1070_209",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_209/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__57b1b96a",
+      "seed": 2045699000
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_210/r001.json",
+      "configuration_sha256": "83ff0c3c3a6d69f36a4e639761121ffa64e38f9e412bb4f739a106c7fcaca3ce",
+      "emitter_id": "SUR1070_210",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_210/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__83ff0c3c",
+      "seed": 1244196095
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_211/r001.json",
+      "configuration_sha256": "dbaf7b2ae0879e497093ad2fb0324d74083f8c3c0d31d5ef6f8d65272f3ef845",
+      "emitter_id": "SUR1070_211",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_211/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__dbaf7b2a",
+      "seed": 1822025660
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_212/r001.json",
+      "configuration_sha256": "8b81bf0348ad44608f15bac03e6a082809febdb592514870fb6de4a490188e49",
+      "emitter_id": "SUR1070_212",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_212/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8b81bf03",
+      "seed": 1635685455
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_213/r001.json",
+      "configuration_sha256": "ce5dea290510a8b6b82b01d5342cd6160bba6614eab2daa049b823d4b7c749ff",
+      "emitter_id": "SUR1070_213",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_213/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__ce5dea29",
+      "seed": 1289670516
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_214/r001.json",
+      "configuration_sha256": "6c738ef8a428919cece78aa9d83a3bd89ef1a599af2db9d4e9fab028d24339f8",
+      "emitter_id": "SUR1070_214",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_214/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6c738ef8",
+      "seed": 978463916
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_215/r001.json",
+      "configuration_sha256": "859f135bb671fa3cbd759994a82d22ae8be65736ac68da87c157f95ef7d08a86",
+      "emitter_id": "SUR1070_215",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_215/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__859f135b",
+      "seed": 1127027586
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_216/r001.json",
+      "configuration_sha256": "b45f439a0107cbc1630bcdb2618c29401b6e6051f4a47cf81616d0322e7ba574",
+      "emitter_id": "SUR1070_216",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_216/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b45f439a",
+      "seed": 1348844140
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_217/r001.json",
+      "configuration_sha256": "e67fc799e05f0356da49e5c382d4e97a79985a2b9e66270a3dd7d7906ddb798e",
+      "emitter_id": "SUR1070_217",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_217/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e67fc799",
+      "seed": 205523510
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_218/r001.json",
+      "configuration_sha256": "8d512a3b8c1126a8ed619558f8d016b6c7b6bdc16e24472e12c8ba27ea062140",
+      "emitter_id": "SUR1070_218",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_218/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8d512a3b",
+      "seed": 1590878466
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_219/r001.json",
+      "configuration_sha256": "a71c32323db2ad416a9abd28a9f86e24e1fc6ebbd56dcac8c563a4d663566c77",
+      "emitter_id": "SUR1070_219",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_219/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a71c3232",
+      "seed": 1503566516
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_220/r001.json",
+      "configuration_sha256": "a53d1d9bb349d68e50f195c49ae807c4745b41fd3d2b1b6e2f9e73040c708ebd",
+      "emitter_id": "SUR1070_220",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_220/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a53d1d9b",
+      "seed": 336333335
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_221/r001.json",
+      "configuration_sha256": "6e02a5c56bf6b108cdca7ba1e6a2d9085cd862e914d3b4607f650c68f47341b3",
+      "emitter_id": "SUR1070_221",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_221/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6e02a5c5",
+      "seed": 2116890701
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_222/r001.json",
+      "configuration_sha256": "6c6ca19a9d021f06c6566da46cf7fbae3e6ba8e3c01a3a24a947ceca1ea1b294",
+      "emitter_id": "SUR1070_222",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_222/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6c6ca19a",
+      "seed": 1997068096
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_223/r001.json",
+      "configuration_sha256": "3759ec7aa864d5995482887a3326c5d933fc2f7cfedc4d9e1507167b46381bb8",
+      "emitter_id": "SUR1070_223",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_223/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__3759ec7a",
+      "seed": 1378393484
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_224/r001.json",
+      "configuration_sha256": "b44b32ca19a26e17bf385faae626124b11df48b034caf40ea821c6730f31df66",
+      "emitter_id": "SUR1070_224",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_224/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b44b32ca",
+      "seed": 1133547319
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_225/r001.json",
+      "configuration_sha256": "b9712bded3e64d5b0f33496d3291f85c12cb667e82b10b7a95b26570d345849b",
+      "emitter_id": "SUR1070_225",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_225/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b9712bde",
+      "seed": 1578775600
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_226/r001.json",
+      "configuration_sha256": "e607edc4c801fa2db43428d7a8a24eb7c79f689cab59261babce6cfd50213431",
+      "emitter_id": "SUR1070_226",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_226/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e607edc4",
+      "seed": 1692608082
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_227/r001.json",
+      "configuration_sha256": "f62f0c6d1649920e7c3670cc022ca0fca297325e11ae932eda04a5275383f38a",
+      "emitter_id": "SUR1070_227",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_227/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f62f0c6d",
+      "seed": 2039085071
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_228/r001.json",
+      "configuration_sha256": "c9b3ad507d9b8dcfb7621818c31420a8c578ca043ae9901c96acdd5db6f5a767",
+      "emitter_id": "SUR1070_228",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_228/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c9b3ad50",
+      "seed": 725829679
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_229/r001.json",
+      "configuration_sha256": "96b2f3c841f39546403775ee09350e8e344a74d57a4caaa2e034b4539d4e7a0a",
+      "emitter_id": "SUR1070_229",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_229/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__96b2f3c8",
+      "seed": 18558635
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_230/r001.json",
+      "configuration_sha256": "c5ef056b3b28d808c44e50a6915a72fcde9839c8aa6d8a643d78173e20b954f1",
+      "emitter_id": "SUR1070_230",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_230/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c5ef056b",
+      "seed": 518537575
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_231/r001.json",
+      "configuration_sha256": "4730ccdc722372e665c48d317c15b2775fc421ce3430ef58b90437d96cd7e5d1",
+      "emitter_id": "SUR1070_231",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_231/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__4730ccdc",
+      "seed": 892272060
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_232/r001.json",
+      "configuration_sha256": "d23642084ba09b3b1d06b3298ddf32ef6fea32561741debd9658c84d94c7f44c",
+      "emitter_id": "SUR1070_232",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_232/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d2364208",
+      "seed": 1540765761
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_233/r001.json",
+      "configuration_sha256": "8efb7d750d9bda125cb229b10480257da5d1b15b51645fdceb864f256a14c9a4",
+      "emitter_id": "SUR1070_233",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_233/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8efb7d75",
+      "seed": 60828916
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_234/r001.json",
+      "configuration_sha256": "cdbf153f59c325d929b3def145e029b2d468a600f067b05016a698a5b5bf5a33",
+      "emitter_id": "SUR1070_234",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_234/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__cdbf153f",
+      "seed": 1941199617
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_235/r001.json",
+      "configuration_sha256": "10a48c0b8df605337dbf390802c8003112beead39ae80876af916568c9dbe15e",
+      "emitter_id": "SUR1070_235",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_235/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__10a48c0b",
+      "seed": 364520364
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_236/r001.json",
+      "configuration_sha256": "ed06a723b479266e89d93d71346ba46e85914e614b882a9f54df96cd8f60ffdc",
+      "emitter_id": "SUR1070_236",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_236/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__ed06a723",
+      "seed": 553170693
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_237/r001.json",
+      "configuration_sha256": "52eb19d1847dc9de62d9c8027b878d1e7a0fc5e7019a134af97cf1eb066f35c2",
+      "emitter_id": "SUR1070_237",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_237/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__52eb19d1",
+      "seed": 557583244
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_238/r001.json",
+      "configuration_sha256": "4cb0867614fccf2180557a768c29858f8d23c891d467f1c7e816b393a1d58c5b",
+      "emitter_id": "SUR1070_238",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_238/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__4cb08676",
+      "seed": 858146496
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_239/r001.json",
+      "configuration_sha256": "be2f767f39391de60bf644c8d6f575ae0a90cdb502d96aca949683fc92f8f351",
+      "emitter_id": "SUR1070_239",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_239/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__be2f767f",
+      "seed": 1412926474
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_240/r001.json",
+      "configuration_sha256": "1626d5242e4e7b1889269355cd7dda9d0a4037042e76c253e07a6ccf9ba57571",
+      "emitter_id": "SUR1070_240",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_240/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__1626d524",
+      "seed": 1284584022
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_241/r001.json",
+      "configuration_sha256": "10d12ec5d0857a9a867602621a5529a19a34be2eca8df0f0b1acc186a188871d",
+      "emitter_id": "SUR1070_241",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_241/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__10d12ec5",
+      "seed": 1766241480
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_242/r001.json",
+      "configuration_sha256": "674590b3260c0ac5b27ba61175748258144b61ad839eb9f00c5cb859c6febd9c",
+      "emitter_id": "SUR1070_242",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_242/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__674590b3",
+      "seed": 493645326
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_243/r001.json",
+      "configuration_sha256": "f81f8cebb2d4a082d97e4c67b7077c9d88b323f4841a4bd04f886d99a05b069d",
+      "emitter_id": "SUR1070_243",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_243/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__f81f8ceb",
+      "seed": 1543279049
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_244/r001.json",
+      "configuration_sha256": "b3fdc5092b5a41c54280a8b1c354c221fa31ff3400305541041254445bae483f",
+      "emitter_id": "SUR1070_244",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_244/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__b3fdc509",
+      "seed": 1115550542
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_245/r001.json",
+      "configuration_sha256": "49b87b9517ed1c45a1bf6c4b8c1756a0036ad763f96fff6e2aa5b8c38c2187b1",
+      "emitter_id": "SUR1070_245",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_245/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__49b87b95",
+      "seed": 779315786
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_246/r001.json",
+      "configuration_sha256": "0a77ba234989ceb79ee4885b3082ed6c9c3e785516a18c888930ae5f0b2f0f4a",
+      "emitter_id": "SUR1070_246",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_246/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0a77ba23",
+      "seed": 1508718378
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_247/r001.json",
+      "configuration_sha256": "9179d048afc9a31711b0b1c33f9c91675a69515bc636318fa1372646847167f9",
+      "emitter_id": "SUR1070_247",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_247/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__9179d048",
+      "seed": 1621426010
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_248/r001.json",
+      "configuration_sha256": "701f839dc75bdd2f35728c84031e5f465a8b8e44c6aed48a57efcb0b57341b54",
+      "emitter_id": "SUR1070_248",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_248/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__701f839d",
+      "seed": 1078667168
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_249/r001.json",
+      "configuration_sha256": "177062fdca812f41e6c0732de5c591138196c0688a46275dc60c5b08ee6d444d",
+      "emitter_id": "SUR1070_249",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_249/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__177062fd",
+      "seed": 1492127363
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_250/r001.json",
+      "configuration_sha256": "e10162c39e00b7b4b99fd22874dd98c92cbf050dae8618d9dc597a25da13736d",
+      "emitter_id": "SUR1070_250",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_250/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e10162c3",
+      "seed": 1870770172
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_251/r001.json",
+      "configuration_sha256": "069918e7ada6d175b49008a90d85863909e935a65ac9f2207c9134bf2305795a",
+      "emitter_id": "SUR1070_251",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_251/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__069918e7",
+      "seed": 2011291568
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_252/r001.json",
+      "configuration_sha256": "5f1ce1891ca48a6eaee9094b1ede4e6a7bc6b7f68520939752cdd2bb5f186199",
+      "emitter_id": "SUR1070_252",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_252/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5f1ce189",
+      "seed": 1072762978
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_253/r001.json",
+      "configuration_sha256": "9922bc291c6e877da89217e6ead79738f91ea7d83bdd44d76b62eee9e35f6b83",
+      "emitter_id": "SUR1070_253",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_253/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__9922bc29",
+      "seed": 464783970
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_254/r001.json",
+      "configuration_sha256": "6e4bfa7253906038371c1d965973575847340124e0c0c66dbb6384ab6da4c373",
+      "emitter_id": "SUR1070_254",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_254/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6e4bfa72",
+      "seed": 838481246
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_255/r001.json",
+      "configuration_sha256": "bb39e1b914d2057488a031a257d3251f899798430c34440267c09c1be2533ec9",
+      "emitter_id": "SUR1070_255",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_255/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__bb39e1b9",
+      "seed": 157741163
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_256/r001.json",
+      "configuration_sha256": "8cb4cd9f73e12e9b65caa1c00bd16d5cdca318223b9a7f91f46e10486ba1b22b",
+      "emitter_id": "SUR1070_256",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_256/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__8cb4cd9f",
+      "seed": 248211225
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_257/r001.json",
+      "configuration_sha256": "ff77baaae03c8565f17140d0e3e794f609f1f4b5c9cd07b68ab0d2f5da6dcc7a",
+      "emitter_id": "SUR1070_257",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_257/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__ff77baaa",
+      "seed": 1131541790
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_258/r001.json",
+      "configuration_sha256": "c4b39eebfc7c58c0c72e24aec08ee7d468a272230f4ac9e1cef086e4ce99515b",
+      "emitter_id": "SUR1070_258",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_258/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__c4b39eeb",
+      "seed": 737406299
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_259/r001.json",
+      "configuration_sha256": "514827da891e80da51185d5450b3f94ae37cd0dffc866fa7c1b5aeac37e6d552",
+      "emitter_id": "SUR1070_259",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_259/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__514827da",
+      "seed": 1792316101
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_260/r001.json",
+      "configuration_sha256": "6eefd4cfabe1f8b01974327baaf08f96bbbcb7bef3b5e3db55142813f1227b34",
+      "emitter_id": "SUR1070_260",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_260/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__6eefd4cf",
+      "seed": 1022157032
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_261/r001.json",
+      "configuration_sha256": "5f29a3a6ce79e14c3c5ec42ed7e73fccf35572e37113623bb81698d48ec977e2",
+      "emitter_id": "SUR1070_261",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_261/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5f29a3a6",
+      "seed": 1916608226
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_262/r001.json",
+      "configuration_sha256": "5f69fe4a6f5961a96c1c7a91a6aa6535a07103a7b8c9218572744999ebf63ae0",
+      "emitter_id": "SUR1070_262",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_262/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5f69fe4a",
+      "seed": 1528258362
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_263/r001.json",
+      "configuration_sha256": "385a79e021c767f43660032647bdabbf86f99b01e0d45975f5f243287651fedb",
+      "emitter_id": "SUR1070_263",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_263/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__385a79e0",
+      "seed": 1310524370
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_264/r001.json",
+      "configuration_sha256": "5851719f169f58478e224da6da4e66b5ce11e59027ee8bb64c55561218ebeebb",
+      "emitter_id": "SUR1070_264",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_264/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__5851719f",
+      "seed": 1518025479
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_265/r001.json",
+      "configuration_sha256": "0c02ee5a5503f65eb67a096589d00ca47aea7577b93612a34209eb05dc6c895a",
+      "emitter_id": "SUR1070_265",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_265/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__0c02ee5a",
+      "seed": 842619954
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_266/r001.json",
+      "configuration_sha256": "597338e23066985c3412dddfcb01f6660f0a8f07f8b3bb3c2bc931c20700ca64",
+      "emitter_id": "SUR1070_266",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_266/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__597338e2",
+      "seed": 1999278390
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_267/r001.json",
+      "configuration_sha256": "29b209ac5ba26734eaad58118fd765eaa575fb0f6b8df34713ca75513d79e469",
+      "emitter_id": "SUR1070_267",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_267/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__29b209ac",
+      "seed": 814791427
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_268/r001.json",
+      "configuration_sha256": "4a27a33ae2dd8d8d0058dfe7e5dedc2c1d9271c9d81f61751d31a844d0dc77df",
+      "emitter_id": "SUR1070_268",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_268/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__4a27a33a",
+      "seed": 1944077811
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_269/r001.json",
+      "configuration_sha256": "19136802d2bc07c1361d87ca5be7d764374b184561585071b539a8955a1e07bf",
+      "emitter_id": "SUR1070_269",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_269/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__19136802",
+      "seed": 1576720475
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_270/r001.json",
+      "configuration_sha256": "e94bfa2620376085d7beaf7832297fb6ce85c8cb50763079789f931f17c64daf",
+      "emitter_id": "SUR1070_270",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_270/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__e94bfa26",
+      "seed": 453271808
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_271/r001.json",
+      "configuration_sha256": "11eb04a8154adbd718be9b794b5bcb99f915adc469a9b7d3f7c3fc904525ab92",
+      "emitter_id": "SUR1070_271",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_271/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__11eb04a8",
+      "seed": 2112994763
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_272/r001.json",
+      "configuration_sha256": "d2df6ec97479ef282f6ce8dd334d3cdea79ba89aaf023f68379a7fbec86dd892",
+      "emitter_id": "SUR1070_272",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_272/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d2df6ec9",
+      "seed": 1093905553
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_273/r001.json",
+      "configuration_sha256": "128abc1e47c528643a268ff192bab8777d9747298319085b91bf931ce461e5d5",
+      "emitter_id": "SUR1070_273",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_273/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__128abc1e",
+      "seed": 1138183594
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_274/r001.json",
+      "configuration_sha256": "d0b6a4c3390bcdbb1c0fc53a7e76505322e1e3cc19bb73a361251ac883dc9434",
+      "emitter_id": "SUR1070_274",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_274/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__d0b6a4c3",
+      "seed": 1700520561
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_275/r001.json",
+      "configuration_sha256": "36bfadcc3f95bd77c40b7944c196a6af0f05df76e474d16b7135f3f78f2006b7",
+      "emitter_id": "SUR1070_275",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_275/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__36bfadcc",
+      "seed": 1171073071
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_276/r001.json",
+      "configuration_sha256": "a88d0d317ff3c2b038af4817656a35ff28a5665896e67142d81e2c6f44bca4e8",
+      "emitter_id": "SUR1070_276",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_276/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__a88d0d31",
+      "seed": 1817038589
+    },
+    {
+      "configuration_path": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_277/r001.json",
+      "configuration_sha256": "164362216166165c0399bda8b2827df294ffd186ee95836d08dd0966048abeea",
+      "emitter_id": "SUR1070_277",
+      "manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/sur1070_277/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "provisional_1070_fat_abs_010_v1__20260817t201453z__16436221",
+      "seed": 33241117
+    }
+  ]
+}

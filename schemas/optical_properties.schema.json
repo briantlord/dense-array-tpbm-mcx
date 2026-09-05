@@ -6,6 +6,7 @@
   "required": ["scenario_id", "synthetic_test_only", "wavelength_nm", "coefficient_unit", "tissues"],
   "properties": {
     "scenario_id": {"type": "string", "minLength": 1},
+    "scientific_status": {"enum": ["synthetic_test_only", "benchmark", "provisional", "production"]},
     "synthetic_test_only": {"type": "boolean"},
     "wavelength_nm": {"oneOf": [{"type": "number", "exclusiveMinimum": 0}, {"const": "TBD"}]},
     "coefficient_unit": {"const": "mm^-1"},

@@ -1,0 +1,90 @@
+{
+  "cases": [
+    {
+      "case": "fat_abs_005065",
+      "citation": "Van Veen et al. 2005 DOI 10.1117/1.2085149; https://omlc.org/spectra/fat/fat.txt at 1070 nm",
+      "conversion": "Exact 1070-nm processed Van Veen point: 5.065 m^-1 divided by 1000 to 0.005065 mm^-1; Bashkatov fat scattering is held fixed.",
+      "engine_path": "configs/fat_abs_005065_engine_template_v1.json",
+      "mua_mm-1": 0.005065,
+      "optical_path": "inputs/fat_absorption_bracket_v1/fat_abs_005065.json",
+      "plan_path": "configs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1.json",
+      "role": "low_exact_lipid",
+      "run_root": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1",
+      "scenario_id": "provisional_1070_fat_abs_005065_v1",
+      "template_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_005065_basis_v1/template_manifest.json",
+      "uncertainty": "Purified mammalian lipid is not vascularized human cranial adipose; atlas fat and fat_2 identity remains unresolved."
+    },
+    {
+      "case": "fat_abs_010",
+      "citation": "Van Veen et al. 2005 exact-1070 lipid spectrum; Damagatla et al. 2026 DOI 10.1038/s41597-026-06586-9 exact-1070 in-vivo abdomen",
+      "conversion": "Project-selected effective-adipose bracket value informed by 0.005065 mm^-1 purified lipid and 0.0096518333 mm^-1 mean bulk in-vivo abdomen; Bashkatov fat scattering is held fixed.",
+      "engine_path": "configs/fat_abs_010_engine_template_v1.json",
+      "mua_mm-1": 0.01,
+      "optical_path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+      "plan_path": "configs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1.json",
+      "role": "recommended_effective_adipose",
+      "run_root": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1",
+      "scenario_id": "provisional_1070_fat_abs_010_v1",
+      "template_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/template_manifest.json",
+      "uncertainty": "Not a direct scalp-adipose measurement; combines lipid-only and bulk abdominal evidence as a declared provisional sensitivity assumption."
+    },
+    {
+      "case": "fat_abs_030",
+      "citation": "Damagatla et al. 2026 DOI 10.1038/s41597-026-06586-9 exact-1070 in-vivo abdomen subject-mean range",
+      "conversion": "Rounded high bracket within the observed 0.00502-0.0310167 mm^-1 bulk abdominal subject-mean range; Bashkatov fat scattering is held fixed.",
+      "engine_path": "configs/fat_abs_030_engine_template_v1.json",
+      "mua_mm-1": 0.03,
+      "optical_path": "inputs/fat_absorption_bracket_v1/fat_abs_030.json",
+      "plan_path": "configs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1.json",
+      "role": "high_effective_adipose",
+      "run_root": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1",
+      "scenario_id": "provisional_1070_fat_abs_030_v1",
+      "template_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_030_basis_v1/template_manifest.json",
+      "uncertainty": "Bulk abdomen is layered rather than isolated scalp adipose; this is a high sensitivity endpoint, not a nominal tissue claim."
+    }
+  ],
+  "code_revision": "37ee2e042612a0d2ad919f4906467e8300e86195",
+  "created_at": "2026-08-17T20:14:53Z",
+  "environment": {
+    "device": "NVIDIA GeForce RTX 3080 Ti",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "path": "environment/windows_rtx3080ti_opencl_v1.json"
+  },
+  "evidence": [
+    {
+      "data": "https://omlc.org/spectra/fat/fat.txt",
+      "doi": "10.1117/1.2085149",
+      "source": "Van Veen et al. 2005",
+      "value_1070_mm-1": 0.005065
+    },
+    {
+      "doi": "10.1038/s41597-026-06586-9",
+      "mean_1070_mm-1": 0.00965183333333,
+      "source": "Damagatla et al. 2026 in-vivo abdomen",
+      "subject_mean_range_1070_mm-1": [
+        0.00502,
+        0.0310166666667
+      ]
+    }
+  ],
+  "existing_extreme_high_baseline": {
+    "aggregate_analysis": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1",
+    "basis_index": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+    "fat_mua_mm-1": 0.103,
+    "scenario_id": "provisional_1070_v1"
+  },
+  "frozen_dimensions": {
+    "changed_parameter": "mua_mm-1 only",
+    "emitter_count": 277,
+    "fat_scattering_held_fixed": true,
+    "fat_tissue_ids": [
+      4,
+      9
+    ],
+    "photon_count_per_emitter": 100000000,
+    "replicates_per_emitter": 1
+  },
+  "protocol_id": "surrogate_yue277_1070_fat_absorption_bracket_v1",
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy"
+}

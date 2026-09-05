@@ -120,6 +120,12 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--output-dir", type=Path)
     parser.add_argument(
+        "--result-version",
+        type=int,
+        default=1,
+        help="version suffix for newly generated result IDs",
+    )
+    parser.add_argument(
         "--collect-100m-root",
         type=Path,
         help="collect rep001..rep003 MCX outputs after persistent external execution",
@@ -140,6 +146,8 @@ def main() -> None:
         help="extend the bounded pilot through the required 100-million-photon tier",
     )
     arguments = parser.parse_args()
+    if arguments.result_version < 1:
+        raise SystemExit("--result-version must be positive")
     if arguments.include_1b:
         arguments.include_100m = True
     default_output = OUTPUT_DIR
@@ -304,8 +312,7 @@ def main() -> None:
             }
         )
 
-    result = {
-        "result_id": (
+    result_name = (
             "yue2015_north_pole_convergence_paperscale_m4_v1"
             if arguments.include_1b
             else (
@@ -313,7 +320,24 @@ def main() -> None:
                 if arguments.include_100m
                 else "yue2015_north_pole_convergence_pilot_m4_v1"
             )
-        ),
+        )
+    result_name = result_name.rsplit("_v", maxsplit=1)[0]
+    result = {
+        "result_id": f"{result_name}_v{arguments.result_version}",
+        "analysis_revision": {
+            "jnifti_array_order": (
+                "JData _ArrayOrder_ c decoded as column-major/NumPy F order"
+            ),
+            "reason": (
+                "Corrects the v1 adapter's x/z exchange, which was hidden by "
+                "the 181 x 217 x 181 grid shape."
+            ),
+            "supersedes_result_version": (
+                arguments.result_version - 1
+                if arguments.result_version > 1
+                else None
+            ),
+        },
         "scientific_status": (
             "benchmark_paperscale_representative_not_full_multisource"
             if arguments.include_1b
@@ -380,6 +404,8 @@ def main() -> None:
         "",
         "Status: bounded benchmark convergence check; no final photon count selected.",
         "",
+        f"- Result version: {arguments.result_version}.",
+        "- JNIfTI order: JData `c` decoded as column-major (NumPy `F` order).",
         f"- Counts: {', '.join(f'{count:,}' for count in counts)} photons.",
         f"- Replicates per count: {protocol['replicates_per_count']} independent deterministic seeds.",
         f"- Highest evaluated transition passes all frozen thresholds: `{highest['all_pilot_thresholds_pass']}`.",

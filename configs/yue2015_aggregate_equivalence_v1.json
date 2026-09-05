@@ -1,0 +1,20 @@
+{
+  "protocol_id": "yue2015_aggregate_equivalence_v1",
+  "scenario_id": "yue2015_850_approx_v1",
+  "basis_set_id": "yue2015_850_277_pencil_basis_v2",
+  "source_emitter_ids": ["YUE001", "YUE002"],
+  "basis_photons_per_source": 100000000,
+  "direct_total_photons": 200000000,
+  "direct_normalization_correction": 2.0,
+  "direct_normalization_reason": "The simultaneous run is normalized to unit total launched energy; multiplying by two compares it with the sum of two unit-source-normalized basis fields.",
+  "comparison_axis_emitter_id": "YUE001",
+  "axis_depth_range_mm": [20, 60],
+  "axis_depth_step_mm": 1,
+  "voxel_validity_fraction_of_basis_max": 1e-06,
+  "acceptance": {
+    "maximum_tissue_integral_relative_error": 0.05,
+    "median_axis_profile_relative_error": 0.10,
+    "median_valid_voxel_relative_error": 0.10
+  },
+  "status": "frozen_before_execution"
+}

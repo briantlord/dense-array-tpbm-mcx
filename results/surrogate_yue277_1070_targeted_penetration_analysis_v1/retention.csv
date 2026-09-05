@@ -1,0 +1,6 @@
+stage,description,launched_energy_percent,preceding_stage_retention_percent,replicate_standard_deviation_percentage_points,relative_standard_deviation_percent
+entered_head_tissue,First entry into any modeled non-background head tissue,99.99999640500941,99.99999640500941,1.0426166359715224e-07,1.0426166734534937e-07
+reached_skull_complex,First entry into skull or marrow,12.027815009564945,12.027815441963778,0.001301898593787769,0.010824065657415359
+reached_intracranial_compartment,"First entry into the intracranial compartment: dura, CSF, brain parenchyma, or vessels",2.5811311339458887,21.45968433911963,0.0003285696601261564,0.012729677148322856
+reached_brain_parenchyma,First entry into gray or white matter,1.8597299098800824,72.0509657731737,0.00048733208063514774,0.026204454638607794
+reached_white_matter,First entry into white matter,0.17663128147955823,9.497684612221333,0.00012206678705118184,0.06910824969885575

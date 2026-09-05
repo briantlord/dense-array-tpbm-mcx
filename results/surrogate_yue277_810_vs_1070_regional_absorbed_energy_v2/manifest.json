@@ -1,0 +1,230 @@
+{
+  "created_at": "2026-09-04T23:25:23.105849Z",
+  "inputs": [
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/result_summary.json",
+      "sha256": "1a4b16ec3eefc41423d2ffa29c5c96438384ac926a209a0d5afdef5ac601816c"
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/protocol.json",
+      "sha256": "7b380d7203b89b88275d811e428f26875aedc871640892618ddd353c3f1a6f30"
+    },
+    {
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/colin27_labels_native12_1mm_v3.nii",
+      "sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f"
+    },
+    {
+      "path": "inputs/optical_properties/provisional_810_v2/central_refined_primary.json",
+      "sha256": "48d9cf31c5769e31519eab9261562ad0d4cfd8a81ef02c5ec894d407816148d1"
+    },
+    {
+      "path": "inputs/fat_absorption_bracket_v1/fat_abs_010.json",
+      "sha256": "35fb2b89576e60df421f431632dad8dc80c1fba8bc0ec4ad2b76c1660adfbb8f"
+    },
+    {
+      "path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/total_fluence_constant_total.npy",
+      "sha256": "9624b5b48ac9794f722fcb908e555b6249c3e4c1639d3ae43a2d357cd8e48b5c"
+    },
+    {
+      "path": "results/surrogate_yue277_810_windows_rtx3080ti_opencl_analysis_v2/absorbed_energy_density_constant_total.npy",
+      "sha256": "b082b8345fedc168fde86e53b820ade73b73c1333fd559cf8e704811a556cf9f"
+    },
+    {
+      "path": "results/surrogate_yue277_1070_fat_absorption_bracket_v1/fat_abs_010/total_fluence_constant_total.npy",
+      "sha256": "ca216e69d30475ad81307f19f77ca25972d5e0056a1d7c17938d07050681fc85"
+    }
+  ],
+  "outputs": [
+    {
+      "bytes": 56873224,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/absorbed_energy_density_1070_constant_total.npy",
+      "sha256": "be062654d3055bd67a244e8311b40a47692cf563c55818730e89f6230aa4ed6b"
+    },
+    {
+      "bytes": 258932,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/absorbed_energy_density_slices.png",
+      "sha256": "1d33dbeb7a6575f9b17ebf08e33c6c4b3c3b785b1212ec544ac7cbe0efa2a310"
+    },
+    {
+      "bytes": 28436676,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/depth_below_external_head_surface_mm.npy",
+      "sha256": "caf8d677fdee26166a03addfb46c0835f0da1eb4a487135de701daf2c19f3779"
+    },
+    {
+      "bytes": 41963,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/depth_profiles.png",
+      "sha256": "ea4b9cebf2396cbe0751a9f172c5425e6e59112132857587336e49fff4d6400e"
+    },
+    {
+      "bytes": 4639,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/regional_absorption_comparison.csv",
+      "sha256": "11f4dd8f4328f353751ddfff010ba8a133f0c0e7d13ae4484ad484c3cb556ac5"
+    },
+    {
+      "bytes": 8528,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/regional_absorption_long.csv",
+      "sha256": "f9f233590195da79c1c613aae9d1391b4866ce2f070f12dbac63a3a765ccd262"
+    },
+    {
+      "bytes": 3115,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/report.md",
+      "sha256": "dc0f51931ec3ecc1ebe17b14a894c2f8072dd59aadd74883e16c4a5c21d28698"
+    },
+    {
+      "bytes": 42972,
+      "path": "results/surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2/result.json",
+      "sha256": "89bd713ec7f126350caba1cedee04f9c992676d05515dab252a9876b532df005"
+    }
+  ],
+  "provenance": {
+    "arguments": [],
+    "contract_version": 1,
+    "entrypoint": "scripts/analyze_regional_absorbed_energy_density.py",
+    "environment_lock": {
+      "path": "uv.lock",
+      "sha256": "f8f73fcc702c9353db049f3de51b34a4b92768c4c3d3dc4a788c7de48e02cec8"
+    },
+    "git_dirty": true,
+    "git_revision": "e183ac4fb7597231aab7f863d628d9ba2a460020",
+    "installed_versions": {
+      "jsonschema": "4.26.0",
+      "nibabel": "5.4.2",
+      "numpy": "2.5.2",
+      "pillow": "12.3.0",
+      "scipy": "1.18.0"
+    },
+    "sources": [
+      {
+        "path": "scripts/analyze_regional_absorbed_energy_density.py",
+        "sha256": "960349ce3c1dbc01194bb6d6e633cb4cbba7ec44ec5c5666a77863dbe41c7d7d",
+        "snapshot": "provenance/source_snapshots/960349ce3c1dbc01194bb6d6e633cb4cbba7ec44ec5c5666a77863dbe41c7d7d/analyze_regional_absorbed_energy_density.py"
+      },
+      {
+        "path": "src/mcx_project/__init__.py",
+        "sha256": "82c9a0fe292fa354bfc90ba1c0be019f578d00490c4eecb64488d99218bc05fb",
+        "snapshot": "provenance/source_snapshots/82c9a0fe292fa354bfc90ba1c0be019f578d00490c4eecb64488d99218bc05fb/__init__.py"
+      },
+      {
+        "path": "src/mcx_project/aggregate_inputs.py",
+        "sha256": "d2d7f17e3dff0408efda41e4694deb4763d3f89c7146c65365b49a10e6c2ebb4",
+        "snapshot": "provenance/source_snapshots/d2d7f17e3dff0408efda41e4694deb4763d3f89c7146c65365b49a10e6c2ebb4/aggregate_inputs.py"
+      },
+      {
+        "path": "src/mcx_project/aggregation.py",
+        "sha256": "a637647761e138ea517dd42590a047a8b9412f2031a420dea8c847550bcea852",
+        "snapshot": "provenance/source_snapshots/a637647761e138ea517dd42590a047a8b9412f2031a420dea8c847550bcea852/aggregation.py"
+      },
+      {
+        "path": "src/mcx_project/anatomy.py",
+        "sha256": "51d1081f11e1252bb67edaf085c0eea77f52de9eb5f77e9774478fd2c7d64260",
+        "snapshot": "provenance/source_snapshots/51d1081f11e1252bb67edaf085c0eea77f52de9eb5f77e9774478fd2c7d64260/anatomy.py"
+      },
+      {
+        "path": "src/mcx_project/artifact_restore.py",
+        "sha256": "a3699cb9094be39b1828ff5aa554e8496361bf9cf5cf5a2edfb31cdb1514f407",
+        "snapshot": "provenance/source_snapshots/a3699cb9094be39b1828ff5aa554e8496361bf9cf5cf5a2edfb31cdb1514f407/artifact_restore.py"
+      },
+      {
+        "path": "src/mcx_project/basis.py",
+        "sha256": "456f9e976278954f9e2df8920a8c67da205da9c18c8e34f0d012ef4bd2220eb9",
+        "snapshot": "provenance/source_snapshots/456f9e976278954f9e2df8920a8c67da205da9c18c8e34f0d012ef4bd2220eb9/basis.py"
+      },
+      {
+        "path": "src/mcx_project/benchmark.py",
+        "sha256": "85a769cb475bf4023de2b4d2ffed52dd04b6f521d2b2efd9ad21a4ef4279e115",
+        "snapshot": "provenance/source_snapshots/85a769cb475bf4023de2b4d2ffed52dd04b6f521d2b2efd9ad21a4ef4279e115/benchmark.py"
+      },
+      {
+        "path": "src/mcx_project/cli.py",
+        "sha256": "e599a2397ff30391c1fdeb780406e839a28904865745b7df11debf00cbf4c4f8",
+        "snapshot": "provenance/source_snapshots/e599a2397ff30391c1fdeb780406e839a28904865745b7df11debf00cbf4c4f8/cli.py"
+      },
+      {
+        "path": "src/mcx_project/engine_identity.py",
+        "sha256": "e13260a32437fc98b06e4923220fa7488f87f1ed2314207282170d424b42ea64",
+        "snapshot": "provenance/source_snapshots/e13260a32437fc98b06e4923220fa7488f87f1ed2314207282170d424b42ea64/engine_identity.py"
+      },
+      {
+        "path": "src/mcx_project/geometry.py",
+        "sha256": "18c066f08b48bca6dda6e41049622809cf8b5ee9ad174e679298ab6adc784c16",
+        "snapshot": "provenance/source_snapshots/18c066f08b48bca6dda6e41049622809cf8b5ee9ad174e679298ab6adc784c16/geometry.py"
+      },
+      {
+        "path": "src/mcx_project/hashing.py",
+        "sha256": "741939788131f5fd6d339acb9ac135edf1b156f5c69614420f2a5d3ff8532de1",
+        "snapshot": "provenance/source_snapshots/741939788131f5fd6d339acb9ac135edf1b156f5c69614420f2a5d3ff8532de1/hashing.py"
+      },
+      {
+        "path": "src/mcx_project/metrics.py",
+        "sha256": "50038d723bb047993ab1794d722da5bf4883637a43ae0151dbac327f6939d44f",
+        "snapshot": "provenance/source_snapshots/50038d723bb047993ab1794d722da5bf4883637a43ae0151dbac327f6939d44f/metrics.py"
+      },
+      {
+        "path": "src/mcx_project/optical_independent_audit.py",
+        "sha256": "19721cbd2e4ad96a25ecd8003e83429e28be2684e29de0e90b535f730dc0e4aa",
+        "snapshot": "provenance/source_snapshots/19721cbd2e4ad96a25ecd8003e83429e28be2684e29de0e90b535f730dc0e4aa/optical_independent_audit.py"
+      },
+      {
+        "path": "src/mcx_project/optical_ledger.py",
+        "sha256": "f5a17137ca25a416932f6063630b95058e84b0f2fb7a9a73cf223e87c90ca4c4",
+        "snapshot": "provenance/source_snapshots/f5a17137ca25a416932f6063630b95058e84b0f2fb7a9a73cf223e87c90ca4c4/optical_ledger.py"
+      },
+      {
+        "path": "src/mcx_project/optics.py",
+        "sha256": "95e17c1ef8926bfc0c8c2ca1a0e5ade0f95e4d9bc37f32e8d77e5699394da3e9",
+        "snapshot": "provenance/source_snapshots/95e17c1ef8926bfc0c8c2ca1a0e5ade0f95e4d9bc37f32e8d77e5699394da3e9/optics.py"
+      },
+      {
+        "path": "src/mcx_project/preflight.py",
+        "sha256": "e098b1468cd9ff3ad49aff18b7715a20b0aaa6131977a797a716f463b417c51c",
+        "snapshot": "provenance/source_snapshots/e098b1468cd9ff3ad49aff18b7715a20b0aaa6131977a797a716f463b417c51c/preflight.py"
+      },
+      {
+        "path": "src/mcx_project/provenance.py",
+        "sha256": "48b64a14a60feffaccd1c69cdc118ad0b0593e1da0cfa1ecec2fb57ab672413b",
+        "snapshot": "provenance/source_snapshots/48b64a14a60feffaccd1c69cdc118ad0b0593e1da0cfa1ecec2fb57ab672413b/provenance.py"
+      },
+      {
+        "path": "src/mcx_project/provisional_optics.py",
+        "sha256": "ab2e2932c50b2d7451438c4704be930246f79435f905022dd8117575b62231ee",
+        "snapshot": "provenance/source_snapshots/ab2e2932c50b2d7451438c4704be930246f79435f905022dd8117575b62231ee/provisional_optics.py"
+      },
+      {
+        "path": "src/mcx_project/provisional_pilot.py",
+        "sha256": "f2d66e9d8860b6b2f4150979d20ecbe8312144bfb8dff68db8d51ddb16598832",
+        "snapshot": "provenance/source_snapshots/f2d66e9d8860b6b2f4150979d20ecbe8312144bfb8dff68db8d51ddb16598832/provisional_pilot.py"
+      },
+      {
+        "path": "src/mcx_project/standalone.py",
+        "sha256": "67e5def5cf646517d4595f1570c31b3e015ad24af992bcef5deee993f0c57d79",
+        "snapshot": "provenance/source_snapshots/67e5def5cf646517d4595f1570c31b3e015ad24af992bcef5deee993f0c57d79/standalone.py"
+      },
+      {
+        "path": "src/mcx_project/surrogate_1070.py",
+        "sha256": "084ea9cc9bbc39b9cb78278643a1df45f74613cdeb05c464b7dff42e9c687300",
+        "snapshot": "provenance/source_snapshots/084ea9cc9bbc39b9cb78278643a1df45f74613cdeb05c464b7dff42e9c687300/surrogate_1070.py"
+      },
+      {
+        "path": "src/mcx_project/uncertainty.py",
+        "sha256": "739c3bf53aa0e08dff83efb647ef72837adc7323f4457e3cd623524c9ceaad7e",
+        "snapshot": "provenance/source_snapshots/739c3bf53aa0e08dff83efb647ef72837adc7323f4457e3cd623524c9ceaad7e/uncertainty.py"
+      },
+      {
+        "path": "src/mcx_project/validation.py",
+        "sha256": "43da1e05ece8cae09ba7db9ee182c5370ffe7f10b621d7323d9ab4923ebf19d2",
+        "snapshot": "provenance/source_snapshots/43da1e05ece8cae09ba7db9ee182c5370ffe7f10b621d7323d9ab4923ebf19d2/validation.py"
+      },
+      {
+        "path": "src/mcx_project/windows_handoff.py",
+        "sha256": "128fce710c7a968dbc0e5ea5b0333329be71b0e5be03b44ba094d693578d5a1c",
+        "snapshot": "provenance/source_snapshots/128fce710c7a968dbc0e5ea5b0333329be71b0e5be03b44ba094d693578d5a1c/windows_handoff.py"
+      },
+      {
+        "path": "src/mcx_project/yue.py",
+        "sha256": "5a134766091f5f4ed24f6097d977fff6c9e0d01b75588571efb01986c9e444a4",
+        "snapshot": "provenance/source_snapshots/5a134766091f5f4ed24f6097d977fff6c9e0d01b75588571efb01986c9e444a4/yue.py"
+      }
+    ]
+  },
+  "result_id": "surrogate_yue277_810_vs_1070_regional_absorbed_energy_v2"
+}

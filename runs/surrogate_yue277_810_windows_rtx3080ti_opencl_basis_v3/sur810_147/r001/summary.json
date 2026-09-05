@@ -1,0 +1,23 @@
+{
+  "engine": {
+    "absorbed_energy_percent": 55.55249,
+    "backend": "mcxcl_cli",
+    "engine_version": "MCXCL Revision 12544350",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "input_sha256": "d992adf691666c7773b45a24c6df249664ea6a9d95c8c64710ea767bab8ec157",
+    "jnifti_sha256": "6e5e3eb55c42fcc372b50920059c0a35f59631e9903a6735f74837aacafbd7a1",
+    "log_sha256": "d0fd3469209f1525c376c0d1057ec238bdd6f3262fba8a541b8264acbf6e40db",
+    "prepared_volume_sha256": "3cf65394bd546a8bd69c6758c5aae59018c12685ce46a27b05b07b247bccadeb"
+  },
+  "maximum": 0.8068162202835083,
+  "minimum": 0.0,
+  "run_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2__20260824t215001z__670ad1e5",
+  "shape": [
+    181,
+    217,
+    181,
+    1
+  ],
+  "standard_deviation": 0.000490680066644041,
+  "sum": 19.733091510352995
+}

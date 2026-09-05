@@ -1,0 +1,19 @@
+{
+  "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1",
+  "code_dirty": true,
+  "code_revision": "00f714dfc3557d9803c94645e62c79b59f3f4e01",
+  "config_root": "configs/generated/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1",
+  "created_at": "2026-08-25T00:18:04Z",
+  "emitter_ids": "enabled",
+  "engine_binding": "mcxcl_cli",
+  "engine_build": "official Windows MCX-CL v2025.10 binary; executable_sha256=15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+  "engine_version": "MCXCL Revision 12544350; v2025.10",
+  "photon_count": 100000000,
+  "replicates": 1,
+  "run_root": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1",
+  "scenario_id": "provisional_1070_whole_head_water_term_at_810_v1",
+  "scientific_status": "provisional",
+  "synthetic_test_only": false,
+  "template_manifest_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_water_whole_head_basis_v1/template_manifest.json",
+  "template_manifest_sha256": "df2eaa6f3f34094d8fc3c089cdd916069e50f9761e5d32548c3adc13a38d55ff"
+}

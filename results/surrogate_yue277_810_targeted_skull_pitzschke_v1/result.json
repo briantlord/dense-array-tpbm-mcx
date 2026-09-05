@@ -1,0 +1,110 @@
+{
+  "absorber_mua_mm-1": 1000.0,
+  "anatomy_path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+  "anatomy_sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f",
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "basis_index_sha256": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b",
+  "created_at": "2026-08-24T20:45:59.977862Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "captured_at": "2026-08-15T21:42:47Z",
+    "code_revision": "08975d859601dcd5fda37738edf200750cf87e16",
+    "device": "NVIDIA GeForce RTX 3080 Ti",
+    "device_report": "\u001b[33mPlatform [0] Name NVIDIA CUDA\n\u001b[0m\u001b[34m============ GPU device ID 0 [1 of 1]: NVIDIA GeForce RTX 3080 Ti  ============\n\u001b[0m Device 1 of 1:\t\tNVIDIA GeForce RTX 3080 Ti\n Compute units   :\t80 core(s)\n Global memory   :\t12884246528 B\n Local memory    :\t49152 B\n Constant memory :\t65536 B\n Clock speed     :\t1755 MHz\n Compute Capacity:\t8.6\n Stream Processor:\t5120\n Vendor name    :\tNVIDIA\n Auto-thread    :\t327680\n Auto-block     :\t64\n",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "environment_id": "windows_rtx3080ti_opencl_v1",
+    "executable": ".local\\windows\\mcxcl-v2025.10\\mcxcl\\bin\\mcxcl.exe",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "scientific_status": "provisional_yue_derived_surrogate_not_target_hardware",
+    "source_plan": "configs/surrogate_yue277_1070_basis_v1.json",
+    "source_plan_sha256": "ef086c32356a51b5e55dc69a923239af90bc53bdef69daae8dbf855fb21289e7"
+  },
+  "method": {
+    "interpretation": "first entry into the requested target tissue set",
+    "refractive_index_handling": "absorber media preserve each target label's original refractive index",
+    "tally": "energy deposited in target absorber voxels divided by normalized launched energy"
+  },
+  "optical_properties": {
+    "base_scenario_id": "provisional_810_in_vivo_skull_v1",
+    "overrides": [
+      {
+        "citation": "Pitzschke et al. 2015, 808-nm cadaver-head MC fit",
+        "conversion": "Reported musp converted with mus=musp/(1-g).",
+        "g": 0.89,
+        "mua_mm-1": 0.004,
+        "mus_mm-1": 4.90909090909091,
+        "n": 1.37,
+        "notes": "Low-attenuation skull sensitivity; all other tissues remain at the central 810-nm values.",
+        "source_musp_mm-1": 0.54,
+        "tissue_id": 7
+      }
+    ],
+    "path": "inputs/optical_properties/provisional_810_v1/central_in_vivo_skull.json",
+    "scenario_id": "provisional_810_pitzschke_skull_v1",
+    "sha256": "48d61543a3e288e0d19dc301c1377a0c657c583e514bafe9b800b61bb5f4a45c",
+    "wavelength_nm": 810.0
+  },
+  "photon_count_per_replicate": 277000000,
+  "protocol_id": "surrogate_yue277_810_targeted_skull_pitzschke_v1",
+  "protocol_path": "configs/surrogate_yue277_810_targeted_skull_pitzschke_v1.json",
+  "protocol_sha256": "5e76eddcaadb9415bb733577a1e7733e9fbe1507b79699253854126cbb1851d4",
+  "replicates": 3,
+  "retention": [
+    {
+      "fraction_of_launched_energy_percent": 8.672285234596893,
+      "fraction_of_preceding_stage_percent": 8.672285234596893,
+      "stage": "reached_skull_complex"
+    },
+    {
+      "fraction_of_launched_energy_percent": 3.6095295329112607,
+      "fraction_of_preceding_stage_percent": 41.621434665358294,
+      "stage": "reached_intracranial_compartment"
+    }
+  ],
+  "runner_path": "scripts/run_targeted_penetration_tallies.py",
+  "runner_sha256": "f5438daba71b242f66f5dbadea61e72706f805a67ada81c34e2aded20f29ae1c",
+  "scientific_status": "provisional_810_optics_yue_derived_spatial_surrogate_not_target_hardware_not_measured_dose_not_biological_efficacy",
+  "stage_summaries": {
+    "reached_intracranial_compartment": {
+      "blocker_labels": [],
+      "description": "First entry into dura, CSF, brain parenchyma, or vessels",
+      "half_range_relative_to_mean": 0.00018120114113484418,
+      "mean_target_capture_percent": 3.6095295329112607,
+      "relative_standard_deviation": 0.0001819204065386531,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        3.610149904674535,
+        3.6088418029338882,
+        3.6095968911253586
+      ],
+      "standard_deviation_percent_points": 0.0006566470800404912,
+      "target_labels": [
+        1,
+        2,
+        3,
+        10,
+        12
+      ]
+    },
+    "reached_skull_complex": {
+      "blocker_labels": [],
+      "description": "First entry into skull or marrow",
+      "half_range_relative_to_mean": 8.706984661774991e-06,
+      "mean_target_capture_percent": 8.672285234596893,
+      "relative_standard_deviation": 8.856294189348483e-06,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        8.672201617035116,
+        8.672301450811412,
+        8.672352635944156
+      ],
+      "standard_deviation_percent_points": 7.680430933153312e-05,
+      "target_labels": [
+        7,
+        11
+      ]
+    }
+  }
+}

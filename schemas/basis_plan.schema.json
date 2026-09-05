@@ -8,7 +8,7 @@
   "properties": {
     "basis_set_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
     "synthetic_test_only": {"type": "boolean"},
-    "scientific_status": {"enum": ["synthetic_test_only", "benchmark"]},
+    "scientific_status": {"enum": ["synthetic_test_only", "benchmark", "provisional"]},
     "scenario_id": {"type": "string", "pattern": "^[a-z0-9]+(?:_[a-z0-9]+)*_v[0-9]+$"},
     "created_at": {"type": "string", "format": "date-time"},
     "code_revision": {"type": "string", "pattern": "^[a-f0-9]{40,64}$"},

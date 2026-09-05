@@ -1,0 +1,20 @@
+{
+  "backend_equivalence_passed": true,
+  "backend_equivalence_path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_v1/backend_equivalence.json",
+  "backend_equivalence_sha256": "c704d681dbd439ab6728f219f06eb26f2a2234f962bbd62ccca345cf8cf387e6",
+  "basis_set_id": "surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1",
+  "checksum_preflight_manifest_count": 277,
+  "created_at": "2026-09-04T23:08:58Z",
+  "failure_record_count": 0,
+  "failure_records": [],
+  "index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "index_sha256": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b",
+  "inventory_id": "corrected_1070_overlap_20260904_v1",
+  "manifest_count": 277,
+  "manifest_status_counts": {
+    "complete": 277
+  },
+  "native_fluence_bytes": 10503045564,
+  "native_fluence_field_count": 277,
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy"
+}

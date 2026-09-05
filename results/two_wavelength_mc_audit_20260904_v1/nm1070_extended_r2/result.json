@@ -1,0 +1,73 @@
+{
+  "artifacts": [
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_extended_r2/volume.uint8.bin",
+      "sha256": "3cf65394bd546a8bd69c6758c5aae59018c12685ce46a27b05b07b247bccadeb"
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_extended_r2/mcx_input.json",
+      "sha256": "cbc15b0369f900ff8d28e8990b1cddc0e598e66be9395652c4823db9c6233ae6"
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_extended_r2/audit.jnii",
+      "sha256": "fca10ea28a7970c24bd47ccc52e2a4bbde24c57c314e0ba9e5609495c414838c"
+    },
+    {
+      "path": "results/two_wavelength_mc_audit_20260904_v1/nm1070_extended_r2/mcxcl.log",
+      "sha256": "0e1bd7d1bae7070fb510a6b150d46ce224058ca41861b84ed596ba7b44c0eb81"
+    }
+  ],
+  "brain_integrated_fluence": 0.1415092830691042,
+  "command": [
+    ".local\\windows\\mcxcl-v2025.10\\mcxcl\\bin\\mcxcl.exe",
+    "-f",
+    "mcx_input.json",
+    "-Z",
+    "2",
+    "--srcid",
+    "0",
+    "-G",
+    "1"
+  ],
+  "elapsed_seconds": 73.55303040001309,
+  "endpoints": {
+    "brain": 0.01214299042033393,
+    "brain__depth_0_10_mm": 0.00010242757356960522,
+    "brain__depth_10_20_mm": 0.008322829073013887,
+    "brain__depth_20_30_mm": 0.0036403082865808026,
+    "brain__depth_30_40_mm": 7.622978593327021e-05,
+    "brain__depth_40_50_mm": 1.1660179481191437e-06,
+    "brain__depth_50_inf_mm": 2.9683288246316828e-08,
+    "gray_matter": 0.011776613519697056,
+    "gray_matter__depth_0_10_mm": 0.00010163952672971686,
+    "gray_matter__depth_10_20_mm": 0.008205272408975724,
+    "gray_matter__depth_20_30_mm": 0.0034018802295640196,
+    "gray_matter__depth_30_40_mm": 6.683129077600601e-05,
+    "gray_matter__depth_40_50_mm": 9.60587553271507e-07,
+    "gray_matter__depth_50_inf_mm": 2.947609831739608e-08,
+    "white_matter": 0.0003663769006368728,
+    "white_matter__depth_0_10_mm": 7.880468398883901e-07,
+    "white_matter__depth_10_20_mm": 0.00011755666403816062,
+    "white_matter__depth_20_30_mm": 0.000238428057016783,
+    "white_matter__depth_30_40_mm": 9.398495157264192e-06,
+    "white_matter__depth_40_50_mm": 2.0543039484763694e-07,
+    "white_matter__depth_50_inf_mm": 2.0718992892074166e-10
+  },
+  "engine": {
+    "device_report": "\u001b[33mPlatform [0] Name NVIDIA CUDA\n\u001b[0m\u001b[34m============ GPU device ID 0 [1 of 1]: NVIDIA GeForce RTX 3080 Ti  ============\n\u001b[0m Device 1 of 1:\t\tNVIDIA GeForce RTX 3080 Ti\n Compute units   :\t80 core(s)\n Global memory   :\t12884246528 B\n Local memory    :\t49152 B\n Constant memory :\t65536 B\n Clock speed     :\t1755 MHz\n Compute Capacity:\t8.6\n Stream Processor:\t5120\n Vendor name    :\tNVIDIA\n Auto-thread    :\t327680\n Auto-block     :\t64\n",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "executable": ".local\\windows\\mcxcl-v2025.10\\mcxcl\\bin\\mcxcl.exe",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "gpu": "NVIDIA GeForce RTX 3080 Ti",
+    "selected_device": 1
+  },
+  "log_absorbed_percent": 56.82104,
+  "replicate": 2,
+  "seed": 1973508430,
+  "setting": {
+    "end_s": 1e-08,
+    "name": "extended",
+    "total_photons": 277000000
+  },
+  "total_absorbed_percent": 56.820960267811046
+}

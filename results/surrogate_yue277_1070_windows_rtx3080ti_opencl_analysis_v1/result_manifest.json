@@ -1,0 +1,167 @@
+{
+  "code": {
+    "path": "scripts/analyze_surrogate_1070_windows_basis.py",
+    "sha256": "646e5c5b9a7ee9c404a882ea6cc35545cd297181b999a9b3505d9e74e3c711c5"
+  },
+  "created_at": "2026-08-16T17:11:49.873497Z",
+  "inputs": [
+    {
+      "kind": "basis_index",
+      "path": "runs/surrogate_yue277_1070_windows_rtx3080ti_opencl_basis_v1/index.json",
+      "sha256": "f1510d0e5f3240cb1bf5b0ff4d824b8a71d16e5ff8707ea3bcd92d9bb74c4107"
+    },
+    {
+      "kind": "post_run_inventory",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_v1/post_run_inventory.json",
+      "sha256": "4e026ac0494217d7ea3ae21b46f03f5cb2735c7b537cff28f5859bbc9f59ec5e"
+    },
+    {
+      "kind": "analysis_configuration",
+      "path": "configs/surrogate_yue277_1070_v1_analysis_v2.json",
+      "sha256": "ff8708b86bc5d5e28bd9c2473ee9685fff47a89d21a2aee392d0b3c92a152b4c"
+    },
+    {
+      "kind": "anatomy_metadata",
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/anatomy_metadata.json",
+      "sha256": "a445e71bc7a18648e1e7b0f90f6a192d6e7c771619c51c32020a3340a069de4c"
+    },
+    {
+      "kind": "anatomy_volume",
+      "path": "inputs/anatomy/colin27_2008/derived/native12_1mm_v3/colin27_labels_native12_1mm_v3.nii",
+      "sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f"
+    },
+    {
+      "kind": "optical_properties",
+      "path": "inputs/optical_properties/provisional_1070_v1/central.json",
+      "sha256": "4e225b1da983b24c7e2889704b420f8f0e0f9bd66ce495a2a438093f1030b061"
+    },
+    {
+      "kind": "emitter_geometry",
+      "path": "inputs/emitters/surrogate_yue277_1070_v1/emitter_geometry.json",
+      "sha256": "e36fb1e6111c02c343020350719e4b39de34830d9b42b0b352e87a09b8aad9b6"
+    },
+    {
+      "kind": "convergence_protocol",
+      "path": "configs/surrogate_yue277_1070_v1_regional_convergence_extension_v2.json",
+      "sha256": "cbc2178c6f2131da7e96d9efcae5545551e5976d89c6f2e45bd2fefc91b2b885"
+    }
+  ],
+  "manifest_id": "surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_manifest_v1",
+  "outputs": [
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/total_fluence_constant_per_emitter.npy",
+      "sha256": "62453a6ceab6b12b934f4f713e35a99d197c183501c8bcf0464aab867333f82e"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/total_fluence_constant_total.npy",
+      "sha256": "6446bce6350a11d791e6eba41cd2d95a3243c24b881d9a2fd0de3d65f2105f01"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/absorbed_energy_density_constant_per_emitter.npy",
+      "sha256": "c34cf934e50e6c7d3897b5bb20b9bb72e6c9e95aceff0baee19583352c37114c"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/absorbed_energy_density_constant_total.npy",
+      "sha256": "6b7f56f2e14aee0cc58174a401b20b508644403bd0f01e59b0df125cf69c9a52"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/dominant_contribution.npy",
+      "sha256": "d147081fbaed19ebffefc89e16c3e59775efce4f47d02322594e0208d380f189"
+    },
+    {
+      "bytes": 28436676,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/dominant_source_index.npy",
+      "sha256": "8df4d5b25b0af9e3340e27e207ce768d6c14cb32390ecf73cd570df024118fed"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/ef_dom.npy",
+      "sha256": "ddf395dba35cc8b9df2873eae5dd15038a51efa534f5583a8081658bf641c6d7"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/ef_ref_sur1070_275.npy",
+      "sha256": "94393fa6678475dfc1e2006e3f248b681c71bf37ccb1059fa12b7b179274e70c"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/ncf.npy",
+      "sha256": "521ee444b23377f64854a7c241d69096b325bb6751d639cd7265e1e1f9f324be"
+    },
+    {
+      "bytes": 56873224,
+      "kind": "array",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/n_eff.npy",
+      "sha256": "c4e52d4ff2141e85b3fed09ac865e9a85ce144078cc9a3fc9f89b53dc1c88a28"
+    },
+    {
+      "bytes": 719001,
+      "kind": "figure",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/representative_five_region_field_qc.png",
+      "sha256": "63cc0cf376a64286db8b1e37c58a1d87e58c899b02af10191809c3042d9d30ec"
+    },
+    {
+      "bytes": 505760,
+      "kind": "figure",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/total_fluence_absorbed_energy_slices.png",
+      "sha256": "b010d0bf4a28412b8555ca87976e79a7e9d6c713015f56530d8018980a50aed4"
+    },
+    {
+      "bytes": 973832,
+      "kind": "figure",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/cortical_white_matter_overlap_slices.png",
+      "sha256": "560af8daf0db3ca5f4ffea9db1200461f9a96dfc48133215f9201c94942965cf"
+    },
+    {
+      "bytes": 25744,
+      "kind": "figure",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/cortical_white_matter_metric_distributions.png",
+      "sha256": "86d7e79c0cd1d38619ef24c2833be5ffadb61a00e5ddc09c9dac23fde7371c29"
+    },
+    {
+      "bytes": 47881,
+      "kind": "figure",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/roi_top_contributors.png",
+      "sha256": "ed136aba5515ee16816960a3bee00364fb3ca9469ed732ffbf051ebbd61bc7ed"
+    },
+    {
+      "bytes": 38999,
+      "kind": "table",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/source_roi_contributions.csv",
+      "sha256": "2082e7b07ae71c356f69baab7dddac10fe49e5625ceee0ddf13cb8209124f26a"
+    },
+    {
+      "bytes": 2249,
+      "kind": "table",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/roi_metric_summary.csv",
+      "sha256": "12fe5360717049c88d875918357a67b91bba8c8360819598c5205e96e400c0ce"
+    },
+    {
+      "bytes": 18372,
+      "kind": "summary",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/result_summary.json",
+      "sha256": "c14f48059f71f01f64b14ac86cf9f0f28f7d7297bf149abd30cf967c79729bd5"
+    },
+    {
+      "bytes": 686,
+      "kind": "report",
+      "path": "results/surrogate_yue277_1070_windows_rtx3080ti_opencl_analysis_v1/analysis_qc.md",
+      "sha256": "c83984750b53a536bbfba5371d3ebcedd204bffaebcbd1b4835f196acad0db89"
+    }
+  ],
+  "scientific_status": "provisional_yue_derived_spatial_surrogate_not_target_helmet_not_measured_dose_not_biological_efficacy"
+}

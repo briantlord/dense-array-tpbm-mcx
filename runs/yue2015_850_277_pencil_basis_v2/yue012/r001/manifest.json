@@ -1,0 +1,144 @@
+{
+  "code": {
+    "dirty": true,
+    "repository": "MCX Project",
+    "revision": "39d58f606315707a7b8a4b4a672c0b9ff22a17c7"
+  },
+  "created_at": "2026-08-14T18:15:00Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "binding_version": "v2025.10",
+    "build": "official source tag v2025.10; local arm64 build",
+    "configuration_sha256": "9088b14662a32eae8e3784074c571ed7275241341e40688158dceb3a0e43d1a4",
+    "engine_version": "v2025.10",
+    "family": "MCX",
+    "gpu": "Apple M4 Pro",
+    "runtime": "Apple OpenCL on macOS arm64"
+  },
+  "error": null,
+  "execution": {
+    "photon_count": 100000000,
+    "replicate": 1,
+    "seed": 1076737255,
+    "time_gates_s": {
+      "end": 5e-09,
+      "start": 0.0,
+      "step": 5e-09
+    }
+  },
+  "grid": {
+    "coordinate_frame": "colin27_talairach_ras_mm",
+    "shape_voxels": [
+      181,
+      217,
+      181
+    ],
+    "voxel_size_mm": [
+      1.0,
+      1.0,
+      1.0
+    ]
+  },
+  "inputs": {
+    "analysis_configuration": {
+      "artifact_id": "yue2015_approx_v1_analysis",
+      "id_field": "analysis_id",
+      "path": "configs/yue2015_approx_v1_analysis.json",
+      "schema_path": "schemas/analysis_configuration.schema.json",
+      "sha256": "af6efd8235ade659b997e09ea6126d668e54e445c6efcf364afd893572df2ae4"
+    },
+    "anatomy": {
+      "artifact_id": "colin27_2008_yue5_1mm_v1",
+      "id_field": "anatomy_id",
+      "path": "inputs/anatomy/colin27_2008/derived/yue5_1mm_v1/anatomy_metadata.json",
+      "schema_path": "schemas/anatomy_metadata.schema.json",
+      "sha256": "478f9885389e54ed61d1e380d1f9c25e9b749922d4d9d7add39e3c07740c4db6"
+    },
+    "calibration": {
+      "artifact_id": "yue2015_unit_source_v1",
+      "id_field": "calibration_id",
+      "path": "inputs/emitters/yue2015_approx_v1/calibration.json",
+      "schema_path": "schemas/calibration.schema.json",
+      "sha256": "26c24a6866cdd52e9e021dbcf7ae4229c97c9e33c36f21459565b13ee35f5f6d"
+    },
+    "emitter_geometry": {
+      "artifact_id": "yue2015_table1_277_approx_v1",
+      "id_field": "geometry_id",
+      "path": "inputs/emitters/yue2015_approx_v1/emitter_geometry.json",
+      "schema_path": "schemas/emitter_geometry.schema.json",
+      "sha256": "021b851c1b6e706746b439b8de8bd1b26f4e3a6feb37c0fcb2ec5d2ba6d3d06f"
+    },
+    "engine_configuration": {
+      "artifact_id": "yue2015_850_277_pencil_basis_v2__yue012__r001",
+      "id_field": "configuration_id",
+      "path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue012/r001.json",
+      "schema_path": "schemas/engine_configuration.schema.json",
+      "sha256": "9088b14662a32eae8e3784074c571ed7275241341e40688158dceb3a0e43d1a4"
+    },
+    "optical_properties": {
+      "artifact_id": "yue2015_850_approx_v1",
+      "id_field": "scenario_id",
+      "path": "inputs/optical_properties/yue2015_850_approx_v1.json",
+      "schema_path": "schemas/optical_properties.schema.json",
+      "sha256": "c68922348053297e264f8fd0f8856f174518642f1d1ddf95db631bc3cd2c084d"
+    },
+    "registration": {
+      "artifact_id": "yue2015_direct_colin27_v1",
+      "id_field": "registration_id",
+      "path": "inputs/registration/yue2015_approx_v1.json",
+      "schema_path": "schemas/registration.schema.json",
+      "sha256": "33dcecf5553c0580567dc50886863ad3255d31f2b0651c5934f4b48824643a76"
+    }
+  },
+  "manifest_version": "1.0.0",
+  "output_contract": {
+    "derivation": "standalone MCX-CL JNIfTI normalized field; Python validates and records the raw engine output without altering it",
+    "normalization": "normalized by launched photon count through MCX isnormalize=1",
+    "quantity": "fluence",
+    "unit": "MCX normalized fluence units"
+  },
+  "outputs": [
+    {
+      "kind": "summary",
+      "path": "runs/yue2015_850_277_pencil_basis_v2/yue012/r001/summary.json",
+      "sha256": "1a081dddb9309de2997fac3c64af5fc604b3048ef4a3d250f3a35724805b5a81"
+    },
+    {
+      "kind": "log",
+      "path": "runs/yue2015_850_277_pencil_basis_v2/yue012/r001/execution.json",
+      "sha256": "b8f80546ab7d29522ac3d1decdc4b3e81152a2783973ee852050628ae8e35bb9"
+    },
+    {
+      "kind": "qc",
+      "path": "runs/yue2015_850_277_pencil_basis_v2/yue012/r001/volume.uint8.bin",
+      "sha256": "dfdcbdf48d359ba6754f829a2b12a9e17e9229efe7be94353750f6eee20cdb90"
+    },
+    {
+      "kind": "qc",
+      "path": "runs/yue2015_850_277_pencil_basis_v2/yue012/r001/mcx_input.json",
+      "sha256": "e6d65a298043c7475a924ed58e0c5bdb9fb3f3b92bae4d915d010c76db9076c5"
+    },
+    {
+      "kind": "log",
+      "path": "runs/yue2015_850_277_pencil_basis_v2/yue012/r001/mcxcl.log",
+      "sha256": "b3fe97d25567360083af3c701cb5beaca0c6a3a8844cd75e85bd574d6d94437f"
+    },
+    {
+      "kind": "fluence",
+      "path": "runs/yue2015_850_277_pencil_basis_v2/yue012/r001/mcx_field.jnii",
+      "sha256": "5b9602de47416246282c96c68ae08501b7830a2637204f80eabf1fccf0dc63b6"
+    }
+  ],
+  "run_id": "yue2015_850_approx_v1__20260814t181500z__9088b146",
+  "scenario_id": "yue2015_850_approx_v1",
+  "scientific_status": "benchmark",
+  "source": {
+    "emitter_id": "YUE012",
+    "normalization": "unit launched-energy normalized basis field (MCX DoNormalize=true)",
+    "source_model": "pencil"
+  },
+  "stage": "benchmark",
+  "status": "complete",
+  "wavelength_nm": 850.0
+}

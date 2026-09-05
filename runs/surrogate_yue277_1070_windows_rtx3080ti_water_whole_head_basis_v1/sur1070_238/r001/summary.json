@@ -1,0 +1,23 @@
+{
+  "engine": {
+    "absorbed_energy_percent": 53.23798,
+    "backend": "mcxcl_cli",
+    "engine_version": "MCXCL Revision 12544350",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "input_sha256": "3c7f93c59f369043194dbe2871b41f1863ab09b7af2579b333d48b8d6dfbe8de",
+    "jnifti_sha256": "ba18f0034883bebd82430913db371410f32b10061a5c0cefe493964ff1d47402",
+    "log_sha256": "c221340a17e7772c2b00c345c5daf877523304d00655a6d4cdf32bf087da0283",
+    "prepared_volume_sha256": "3cf65394bd546a8bd69c6758c5aae59018c12685ce46a27b05b07b247bccadeb"
+  },
+  "maximum": 0.8934190273284912,
+  "minimum": 0.0,
+  "run_id": "provisional_1070_whole_head_water_term_at_810_v1__20260825t001804z__f24c4c64",
+  "shape": [
+    181,
+    217,
+    181,
+    1
+  ],
+  "standard_deviation": 0.0004977345567093112,
+  "sum": 35.24284733454131
+}

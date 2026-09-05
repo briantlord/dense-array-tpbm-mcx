@@ -1,0 +1,54 @@
+{
+  "date": "2026-09-04",
+  "full_local_suite": {
+    "command": ".venv-win/Scripts/python.exe -m pytest -q",
+    "passed": 132,
+    "failed": 0
+  },
+  "portable_export_suite": {
+    "method": "Git HEAD archive plus reviewed changes; ignored external artifacts excluded",
+    "passed": 57,
+    "failed": 0,
+    "external_anatomy_present": false,
+    "stdout": ".........................................................                [100%]\n57 passed in 11.78s\n"
+  },
+  "result_manifest_verification": {
+    "manifest_count": 9,
+    "output_hashes_verified": 183,
+    "exact_source_records_resolved": 105
+  },
+  "corrected_overlap": {
+    "source_count": 277,
+    "max_absolute_difference_from_saved_corrected_fat_aggregate": 0.0
+  },
+  "monte_carlo_audit": {
+    "runs_completed": 18,
+    "endpoint_ratios_qualified": 18,
+    "endpoint_ratios_total": 21,
+    "suppressed_depth": "all >=50-mm ratios",
+    "scope": "conditional on fixed model, not parameter uncertainty"
+  },
+  "installed_versions": {
+    "numpy": "2.5.2",
+    "scipy": "1.18.0",
+    "nibabel": "5.4.2",
+    "pillow": "12.3.0",
+    "jsonschema": "4.26.0",
+    "pytest": "9.1.1"
+  },
+  "remaining_external_checks": [
+    "Remote CI has not been run",
+    "No separate artifact archive location verified",
+    "Measured device geometry/radiometry/coupling needed",
+    "Validated cortical/target masks and quantitative external benchmark needed",
+    "Parameter-uncertainty ensembles still needed"
+  ],
+  "external_artifact_verification": {
+    "inventory": "provenance/external_artifacts_20260904_v1.json",
+    "verified": 2586,
+    "missing": 0,
+    "restored": 0,
+    "independent_archive_verified": false
+  },
+  "publication_note": "Device-specific information omitted; original local record retained."
+}

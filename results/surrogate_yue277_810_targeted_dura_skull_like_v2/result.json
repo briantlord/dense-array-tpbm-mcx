@@ -1,0 +1,106 @@
+{
+  "absorber_mua_mm-1": 1000.0,
+  "anatomy_path": "inputs/fat_absorption_bracket_v1/colin27_labels_native12_1mm_v3.nii",
+  "anatomy_sha256": "f37076f548dcfcb3ac0728982a5f766b2632398cbae01659c0b715b8aa7b5d6f",
+  "basis_index_path": "runs/surrogate_yue277_1070_windows_rtx3080ti_fat_abs_010_basis_v1/index.json",
+  "basis_index_sha256": "8fb731cfefdd325c25c2105fcc44bb284096a5ee5b9a918a18f0cfb754be203b",
+  "created_at": "2026-08-24T21:39:45.287389Z",
+  "engine": {
+    "backend": "opencl",
+    "binding": "mcxcl_cli",
+    "captured_at": "2026-08-15T21:42:47Z",
+    "code_revision": "08975d859601dcd5fda37738edf200750cf87e16",
+    "device": "NVIDIA GeForce RTX 3080 Ti",
+    "device_report": "\u001b[33mPlatform [0] Name NVIDIA CUDA\n\u001b[0m\u001b[34m============ GPU device ID 0 [1 of 1]: NVIDIA GeForce RTX 3080 Ti  ============\n\u001b[0m Device 1 of 1:\t\tNVIDIA GeForce RTX 3080 Ti\n Compute units   :\t80 core(s)\n Global memory   :\t12884246528 B\n Local memory    :\t49152 B\n Constant memory :\t65536 B\n Clock speed     :\t1755 MHz\n Compute Capacity:\t8.6\n Stream Processor:\t5120\n Vendor name    :\tNVIDIA\n Auto-thread    :\t327680\n Auto-block     :\t64\n",
+    "engine_version": "MCXCL Revision 12544350; v2025.10",
+    "environment_id": "windows_rtx3080ti_opencl_v1",
+    "executable": ".local\\windows\\mcxcl-v2025.10\\mcxcl\\bin\\mcxcl.exe",
+    "executable_sha256": "15ceb16fec553cad4a0481cdf62792f3a512e77991d8304c8afe1c1d49f1a8ee",
+    "platform": "Windows-10-10.0.19045-SP0",
+    "scientific_status": "provisional_yue_derived_surrogate_not_target_hardware",
+    "source_plan": "configs/surrogate_yue277_1070_basis_v1.json",
+    "source_plan_sha256": "ef086c32356a51b5e55dc69a923239af90bc53bdef69daae8dbf855fb21289e7"
+  },
+  "method": {
+    "interpretation": "first entry into the requested target tissue set",
+    "refractive_index_handling": "absorber media preserve each target label's original refractive index",
+    "tally": "energy deposited in target absorber voxels divided by normalized launched energy"
+  },
+  "optical_properties": {
+    "base_scenario_id": "provisional_810_in_vivo_skull_v1",
+    "overlay_inputs": [
+      {
+        "path": "inputs/optical_properties/provisional_810_v2/refined_primary_overlay.json",
+        "scenario_id": "provisional_810_in_vivo_skull_refined_dura_marrow_v2",
+        "sha256": "039354b6a62167d2740b51871570027710a6978afe6b5db985b7f358905258f7"
+      },
+      {
+        "path": "inputs/optical_properties/provisional_810_v2/dura_skull_like_overlay.json",
+        "scenario_id": "provisional_810_dura_skull_like_marrow_primary_v2",
+        "sha256": "0021173e9c502a3adecc26fd6e1c8c15bb6259949072c4733f1f858a48e61f03"
+      }
+    ],
+    "overrides": [],
+    "path": "inputs/optical_properties/provisional_810_v1/central_in_vivo_skull.json",
+    "scenario_id": "provisional_810_dura_skull_like_marrow_primary_v2",
+    "sha256": "48d61543a3e288e0d19dc301c1377a0c657c583e514bafe9b800b61bb5f4a45c",
+    "wavelength_nm": 810.0
+  },
+  "photon_count_per_replicate": 277000000,
+  "protocol_id": "surrogate_yue277_810_targeted_dura_skull_like_v2",
+  "protocol_path": "configs/surrogate_yue277_810_targeted_dura_skull_like_v2.json",
+  "protocol_sha256": "a90912e8e4323904f82778cfdb62a7cdf4714fe3fe59a05076d3bfddc779e4ec",
+  "replicates": 3,
+  "retention": [
+    {
+      "fraction_of_launched_energy_percent": 1.9380987570057144,
+      "fraction_of_preceding_stage_percent": 1.9380987570057144,
+      "stage": "reached_brain_parenchyma"
+    },
+    {
+      "fraction_of_launched_energy_percent": 0.7342040742678889,
+      "fraction_of_preceding_stage_percent": 37.88269672089389,
+      "stage": "reached_white_matter"
+    }
+  ],
+  "runner_path": "scripts/run_targeted_penetration_tallies.py",
+  "runner_sha256": "88b004dcc468682fbea83eeee30fe14763d9938ae4a3791810c2f480d1fddb06",
+  "scientific_status": "provisional_810_refined_dura_marrow_sensitivity_yue_spatial_surrogate_not_target_hardware",
+  "stage_summaries": {
+    "reached_brain_parenchyma": {
+      "blocker_labels": [],
+      "description": "First entry into gray or white matter",
+      "half_range_relative_to_mean": 6.375674279690706e-05,
+      "mean_target_capture_percent": 1.9380987570057144,
+      "relative_standard_deviation": 6.789333007342983e-05,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        1.9380465321896423,
+        1.9382484362777164,
+        1.9380013025497855
+      ],
+      "standard_deviation_percent_points": 0.00013158397862429304,
+      "target_labels": [
+        2,
+        3
+      ]
+    },
+    "reached_white_matter": {
+      "blocker_labels": [],
+      "description": "First entry into white matter",
+      "half_range_relative_to_mean": 0.00039591437871126886,
+      "mean_target_capture_percent": 0.7342040742678889,
+      "relative_standard_deviation": 0.00044566978362165464,
+      "replicate_count": 3,
+      "replicate_values_percent": [
+        0.7343775565265764,
+        0.7344080150884563,
+        0.7338266511886342
+      ],
+      "standard_deviation_percent_points": 0.00032721257091310733,
+      "target_labels": [
+        3
+      ]
+    }
+  }
+}

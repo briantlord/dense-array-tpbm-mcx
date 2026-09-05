@@ -1,0 +1,2501 @@
+{
+  "basis_set_id": "yue2015_850_277_pencil_basis_v2",
+  "created_at": "2026-08-14T18:15:00Z",
+  "plan_path": "configs/yue2015_approx_v1_basis_plan_v2.json",
+  "plan_sha256": "78add14be292549889bc651caf5a078aaa462e40507782894eb4d56f51edd36c",
+  "runs": [
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue001/r001.json",
+      "configuration_sha256": "dc7374a1f33ffdd93b12297674de34130bbaf7cfb41646c245e2059c0129360d",
+      "emitter_id": "YUE001",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue001/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__dc7374a1",
+      "seed": 1085145453
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue002/r001.json",
+      "configuration_sha256": "c85c6b8642c44266858e919165714e120a1ba1c30fb30fab728468b57cb78d76",
+      "emitter_id": "YUE002",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue002/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c85c6b86",
+      "seed": 156531211
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue003/r001.json",
+      "configuration_sha256": "fec17cd6e6724525f74586bac5c73ed26418e808e551987b5115fb69204659dd",
+      "emitter_id": "YUE003",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue003/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__fec17cd6",
+      "seed": 753823830
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue004/r001.json",
+      "configuration_sha256": "f5328c38182e4dd60af3a47436ea2e7a7f284f5ba99a4d60f8d620dd50618cf5",
+      "emitter_id": "YUE004",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue004/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f5328c38",
+      "seed": 913262152
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue005/r001.json",
+      "configuration_sha256": "03e95b37e40e06ec3970a003b588cdaadf2c09120d5adb250346f5cd52e36956",
+      "emitter_id": "YUE005",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue005/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__03e95b37",
+      "seed": 498633631
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue006/r001.json",
+      "configuration_sha256": "b7390d91d11d148e818c1b2642028675e670ef26854e50ba6bdca878de4796f0",
+      "emitter_id": "YUE006",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue006/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b7390d91",
+      "seed": 321571178
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue007/r001.json",
+      "configuration_sha256": "6cbe60fa5b6ea3f164aa006eb9f49d9fd1130611d313a4f06d506592b8356596",
+      "emitter_id": "YUE007",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue007/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__6cbe60fa",
+      "seed": 1556567038
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue008/r001.json",
+      "configuration_sha256": "7b6313a5a55908fd07dd525e731ec1c6f9e04205f0ff6852ab2331cb6dabf9c9",
+      "emitter_id": "YUE008",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue008/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7b6313a5",
+      "seed": 1738146517
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue009/r001.json",
+      "configuration_sha256": "03c64abc4fbb5c195ca348a10e5bde47f6177f24a06062d7e12bb451da316371",
+      "emitter_id": "YUE009",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue009/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__03c64abc",
+      "seed": 980709913
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue010/r001.json",
+      "configuration_sha256": "48dec129fd72f72eb066ddb408fc32f24d05e7a1041552eb58cf5908bfa4020d",
+      "emitter_id": "YUE010",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue010/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__48dec129",
+      "seed": 1688246197
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue011/r001.json",
+      "configuration_sha256": "38ebf37d1816410ea6930b9faf14030826e0d3c54e57d64ab975f8ec2f9c9f56",
+      "emitter_id": "YUE011",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue011/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__38ebf37d",
+      "seed": 847040912
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue012/r001.json",
+      "configuration_sha256": "9088b14662a32eae8e3784074c571ed7275241341e40688158dceb3a0e43d1a4",
+      "emitter_id": "YUE012",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue012/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9088b146",
+      "seed": 1076737255
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue013/r001.json",
+      "configuration_sha256": "1ca876d58043e89bbaf5432bdb8b075cadd7da89769d742df10a78a28568d531",
+      "emitter_id": "YUE013",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue013/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1ca876d5",
+      "seed": 1671207883
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue014/r001.json",
+      "configuration_sha256": "e4b4c8f4f409dd728121d8e030ca06c8f8555ceadb4dcb403f7e6dc71299469e",
+      "emitter_id": "YUE014",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue014/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e4b4c8f4",
+      "seed": 924007699
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue015/r001.json",
+      "configuration_sha256": "f2452862511fd9ebbf1bfc88038b93392d5f6c414630ac03d99b43dfbd5df8f3",
+      "emitter_id": "YUE015",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue015/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f2452862",
+      "seed": 2133718298
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue016/r001.json",
+      "configuration_sha256": "9c4d59763f5133019a8dd3352e1c348243e61d16f252f79e98d4455cdfcfa51f",
+      "emitter_id": "YUE016",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue016/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9c4d5976",
+      "seed": 1611120073
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue017/r001.json",
+      "configuration_sha256": "62d22bc998438cf876078ce1e997228bc6b7fff2d5912576eb1b4c1be21c4b4c",
+      "emitter_id": "YUE017",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue017/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__62d22bc9",
+      "seed": 265470168
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue018/r001.json",
+      "configuration_sha256": "7ca2d0e545098a67f1ed4b7e43bfc647c5f7bc710d318ff4f2e01fd5b3b0ef5a",
+      "emitter_id": "YUE018",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue018/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7ca2d0e5",
+      "seed": 1681417277
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue019/r001.json",
+      "configuration_sha256": "faf5cc464cd114c9bad82fabec0a64ba940d54510ca124b85d7a9862cc7f4772",
+      "emitter_id": "YUE019",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue019/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__faf5cc46",
+      "seed": 883385257
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue020/r001.json",
+      "configuration_sha256": "8c57d187533e4f1cce82fbe5201319189f03b90d54cc527ce88edb74ca1ea584",
+      "emitter_id": "YUE020",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue020/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__8c57d187",
+      "seed": 2108471708
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue021/r001.json",
+      "configuration_sha256": "128e87e5dfca44020164b7a089c9321d30d994355fa22189a5208b94654b50fc",
+      "emitter_id": "YUE021",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue021/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__128e87e5",
+      "seed": 770674737
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue022/r001.json",
+      "configuration_sha256": "5326b0fcd263c8a758761eb34eb86716874138b4fdeffae5463f1e097e952339",
+      "emitter_id": "YUE022",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue022/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5326b0fc",
+      "seed": 1005885397
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue023/r001.json",
+      "configuration_sha256": "8332652c08bb242b36827e73f7d43d6cf5365e7ab343b31cfd2dc165ee7f932d",
+      "emitter_id": "YUE023",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue023/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__8332652c",
+      "seed": 1135624956
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue024/r001.json",
+      "configuration_sha256": "d9c927530194f13a94fe5b4b3f93cee22d32afc7408f8f79cc726efcbf891beb",
+      "emitter_id": "YUE024",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue024/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d9c92753",
+      "seed": 225728500
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue025/r001.json",
+      "configuration_sha256": "8da2a9276c747ec2281519a3ef0ff9aeb0f13e4151ead8697ecb9581eea9adfe",
+      "emitter_id": "YUE025",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue025/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__8da2a927",
+      "seed": 469140192
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue026/r001.json",
+      "configuration_sha256": "d3b59927392ae4368b03e9d40c768a0057de2d9a1a0897ee3dc82febf50a96c9",
+      "emitter_id": "YUE026",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue026/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d3b59927",
+      "seed": 803063540
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue027/r001.json",
+      "configuration_sha256": "e196efcb672ea01934fc70d367f51198f0bcec8a786cb3325600c74d98b1504d",
+      "emitter_id": "YUE027",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue027/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e196efcb",
+      "seed": 593989941
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue028/r001.json",
+      "configuration_sha256": "994e471a19337c568e14aee6e6631e60c066d5c282ef38d9aa57d0c6ef38a2ca",
+      "emitter_id": "YUE028",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue028/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__994e471a",
+      "seed": 544931079
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue029/r001.json",
+      "configuration_sha256": "aeade6936f2bb81325f3b32bf4a4070d25cc9d93f2c7efee6c9382c619f50e22",
+      "emitter_id": "YUE029",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue029/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__aeade693",
+      "seed": 322767833
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue030/r001.json",
+      "configuration_sha256": "5c301172a46f77cca8ffec09b7f5218649ae5b9b4198feaf4efd675113f95ae6",
+      "emitter_id": "YUE030",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue030/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5c301172",
+      "seed": 1501375715
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue031/r001.json",
+      "configuration_sha256": "6448fbdce679269db89e5446f36d338b34148f8cfb50a3a1a7d5748a4e5c9d91",
+      "emitter_id": "YUE031",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue031/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__6448fbdc",
+      "seed": 108567938
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue032/r001.json",
+      "configuration_sha256": "3cc7ca464dd41af5e9dd1241b82acbe37387e68fe398884d5f621453d8742ea4",
+      "emitter_id": "YUE032",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue032/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__3cc7ca46",
+      "seed": 1387309273
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue033/r001.json",
+      "configuration_sha256": "7cff33943c9eee9ebbac79b0dafee4c471ae7dba5265d01f86575f9be914bf60",
+      "emitter_id": "YUE033",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue033/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7cff3394",
+      "seed": 1455911219
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue034/r001.json",
+      "configuration_sha256": "5beb8f231c66791e9c0a913a789fb26e15329715646c19a73309cdd522826067",
+      "emitter_id": "YUE034",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue034/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5beb8f23",
+      "seed": 259696741
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue035/r001.json",
+      "configuration_sha256": "caa8f647725416b9dc29eee0ddc25b504098f9799c06719f75511a10b5a3a643",
+      "emitter_id": "YUE035",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue035/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__caa8f647",
+      "seed": 1380216408
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue036/r001.json",
+      "configuration_sha256": "3c92779c23cf90eb5f1c7219fbaafdfff6f31a15b1415ac2c2b7b5a8054f6c81",
+      "emitter_id": "YUE036",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue036/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__3c92779c",
+      "seed": 331986231
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue037/r001.json",
+      "configuration_sha256": "c4c82d94d0554d2e5ae034b9884848ed372374ce32cce499a734c36c8b5ac1dd",
+      "emitter_id": "YUE037",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue037/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c4c82d94",
+      "seed": 499545775
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue038/r001.json",
+      "configuration_sha256": "7e62d2a94a2bf95c88cff5a5c24b3e48e6f0e641348e4b8ce3bf3b7f5321e7dd",
+      "emitter_id": "YUE038",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue038/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7e62d2a9",
+      "seed": 1505180031
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue039/r001.json",
+      "configuration_sha256": "6c0fa7f99fc70166ab19c3b1065c6e4b4849af7f27b4a73cd3456c70f006516d",
+      "emitter_id": "YUE039",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue039/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__6c0fa7f9",
+      "seed": 2110855397
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue040/r001.json",
+      "configuration_sha256": "0ea9786dcb91bc0fb840a92d309ffb1429c7c1c3c5b0120a2be4820aae46ff93",
+      "emitter_id": "YUE040",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue040/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__0ea9786d",
+      "seed": 917819242
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue041/r001.json",
+      "configuration_sha256": "bab2accedb6120d73dc6bc1aab41cffb9315b30e975b041d4d3c78fd5facc326",
+      "emitter_id": "YUE041",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue041/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bab2acce",
+      "seed": 1511529013
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue042/r001.json",
+      "configuration_sha256": "32c2e7f9f6136fa3e4ab32db51cc50177f94c03a1b8c8c15a2a98d672bad71d7",
+      "emitter_id": "YUE042",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue042/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__32c2e7f9",
+      "seed": 2020274277
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue043/r001.json",
+      "configuration_sha256": "1ddb2267fde06cbc88766fb7cfdfd8f9e61302a46656242ba336c344c6a59f46",
+      "emitter_id": "YUE043",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue043/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1ddb2267",
+      "seed": 1900404015
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue044/r001.json",
+      "configuration_sha256": "bb01e93ef64f2ef9b7fefaddf6c4b457885caf2aab33be066e9b737fcaa8f2bf",
+      "emitter_id": "YUE044",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue044/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bb01e93e",
+      "seed": 1675588178
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue045/r001.json",
+      "configuration_sha256": "d45e3a8b9addb6fc4e240561c7a58bb50c4024dfad4270b2083c006a4dd0abdd",
+      "emitter_id": "YUE045",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue045/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d45e3a8b",
+      "seed": 2123737312
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue046/r001.json",
+      "configuration_sha256": "97572e47f51e1f18f45a21dab85c000214d1cc960ea7e82c0221cb43cdbdee03",
+      "emitter_id": "YUE046",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue046/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__97572e47",
+      "seed": 949718271
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue047/r001.json",
+      "configuration_sha256": "e13cfb4a4b18fb649406989a4ce43ff70c93d2871fcde005a32e2f88329a050f",
+      "emitter_id": "YUE047",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue047/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e13cfb4a",
+      "seed": 550389007
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue048/r001.json",
+      "configuration_sha256": "ecb74e5d2c038705177c9fa92177573ba1e7c8f1584749c41bc433101ac40b83",
+      "emitter_id": "YUE048",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue048/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ecb74e5d",
+      "seed": 691418006
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue049/r001.json",
+      "configuration_sha256": "c4f247cb442572080d6af73ca5f665f4d76ed0b0e79dad95c417ecf123468d20",
+      "emitter_id": "YUE049",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue049/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c4f247cb",
+      "seed": 1005844878
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue050/r001.json",
+      "configuration_sha256": "a7a44fd1437ba94d0d2c1193412d48683b95b06042194ff445946a7b3717976d",
+      "emitter_id": "YUE050",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue050/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__a7a44fd1",
+      "seed": 994393744
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue051/r001.json",
+      "configuration_sha256": "b63eba5823a0266bcf6d5e6a4c727e00646a4a2a7352f6d416116e1665ee8ffd",
+      "emitter_id": "YUE051",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue051/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b63eba58",
+      "seed": 483346655
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue052/r001.json",
+      "configuration_sha256": "549ed41bbe653d535cc55d35498c23d335d69e624418b18ae5d6ef2169163ab8",
+      "emitter_id": "YUE052",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue052/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__549ed41b",
+      "seed": 1175877706
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue053/r001.json",
+      "configuration_sha256": "be7d844313206f5149d45a763493602169165d47c1686a77dbb86b178db33e61",
+      "emitter_id": "YUE053",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue053/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__be7d8443",
+      "seed": 1309748005
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue054/r001.json",
+      "configuration_sha256": "528e1a6125ad64deed25ce5d2db2b5f09a29035e461ffbcd77cb7b5aa93768b9",
+      "emitter_id": "YUE054",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue054/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__528e1a61",
+      "seed": 1393526460
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue055/r001.json",
+      "configuration_sha256": "8ab048b9e2cd42dfe413a17b9661f68526e6e7970e935419043c69a3e4f7c68d",
+      "emitter_id": "YUE055",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue055/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__8ab048b9",
+      "seed": 1577453632
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue056/r001.json",
+      "configuration_sha256": "30f930b8afe39203f80c928b72d406d0c0aba81d47e361262ec26f7d705f97f9",
+      "emitter_id": "YUE056",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue056/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__30f930b8",
+      "seed": 5994638
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue057/r001.json",
+      "configuration_sha256": "be6a4f98db44e0f3261ff294401b4b7e771b4c12706b4ba57c6b7722a68f0de7",
+      "emitter_id": "YUE057",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue057/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__be6a4f98",
+      "seed": 1478487921
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue058/r001.json",
+      "configuration_sha256": "228f52b7cc9070404acae450cb77aa7d8600445097aa70893e25be2e5bef92b9",
+      "emitter_id": "YUE058",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue058/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__228f52b7",
+      "seed": 1747769510
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue059/r001.json",
+      "configuration_sha256": "3535df6ac2115b52e3d7c3f41198a59570517d81220401c087242e7aa15ade55",
+      "emitter_id": "YUE059",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue059/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__3535df6a",
+      "seed": 1171812718
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue060/r001.json",
+      "configuration_sha256": "6350c7003336bc8d5b5f09ff628e754e55ad416d2f09427119a1132142410530",
+      "emitter_id": "YUE060",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue060/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__6350c700",
+      "seed": 994585057
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue061/r001.json",
+      "configuration_sha256": "b2ebaf73c05ff79a0f8706ba6ff99720a5f487ea3f5e0153041c9ba568f58712",
+      "emitter_id": "YUE061",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue061/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b2ebaf73",
+      "seed": 1089104555
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue062/r001.json",
+      "configuration_sha256": "5d953188daf533b40e75bbac58a720a1f03cbfc24f285bf0bbc24f41da8efbc1",
+      "emitter_id": "YUE062",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue062/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5d953188",
+      "seed": 1178590142
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue063/r001.json",
+      "configuration_sha256": "f5bcd39b5fadf36082866afc665592e85f31fe61021b2e0c9305ff58d4d42560",
+      "emitter_id": "YUE063",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue063/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f5bcd39b",
+      "seed": 217338417
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue064/r001.json",
+      "configuration_sha256": "43bd04cbf9a1fc71d045c426f8490a512921f26ef88e4c53f1e74edd408fce8d",
+      "emitter_id": "YUE064",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue064/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__43bd04cb",
+      "seed": 173562877
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue065/r001.json",
+      "configuration_sha256": "ba005d42578d150a322c89f42e6f2a1e551aa8abae71da301a0e45336e41964f",
+      "emitter_id": "YUE065",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue065/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ba005d42",
+      "seed": 979353562
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue066/r001.json",
+      "configuration_sha256": "9cce878a91196dca34db175ba7933c69b86cde038e0e1983437b1b677f0db991",
+      "emitter_id": "YUE066",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue066/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9cce878a",
+      "seed": 184239379
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue067/r001.json",
+      "configuration_sha256": "83e6bdee0caccbf96c884e55d41028c575ca2ed63ec13218fd812b7a7acd1b2a",
+      "emitter_id": "YUE067",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue067/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__83e6bdee",
+      "seed": 1599184262
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue068/r001.json",
+      "configuration_sha256": "2c4c1cb1a21bb512eee93eb62dc020a4212d74a8c9945f82f3f31893aba92ab6",
+      "emitter_id": "YUE068",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue068/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__2c4c1cb1",
+      "seed": 2035564398
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue069/r001.json",
+      "configuration_sha256": "b125efd7f39081a291ff426663a9bfc60b1644788cb54a802c696993dbdd7cd6",
+      "emitter_id": "YUE069",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue069/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b125efd7",
+      "seed": 471576034
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue070/r001.json",
+      "configuration_sha256": "d24998f51ef9d18a21db1489498decd88aeae982a5d8726a2a80da1ead0eb538",
+      "emitter_id": "YUE070",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue070/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d24998f5",
+      "seed": 1726698038
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue071/r001.json",
+      "configuration_sha256": "b0b48cbf0a1c873ab4ec08e076fe53be765fe83539ade08b3b459b7bc170b8b8",
+      "emitter_id": "YUE071",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue071/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b0b48cbf",
+      "seed": 1946413632
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue072/r001.json",
+      "configuration_sha256": "4767d374317edc0aa6911d2658bd408f1aff75462a485cb805eb2098a28cb492",
+      "emitter_id": "YUE072",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue072/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__4767d374",
+      "seed": 2111564100
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue073/r001.json",
+      "configuration_sha256": "312a5b4c4e0d5797e1cb8d98681edc8256dcaf0d5ac37c39d2cdd1b4a2966429",
+      "emitter_id": "YUE073",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue073/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__312a5b4c",
+      "seed": 1384636908
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue074/r001.json",
+      "configuration_sha256": "93c48ca5896bf7925a01c321c9dcc942498ebcedf27fe574ca03f81801424d26",
+      "emitter_id": "YUE074",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue074/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__93c48ca5",
+      "seed": 1535268128
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue075/r001.json",
+      "configuration_sha256": "ee667cf60c10bbf2514a61ce295cc04da27181be6f9ab603bf4a21a925454c35",
+      "emitter_id": "YUE075",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue075/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ee667cf6",
+      "seed": 1363398686
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue076/r001.json",
+      "configuration_sha256": "4b998a3d97ad224e121f4847038429936d35a143bfd7cb5b5264add4a83bc42c",
+      "emitter_id": "YUE076",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue076/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__4b998a3d",
+      "seed": 1332006603
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue077/r001.json",
+      "configuration_sha256": "525f7e5423310af9121f524dd597627ae9ce6266639648e9514216743b430151",
+      "emitter_id": "YUE077",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue077/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__525f7e54",
+      "seed": 281079799
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue078/r001.json",
+      "configuration_sha256": "7580554a80fde0e7c6a2fab6ddfbcffd783d492bd233c6bab74a562b89302693",
+      "emitter_id": "YUE078",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue078/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7580554a",
+      "seed": 287750783
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue079/r001.json",
+      "configuration_sha256": "ee5ca35463977e564ba605fb3885d387f28fb99af05206fcfd0618d9242116b3",
+      "emitter_id": "YUE079",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue079/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ee5ca354",
+      "seed": 1502705977
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue080/r001.json",
+      "configuration_sha256": "e1e4334bd50232f20a936e4624baad00528d2b01a35b35b83e131689f0bccec7",
+      "emitter_id": "YUE080",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue080/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e1e4334b",
+      "seed": 366189822
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue081/r001.json",
+      "configuration_sha256": "3af0cd16e2514d1782f90d7a0faa09025872377e61346b32942f9ba602ed0977",
+      "emitter_id": "YUE081",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue081/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__3af0cd16",
+      "seed": 1821760408
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue082/r001.json",
+      "configuration_sha256": "9b90739880d0e5a3fb68ca455563a46bf7207857e521cc66502f896fe18c0a6b",
+      "emitter_id": "YUE082",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue082/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9b907398",
+      "seed": 1609213286
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue083/r001.json",
+      "configuration_sha256": "2514b53200d3f38251d275be91d2c4fdea855f113bf6d28f44110cca15dcbc16",
+      "emitter_id": "YUE083",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue083/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__2514b532",
+      "seed": 1127079965
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue084/r001.json",
+      "configuration_sha256": "f5af683dc026b0ada817211e6beb33a46dad2c57e927ea61dd45331cb677821a",
+      "emitter_id": "YUE084",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue084/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f5af683d",
+      "seed": 331417125
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue085/r001.json",
+      "configuration_sha256": "94416976c5fb154c44ff02f28a98e9d58a6ec7b6562ec98a4fa797f1634e9800",
+      "emitter_id": "YUE085",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue085/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__94416976",
+      "seed": 1264637271
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue086/r001.json",
+      "configuration_sha256": "c2657f1f6f586138e98f38c7677c5d341ad48e4d6cfcb9e62a5a64381e14de77",
+      "emitter_id": "YUE086",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue086/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c2657f1f",
+      "seed": 855798156
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue087/r001.json",
+      "configuration_sha256": "53a4f78888ce42d86599a5e3ed6a1c49b72b62173c03ab66009d8b7745336f26",
+      "emitter_id": "YUE087",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue087/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__53a4f788",
+      "seed": 419220080
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue088/r001.json",
+      "configuration_sha256": "857b14811d1b38ccd1726c52353062f173275d6c081ab1430b79d35a5d8c6d49",
+      "emitter_id": "YUE088",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue088/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__857b1481",
+      "seed": 835177688
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue089/r001.json",
+      "configuration_sha256": "678adb123f942e4f10cd2fff53c7d4edc6376522f97f99b9e787de85d7541a79",
+      "emitter_id": "YUE089",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue089/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__678adb12",
+      "seed": 1616063456
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue090/r001.json",
+      "configuration_sha256": "6b18a03bc399bb962803fdc2fc05df62bccaf4816c4915efc0a07fb26d7f12ab",
+      "emitter_id": "YUE090",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue090/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__6b18a03b",
+      "seed": 1069091336
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue091/r001.json",
+      "configuration_sha256": "61f13c1efd4dbacb289b8d2d470010a3ff3eadead3fd9e12c70155b131525fa5",
+      "emitter_id": "YUE091",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue091/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__61f13c1e",
+      "seed": 1824836972
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue092/r001.json",
+      "configuration_sha256": "5cb137d65154b6b4ac6f458da00fab474315f1608c55cf295aec0e22ac7ea3d3",
+      "emitter_id": "YUE092",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue092/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5cb137d6",
+      "seed": 210710027
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue093/r001.json",
+      "configuration_sha256": "335173857deb345cfcb49da93bcf2376bdef973685aed437ca6ffa26a759e584",
+      "emitter_id": "YUE093",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue093/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__33517385",
+      "seed": 517257339
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue094/r001.json",
+      "configuration_sha256": "84c1a891243a520a39dd13e3e7a8b538fab0deeb505b835d29d15b1d0dde9a5e",
+      "emitter_id": "YUE094",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue094/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__84c1a891",
+      "seed": 1780377881
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue095/r001.json",
+      "configuration_sha256": "c7d52844a3c373506a7aa249f9ab1402ef59570f328b1a87fe1c869d9ea14d05",
+      "emitter_id": "YUE095",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue095/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c7d52844",
+      "seed": 1615233446
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue096/r001.json",
+      "configuration_sha256": "730d6274903cf2f20bcfedb6b9739bc1f9b9c6811b25067bce50b5ee202d7231",
+      "emitter_id": "YUE096",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue096/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__730d6274",
+      "seed": 1352081902
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue097/r001.json",
+      "configuration_sha256": "f0069e96cd7a445516b1647d086cd28e82dd71f9787c4318e45ea9dd7f8488f7",
+      "emitter_id": "YUE097",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue097/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f0069e96",
+      "seed": 440554012
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue098/r001.json",
+      "configuration_sha256": "9e15ed542c433e791a43bcb234202ce4905f5d1393e381ad61c49e0a671f19d8",
+      "emitter_id": "YUE098",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue098/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9e15ed54",
+      "seed": 2015679334
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue099/r001.json",
+      "configuration_sha256": "9af790421e7c6263cc07e3f94c477c07c96b51495370c689a9d19fe573e7fb35",
+      "emitter_id": "YUE099",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue099/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9af79042",
+      "seed": 583336024
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue100/r001.json",
+      "configuration_sha256": "7f2d5a387175c4999ed5ff6e14a2216f36e3a23e1cfd5973e0897fdf3fecfe63",
+      "emitter_id": "YUE100",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue100/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7f2d5a38",
+      "seed": 70179353
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue101/r001.json",
+      "configuration_sha256": "847fa6a7f733084cad842507b07d62650df22b5959f8d4292176dbb59fabd6cb",
+      "emitter_id": "YUE101",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue101/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__847fa6a7",
+      "seed": 1027447518
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue102/r001.json",
+      "configuration_sha256": "b398a7060f7c3257426497170200e1b3157e45e85d3e1c767b00266d11484dbe",
+      "emitter_id": "YUE102",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue102/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b398a706",
+      "seed": 740222432
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue103/r001.json",
+      "configuration_sha256": "7cc794abc98727b6d3dbe0f6a9e55dd2fce70d807efdf492bbae5719982102a6",
+      "emitter_id": "YUE103",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue103/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7cc794ab",
+      "seed": 1394232695
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue104/r001.json",
+      "configuration_sha256": "f0998abb57a87570279f6091e4dd599a435dda77e7b519f1c8f860b6cc7250c2",
+      "emitter_id": "YUE104",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue104/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f0998abb",
+      "seed": 36137649
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue105/r001.json",
+      "configuration_sha256": "9b7020c091bf68a4079407e234eb35183f69c182e79876bf7c594680d137f549",
+      "emitter_id": "YUE105",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue105/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9b7020c0",
+      "seed": 1089444836
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue106/r001.json",
+      "configuration_sha256": "acba58e8a6c54b2df7abf00bda22123b3741cedb57b0c1b2cb8a5165572d3c60",
+      "emitter_id": "YUE106",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue106/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__acba58e8",
+      "seed": 241235764
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue107/r001.json",
+      "configuration_sha256": "d36dc68ce759a9da55cad0d4a2b1a62a85a8faf196bd449534ff632a4729f54e",
+      "emitter_id": "YUE107",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue107/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d36dc68c",
+      "seed": 1918255860
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue108/r001.json",
+      "configuration_sha256": "bc542ff6a211dfa45d5e2cb0c18319f0471d176624506a6d51450e869ed23b88",
+      "emitter_id": "YUE108",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue108/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bc542ff6",
+      "seed": 1271446690
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue109/r001.json",
+      "configuration_sha256": "737bcd3af40ac05b6681f62d1102572386cfcbdb121dc44b4db0863a072b37a8",
+      "emitter_id": "YUE109",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue109/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__737bcd3a",
+      "seed": 606855233
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue110/r001.json",
+      "configuration_sha256": "6afa15c2076c10e5da5db74ed43448e39513415b8d6e672a63676f75d3d427e8",
+      "emitter_id": "YUE110",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue110/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__6afa15c2",
+      "seed": 496507851
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue111/r001.json",
+      "configuration_sha256": "2a9358e6c843023585f4af7ba5a1b8530f844a7933897a90d3d61def1aa81e8c",
+      "emitter_id": "YUE111",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue111/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__2a9358e6",
+      "seed": 678996654
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue112/r001.json",
+      "configuration_sha256": "c18969d0eaa29c82fe60cef6ab0d7e06f9ad5287f21173a743e0c5520c4d7878",
+      "emitter_id": "YUE112",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue112/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c18969d0",
+      "seed": 635045452
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue113/r001.json",
+      "configuration_sha256": "607a0bf7960e4a7f80c903c55e768da338f80589d8650a46b13edfc8d9d0ca75",
+      "emitter_id": "YUE113",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue113/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__607a0bf7",
+      "seed": 1959658813
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue114/r001.json",
+      "configuration_sha256": "b3242a36ceabfcab322a56c4d1e0de821b890c1a30c28ebf2070f7c53af8b4c2",
+      "emitter_id": "YUE114",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue114/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b3242a36",
+      "seed": 1500473114
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue115/r001.json",
+      "configuration_sha256": "1bb19d2a17d872548073b3add33f93a4601c8525b8a0ca3da71abd4be5d5f41b",
+      "emitter_id": "YUE115",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue115/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1bb19d2a",
+      "seed": 1392572368
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue116/r001.json",
+      "configuration_sha256": "fdb890c8ecb6e59708d9f010225248ed7bdea3760af6007b53159ff225b44e06",
+      "emitter_id": "YUE116",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue116/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__fdb890c8",
+      "seed": 1813735053
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue117/r001.json",
+      "configuration_sha256": "af2ca930c74afa775dce80feebba8c6dd55733a58092e8bebc6ef50d666f1f26",
+      "emitter_id": "YUE117",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue117/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__af2ca930",
+      "seed": 655830953
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue118/r001.json",
+      "configuration_sha256": "6517f03c0791982e0b46945ac65150ca5a41d0c9b1586ec7f693393306fe223b",
+      "emitter_id": "YUE118",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue118/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__6517f03c",
+      "seed": 1480869599
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue119/r001.json",
+      "configuration_sha256": "bed63506fdbde3c20952adedd6701c859817e7c0b28c55ea2a3ca45783996c88",
+      "emitter_id": "YUE119",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue119/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bed63506",
+      "seed": 378193227
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue120/r001.json",
+      "configuration_sha256": "535c2427f373e3537d8128b3bdaa76b0d1ffff49ed3e26c63c3d37f465a09c4d",
+      "emitter_id": "YUE120",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue120/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__535c2427",
+      "seed": 962345916
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue121/r001.json",
+      "configuration_sha256": "6851162698a6fe7febe832db8c5042a5c9db041d072b1550a93b388e713608f7",
+      "emitter_id": "YUE121",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue121/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__68511626",
+      "seed": 1168367549
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue122/r001.json",
+      "configuration_sha256": "022fc611851fdf09a921062914e481198e95d4b5a9d3b41a13e4ecf0d0d9139c",
+      "emitter_id": "YUE122",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue122/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__022fc611",
+      "seed": 385386063
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue123/r001.json",
+      "configuration_sha256": "f35deb3ad08a59cade7cfc41c5ecc7f079c0da78f69a1674a7a8a18ad9a7c678",
+      "emitter_id": "YUE123",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue123/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f35deb3a",
+      "seed": 705791714
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue124/r001.json",
+      "configuration_sha256": "091a42bfc3eece7427f8869a5328330d650127f037c77eb26a16547ffbf92944",
+      "emitter_id": "YUE124",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue124/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__091a42bf",
+      "seed": 1923640205
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue125/r001.json",
+      "configuration_sha256": "39e15a41b4cd25c322bc1120f0d7dcc16cbd6e4059f9de28b42a1f9b5292718c",
+      "emitter_id": "YUE125",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue125/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__39e15a41",
+      "seed": 2028245702
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue126/r001.json",
+      "configuration_sha256": "bb263507135c05a0546ac6805ab43df470dfe15d4224fa4df5138bfd9e73b06e",
+      "emitter_id": "YUE126",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue126/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bb263507",
+      "seed": 643273712
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue127/r001.json",
+      "configuration_sha256": "452a30c7f1c96ceb512fad538fac6e0ab6822cceb285a2404c141e941d59e1a0",
+      "emitter_id": "YUE127",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue127/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__452a30c7",
+      "seed": 623981585
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue128/r001.json",
+      "configuration_sha256": "c16dcc8d499fdcf188ab719879d67cc8a27c2038218113af5919998ed95b2254",
+      "emitter_id": "YUE128",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue128/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c16dcc8d",
+      "seed": 1723573027
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue129/r001.json",
+      "configuration_sha256": "133fdccffe7ba69673d308d8943d98595715b1bae31093c1a967b0fe1374fd90",
+      "emitter_id": "YUE129",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue129/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__133fdccf",
+      "seed": 497171760
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue130/r001.json",
+      "configuration_sha256": "f07eb17e61f05728899a9209135c5f1eba4de261ec690adf71df64a1c762a479",
+      "emitter_id": "YUE130",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue130/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f07eb17e",
+      "seed": 85388718
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue131/r001.json",
+      "configuration_sha256": "1933bd45a3684d3521cfb0dfda7bbeef3d2676d7e971c7246ae729dfca6093c7",
+      "emitter_id": "YUE131",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue131/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1933bd45",
+      "seed": 1256222358
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue132/r001.json",
+      "configuration_sha256": "a2bbfe9c6a93733c7b96016ab16f24d9ffa667c70894816596d5d5eb4d3a9691",
+      "emitter_id": "YUE132",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue132/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__a2bbfe9c",
+      "seed": 1319979473
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue133/r001.json",
+      "configuration_sha256": "6d8494b87c4d28f94954482a34128e9c18f7fe28f7945ed6a0941a141230087f",
+      "emitter_id": "YUE133",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue133/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__6d8494b8",
+      "seed": 1225913560
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue134/r001.json",
+      "configuration_sha256": "979065c0af32f8808b5a0601258b531596fb1c64912a7edf7d392196da1b7f50",
+      "emitter_id": "YUE134",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue134/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__979065c0",
+      "seed": 727763077
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue135/r001.json",
+      "configuration_sha256": "334e898fd88cdd6638ef39fbe16a5221ff46c3606f89827fe7f6624395623967",
+      "emitter_id": "YUE135",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue135/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__334e898f",
+      "seed": 235413198
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue136/r001.json",
+      "configuration_sha256": "559c42e13eb0ffb50ef8a0d35a749b77f03af74c85674be92919c6cb0d2d1a44",
+      "emitter_id": "YUE136",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue136/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__559c42e1",
+      "seed": 121251252
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue137/r001.json",
+      "configuration_sha256": "a2b473ac32b2cecbba9d8e603fa6500ef82bcdaf95fe748607374130a55e3c9c",
+      "emitter_id": "YUE137",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue137/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__a2b473ac",
+      "seed": 2141666666
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue138/r001.json",
+      "configuration_sha256": "a25561c362fd9abdff4dcb3b47117fa22789f7c01082b9ff579eb1558b066b45",
+      "emitter_id": "YUE138",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue138/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__a25561c3",
+      "seed": 773895894
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue139/r001.json",
+      "configuration_sha256": "bdb08a5778c8dd019f10619be68f8c4ebb0928b863f843d99a6c0e1e270dea50",
+      "emitter_id": "YUE139",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue139/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bdb08a57",
+      "seed": 92106149
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue140/r001.json",
+      "configuration_sha256": "f2a65fc65af313ad6321c6f01f976f740a297013842320f202f918264082e4f1",
+      "emitter_id": "YUE140",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue140/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f2a65fc6",
+      "seed": 6369272
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue141/r001.json",
+      "configuration_sha256": "2d0c268726703223811a0d18ac3232eae7d1092d06f453c4686c053ecc25f4b7",
+      "emitter_id": "YUE141",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue141/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__2d0c2687",
+      "seed": 900646170
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue142/r001.json",
+      "configuration_sha256": "b4663a3333ead88210aa87fd8a54d58d15be8b4566f624d1c4cc5bfec8d98629",
+      "emitter_id": "YUE142",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue142/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b4663a33",
+      "seed": 1556580050
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue143/r001.json",
+      "configuration_sha256": "44db6711520cdb8f0de3a89b8790a036ced8af242eedfbf0d1059932d0a841f1",
+      "emitter_id": "YUE143",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue143/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__44db6711",
+      "seed": 1305677768
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue144/r001.json",
+      "configuration_sha256": "64039b77296fd7beafe7a8f4fa2ab384426db118f76b2ca680e9293782f19049",
+      "emitter_id": "YUE144",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue144/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__64039b77",
+      "seed": 1731026112
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue145/r001.json",
+      "configuration_sha256": "f5e009d4ff333b7779844f14a6c2f0567cc00a0b38e7a65b1259259d79fedff6",
+      "emitter_id": "YUE145",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue145/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f5e009d4",
+      "seed": 1983012136
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue146/r001.json",
+      "configuration_sha256": "122d1b012cda85ed73d3f09d2490b9e7af80ffed60495be0a7bdff1f2d1ffa80",
+      "emitter_id": "YUE146",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue146/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__122d1b01",
+      "seed": 256407805
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue147/r001.json",
+      "configuration_sha256": "ad300bbad872275435d1b669a8b78212a6cfa445a211aac832717adbfbc085fc",
+      "emitter_id": "YUE147",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue147/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ad300bba",
+      "seed": 1939419381
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue148/r001.json",
+      "configuration_sha256": "e16f5eecaf72f1840163701d78bb68970852145458bcac27f7c666be81ef5fba",
+      "emitter_id": "YUE148",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue148/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e16f5eec",
+      "seed": 808459086
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue149/r001.json",
+      "configuration_sha256": "8be71614ca91bfb173928b9336c15fff35c988383a9c6344dfb24a403b312dce",
+      "emitter_id": "YUE149",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue149/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__8be71614",
+      "seed": 412614131
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue150/r001.json",
+      "configuration_sha256": "f6ffba498d12b32aa501269eb73130da0ddf5bd45888eda52f490c5a9d25da4a",
+      "emitter_id": "YUE150",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue150/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f6ffba49",
+      "seed": 401718844
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue151/r001.json",
+      "configuration_sha256": "5c53a7c2c1e42a2cebb792c35afdf3b7a7624b5a46112c81c625e246e48b477b",
+      "emitter_id": "YUE151",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue151/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5c53a7c2",
+      "seed": 6031314
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue152/r001.json",
+      "configuration_sha256": "8d356a4bbc7c000b585ecd6ab71da01ac9eb49d54b88cbcd41c4d16b6710a136",
+      "emitter_id": "YUE152",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue152/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__8d356a4b",
+      "seed": 2010640807
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue153/r001.json",
+      "configuration_sha256": "d980239691e39ffad33b5fb81df56fdaf56d71dad142381573e22513270053d2",
+      "emitter_id": "YUE153",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue153/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d9802396",
+      "seed": 1799315946
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue154/r001.json",
+      "configuration_sha256": "a520d122d9cffaa6747310149f342d45861c3c4e60fb84b0dac7d59c2a8e5c46",
+      "emitter_id": "YUE154",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue154/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__a520d122",
+      "seed": 1196692726
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue155/r001.json",
+      "configuration_sha256": "83ce6c9fab427073d9901c2b653b37e0e44d4e39bf14b16fe6f3402adcc31d8e",
+      "emitter_id": "YUE155",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue155/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__83ce6c9f",
+      "seed": 1789997799
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue156/r001.json",
+      "configuration_sha256": "fa9eb85ddca8704fc14187a6640d2742f7ae3c2c86ae680a032990fa75bb0d97",
+      "emitter_id": "YUE156",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue156/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__fa9eb85d",
+      "seed": 1186191764
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue157/r001.json",
+      "configuration_sha256": "b11e9b1cf578bffd3ac1c121144ab2e2399e7673c95b3b7fa996149348a392f7",
+      "emitter_id": "YUE157",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue157/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b11e9b1c",
+      "seed": 125732058
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue158/r001.json",
+      "configuration_sha256": "08077af41392060ebfcb86e2e00d629f9b5749da397fb9085cab65926aa04630",
+      "emitter_id": "YUE158",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue158/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__08077af4",
+      "seed": 2146185704
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue159/r001.json",
+      "configuration_sha256": "c09b32ded10deeff7a50d6f141e58eedd9de6c6d0bc935ca32d582190d4e34f7",
+      "emitter_id": "YUE159",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue159/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c09b32de",
+      "seed": 520057982
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue160/r001.json",
+      "configuration_sha256": "b47f1929ccaba37482d6575bb6c62269d2ed9def808e28ea700975a362ab971f",
+      "emitter_id": "YUE160",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue160/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b47f1929",
+      "seed": 1034512184
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue161/r001.json",
+      "configuration_sha256": "ad066a8540cff96d5c20ec5be94abf847a94b9f8b4bb6984694cf22e77964e1f",
+      "emitter_id": "YUE161",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue161/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ad066a85",
+      "seed": 1260604793
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue162/r001.json",
+      "configuration_sha256": "aed5ec80cc03d3a2c1fa09a77895cc166e256f430cd9c7dae19ea54a2baded68",
+      "emitter_id": "YUE162",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue162/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__aed5ec80",
+      "seed": 167480174
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue163/r001.json",
+      "configuration_sha256": "37e0f9a81dc9cbd67e1240d1e75cd4cbdad514fb8e2de23c9c8dade9583bf7ad",
+      "emitter_id": "YUE163",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue163/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__37e0f9a8",
+      "seed": 742035899
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue164/r001.json",
+      "configuration_sha256": "238c83d3fbc2350c01953d420f7745cef4554aeb4920f0b6b73e947680116ae7",
+      "emitter_id": "YUE164",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue164/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__238c83d3",
+      "seed": 1405964404
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue165/r001.json",
+      "configuration_sha256": "d61723ae02ba65e38ef05553ddb57bc7b83ea43cea6e185402f7a6c5deb68519",
+      "emitter_id": "YUE165",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue165/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d61723ae",
+      "seed": 1544605595
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue166/r001.json",
+      "configuration_sha256": "417ca32528504e6d8e00e32564f56137ddb33e368f0a8226bf561a070d1430a9",
+      "emitter_id": "YUE166",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue166/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__417ca325",
+      "seed": 667511581
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue167/r001.json",
+      "configuration_sha256": "9a89f49a62d9803f813514db2db6e66cdb60f6f5a5765d12d1d50f6b392c59ee",
+      "emitter_id": "YUE167",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue167/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9a89f49a",
+      "seed": 1191924126
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue168/r001.json",
+      "configuration_sha256": "ae051bcacb17dbd442bce9151281bee0cf08b4f7f40cb7759e15d6202a297dbd",
+      "emitter_id": "YUE168",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue168/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ae051bca",
+      "seed": 1165502692
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue169/r001.json",
+      "configuration_sha256": "b11a23ed39b65a409bbf977f735ce4a5376628fffd83232f2e070131a2733493",
+      "emitter_id": "YUE169",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue169/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b11a23ed",
+      "seed": 973081753
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue170/r001.json",
+      "configuration_sha256": "baf58d94e4818f701381ced3de7adac37fe70fcda0005f1528e95bc67e038378",
+      "emitter_id": "YUE170",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue170/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__baf58d94",
+      "seed": 852603481
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue171/r001.json",
+      "configuration_sha256": "5594fac42876779f30a74638aaf88166a9af9e45b0b4ff8abaf1df99485e0b17",
+      "emitter_id": "YUE171",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue171/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5594fac4",
+      "seed": 1491914324
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue172/r001.json",
+      "configuration_sha256": "bdc0e42581ac54a1e8a33c4abce1634367d583424615fb72f5cd7c992a66058f",
+      "emitter_id": "YUE172",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue172/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bdc0e425",
+      "seed": 1239310442
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue173/r001.json",
+      "configuration_sha256": "86691e100967513b382606b73aaa770637e4681cf76d455979536e2152985603",
+      "emitter_id": "YUE173",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue173/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__86691e10",
+      "seed": 83959033
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue174/r001.json",
+      "configuration_sha256": "d25825e547f9095885e14106af21902ff9ad5a5c966b633b79a597f57ae9f850",
+      "emitter_id": "YUE174",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue174/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d25825e5",
+      "seed": 2080633770
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue175/r001.json",
+      "configuration_sha256": "fa2f914a7a781362d4e0873be8efa76718ecb46fc1bb8de5d118f9fc71638334",
+      "emitter_id": "YUE175",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue175/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__fa2f914a",
+      "seed": 2032213307
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue176/r001.json",
+      "configuration_sha256": "43161d5b2ed2ae228c6a40e49b246063105aac02f641478a4268423a663eaca3",
+      "emitter_id": "YUE176",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue176/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__43161d5b",
+      "seed": 1549426111
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue177/r001.json",
+      "configuration_sha256": "11a0d01aa132fba4b341018ba1c0b80267723bd44d6b9c9e38fb0c6ec2efaf2a",
+      "emitter_id": "YUE177",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue177/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__11a0d01a",
+      "seed": 1023124784
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue178/r001.json",
+      "configuration_sha256": "00ecacec609212a548917d44f3fc636ba1b820b9a27e5542e0e6ce60ba3c70de",
+      "emitter_id": "YUE178",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue178/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__00ecacec",
+      "seed": 768064666
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue179/r001.json",
+      "configuration_sha256": "87368e0f3747cab661f47283e946014bb184ced0790892843e90934676fdabd1",
+      "emitter_id": "YUE179",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue179/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__87368e0f",
+      "seed": 1303354186
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue180/r001.json",
+      "configuration_sha256": "8f9925cf897304b732dd5091498df10a80aafe4dc1d82b7c0e24e579a49bc666",
+      "emitter_id": "YUE180",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue180/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__8f9925cf",
+      "seed": 2070831364
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue181/r001.json",
+      "configuration_sha256": "33963a6eb3305643ece49c7baddc759d9f5d6f451091bcb7df970712fd06457a",
+      "emitter_id": "YUE181",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue181/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__33963a6e",
+      "seed": 1299410922
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue182/r001.json",
+      "configuration_sha256": "2e98b63f3583fefeac2d3956d518c128867f5623c961726ed66227bfdbdf4c9e",
+      "emitter_id": "YUE182",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue182/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__2e98b63f",
+      "seed": 601244836
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue183/r001.json",
+      "configuration_sha256": "218204e81429fd0f34f59899225cea0372279d7591c50cc8edb15d4f2c63e24d",
+      "emitter_id": "YUE183",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue183/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__218204e8",
+      "seed": 430803646
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue184/r001.json",
+      "configuration_sha256": "1832a7dfab546ff8d58a132741ca9837fad6794b44297022e6ef4d54fd6d8e38",
+      "emitter_id": "YUE184",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue184/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1832a7df",
+      "seed": 1124961813
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue185/r001.json",
+      "configuration_sha256": "566b32b8b55ba25ca991accea1697e9a9b63050976fa5a3a8a77a6a45d21cd4e",
+      "emitter_id": "YUE185",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue185/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__566b32b8",
+      "seed": 1948761591
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue186/r001.json",
+      "configuration_sha256": "0d0069aba05c587d368c591cd70df19d6c936a1dc79489c2cf383ed82e1e2034",
+      "emitter_id": "YUE186",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue186/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__0d0069ab",
+      "seed": 1421441816
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue187/r001.json",
+      "configuration_sha256": "d5255822851f42b373cc1e8be7edac835f856cc84f5028c7aa3a6414b3410055",
+      "emitter_id": "YUE187",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue187/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d5255822",
+      "seed": 2136298912
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue188/r001.json",
+      "configuration_sha256": "7e72ba49aabb2395493cae7b7e43a224bbc0f2682d0508c407e65f981332d826",
+      "emitter_id": "YUE188",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue188/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7e72ba49",
+      "seed": 960349653
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue189/r001.json",
+      "configuration_sha256": "a6c02c6b8689485b125d0ae2a1141c9d28af6bb027df5ff61321081016b8cce6",
+      "emitter_id": "YUE189",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue189/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__a6c02c6b",
+      "seed": 1217257225
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue190/r001.json",
+      "configuration_sha256": "37896486d530d95f63ec9e04f701cb349ec8580004a192bd635e7f5e99704710",
+      "emitter_id": "YUE190",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue190/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__37896486",
+      "seed": 1364619434
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue191/r001.json",
+      "configuration_sha256": "b4ff18af1ecca1afe4cf16a39a5e79026bf8e57b639fcfe70e837a282e71dccf",
+      "emitter_id": "YUE191",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue191/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b4ff18af",
+      "seed": 1477181224
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue192/r001.json",
+      "configuration_sha256": "2bc4c76fc6a836d8b084292095fd43c6f3c1c01ff668083918fdd96b7e1849c2",
+      "emitter_id": "YUE192",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue192/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__2bc4c76f",
+      "seed": 375841223
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue193/r001.json",
+      "configuration_sha256": "040ece3029d4b43a7a131e005be342cd394b4ce27a17b3bba60c62552d382e41",
+      "emitter_id": "YUE193",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue193/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__040ece30",
+      "seed": 1471059469
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue194/r001.json",
+      "configuration_sha256": "fe21730e6aaa4d6f722ce8dc161ed6b5c856f63ad19cf92757411e96b207f5a4",
+      "emitter_id": "YUE194",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue194/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__fe21730e",
+      "seed": 520979484
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue195/r001.json",
+      "configuration_sha256": "578cbb11128ddb2845080e0c0b67f699b7872303e3066c4862a035a53dba4db3",
+      "emitter_id": "YUE195",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue195/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__578cbb11",
+      "seed": 313441088
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue196/r001.json",
+      "configuration_sha256": "fb2c9d50c37e96e76db3e6d2f1c81d1ab81cba310fb0d3cbfbf767619db98c1d",
+      "emitter_id": "YUE196",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue196/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__fb2c9d50",
+      "seed": 639138087
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue197/r001.json",
+      "configuration_sha256": "3068076a003109103495d0f2b23296ba6997b0cb91e3db53a378e6e2bdf7ad14",
+      "emitter_id": "YUE197",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue197/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__3068076a",
+      "seed": 907350189
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue198/r001.json",
+      "configuration_sha256": "b557e65725028597d0d20bf206cc4185b03147e3b18e7bf1edf321d2946b0cb3",
+      "emitter_id": "YUE198",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue198/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b557e657",
+      "seed": 266818128
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue199/r001.json",
+      "configuration_sha256": "55b85e3cfa6de4a66a341278f5d955c8204cbc71d66add7d94b46147ad0202fe",
+      "emitter_id": "YUE199",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue199/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__55b85e3c",
+      "seed": 1238000119
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue200/r001.json",
+      "configuration_sha256": "f6f38651498b4e00d2a01b33b2b7134cb1eb7945490e5097bbe3b6d19eb354df",
+      "emitter_id": "YUE200",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue200/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f6f38651",
+      "seed": 1042257061
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue201/r001.json",
+      "configuration_sha256": "e5ffb5ef855fb5681cb830a7cd9f49f752630517bd015619e993c5af57f7e6b2",
+      "emitter_id": "YUE201",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue201/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e5ffb5ef",
+      "seed": 123074051
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue202/r001.json",
+      "configuration_sha256": "8f264cf9340c99f28cb7466aebcbe8fdf1d4e2c3f668201d1e995abef68360bf",
+      "emitter_id": "YUE202",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue202/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__8f264cf9",
+      "seed": 2077693423
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue203/r001.json",
+      "configuration_sha256": "245fb2b0227a4951acf3dca4519dd7e41a9c93a3728f557d8a9ffde46ebb9c20",
+      "emitter_id": "YUE203",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue203/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__245fb2b0",
+      "seed": 70106074
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue204/r001.json",
+      "configuration_sha256": "82e3363330e2d668a4e104633a7168263287513114e5c46996d575ef62290f41",
+      "emitter_id": "YUE204",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue204/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__82e33633",
+      "seed": 1627901245
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue205/r001.json",
+      "configuration_sha256": "d8b3f9f7f8b3b510bde76e76d62ab858482daafa5a5e9a0345d4e9a92850ea6b",
+      "emitter_id": "YUE205",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue205/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d8b3f9f7",
+      "seed": 1976205438
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue206/r001.json",
+      "configuration_sha256": "83ef7aab863d52a2662d1d513bf120e12322c02f95337fc2a118cce42d8a4efe",
+      "emitter_id": "YUE206",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue206/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__83ef7aab",
+      "seed": 1131458118
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue207/r001.json",
+      "configuration_sha256": "4c6a86a2de0e1ba41c829e16e7e814cb2808637de6c98dd9f0d0bbe9137d024a",
+      "emitter_id": "YUE207",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue207/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__4c6a86a2",
+      "seed": 1075346639
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue208/r001.json",
+      "configuration_sha256": "7a47f7e0b63eae9a543bb73d8f41f1797a9671fc01e3c1a47eceafb4fa04f5d1",
+      "emitter_id": "YUE208",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue208/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7a47f7e0",
+      "seed": 1301484785
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue209/r001.json",
+      "configuration_sha256": "a092e44cba13c509872220f7f9dff7b0882a7ebd65273841735dc50114656712",
+      "emitter_id": "YUE209",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue209/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__a092e44c",
+      "seed": 1027369129
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue210/r001.json",
+      "configuration_sha256": "7c3537991e7de6a49ef4139aab1a886ceaf2db986a49f963b1372b6333213164",
+      "emitter_id": "YUE210",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue210/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7c353799",
+      "seed": 502932242
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue211/r001.json",
+      "configuration_sha256": "111bcdd7e45796bb06c3cc3cbcb390c5efe198c97c02e5303ea518c24256e900",
+      "emitter_id": "YUE211",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue211/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__111bcdd7",
+      "seed": 478826956
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue212/r001.json",
+      "configuration_sha256": "5c116f6c65a58ff6491996e73369f59ca5adb0695312f39b3dcf333770a9bf2c",
+      "emitter_id": "YUE212",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue212/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5c116f6c",
+      "seed": 2114459890
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue213/r001.json",
+      "configuration_sha256": "f54368b519266ee81861824663e2440a3c7970cd1732cf8fc63ba421f6f038f0",
+      "emitter_id": "YUE213",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue213/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f54368b5",
+      "seed": 1532685175
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue214/r001.json",
+      "configuration_sha256": "aa87069516d5bc2c6f5e32b31ba56f1d498025040efc10aae1669d1759e7ae17",
+      "emitter_id": "YUE214",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue214/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__aa870695",
+      "seed": 953279611
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue215/r001.json",
+      "configuration_sha256": "bb5bc008a3de3db666aa35097649d6ac61ad8b3c11784ac3a358f793af32429b",
+      "emitter_id": "YUE215",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue215/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bb5bc008",
+      "seed": 489198093
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue216/r001.json",
+      "configuration_sha256": "f7f957ab59b1b46cd754006bdf1d0432e2f9951023a261740629f3138e9dd779",
+      "emitter_id": "YUE216",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue216/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f7f957ab",
+      "seed": 959437660
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue217/r001.json",
+      "configuration_sha256": "3a213cbf636e88c9ff2f8063a33e842759ceea8cecf09466206b3368d99a1654",
+      "emitter_id": "YUE217",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue217/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__3a213cbf",
+      "seed": 1953331785
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue218/r001.json",
+      "configuration_sha256": "1555ed54f83da1a33713d588bf5dc082988c62b40bee124f63936c8c53edd6bd",
+      "emitter_id": "YUE218",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue218/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1555ed54",
+      "seed": 1342473866
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue219/r001.json",
+      "configuration_sha256": "1109afc39fc4ec739394abbde5af9a95ff72e9169f00d48031624e883f2dde8b",
+      "emitter_id": "YUE219",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue219/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1109afc3",
+      "seed": 1396353223
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue220/r001.json",
+      "configuration_sha256": "4b49d501b207c177fbfcb589875444bc2cd00c958db650960295b1da01bc6235",
+      "emitter_id": "YUE220",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue220/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__4b49d501",
+      "seed": 1741350180
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue221/r001.json",
+      "configuration_sha256": "2d96daa179a51c5179125cff8417ba6913cde8b5efac990ce745abc5854d6b89",
+      "emitter_id": "YUE221",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue221/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__2d96daa1",
+      "seed": 1668067135
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue222/r001.json",
+      "configuration_sha256": "e3c8eede9933ddad2c87b071d35d193f7871ae2c2800083bc34f5ed72fe79822",
+      "emitter_id": "YUE222",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue222/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e3c8eede",
+      "seed": 1107712734
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue223/r001.json",
+      "configuration_sha256": "ef67957d02195491d207b8b498bc794df2e34a5f61ce0785aaae7647d510fa3a",
+      "emitter_id": "YUE223",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue223/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ef67957d",
+      "seed": 561479551
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue224/r001.json",
+      "configuration_sha256": "cdc264e3ed7fa8715ac4422e5ab7a8f1274470c24fe3f5dd2a0ab98c481fd577",
+      "emitter_id": "YUE224",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue224/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__cdc264e3",
+      "seed": 1000987511
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue225/r001.json",
+      "configuration_sha256": "f1aeb7cf5bbd7318fcae342aaa5d0f3ace4a4cd1d0933186b0ac2fd60c55a7dc",
+      "emitter_id": "YUE225",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue225/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f1aeb7cf",
+      "seed": 1158301604
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue226/r001.json",
+      "configuration_sha256": "89110d8a9584d7b53c8d3285a48ee4941721c0a30e845e344ff7b4d4c4292415",
+      "emitter_id": "YUE226",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue226/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__89110d8a",
+      "seed": 1782391762
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue227/r001.json",
+      "configuration_sha256": "ff23dfe228be8e49bedfc58f735c5527c1bb5f2a12f3e65b0b3c4c6a347fd874",
+      "emitter_id": "YUE227",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue227/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ff23dfe2",
+      "seed": 1359311456
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue228/r001.json",
+      "configuration_sha256": "f28e0e9973bf38b1e618fe6bbb2f40d3c3b66404a50c7c94f89f1a94b26d91b7",
+      "emitter_id": "YUE228",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue228/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f28e0e99",
+      "seed": 1614025568
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue229/r001.json",
+      "configuration_sha256": "0aadc45594152c14ac32ce1b111e2d4e6526a8763c6f0f0c487dff477b4f591b",
+      "emitter_id": "YUE229",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue229/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__0aadc455",
+      "seed": 1913897695
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue230/r001.json",
+      "configuration_sha256": "c6086b09de99257084e821df97f00de2ab07d65292009963b9e47bafa47f0732",
+      "emitter_id": "YUE230",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue230/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__c6086b09",
+      "seed": 1664102315
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue231/r001.json",
+      "configuration_sha256": "7fbaeb2f987bb34359b7fc8e24c0ad72fd847f1ffcb146de1ab2b419d2958f71",
+      "emitter_id": "YUE231",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue231/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7fbaeb2f",
+      "seed": 654389445
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue232/r001.json",
+      "configuration_sha256": "bcf5bcee1f3e984a897a6fe9bb630cbae67901ba8eada2d52737b51aec93a023",
+      "emitter_id": "YUE232",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue232/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bcf5bcee",
+      "seed": 888469153
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue233/r001.json",
+      "configuration_sha256": "b6c5ff11b7022fd4604b651d1799269e73b7cf782a7a21d9dd063c27ed2718e5",
+      "emitter_id": "YUE233",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue233/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b6c5ff11",
+      "seed": 1543072276
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue234/r001.json",
+      "configuration_sha256": "f86279eb1325ed5b0ca413590d7c21c57c2b396e822ce3e1bbfb8284b55a94ce",
+      "emitter_id": "YUE234",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue234/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f86279eb",
+      "seed": 1259467895
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue235/r001.json",
+      "configuration_sha256": "3df0c7492bda7bf25e1bc5cb943151c4e9600001836f6b328cbbf2f60c32063d",
+      "emitter_id": "YUE235",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue235/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__3df0c749",
+      "seed": 430820996
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue236/r001.json",
+      "configuration_sha256": "9ec550801e7730933dd561c1154b3ed205716679723a3824a70230d58e6b8712",
+      "emitter_id": "YUE236",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue236/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9ec55080",
+      "seed": 555872096
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue237/r001.json",
+      "configuration_sha256": "1d0ec232f42f970f7efd9f36e362657f7e31cfd57e143209edd387a3d5a60c07",
+      "emitter_id": "YUE237",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue237/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1d0ec232",
+      "seed": 121523663
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue238/r001.json",
+      "configuration_sha256": "ccb717ea11359c48d41581319bb42a26ff610ad2fe4dede4d006c9d163a8c8a3",
+      "emitter_id": "YUE238",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue238/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ccb717ea",
+      "seed": 503679001
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue239/r001.json",
+      "configuration_sha256": "24510ab605bb4b81ddd941aa969400073fc2b1db65a5e90f545fcb9001932e73",
+      "emitter_id": "YUE239",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue239/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__24510ab6",
+      "seed": 1821593535
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue240/r001.json",
+      "configuration_sha256": "bd00cf20abbe25d511a256a2e1e5df808af860b3e90ec28713c45e9e325f8f0b",
+      "emitter_id": "YUE240",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue240/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bd00cf20",
+      "seed": 1979625669
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue241/r001.json",
+      "configuration_sha256": "1634099ce50659cd91f6adc2516eebbe6f6b2a1bb817bb8f9dbcc1fdb6924067",
+      "emitter_id": "YUE241",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue241/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1634099c",
+      "seed": 2061351089
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue242/r001.json",
+      "configuration_sha256": "b4a981a4f13f9af7f79f768e494f5cde0bb77c9c429a5bc083767773975adc8b",
+      "emitter_id": "YUE242",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue242/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b4a981a4",
+      "seed": 429258082
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue243/r001.json",
+      "configuration_sha256": "bd5145e9f645ce36fedbc41cb0b859561bafa5c3e59c90a6143c2911e95007b2",
+      "emitter_id": "YUE243",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue243/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bd5145e9",
+      "seed": 1495669632
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue244/r001.json",
+      "configuration_sha256": "912399dcc3b0b8c541820dd25d246068fd3970ad0d3067e84843204d768574a2",
+      "emitter_id": "YUE244",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue244/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__912399dc",
+      "seed": 2082841397
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue245/r001.json",
+      "configuration_sha256": "3f355ebae5ac948ebe8a9b60569c2801b01b65502711aabbab540708609d7280",
+      "emitter_id": "YUE245",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue245/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__3f355eba",
+      "seed": 978707364
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue246/r001.json",
+      "configuration_sha256": "d5851c494ffbc0697ba961b78c678ce5853ece9edeec04424dfc62fd9a5231b9",
+      "emitter_id": "YUE246",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue246/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d5851c49",
+      "seed": 765567231
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue247/r001.json",
+      "configuration_sha256": "eb95765d278a0c80c237be61c6270ee27e3434f98123b839f39967c2624cba04",
+      "emitter_id": "YUE247",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue247/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__eb95765d",
+      "seed": 1901605690
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue248/r001.json",
+      "configuration_sha256": "7ba94ddaf2b2a066a8e7d26847bb4c7ab7bbaf8c3f3ba1928c3c755f6df15e12",
+      "emitter_id": "YUE248",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue248/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7ba94dda",
+      "seed": 1279833219
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue249/r001.json",
+      "configuration_sha256": "46408335fc919b9a0acfd0b373c149735ef8a30dece86358ecfc4be69f5a1253",
+      "emitter_id": "YUE249",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue249/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__46408335",
+      "seed": 1303221257
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue250/r001.json",
+      "configuration_sha256": "ea8a50e615f479fb77e308fb9781dc93b7384344caf7fff2611b739bcd449360",
+      "emitter_id": "YUE250",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue250/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ea8a50e6",
+      "seed": 974483991
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue251/r001.json",
+      "configuration_sha256": "47fd164ede3ded2dd7bd27196fb012207bcdefe8d3f7a5e26c518699590c4424",
+      "emitter_id": "YUE251",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue251/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__47fd164e",
+      "seed": 1602451559
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue252/r001.json",
+      "configuration_sha256": "e3a988fb761ffa39274048bb61bfb018f8a86e1b2ffe9b4b64fa6c3f0b81e7a6",
+      "emitter_id": "YUE252",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue252/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e3a988fb",
+      "seed": 1454531388
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue253/r001.json",
+      "configuration_sha256": "f2923f89fb85d681195dab8ec92e52f4ff563bbe68f1ac6c12c97888b6e29ed8",
+      "emitter_id": "YUE253",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue253/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f2923f89",
+      "seed": 1687872905
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue254/r001.json",
+      "configuration_sha256": "80ef8f0b57e466cb855919ef7eb16e1f75516874853eb5155016b1150719b4e9",
+      "emitter_id": "YUE254",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue254/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__80ef8f0b",
+      "seed": 1088179098
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue255/r001.json",
+      "configuration_sha256": "bbc9d41ff4ce4d317e30593ed00156998a8d34efd9244d72374dbac403212407",
+      "emitter_id": "YUE255",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue255/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bbc9d41f",
+      "seed": 1110863188
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue256/r001.json",
+      "configuration_sha256": "d608d547e6a8129c3f9201b171c1ee3c28e1f928222984eb9dd129e126379ee2",
+      "emitter_id": "YUE256",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue256/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__d608d547",
+      "seed": 801076052
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue257/r001.json",
+      "configuration_sha256": "e73e0cda96094d4dbbfe870ce122b7a8c053853beb8fa43aa970e1624cdbe4b1",
+      "emitter_id": "YUE257",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue257/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e73e0cda",
+      "seed": 1828098333
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue258/r001.json",
+      "configuration_sha256": "5c0c82718cf9c2f4cad2c380de255920be384f5c1c023b093622f3a4d7914a17",
+      "emitter_id": "YUE258",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue258/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5c0c8271",
+      "seed": 770917483
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue259/r001.json",
+      "configuration_sha256": "0dcf2ea071111ad721be6ce955a09af571415dace08a3198390e2a4aec83fbe2",
+      "emitter_id": "YUE259",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue259/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__0dcf2ea0",
+      "seed": 1351712865
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue260/r001.json",
+      "configuration_sha256": "f617c5abfb33be4097414cbebbc2c52a75b6888b6074daabf618457c04997a99",
+      "emitter_id": "YUE260",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue260/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f617c5ab",
+      "seed": 1249465380
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue261/r001.json",
+      "configuration_sha256": "9bc81a6809f01b62c2d11a5ad21a860411e429ed8e90ba01b73896625030b9b1",
+      "emitter_id": "YUE261",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue261/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9bc81a68",
+      "seed": 432709529
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue262/r001.json",
+      "configuration_sha256": "f86642a62d4f95b0393328b97d51e803f480cbfb35e343c03db3b179446bc05a",
+      "emitter_id": "YUE262",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue262/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f86642a6",
+      "seed": 1700386921
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue263/r001.json",
+      "configuration_sha256": "9eac38e4da1f8f4165c47a2520612ee50702cdf3d1930946e0f44285668655c8",
+      "emitter_id": "YUE263",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue263/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__9eac38e4",
+      "seed": 697499598
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue264/r001.json",
+      "configuration_sha256": "525ab8f9e2b59bcc5329c0fdf947236e7afe99b2485d3b19c552bc9b32db0133",
+      "emitter_id": "YUE264",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue264/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__525ab8f9",
+      "seed": 1869309545
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue265/r001.json",
+      "configuration_sha256": "7b31d7d285d583780c4c31a4200b750cee7492acde947b563971fcce904ac45f",
+      "emitter_id": "YUE265",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue265/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7b31d7d2",
+      "seed": 1519907883
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue266/r001.json",
+      "configuration_sha256": "b7f84f2def45627448112bf9c3ca8da0b35faa7340d04a1ac9dbd66fb60ee4b4",
+      "emitter_id": "YUE266",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue266/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b7f84f2d",
+      "seed": 497398400
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue267/r001.json",
+      "configuration_sha256": "e779668c384133e2a37ebd822dcfb7a259e6b36b8edbf5d3d587bcea123d6f14",
+      "emitter_id": "YUE267",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue267/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__e779668c",
+      "seed": 2071041145
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue268/r001.json",
+      "configuration_sha256": "34f24e84bf49dbd020a50aa53531193167938c67e81922e09db4dd2c867c1a7d",
+      "emitter_id": "YUE268",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue268/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__34f24e84",
+      "seed": 1573491267
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue269/r001.json",
+      "configuration_sha256": "7e6c96d77a11f5597040b636fd16f95b87f66f57e2239567829ec883ae568c24",
+      "emitter_id": "YUE269",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue269/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__7e6c96d7",
+      "seed": 1077976858
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue270/r001.json",
+      "configuration_sha256": "ee869512a13fb3a60ef18b3b54bd0b5359031112c9eabd21a039882a719b683f",
+      "emitter_id": "YUE270",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue270/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__ee869512",
+      "seed": 1904857801
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue271/r001.json",
+      "configuration_sha256": "bebd973ed3de0563f57892fd577c2468b42fe369a8079a960b9cc10f7f141e54",
+      "emitter_id": "YUE271",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue271/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__bebd973e",
+      "seed": 1147061119
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue272/r001.json",
+      "configuration_sha256": "164a2e3c65a8f3e275748fb4f71374c2d242fc08d151ff38b2d8df638abb5b7f",
+      "emitter_id": "YUE272",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue272/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__164a2e3c",
+      "seed": 878657080
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue273/r001.json",
+      "configuration_sha256": "f19361d1461ae29af53797042a480285fb3fc36bd07c1d318e26f7cdf75221cd",
+      "emitter_id": "YUE273",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue273/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__f19361d1",
+      "seed": 266350228
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue274/r001.json",
+      "configuration_sha256": "5ac0715ca58a07653c504c905d77ac3b555370bdea3ba8fda06a4f1372ec4974",
+      "emitter_id": "YUE274",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue274/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__5ac0715c",
+      "seed": 1121038315
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue275/r001.json",
+      "configuration_sha256": "b2cc4a14fc85effe44a110674ce075363c480807cda4206959ca2b02ca0440cd",
+      "emitter_id": "YUE275",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue275/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__b2cc4a14",
+      "seed": 1217056939
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue276/r001.json",
+      "configuration_sha256": "80e643b5728d2c64cec89db8c5d39d5f01f971c69d3a99835b2fa18cae734894",
+      "emitter_id": "YUE276",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue276/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__80e643b5",
+      "seed": 1253733329
+    },
+    {
+      "configuration_path": "configs/generated/yue2015_850_277_pencil_basis_v2/yue277/r001.json",
+      "configuration_sha256": "1018b57813d906c49fbb61474cee11dfa673b2749e329a3166b2229bbdfe62a4",
+      "emitter_id": "YUE277",
+      "manifest_path": "runs/yue2015_850_277_pencil_basis_v2/yue277/r001/manifest.json",
+      "replicate": 1,
+      "run_id": "yue2015_850_approx_v1__20260814t181500z__1018b578",
+      "seed": 768508002
+    }
+  ]
+}

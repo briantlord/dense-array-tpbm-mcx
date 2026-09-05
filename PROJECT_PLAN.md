@@ -1,5 +1,7 @@
 # 1070-nm Dense-Array tPBM Monte Carlo Project Plan
 
+**Current state (4 September 2026):** start with [CURRENT_STATE.md](CURRENT_STATE.md) for the corrected 1070/refined 810 comparisons, new uncertainty audit. Older milestones below retain their historical scope.
+
 ## Project status
 
 Bootstrap specification. No optical-property value, helmet dimension, emitter output, or performance result in this repository should be treated as measured until it has a cited source and passes the gates below.
@@ -8,7 +10,7 @@ Bootstrap specification. No optical-property value, helmet dimension, emitter ou
 
 Build a reproducible Python-orchestrated MCX/MCX-CL workflow that estimates the three-dimensional optical field from a realistic dense transcranial photobiomodulation (tPBM) helmet operating near 1070 nm. The primary question is:
 
-> In cortical gray matter, how much of the modeled fluence from a dense approximately 288-emitter helmet is due to spatial overlap from emitters other than the locally dominant emitter?
+> In cortical gray matter, how much of the modeled fluence from a dense dense-array helmet is due to spatial overlap from emitters other than the locally dominant emitter?
 
 Primary analyses will quantify total fluence, absorbed energy, multisource enhancement, neighbor contribution, and the effective number of contributing emitters. Results are model estimates conditional on the anatomy, optical properties, source characterization, registration, and Monte Carlo settings—not direct measurements of dose or biological effect.
 
@@ -28,7 +30,7 @@ Version 1 will:
 - use Python for validation, configuration generation, execution, provenance capture, aggregation, analysis, and reporting;
 - begin with one documented, segmented adult head atlas at approximately 1-mm isotropic resolution;
 - represent scalp/skin, skull, CSF, gray matter, and white matter at minimum;
-- import a versioned emitter table for approximately 288 independently addressable sources;
+- import a versioned emitter table for independently addressable sources;
 - register helmet coordinates to head coordinates using explicit landmarks and transforms;
 - characterize every tissue with provenance-tracked optical properties at 1070 nm;
 - simulate each emitter independently at unit launched energy or power, retain per-source output, and form weighted sums afterward;
@@ -55,11 +57,11 @@ Version 1 will:
 2. **Optical-property gate:** every value has a tissue definition, wavelength, quantity definition, units, source, and transformation history. Unresolved values remain `TBD` and block production runs.
 3. **Hardware gate:** source positions, normals, emitting areas/profiles, radiometric outputs, and standoff/coupling assumptions are measured or traceable to controlled documents.
 4. **Registration gate:** landmarks, coordinate frames, transform direction, fit error, and collision/standoff checks are saved.
-5. **Benchmark gate:** the 850-nm implementation reproduces prespecified qualitative and quantitative targets from the benchmark paper within declared tolerances.
+5. **Benchmark gate:** software correctness is established by convergence, field integrity, aggregate equivalence, and regression tests; external numerical reproduction is evaluated separately against prespecified paper targets without treating unreported methods as recoverable inputs.
 6. **Convergence gate:** cortical and ROI estimates are stable to increased photon count and repeated random seeds.
 7. **Interpretation gate:** figures and prose label nominal versus sensitivity results and do not convert modeled optical quantities into biological claims.
 
-**Current gate status (2026-08-13):** the anatomy gate is accepted as `colin27_2008_native12_1mm_v3`. The Yue benchmark inputs and executable anatomical-volume path are implemented as `yue2015_850_approx_v1`. A frozen representative-source convergence sequence through `10^9` photons did not pass its profile step-change threshold, so no final photon count was selected and the benchmark gate remains open. All other scientific gates remain independent and production-blocking until their own evidence is complete.
+**Current gate status (2026-08-14):** the anatomy gate is accepted as `colin27_2008_native12_1mm_v3`. The Yue implementation passes convergence, field-integrity, direct aggregate-equivalence, profile-shape, and density-ordering checks. Its frozen 25% paper-reproduction target remains failed. Post hoc sensitivity shows that segmentation and the fluence-versus-absorbed-energy denominator can readily change deep single-source magnitude, while the paper omits the exact SPM segmentation and output normalization. The software benchmark milestone is therefore complete with a preserved negative external-reproduction result, not a failed transport implementation. The independent 1070-nm quantity/unit/wavelength audit passes mechanically, and a separately named 277-source Yue-derived 1070-nm surrogate is prepared at the regionally converged `10^8`-photon tier. Neither result passes the target-hardware or production optical-property gates.
 
 ## Architecture
 
@@ -106,7 +108,7 @@ Each run manifest must record the code revision, MCX version/build, GPU, anatomy
 ### M2 — Nominal 1070-nm model
 
 - Complete the 1070-nm optical-property ledger.
-- Import and validate the approximately 288-source helmet.
+- Import and validate the planned source array.
 - Complete helmet-to-head registration and render inspection views.
 - Run a converged nominal per-emitter basis set.
 
@@ -143,4 +145,6 @@ The project is successful when:
 
 ## Immediate next action
 
-Digitize the prespecified Yue figures twice under the frozen calibration and uncertainty rules, then issue a versioned decision about the single-voxel axis-sampling protocol in light of the failed `10^8` to `10^9` profile step-change check. Do not launch the 277-source paper-scale run or enter production 1070-nm values merely to make the pipeline run; keep production configuration blocked until its gates pass.
+The provisional 277-source surrogate basis, direct superposition check, and frozen overlap analysis are complete on the Windows RTX 3080 Ti. Do not extend those conditional results into target-device claims. The controlling next gate is to obtain the exact target helmet model/revision, emitter coordinates and normals, radiometry, beam profile, duty cycle, standoff/coupling evidence, and registration landmarks; those inputs require a new geometry, transport basis, and result identity.
+
+In parallel, use the completed surrogate package only as a software/scientific-sensitivity baseline. Version the next protocols before execution, beginning with the declared high-impact optical-property cases and nested source-density subsets under both constant-per-emitter and constant-total relative weighting. Preserve the current central fields and analysis as immutable controls, and keep thermal, measured-dose, and biological-efficacy interpretations out of scope.

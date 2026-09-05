@@ -1,0 +1,42 @@
+{
+  "axis_depths_mm": {
+    "start": 0,
+    "step": 1,
+    "stop": 60
+  },
+  "candidate_full_basis_photon_count": 10000000,
+  "photon_counts": [
+    100000,
+    1000000,
+    10000000
+  ],
+  "profile_validity": {
+    "depth_range_mm": [
+      20,
+      60
+    ],
+    "minimum_fraction_of_current_profile_max": 1e-08
+  },
+  "protocol_id": "surrogate_yue277_1070_v1_regional_convergence_v1",
+  "regional_emitter_ids": {
+    "anterior": "SUR1070_011",
+    "left_temporal": "SUR1070_022",
+    "posterior": "SUR1070_031",
+    "right_temporal": "SUR1070_040",
+    "superior": "SUR1070_275"
+  },
+  "replicates_per_count": 3,
+  "scenario_id": "provisional_1070_v1",
+  "status": "frozen_before_execution",
+  "stop_rules": [
+    "Select the candidate full-basis photon count only if every region passes the final transition.",
+    "If any region fails at 10^7 photons, extend the same versioned protocol to 10^8 before preparing the full basis.",
+    "Do not interpret this convergence study as target-helmet validation."
+  ],
+  "thresholds": {
+    "profile_median_cv_max": 0.1,
+    "profile_median_step_change_max": 0.1,
+    "tissue_integral_cv_max": 0.05,
+    "tissue_integral_step_change_max": 0.05
+  }
+}
